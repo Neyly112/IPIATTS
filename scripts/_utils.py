@@ -3,12 +3,17 @@ import os
 import torch
 import torchaudio
 import torchaudio.functional as AF
-
+import soundfile as sf
 def ensure_dir(path: str):
     os.makedirs(path, exist_ok=True)
 
 def load_audio_mono_16k(filepath: str, target_sr: int = 16000) -> torch.Tensor:
-    wav, sr = torchaudio.load(filepath)  # [C, T]
+    try:
+        wav, sr = torchaudio.load(filepath)
+    except Exception as e:
+        print(f"[ torchaudio.load failed: {e}] -> trying soundfile for {filepath}")
+        data, sr = sf.read(filepath, always_2d=True)
+        wav = torch.from_numpy(data.T)
     if wav.size(0) > 1:
         wav = wav.mean(dim=0, keepdim=True)
     if sr != target_sr:
