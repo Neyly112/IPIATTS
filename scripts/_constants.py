@@ -11,4 +11,4 @@ FIELD_SEP          = "|"
 
 # Tự động lấy danh sách file audio trong RAW_DATA_PATH
 LIST_VID = [f for f in os.listdir(RAW_DATA_PATH) if f.endswith((".wav", ".mp3"))]
-LIST_VID_TEST = [f for f in os.listdir(VAD_DATA_PATH_TEST) if f.endswith((".wav", ".mp3"))]
+LIST_VID_VAD = [f for f in os.listdir(VAD_DATA_PATH) if f.endswith((".wav", ".mp3"))]

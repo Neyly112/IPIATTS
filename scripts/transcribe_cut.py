@@ -7,8 +7,8 @@ import os
 import torch
 import whisper  # pip install openai-whisper
 
-from _constants import LIST_VID_TEST, VAD_DATA_PATH_TEST, SUBS_DATA_PATH, AUDIO_TEXT_FILE_LIST_PATH, FIELD_SEP
-from _utils import load_audio_mono_16k, save_waveform_mono
+from _constants import LIST_VID, LIST_VID_VAD, VAD_DATA_PATH, SUBS_DATA_PATH, AUDIO_TEXT_FILE_LIST_PATH, FIELD_SEP
+from _utils import load_audio_mono_16k, save_waveform_mono, resample_to_22050
 
 # ==============================================================
 # LOAD WHISPER MODEL ON CPU (QUANTIZED)
@@ -91,8 +91,8 @@ def main():
     with open(transcription_file, "w", encoding="utf-8") as f:
         f.write("")
 
-    for vid_id in LIST_VID_TEST:
-        infile = os.path.join(VAD_DATA_PATH_TEST, vid_id)
+    for vid_id in LIST_VID_VAD:
+        infile = os.path.join(VAD_DATA_PATH, vid_id)
         print("DEBUG:", infile)
 
         if not os.path.exists(infile):
@@ -107,6 +107,9 @@ def main():
 
     print("Done! Check:", transcription_file)
 
+    resample_to_22050(SUBS_DATA_PATH, "data_22k_matchaTTS")
+    
+    print("Resample 22.05kHz for Matcha: done")
 
 if __name__ == "__main__":
     main()

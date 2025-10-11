@@ -41,3 +41,14 @@ def concat_segments(segments: list) -> torch.Tensor:
     if not segments:
         return torch.zeros(0, dtype=torch.float32)
     return torch.cat(segments, dim=0)
+
+def resample_to_22050(in_dir, out_dir):
+    os.makedirs(out_dir, exist_ok=True)
+    for file in os.listdir(in_dir):
+        if not file.endswith(".wav"):
+            continue
+        path = os.path.join(in_dir, file)
+        wav, sr = torchaudio.load(path)
+        if sr != 22050:
+            wav = AF.resample(wav, sr, 22050)
+        torchaudio.save(os.path.join(out_dir, file), wav, 22050)
