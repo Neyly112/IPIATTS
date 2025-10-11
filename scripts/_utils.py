@@ -42,13 +42,86 @@ def concat_segments(segments: list) -> torch.Tensor:
         return torch.zeros(0, dtype=torch.float32)
     return torch.cat(segments, dim=0)
 
-def resample_to_22050(in_dir, out_dir):
-    os.makedirs(out_dir, exist_ok=True)
-    for file in os.listdir(in_dir):
-        if not file.endswith(".wav"):
-            continue
-        path = os.path.join(in_dir, file)
-        wav, sr = torchaudio.load(path)
-        if sr != 22050:
-            wav = AF.resample(wav, sr, 22050)
-        torchaudio.save(os.path.join(out_dir, file), wav, 22050)
+
+
+# -*- coding: utf-8 -*-
+"""
+Các hàm tiện ích xử lý audio:
+- load_audio(): đọc file wav/mp3 và trả về waveform + metadata
+- cut_audio_timestamp(): cắt đoạn theo thời gian
+- cut_audio_timestamp_vits2(): cắt và chuẩn hoá xuống mono 22.05 kHz (chuẩn dataset TTS)
+"""
+
+import torch
+from torchaudio import load as _load_file, info as _read_info, save as _save_file
+from torchaudio.functional import resample as _resample
+
+# -----------------------------
+# 1. Load audio
+# -----------------------------
+def load_audio(filepath: str) -> dict:
+    """
+    Trả về dict:
+        {
+            "waveform": Tensor [channels, length],
+            "sample_rate": int,
+            "bits_per_sample": int,
+            "encoding": str
+        }
+    """
+    waveform, sample_rate = _load_file(filepath)
+    metadata = _read_info(filepath)
+    return {
+        "waveform": waveform,
+        "sample_rate": sample_rate,
+        "bits_per_sample": metadata.bits_per_sample or 16,
+        "encoding": metadata.encoding or "PCM_S"
+    }
+
+# -----------------------------
+# 2. Cắt đoạn audio theo thời gian (giữ nguyên định dạng)
+# -----------------------------
+def cut_audio_timestamp(audio_file: dict, outfile: str, start: float, end: float) -> None:
+    """
+    Cắt đoạn từ 'start' → 'end' (tính bằng giây).
+    Lưu file cùng định dạng như gốc.
+    """
+    sr = audio_file["sample_rate"]
+    start_frame = int(start * sr)
+    end_frame = int(end * sr)
+    cut_waveform = audio_file["waveform"][:, start_frame:end_frame]
+
+    _save_file(
+        outfile, cut_waveform,
+        sample_rate=sr,
+        bits_per_sample=audio_file["bits_per_sample"],
+        encoding=audio_file["encoding"]
+    )
+
+# -----------------------------
+# 3. Cắt + Chuẩn hoá theo chuẩn TTS (mono, 22.05kHz)
+# -----------------------------
+_LJspeech_rate = 22050  # chuẩn dataset LJSpeech
+
+def cut_audio_timestamp_vits2(audio_file: dict, outfile: str, start: float, end: float) -> None:
+    """
+    Cắt audio, chuyển sang mono, resample xuống 22.05 kHz
+    Dùng cho bước tạo dữ liệu huấn luyện TTS (VITS2 / Matcha)
+    """
+    sr = audio_file["sample_rate"]
+    start_frame = int(start * sr)
+    end_frame   = int(end * sr)
+    cut_waveform = audio_file["waveform"][:, start_frame:end_frame]
+
+    # chuyển sang mono (trung bình 2 kênh)
+    mono_wav = cut_waveform.mean(dim=0, keepdim=True)
+
+    # resample 48k → 22.05kHz
+    down_wav = _resample(mono_wav, orig_freq=sr, new_freq=_LJspeech_rate)
+
+    _save_file(
+        outfile, down_wav,
+        sample_rate=_LJspeech_rate,
+        bits_per_sample=audio_file["bits_per_sample"],
+        encoding=audio_file["encoding"]
+    )
