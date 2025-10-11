@@ -107,7 +107,7 @@ def main():
 
     print("Done! Check:", transcription_file)
 
-    resample_to_22050(SUBS_DATA_PATH, "data_22k_matchaTTS")
+    resample_to_22050(SUBS_DATA_PATH, "data/data_22k_matchaTTS")
     
     print("Resample 22.05kHz for Matcha: done")
 
