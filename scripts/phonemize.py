@@ -48,7 +48,7 @@ def special_normalize(text: str) -> str:
 RAW_DATA["text"] = RAW_DATA["text"].map(special_normalize)
 RAW_DATA["ipa"] = ESPEAK.phonemize(RAW_DATA["text"], strip=True)  
 
-RAW_DATA["audio"] = RAW_DATA["audio"].radd("D:\\Bai Tap\DACNTT\\DACNTT\\data_22k_matchaTTS\\")
+RAW_DATA["audio"] = RAW_DATA["audio"].radd(".\\data_22k_matchaTTS")
 
 SAVE_FILE = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "_all_normal_ipa.txt")
 RAW_DATA.to_csv(SAVE_FILE, sep=FIELD_SEP, index=False, header=False)
