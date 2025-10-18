@@ -12,7 +12,7 @@ if os.name == "nt" and not EspeakBackend.is_available():
 	EspeakWrapper.set_library(r"C:\Program Files\eSpeak NG\libespeak-ng.dll")
 ESPEAK = EspeakBackend("vi", preserve_punctuation=True, language_switch="remove-flags", with_stress=True, tie=True)
 
-TRANSCRIPTION_FILE = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "_all.txt")
+TRANSCRIPTION_FILE = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "_all_corrected.txt")
 RAW_DATA = pd.read_csv(TRANSCRIPTION_FILE, sep=FIELD_SEP, names=["audio", "text"])
 
 
@@ -48,7 +48,7 @@ def special_normalize(text: str) -> str:
 RAW_DATA["text"] = RAW_DATA["text"].map(special_normalize)
 RAW_DATA["ipa"] = ESPEAK.phonemize(RAW_DATA["text"], strip=True)  
 
-RAW_DATA["audio"] = RAW_DATA["audio"].radd(".\\data_22k_matchaTTS")
+RAW_DATA["audio"] = RAW_DATA["audio"].radd("..\\data\\data_matchaTTS\\")
 
 SAVE_FILE = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "_all_normal_ipa.txt")
 RAW_DATA.to_csv(SAVE_FILE, sep=FIELD_SEP, index=False, header=False)

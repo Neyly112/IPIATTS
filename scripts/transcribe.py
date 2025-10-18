@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 """Transcribe audio (vi) rồi cắt thành các segment 22.05 kHz mono cho TTS"""
 
 import os, os.path
@@ -44,7 +41,7 @@ def transcribe_vi(infile: str) -> list[dict]:
     Nếu toàn rác -> chạy lại với condition_on_previous_text=False.
     """
     params = dict(verbose=False, language="vi",
-                  initial_prompt="Chính tả tiếng Việt, giọng kể chuyện, Nguyễn Ngọc Ngạn.")
+                  initial_prompt="Chính tả tiếng Việt, giọng kể chuyện.")
     res = MODEL.transcribe(infile, **params)["segments"]
     dev = next(MODEL.parameters()).device
     if dev.type == "cuda":
