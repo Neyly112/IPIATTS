@@ -1,0 +1,7 @@
+./data
+*.mp3
+/data/subs
+/data/vad
+/data/vad_add
+*.wav
+

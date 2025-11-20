@@ -5,7 +5,7 @@ import pandas as pd
 
 from _constants import AUDIO_TEXT_FILE_LIST_PATH, FIELD_SEP
 
-TRANSCRIPTION_FILE = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "_all_normal_ipa.txt")
+TRANSCRIPTION_FILE = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "_all_corrected.txt")
 DATA = pd.read_csv(TRANSCRIPTION_FILE, sep=FIELD_SEP, names=["audio", "text", "ipa"])
 
 RANDOM_STATE = 42

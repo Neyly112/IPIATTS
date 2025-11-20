@@ -12,7 +12,7 @@ if os.name == "nt" and not EspeakBackend.is_available():
 	EspeakWrapper.set_library(r"C:\Program Files\eSpeak NG\libespeak-ng.dll")
 ESPEAK = EspeakBackend("vi", preserve_punctuation=True, language_switch="remove-flags", with_stress=True, tie=True)
 
-TRANSCRIPTION_FILE = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "_all_corrected.txt")
+TRANSCRIPTION_FILE = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "_all_corrected_new.txt")
 RAW_DATA = pd.read_csv(TRANSCRIPTION_FILE, sep=FIELD_SEP, names=["audio", "text"])
 
 

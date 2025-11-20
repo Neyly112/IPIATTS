@@ -1,460 +1,1104 @@
-..\data\data_matchaTTS\voice13_0177.wav|sˈy6 tˈə6t̪ hˈəː6p lˈiɜ ɲˈəɜt̪ t͡ʃˈɔŋ hwˈaː2n kˈe-4ɲ ɗˈɔɜ sˌɛ5 lˌaː2.
-..\data\data_matchaTTS\voice18_0132.wav|lˌaː2 kˈaː4 xˈu͡ən mˈa6t̪ kˌu͡ə4 kˈə6w t͡ʃˈəː4 nˌen zˈaː6ŋ zˈəː5.
-..\data\data_matchaTTS\voice1_0006.wav|bˌəː4j ɲˌy5ŋ zˈuŋ ɗˈo6ŋ ɗˈə2w t̪ˈi͡ɛn tˈy͡ə2ŋ ɣˈaɜn vˌəːɜj sˈy6 ŋˈe6 sˈi5, ɗˈi͡ɛn zˈaː6j.
-..\data\data_matchaTTS\voice18_0084.wav|lˈə2n tˌehˈaɜt. nˈo6j sˈa4j zˈaː vˈu6 t͡ʃˈe-ɲ t͡ʃˈəɜp ŋˈi͡ɛm t͡ʃˈɔ6ŋ t̪ˈaː6j t͡ʃˈuŋ kˈy mˈɪnɪ.
-..\data\data_matchaTTS\voice14_0101.wav|t͡ʃˈi4 zˈi͡ɛŋ vˈi͡ɛ6c kˌɔn hˈi͡ɛ6n zˈi͡ɛ6n t͡ʃˈen kˈu͡ə6c ɗˈəː2j nˈa2j tˈoj kˈu5ŋ ɗˌaː5 xˈi͡ɛɜn kˌɔn kˈaː4m tˈə͡ɪɜ ˈaːɜj nˈaɜj vˈo kˈu2ŋ zˈo2j.
-..\data\data_matchaTTS\voice19_0041.wav|nˈa2m kwˈə6n t͡ʃˈɔ2n t͡ʃˈɔŋ t͡ʃˈan ˈəɜm lˈe6m ˈem.
-..\data\data_matchaTTS\voice17_0085.wav|t͡ʃˈɔɜt̪ vˈɔɜt̪ t͡ʃˈen ɗˈi4ɲ t͡ʃˈy͡ə2ŋ sˈəːn.
-..\data\data_matchaTTS\voice7_0147.wav|tˈɛw vˈɔ2ŋ kwˈaj kˌu͡ə4 tˈəː2j zˈaːn, mˈaːɜj t̪ˈɔɜk kˌu͡ə4 bˈoɜ ɗˌaː5 bˈaː6c mˈa2w vˌi2 sˈy͡əŋ zˈɔɜ.
-..\data\data_matchaTTS\voice19_0025.wav|mˈu͡ə2 ɗˈoŋ ˈu sˈə2w.
-..\data\data_matchaTTS\voice13_0124.wav|ɗˌe4 t̪ˌy2 ɗˈɔɜ ɗˈe-ɜɲ mˈəɜt̪ lˈɔ2ŋ t̪ˈin vˈaː2w ɲˈaw.
-..\data\data_matchaTTS\voice16_0130.wav|xˌoŋ ˈaːj sˈiɲ zˈaː ɗˌaː5 lˌaː2 mˈo6t̪ pˈiːtə pˈaːn kˈaː4.
-..\data\data_matchaTTS\voice5_0026.wav|mˈɔŋ zˈa2ŋ mˈo6t̪ ŋˈa2j nˈaː2w ɗˈɔɜ, xˌi kˈə6w ɗˈɔ6k ɗˌy͡ə6c ɲˌy5ŋ zˈɔ2ŋ nˈa2j, kˈə6w sˌɛ5 mˈi4m kˈy͡ə2j.
-..\data\data_matchaTTS\voice1_0070.wav|lˈə2n ɗˈə2w t̪ˈəːɜ ɣˈa6p kˈə6w, t̪ˈəːɜ ɲˈəː2 zˈəɜt̪ zˈɔ5 xˈu͡ən mˈa6t̪ xˌi ɗˈɔɜ kˌu͡ə4 kˈə6w.
-..\data\data_matchaTTS\voice1_0153.wav|mˈi2ɲ vˌə5n mˈɔŋ ˈe-ɲ lˈu͡ən bˈi2ɲ ˈi͡ɛn, lˈu͡ən hˈe-6ɲ fˈuɜc.
-..\data\data_matchaTTS\voice12_0217.wav|mˈi2ɲ t͡ʃˈi4 ɗˌaːŋ kˈoɜ ɣˈaɜŋ t͡ʃˈi͡ɛ2w tˈɛw sˈəː4 tˈiɜc ɗˌy͡ə6c ˈi͡ɛw tˈy͡əŋ, ɗˌe4 t͡ʃˈe-ɜɲ fˌaː4j ɗˈoɜj zˈi͡ɛ6n vˌəːɜj sˈy6 tˈə6t̪ zˈa2ŋ mˈi2ɲ t͡ʃˌy͡ə hˈɔ6k ɗˌy͡ə6c kˈe-ɜc ˈəː4 mˈo6t̪ mˈi2ɲ,
-..\data\data_matchaTTS\voice2_0008.wav|sˈaːɜŋ tˌi2 kˈə6w lˈən lˈaː kˌaːɜc kˈy͡ə4 hˈaː2ŋ kwˈə2n ˈaːɜw, t͡ʃˈɔ6n t͡ʃˌɔ mˈi2ɲ ɲˌy5ŋ mˈɔɜn ɗˈo2 mˌaː2 kˈə6w t̪ˈy2ŋ zˈəɜt̪ tˈiɜc ɲˌyŋ t͡ʃˌy͡ə mˈo6t̪ lˈə2n zˈaːɜm mˈu͡ə.
-..\data\data_matchaTTS\voice17_0115.wav|t͡ʃˈuɜŋ kˌɔn ɗˌaː5 kˈɔɜ sˈy6 vˈiɲ zˈy6 kˌu͡ə4 ŋˈy͡ə2j kwˈən ɲˈən.
-..\data\data_matchaTTS\voice8_0012.wav|t̪ˈi2ɲ ˈi͡ɛw lˌaː2 zˈi2 hˈaː4 bˈaː?
-..\data\data_matchaTTS\voive11_0133.wav|xˌi hˈɔ6 fˈaː4n ˈyɜŋ bˈa2ŋ kˈe-ɜc t͡ʃˈe-ɜc ŋˈy͡ə6c lˈaː6j hwˌa6c kˈoɜ swˈaj t͡ʃwˈi͡ɛ4n t̪ˈi2ɲ hˈu͡əɜŋ.
-..\data\data_matchaTTS\voice2_0142.wav|vˌaː2 ɗˈɔɜ lˌaː2 t̪ˈə6p pˈɒdkast t̪wˈə2n nˈa2j.
-..\data\data_matchaTTS\voice12_0155.wav|xˌi xwˌaː4ŋ kˈe-ɜc ŋˈa2j kˈaː2ŋ sˈaː, t̪ˈəːɜ lˈaː6j lˌaː2 ŋˈy͡ə2j bˈu͡əŋ t̪ˈaj t͡ʃˈy͡əɜc.
-..\data\data_matchaTTS\voice15_0002.wav|vˌaː2 t̪ˈi2m tˈə͡ɪɜ mˈo6t̪ ŋˈy͡ə2j ɗˈaːɜp lˈaː6j t̪ˈi2ɲ kˈaː4m ˈə͡ɪɜ mˈo6t̪ kˈe-ɜc t͡ʃˈɔ6n vˈɛ6n lˈaː6j kˈaː2ŋ xˈɔɜ hˈəːn.
-..\data\data_matchaTTS\voice5_0071.wav|ɗˈɔɜ lˌaː2 t̪ˈəːɜ.
-..\data\data_matchaTTS\voice14_0164.wav|bˌəː4j vˈə͡ɪ6, tˈeɜ zˈəːɜj t̪ˈə͡ɪ4 ɗˌaː5 kwˈaːɜ t̪ˈaː2n ɲˈə5n vˌəːɜj mˈɛ6 zˈo2j.
-..\data\data_matchaTTS\voice8_0198.wav|vˌə5n ɗˌaːŋ t͡ʃˈəː2 mˈi2ɲ ˈəː4 fˈi͡əɜ t͡ʃˈy͡əɜc.
-..\data\data_matchaTTS\voice6_0107.wav|nˈəːj mˌɔ6j tˈyɜ ɗˈe2w kˈə2n ɲˈe-ɲ, ɣˈɔ6n, zˈe5 ɲˈəːɜ vˌaː2 kˈɔɜ t̪ˈiɜɲ zˈaː4j t͡ʃˈiɜ kˈaːw.
-..\data\data_matchaTTS\voice15_0066.wav|mˈo6t̪ tˈyɜ zˈi2 ɗˈɔɜ zˈy͡ə5 t͡ʃˈuɜŋ t̪ˈaː, mˈo6t̪ tˈyɜ zˈi2 ɗˈɔɜ xˌoŋ zˈɔ5 zˈaː2ŋ.
-..\data\data_matchaTTS\voice2_0024.wav|mˈo6t̪ bˈe6ɲ lˈiɜ t̪ˈəm tˈə2n ɗˈa6c t͡ʃˈyŋ bˌəː4j sˈy6 tˈaj ɗˈo4j kˈy6c ɗwˈaːn vˈe2 kˈaː4m sˈuɜc.
-..\data\data_matchaTTS\voice1_0245.wav|t͡ʃˈuɜŋ t̪ˈaː lˈəːɜn lˈen, kˈɔɜ tˈe4 tˈaj ɗˈo4j.
-..\data\data_matchaTTS\voice15_0046.wav|t̪ˈi2ɲ ˈi͡ɛw xˌoŋ ɗˈaːɜŋ sˈəː6 ɲˌy mˈi2ɲ vˌə5n ŋˈi5,
-..\data\data_matchaTTS\voice10_0083.wav|ɗˈoj mˈaɜt̪ kˈə6w zˈəɜt̪ sˈə1w, ɲˌy bˈə2w t͡ʃˈəː2j vˈaː2w bˈu͡ə4j t͡ʃˈi͡ɛ2w, t̪ˈəːɜ tˈy͡ə2ŋ lˈɛɜn ɲˈi2n kˈə6w mˌo5j ɗˈem kwˈaː fˈe͡ɪsbʊk hˈaj ˈəm tˈə2m zˈɔ5j tˈɛw kˈə6w.
-..\data\data_matchaTTS\voice7_0163.wav|lˈə͡ɪɜ mˈəɜt̪ ɗˈi kˈaː4 t̪ˈu͡ə4j tˈe-ɲ swˈən hˈo2n ɲˈi͡ɛn nˈam ˈə͡ɪɜ.
-..\data\data_matchaTTS\voice19_0156.wav|kˌɔn ɣˈaːɜj kˈaː4 ɗˈəː2j t͡ʃˈəː2 t͡ʃˈaː mˈɛ6 sˈin lˈo5j.
-..\data\data_matchaTTS\voice9_0236.wav|mˌaː2 lˌaː2 sˈa5n sˈaː2ŋ ˈi͡ɛw tˈy͡əŋ, sˈa5n sˈaː2ŋ hˈɔ6k hˈɔ4j, sˈa5n sˈaː2ŋ t͡ʃˈəɜp ɲˈə6n hˈe-2ɲ t͡ʃˈi2ɲ lˈaː2m bˈaː mˈɛ6.
-..\data\data_matchaTTS\voice16_0209.wav|zˈy͡ə5 kˈaːɜ t̪ˈiɜɲ vˌaː2 sˈy6 vˈo t͡ʃˈe-ɜc ɲˈi͡ɛ6m.
-..\data\data_matchaTTS\voice6_0157.wav|sˈoɜŋ t͡ʃˈɔŋ tˈəː2j ɗˈaː6j kˈeɜt̪ nˈoɜj ˌintəːnˈɛɜt, kˈoŋ ŋˈe6 kˈaːw,
-..\data\data_matchaTTS\voive11_0105.wav|hˈɔ6 tˈy͡ə2ŋ bˈaɜt̪ ɗˈə2w mˈoɜj kwˈaːn hˈe6 bˈa2ŋ sˈy6 kwˈi͡ɛɜn zˈu5, kwˈaːn t̪ˈəm vˌaː2 hˈi͡ɛ4w bˈaː6n ɲˌy t͡ʃˌy͡ə ˈaːj t̪ˈy2ŋ hˈi͡ɛ4w bˈaː6n.
-..\data\data_matchaTTS\voive11_0235.wav|ɗˈi͡ɛ2w zwˈi ɲˈəɜt̪ bˈaː6n kˈɔɜ tˈe4 vˌaː2 kˈə2n lˈaː2m lˌaː2 zˈi2?
-..\data\data_matchaTTS\voice17_0262.wav|ˈe-ɲ zˈy5 lˈə͡ɪɜ ɗˈaː4w ɲˌy zˈy5 lˈɔ2ŋ twˈi4 t͡ʃˈuŋ kˌu͡ə4 ˈɛm, xˌoŋ ɗˌe4 mˈo6t̪ ˈaːj kˈy͡əɜp mˈəɜt̪ kˌɔ2n ˈɛm.
-..\data\data_matchaTTS\voice17_0231.wav|xˌi ˈɛm kˌɔ2n sˈoɜŋ, t̪ˈaː ˈim lˈa6ŋ.
-..\data\data_matchaTTS\voice12_0047.wav|bˈaː6n ˈɛm t̪ˈy2ŋ lˈaː2m kwˈɛn mˈo6t̪ ŋˈy͡ə2j t͡ʃˈɔŋ ɲˈɔɜm bˈɔɜŋ ɗˈaːɜ vˌi2 kˈaː4 hˈaːj kˈɔɜ kˈu2ŋ sˈəː4 tˈiɜc.
-..\data\data_matchaTTS\voice19_0217.wav|xˌi t͡ʃˈəː2j t͡ʃˈəː4 lˈe-6ɲ,
-..\data\data_matchaTTS\voice14_0022.wav|kˈɔɜ tˈe4 vˌi2 tˈeɜ mˌaː2 ɲˌy5ŋ lˈəː2j ˈi͡ɛw tˈy͡əŋ t͡ʃˈɔŋ zˈaː ɗˈi2ɲ zˈə2n t͡ʃˈəː4 tˈe-2ɲ mˈo6t̪ ɗˈi͡ɛ2w sˈaː sˈi4.
-..\data\data_matchaTTS\voice14_0020.wav|kˈaː2ŋ t͡ʃˈy͡ə4ŋ tˈe-2ɲ, t͡ʃˈuɜŋ t̪ˈaː kˈaː2ŋ t͡ʃˈəː4 nˌen xˈɛɜw lˈɛɜw vˌəːɜj tˈeɜ zˈaːn bˈen ŋwˈaː2j.
-..\data\data_matchaTTS\voice12_0024.wav|kˈɔɜ lˈɛ5 vˌi2 mˈi2ɲ tˈi͡ɛɜw tˈoɜn t̪ˈi2ɲ kˈaː4m nˌen zˈe5 zˈuŋ ɗˈo6ŋ bˌəː4j ɲˌy5ŋ ɗˈi͡ɛ2w ɲˈɔ4 ɲˈa6t̪ ɲˌy tˈeɜ.
-..\data\data_matchaTTS\voice10_0113.wav|mˈi2ɲ sˈin lˈo5j, mˈi2ɲ ˈi͡ɛw kˈə6w ɲˈi͡ɛ2w lˈaɜm.
-..\data\data_matchaTTS\voice3_0091.wav|mˌaː2 lˌaː2 mˈo6t̪ lˈaŋ kˈiɜɲ zˈuɜp t͡ʃˈuɜŋ t̪ˈaː ɲˈi2n ɲˈə6n ɗˈoɜj fˈy͡əŋ mˈo6t̪ kˈe-ɜc xˈe-ɜc kwˈaːn vˌaː2 sˈə1w sˈaɜc hˈəːn.
-..\data\data_matchaTTS\voice19_0001.wav|sˌɛ5 kˈɔɜ ɲˌy5ŋ lˌuɜc kˈə6w t͡ʃˌa4ŋ mˈu͡əɜn ɗˈaːɜp lˈaː6j kˈə1w hˈɔ4j nˈa2j.
-..\data\data_matchaTTS\voice16_0213.wav|mˌaː2 lˌaː2 t̪ˈaː kˈɔɜ zˈaːɜm zˈaɜt̪ t̪ˈaj nˈɔɜ bˈy͡əɜc vˈaː2w ɗˈəː2j?
-..\data\data_matchaTTS\voice5_0156.wav|ŋˈa2j ˈə͡ɪɜ, t̪ˈoj lˈə͡ɪɜ hˈeɜt̪ kˈaːn ɗˈaː4m ɗˌe4 nˈɔɜj lˈəː2j tˈiɜc kˈə6w.
-..\data\data_matchaTTS\voice14_0061.wav|lˌaː2 tˈy t̪ˈi͡ɛɜp tˈɛw ɗˌy͡ə6c ɣˈy4j t̪ˌy2 bˈaː6n kˈɔɜ t̪ˈen lˌaː2 vˈi6t̪ ɗˈɛ6p.
-..\data\data_matchaTTS\voice16_0168.wav|mˌaː2 lˌaː2 vˌi2 t͡ʃˌy͡ə bˈaːw zˈəː2 kˈə2n fˌaː4j lˈaː2m ɲˌy tˈeɜ.
-..\data\data_matchaTTS\voice3_0098.wav|t͡ʃˈaɜc hˈa4n xˌoŋ ˈiɜt̪ lˈə2n lˌaː2 ɲˌy5ŋ kˈa6p ɗˈoj ˈi͡ɛw ɲˈaw.
-..\data\data_matchaTTS\voice7_0203.wav|kˈu5ŋ fˌaː4j zˈəː2j sˈaː ŋˈoj ɲˈaː2 tˈən tˈu͡ə6c ɗˌe4 bˈy͡əɜc vˈaː2w tˈeɜ zˈəːɜj zˈo6ŋ lˈəːɜn.
-..\data\data_matchaTTS\voice4_0152.wav|vˈaːj t͡ʃˈɔ2 kˌu͡ə4 ŋˈy͡ə2j ŋˈe6 sˈi5 kˈɔɜ lˈɛ5 sˌɛ5 xˌoŋ fˌaː4j lˌaː2 mˈo6t̪ tˈəː6 vˈɛ5 t̪ˈaː6w zˈaː mˈo6t̪ kˌaːɜj ɗˈɛ6p, mˌaː2 lˌaː2 mˈo6t̪ ŋˈy͡ə2j sˈaːɜŋ t̪ˈaː6w vˌaː2 t͡ʃwˈi͡ɛ2n t̪ˈaː4j tˈoŋ ɗˈi͡ɛ6p kwˈaː t̪ˈaːɜc fˈə4m kˌu͡ə4 mˈi2ɲ.
-..\data\data_matchaTTS\voice1_0274.wav|ɗˈy2ŋ kwˈen tˈɛw zˈɔ5j kˈeɲ vˌaː2 t͡ʃˈəː2 ɗˈəː6j ɲˌy5ŋ t̪ˈə6p t̪ˈi͡ɛɜp tˈɛw.
-..\data\data_matchaTTS\voice13_0001.wav|hˈiɜ hˈiɜ, sˈin t͡ʃˈaː2w, t͡ʃˈuɜŋ mˈi2ɲ lˌaː2 vˈi sˈaː tˈeɜ ɲˈi4 vˌaː2 t͡ʃˈaː2w mˈy2ŋ kˌaːɜc kˈə6w ɗˌaː5 ɗˌeɜn vˌəːɜj bˈu͡ə4j pˈɒdkast tˈy4 mˈaɜt̪ ɗˈə2w t̪ˈi͡ɛn. zˈy͡ə6 t͡ʃˈen fˈy͡əŋ fˈaːɜp fˈɜːst pɹˈɪnsɪpə͡l θˈɪŋkɪŋ t̪ˌy2 zwˈi ŋwˈi͡ɛn bˈaː4n.
-..\data\data_matchaTTS\voice14_0086.wav|vˌəːɜj kˌɔn, mˈo6t̪ zˈaː ɗˈi2ɲ kˈɔɜ hˈaːj ŋˈy͡ə2j mˈɛ6 kˈu5ŋ xˌoŋ sˈaːw kˈaː4.
-..\data\data_matchaTTS\voice12_0031.wav|lˌuɜc vˈy͡ə2 mˈəːɜj lˈi͡ɛn lˈaː6c lˈaː6j, mˈi2ɲ tˈə͡ɪɜ kˈə6w vˌə5n ɗˌaːŋ tˈɛw zˈɔ5j zwˈi ɲˈəɜt̪ ŋˈy͡ə2j kˌɔn ɣˈaːɜj ˈə͡ɪɜ.
-..\data\data_matchaTTS\voice4_0093.wav|ˌaːˈi kˈɔɜ tˈe4 bˈaɜt̪ t͡ʃˈy͡əɜc fˈɔŋ kˈe-ɜc hˈi2ɲ ˈe-4ɲ, ɲˌyŋ xˌoŋ tˈe4 sˈaːw t͡ʃˈɛɜp ɗˌy͡ə6c lˈiɲ hˈo2n vˌaː2 zˈaːɜ t͡ʃˈi6 ŋˈe6 twˈə6t̪ tˈy6c sˈy6 kˌu͡ə4 mˈo6t̪ t̪ˈaːɜc fˈə4m.
-..\data\data_matchaTTS\voice5_0141.wav|zˈaːɜ ɲˌy ɗˌy͡ə6c kwˈaj lˈaː6j mˈo6t̪ lˈə2n nˈy͡ə5, t̪ˈoj sˌɛ5 xˌoŋ bˈaːw zˈəː2 fˈaː6m fˌaː4j sˈaːj lˈə2m ɗˈɔɜ.
-..\data\data_matchaTTS\voice2_0010.wav|tˈyɜ zwˈi ɲˈəɜt̪ mˌaː2 kˈə6w bˈi͡ɛɜt̪ lˌaː2 kˈaː4m sˈuɜc kˌu͡ə4 mˈi2ɲ lˌuɜc nˈa2j ɗˌaːŋ zˈəɜt̪ vˈuj, zˈəɜt̪ zˈəɜt̪ vˈuj.
-..\data\data_matchaTTS\voice14_0263.wav|nˌeɜw kˈə6w kˈɔɜ mˈu͡əɜn nˈɔɜj ɗˈi͡ɛ2w zˈi2 vˌəːɜj mˈɛ6 mˌaː2 t͡ʃˌy͡ə ɗˈu4 kˈaːn ɗˈaː4m ɗˌe4 tˈoɜt̪ tˈe-2ɲ lˈəː2j, hˈa5j tˈy4 vˈi͡ɛɜt̪ tˈy t͡ʃˌɔ bˈaː2 ˈə͡ɪɜ.
-..\data\data_matchaTTS\voice8_0218.wav|lˌaː2 t̪ˈin ɲˈaɜn t͡ʃˈuɜc ŋˈu4 ŋˈɔn.
-..\data\data_matchaTTS\voice13_0125.wav|ɗˈoj xˌi, ɗˈa2ŋ sˈaw ɲˌy5ŋ sˈy6 tˈə6t̪ ɗˈaw lˈɔ2ŋ kˌɔ2n kˈɔɜ ɲˌy5ŋ sˈy6 tˈə6t̪ ˈə4n sˈə1w.
-..\data\data_matchaTTS\voice16_0192.wav|ɲˌyŋ bˈen t͡ʃˈɔŋ lˌaː2 t̪ˈəm hˈo2n t͡ʃˌy͡ə t̪ˈy2ŋ ɗˌy͡ə6c hwˈəɜn lwˈi͡ɛ6n ɗˌe4 t͡ʃˈi6w t͡ʃˈe-ɜc ɲˈi͡ɛ6m,
-..\data\data_matchaTTS\voice19_0234.wav|lˌaː2 tˈyɜ t̪ˈi2ɲ kˈaː4m xˌoŋ lˈəː2j ɲˌyŋ ɗˈə͡ɪ2 mˈaː lˈy6c.
-..\data\data_matchaTTS\voice12_0187.wav|vˌaː2 lˌaː2 tˈy kˈu͡əɜj kˈu2ŋ kˌu͡ə4 ŋˈa2j hˈom nˈaj ɗˌy͡ə6c ɣˈy4j t̪ˌy2 bˈaː6n kˈɔɜ t̪ˈen lˌaː2 ˈapə͡l.
-..\data\data_matchaTTS\voice19_0242.wav|mˈu͡ə2 ɗˈoŋ xˈi͡ɛɜn mˌɔ6j vˈɔ2ŋ t̪ˈaj t͡ʃˈəː4 nˌen nˈɔɜŋ bˈɔ4ŋ,
-..\data\data_matchaTTS\voice3_0147.wav|ɗˈu4 ɗˌe4 kˈu͡əɜn hˈuɜt̪ ɲˌy5ŋ ŋˈy͡ə2j tˈy6c sˈy6 hˈi͡ɛ4w ɗˌy͡ə6c nˈɔɜ.
-..\data\data_matchaTTS\voice16_0007.wav|kˈə6w ɲˈəɜn t͡ʃˈi2m mˈi2ɲ t͡ʃˈɔŋ t̪ˈi͡ɛɜŋ kˈy͡ə2j, t͡ʃˈɔŋ t͡ʃˈɔ2 t͡ʃˈəːj, t͡ʃˈɔŋ ɲˌy5ŋ t͡ʃwˈi͡ɛɜn fˈi͡ɛw lˈiw xˌoŋ hˈo2j kˈeɜt̪.
-..\data\data_matchaTTS\voice16_0128.wav|fˈu6 tˈu͡ə6c vˈaː2w ŋˈy͡ə2j xˈaːɜc vˈe2 mˈa6t̪ kˈaː4m sˈuɜc, t̪ˈaː2j t͡ʃˈiɜɲ hwˌa6c t̪ˈiɲ tˈə2n.
-..\data\data_matchaTTS\voice2_0007.wav|hˈaː͡ɪ ŋˈa2j ŋˈi4, ɲˌyŋ kˈə6w t͡ʃˈi4 ŋˈu4 vˈɔ4n vˈɛ6n bˈoɜn t̪ˈi͡ɛɜŋ.
-..\data\data_matchaTTS\voice13_0091.wav|vˈə͡ɪ6 t̪ˈoj kˌɔ2n nˈɔɜj tˈə6t̪ xˌoŋ? kˈu5ŋ xˌoŋ hwˈaː2n t̪wˈaː2n.
-..\data\data_matchaTTS\voice1_0166.wav|mˈi2ɲ vˈoɜn lˌaː2 mˈo6t̪ ŋˈy͡ə2j xˌoŋ kˈi͡ɛn ɲˈə5n.
-..\data\data_matchaTTS\voice5_0238.wav|nˈəːj mˌaː2 nˌeɜw ˈim lˈa6ŋ,
-..\data\data_matchaTTS\voice1_0158.wav|vˌaː2 lˈaːɜ tˈy kˈu͡əɜj kˈu2ŋ ɗˌy͡ə6c ɣˈy4j t̪ˌy2 bˈaː6n mˈʌni.
-..\data\data_matchaTTS\voice2_0059.wav|mˈo6t̪ sˈoɜ ŋˈy͡ə2j t͡ʃˈəː4 nˌen kˈaːɜw kˈi4ɲ, hˈuŋ hˈaŋ, kˈɔɜ ɲˌy5ŋ hˈe-2ɲ vˈi bˈoɜk ɗˈo2ŋ, mˈaː6w hˈi͡ɛ4m ɲˌy t̪ˈi͡ɛw sˈaː2j kwˈaːɜ ɗˈaː2, ɣˈə͡ɪ zˈaː nˈəː6 nˈə2n.
-..\data\data_matchaTTS\voice1_0203.wav|ɲˌyŋ mˈi2ɲ lˈaː6j kˈɔɜ ŋˈy͡ə2j ɗˌe4 mˈaɜt̪ ɗˌeɜn.
-..\data\data_matchaTTS\voice17_0307.wav|nˈɔɜj vˌəːɜj ˈe-ɲ t͡ʃˈuɜ zˈa2ŋ t̪ˈəɜt̪ kˈaː4 t̪ˈi͡ɛ2n t̪wˈi͡ɛɜn vˌaː2 hˈə6w fˈy͡əŋ ɗˈe2w nˈa2m t͡ʃˈɔŋ ɗˈɔɜ.
-..\data\data_matchaTTS\voice19_0133.wav|ɲˌyŋ sˈaw ɗˈɔɜ, kˈo kˌɔn ɣˈaːɜj ɲˈə6n zˈaː zˈa2ŋ.
-..\data\data_matchaTTS\voice16_0002.wav|ɗˈi͡ɛ2w ɗˈɔɜ ɗˌaː5 mˈaːŋ lˈaː6j t͡ʃˌɔ kˈə6w ɲˌy5ŋ ɣˈɔɜk ɲˈi2n ɗˈaː t͡ʃˈi͡ɛ2w vˈe2 ɲˈi͡ɛ2w vˈəɜn ɗˈe2 xˈaːɜc ɲˈaw t͡ʃˈɔŋ kˈu͡ə6c sˈoɜŋ, zˈuɜp kˈə6w kˈɔɜ ɗˌy͡ə6c mˈo6t̪ t̪ˈiɲ tˈə2n sˈoɜŋ tˈy6c sˈy6.
-..\data\data_matchaTTS\voice3_0073.wav|zˈe-2ɲ tˈəː2j zˈaːn ɗˌe4 hˈi͡ɛ4w zˈɔ5 ŋˈy͡ə2j kˈə6w ɗˌaːŋ ˈi͡ɛw kwˈaː mˈo hˈi2ɲ fˈe͡ɪsɪz.
-..\data\data_matchaTTS\voice3_0181.wav|t͡ʃˈuɜŋ mˈi2ɲ xˌoŋ t͡ʃˈi4 mˈu͡əɜn ɗˌy͡ə6c ˈi͡ɛw vˌi2 vˈɛ4 bˈe2 ŋwˈaː2j kˌu͡ə4 bˈaː6n zˈaː6ŋ zˈəː5,
-..\data\data_matchaTTS\voice16_0110.wav|lˈu͡ən mˈəː mˈo6ŋ vˈe2 mˈo6t̪ hwˈaː2ŋ t̪ˈy4 hwˈaː2n hˈaː4w,
-..\data\data_matchaTTS\voice16_0218.wav|pˈiːtə pˈaːn ɗˌaː5 t͡ʃˈɔ6n ˈəː4 lˈaː6j nˌɛvəlˈand.
-..\data\data_matchaTTS\voice13_0168.wav|kˈɔɜ ɲˌy5ŋ lˌuɜc zˈy5 kˈiɜn mˈo6t̪ fˈə2n sˈy6 tˈə6t̪ lˌaː2 mˈo6t̪ kwˈi͡ɛ2n zˈi͡ɛŋ t̪ˈy t͡ʃˈiɜɲ ɗˈaːɜŋ,
-..\data\data_matchaTTS\voice6_0034.wav|tˈeɜ ɲˌyŋ ŋˈa2j nˈaj, kˈu5ŋ t̪ˌy2 tˈeɜ hˈe6 kˈəː2 ɗˈɔ4 sˈaːw vˈaː2ŋ lˈaː6j ɗˌy͡ə6c zˈəːɜj t͡ʃˈɛ4, ɗˈa6c bˈi͡ɛ6t̪ lˌaː2 kˌaːɜc bˈaː6n sˈiɲ vˈi͡ɛn, hˈɔ6k sˈiɲ ˈi͡ɛw tˈiɜc vˌaː2 sˈy4 zˈu6ŋ zˈo6ŋ zˈaː5j.
-..\data\data_matchaTTS\voice5_0258.wav|mˌo5j t͡ʃˈuɜŋ t̪ˈaː ɗˈe2w ɗˌaːŋ sˈoɜŋ t͡ʃˈɔŋ mˈo6t̪ vˈu5 t͡ʃˈu6 kˌu͡ə4 zˈi͡ɛŋ mˈi2ɲ,
-..\data\data_matchaTTS\voice19_0195.wav|mˈo6t̪ xwˌaː4ŋ t͡ʃˈoɜŋ mˈeɲ mˈoŋ xˌoŋ kˈɔɜ hˈi2ɲ tˈu2.
-..\data\data_matchaTTS\voice19_0278.wav|sˌɛ5 t̪ˈaːɜt̪ ɲˌy5ŋ kˈuɜ nˈy͡əɜc lˈe-6ɲ t͡ʃˌɔ t̪ˈaː t̪ˈi4ɲ.
-..\data\data_matchaTTS\voice14_0015.wav|hˈaj lˌaː2 bˌəː4j mˈɛ6 kˈu5ŋ t͡ʃˌy͡ə t̪ˈy2ŋ ɗˌy͡ə6c ŋˈɛ kˈə1w ˈə͡ɪɜ t̪ˌy2 bˈaː2 ŋwˈaː6j,
-..\data\data_matchaTTS\voice13_0089.wav|ɲˌy5ŋ lˈəː2j nˈɔɜj kˌu͡ə4 t̪ˈoj tˈɛw ŋˈi͡ə5 hˈɛ6p sˌɛ5 ɗˈuɜŋ, ɲˌyŋ t͡ʃˈuɜŋ ɗˌy͡ə6c t̪wˈaːn t̪ˈiɜɲ ɗˌe4 lˈy͡ə2 ɣˈaː6t̪.
-..\data\data_matchaTTS\voice7_0160.wav|ɲˌy5ŋ nˈeɜp ɲˈan t͡ʃˈen ɣˈy͡əŋ mˈa6t̪ sˈaː6m nˈaɜŋ zˈə2n hˈi͡ɛ6n zˈɔ5.
-..\data\data_matchaTTS\voice3_0117.wav|t̪ˈaː bˈi͡ɛɜt̪ mˈaj vˈaːɜ tˈe1w tˈu͡ə2, bˈi͡ɛɜt̪ ɗˈaː2n hˈaːɜt̪ mˈu͡əɜ kˈaː, kwˈaː4n lˈiɜ ɲˈən sˈy6 zˈɔ4j ɲˌy tˈeɜ nˈaː2w?
-..\data\data_matchaTTS\voice8_0075.wav|vˌaː2 ɗˈoj bˈaː lˈə2n tˈə͡ɪɜ hˈɔ6 mˈy2ŋ t̪ˈy͡ə6ŋ vˈe2 vˈi͡ɛ5n kˈe-4ɲ mˈu͡ən t͡ʃˈaŋ zˈuɜp kˈu͡ə6c ɗˈəː2j.
-..\data\data_matchaTTS\voice8_0099.wav|mˌaː2 t͡ʃˈaːɜj lˈaː6j, kˌu͡ə4 hˈon ɲˈən zˈy͡ə5 hˈɔ6 bˈə͡ɪ zˈəː2 t͡ʃˈi4 kˌɔ2n t͡ʃˈuɜt̪ ŋˈi͡ə5 nˈaː2w ɗˈɔɜ mˌaː2 tˈoj.
-..\data\data_matchaTTS\voice6_0082.wav|hˈaː2j hˈy͡əɜc xˌoŋ t͡ʃˈi4 lˌaː2 sˈy6 lˈy͡ə6 t͡ʃˈɔ6n, mˌaː2 kˌɔ2n lˌaː2 mˈo6t̪ fˈy͡əŋ tˈyɜc sˈiɲ t̪ˈo2n.
-..\data\data_matchaTTS\voice7_0059.wav|nˌen ˈoŋ bˈaː2 hˈa5j ɗˈi t͡ʃˈə6m tˈoj ɲˈɛɜ.
-..\data\data_matchaTTS\voice15_0180.wav|ɗˈi͡ɛ2w kwˈaːn t͡ʃˈɔ6ŋ lˌaː2 kˈə6w fˌaː4j bˈi͡ɛɜt̪ t̪ˈy6 ˈi͡ɛw tˈy͡əŋ vˌaː2 t͡ʃˈən t͡ʃˈɔ6ŋ t͡ʃˈiɜɲ mˈi2ɲ.
-..\data\data_matchaTTS\voice8_0156.wav|kˈeɜt̪ hˈəː6p ɗˈi4ɲ tˈyɜ ɲˈəɜt̪ vˌaː2 ɗˈi4ɲ tˈyɜ bˈaː,
-..\data\data_matchaTTS\voice7_0200.wav|ŋˈy͡ə2j bˈen kˌɔn vˌaː2 lˈu͡ən ˈi͡ɛw kˌɔn hˈəːn t̪ˈəɜt̪ kˈaː4.
-..\data\data_matchaTTS\voice5_0272.wav|mˌo5j lˈəː2j kˈə6w zˈaːɜm nˈɔɜj,
-..\data\data_matchaTTS\voice9_0144.wav|xˌi t̪ˈaː ɗˈɔ2j hˈɔ4j mˈo6t̪ kˈaːɜ ɲˈən fˌaː4j lˈy͡ə6 t͡ʃˈɔ6n zˈy͡ə5 mˈɛ6 vˌaː2 mˌɔ6j tˈyɜ
-..\data\data_matchaTTS\voice3_0149.wav|lˈa6ŋ ˈe-ɲ kˈɔɜ tˈy6c sˈy6 tˈə͡ɪɜ ˈɛm, tˈə͡ɪɜ t̪ˈəɜt̪ kˈaː4 ˈɛm vˌaː2 vˌə5n t͡ʃˈɔ6n ˈi͡ɛw hˈaj xˌoŋ?
-..\data\data_matchaTTS\voice1_0178.wav|t͡ʃˈi4 nˌen lˌaː2 bˈaː6n bˈɛ2 tˌi2 sˌɛ5 t̪ˈoɜt̪ t͡ʃˌɔ kˈaː4 hˈaːj.
-..\data\data_matchaTTS\voice3_0081.wav|kəmpˌatəbˈɪlɪti, bˈaːw ɣˈo2m sˈy6 hwˈaː2 hˈəː6p t͡ʃˈɔŋ zˈaːɜ t͡ʃˈi6 kˈoɜt̪ lˈɔ5j.
-..\data\data_matchaTTS\voice14_0261.wav|ɗˈoj xˌi t͡ʃˈi4 kˈə2n mˈo6t̪ kˌaːɜj ˈom, mˈo6t̪ kˈə1w kˌɔn kˈaː4m ˈəːn mˈɛ6, kˈu5ŋ ɗˈu4 lˈaː2m mˈɛ6 ˈəɜm lˈɔ2ŋ.
-..\data\data_matchaTTS\voive11_0035.wav|t̪ˌy2 bˈi͡ɛ4w t̪ˈy͡ə6ŋ nˈa2j, t̪ˈəm lˈiɜ hˈɔ6k hˈi͡ɛ6n ɗˈaː6j ɗˌaː5 fˈaːɜt̪ t͡ʃˈi͡ɛ4n xˈaːɜj nˈi͡ɛ6m ˈaːɜj kˈi4.
-..\data\data_matchaTTS\voice7_0112.wav|ŋˈi5 t͡ʃˈɔŋ ɗˈə2w, kˈəːm ˈan ˈaːɜw mˈa6c hˈaː2ŋ ŋˈa2j ɗˌaː5 ɗˈu4 ɗˈə͡ɪ2.
-..\data\data_matchaTTS\voice3_0018.wav|zˈoɜt̪ kˈu͡ə6c t͡ʃˈuɜŋ t̪ˈaː ˈi͡ɛw ŋˈy͡ə2j ɗˈɔɜ vˌi2 ɗˈi͡ɛ2w zˈi2?
-..\data\data_matchaTTS\voice7_0152.wav|sˈu͡əɜt̪ bˈaːw nˈam kwˈaː, bˈoɜ vˌə5n ˈəm tˈə2m t͡ʃˈɛ t͡ʃˈəː4.
-..\data\data_matchaTTS\voice16_0181.wav|xˌoŋ kˈə2n ˈaːj hˈi͡ɛ4w, t͡ʃˈi4 kˈə2n ɗˌy͡ə6c lˌaː2 t͡ʃˈiɜɲ mˈi2ɲ.
-..\data\data_matchaTTS\voice5_0205.wav|bˌəː4j kˈɛ4 t̪ˈaː2n ɲˈə5n ɲˈəɜt̪ xˌoŋ fˌaː4j lˌaː2 kˈi2w nˈɔn,
-..\data\data_matchaTTS\voice1_0069.wav|t̪ˈəːɜ kˈɔɜ mˈo6t̪ ŋˈy͡ə2j bˈaː6n ɗˌaː5 t̪ˈy2ŋ lˌaː2 t͡ʃˈi kˈi4.
-..\data\data_matchaTTS\voice8_0142.wav|ɗˈi4ɲ t̪ˈaːm zˈaːɜc tˈyɜ bˈaː ɗˈaː6j zˈi͡ɛ6n t͡ʃˌɔ kˈi͡ɛ4w t̪ˈi2ɲ ˈi͡ɛw zˈo5ŋ.
-..\data\data_matchaTTS\voice2_0130.wav|vˈi͡ɛ6c hˈi͡ɛ4w zˈɔ5 zˈa2ŋ, hˈyŋ kˈaː4m kˈu5ŋ t̪ˈi͡ɛ2m ˈə4n ŋwˈi kˈəː ɲˌy t͡ʃˈə2m kˈaː4m.
-..\data\data_matchaTTS\voice16_0123.wav|sˈəː6 bˌi6 zˈaː2ŋ bˈu͡ə6c t͡ʃˈɔŋ kˌaːɜc mˈoɜj kwˈaːn hˈe6,
-..\data\data_matchaTTS\voice1_0148.wav|ɲˌyŋ kˈaː4m sˈuɜc vˌə5n vˈɛ6n ŋwˈi͡ɛn.
-..\data\data_matchaTTS\voice8_0122.wav|ɗˈɔɜ t͡ʃˈiɜɲ lˌaː2 zˈaː6ŋ ˈi͡ɛw tˈiɜc, t̪ˈi2ɲ bˈaː6n hˈaj kˌɔ2n ɗˌy͡ə6c ɣˈɔ6j lˌaː2 lˈa͡ɪkɪŋ.
-..\data\data_matchaTTS\voice17_0159.wav|zˈaː t̪ˈi͡ɛ2n t̪wˈi͡ɛɜn.
-..\data\data_matchaTTS\voice18_0105.wav|t̪ˈɔm fɹˈɛndz, mˈɒnɪkə t̪ˈy2ŋ nˈɔɜj kˈə1w twˈaː6j ɲˌy tˈeɜ nˈa2j.
-..\data\data_matchaTTS\voice12_0203.wav|lˈə2n ɗˈə2w t̪ˈi͡ɛn, mˈi2ɲ mˈəːɜj fˈə2n nˈaː2w twˈaːɜt̪ zˈaː ɗˌy͡ə6c xˈɔ4j kˌaːɜj vˈɔ2ŋ swˈaɜj ɗˈɔɜ.
-..\data\data_matchaTTS\voice8_0051.wav|ɲˌy5ŋ ˈəɜn t̪ˈy͡ə6ŋ bˈaːn ɗˈə2w tˈy͡ə2ŋ xˈɔɜ fˈaːj.
-..\data\data_matchaTTS\voice1_0242.wav|lˈə2n ɗˈə2w zˈu2ŋ ɗˈu͡ə5, lˈə2n ɗˈə2w tˈo4n tˈyɜc.
-..\data\data_matchaTTS\voice3_0083.wav|ˈɛ lˌaː2 fˈaː4n ˈe-ɜɲ mˈə5w hˈi2ɲ kwˈaːn hˈe6 t͡ʃˈɔŋ kwˈaːɜ xˈyɜ.
-..\data\data_matchaTTS\voice3_0155.wav|ɗˈɔɜ lˌaː2 xˈaːɜt̪ xˈaːw ɗˌy͡ə6c ˈi͡ɛw tˈy͡əŋ mˈo6t̪ kˈe-ɜc t͡ʃˈɔ6n vˈɛ6n, bˈaːw ɣˈo2m kˈaː4 ɲˌy5ŋ ɗˈi͡ɛ2w t͡ʃˌy͡ə hwˈaː2n hˈaː4w.
-..\data\data_matchaTTS\voice12_0227.wav|kˈɔɜ lˈɛ5 lˌaː2 vˌi2 bˈaː4n tˈən xˌoŋ t͡ʃˈaɜc t͡ʃˈaɜn, vˌi2 ɗˌaː5 ɗˌe4 kˌɔn t̪ˈim t̪ˈy6 zˈɔ zˈuŋ ɗˈo6ŋ vˌəːɜj kwˈaːɜ ɲˈi͡ɛ2w ŋˈy͡ə2j.
-..\data\data_matchaTTS\voice6_0035.wav|ɗˈa6c bˈi͡ɛ6t̪ lˌaː2 d͡ʒˈɛn zˈɛɜt t̪ˈaːɜj ɗˈi6ɲ ŋˈi͡ə5 tˈɛw kˈe-ɜc hwˈaː2n t̪wˈaː2n xˈaːɜc.
-..\data\data_matchaTTS\voice13_0119.wav|ŋˈaj xˌi t̪ˈaː kˈoɜ t̪ˈi2ɲ tˈe4 hˈi͡ɛ6n sˈaːj lˈe6c swˈi ŋˈi5 kˌu͡ə4 mˈi2ɲ.
-..\data\data_matchaTTS\voice7_0015.wav|kˈu2ŋ bˈaɜt̪ ɗˈə2w tˈoj nˈaː2w!
-..\data\data_matchaTTS\voice8_0044.wav|kˈɔɜ lˈɛ5 mˈo6t̪ sˈoɜ ŋˈy͡ə2j t͡ʃˈi4 hˈəː6p sˈoɜŋ t͡ʃˈɔŋ hˈo2j ˈyɜc.
-..\data\data_matchaTTS\voice6_0061.wav|tˌi2 kˈɔɜ lˈɛ5 ɲˈaː2 vˈan lˈo5j lˈaː6c ˈə͡ɪɜ sˌɛ5 ɗˌy͡ə6c t͡ʃˈyɜŋ kˈi͡ɛɜn kˈaː4 mˈo6t̪ tˈeɜ hˈe6 ɗˌaːŋ bˈi͡ɛɜn t̪ˈi͡ɛɜŋ kˈy͡ə2j tˈe-2ɲ fˈɔŋ kˈe-ɜc sˈoɜŋ.
-..\data\data_matchaTTS\voice16_0195.wav|kˈyɜ sˈoɜŋ mˌaː2 xˌoŋ bˈi͡ɛɜt̪ mˈi2ɲ ɗˌaː5 lˈəːɜn t͡ʃˌy͡ə.
-..\data\data_matchaTTS\voice16_0008.wav|ɲˌy tˈe4 nˌeɜw lˈəːɜn lˈen tˌi2 mˌɔ6j fˈɛɜp mˈa2w sˌɛ5 bˈi͡ɛɜn mˈəɜt̪.
-..\data\data_matchaTTS\voive11_0250.wav|ɗˈy2ŋ kwˈen ɗˈaŋ kˈiɜ kˈeɲ vˌaː2 t͡ʃˈəː2 ɗˈəː6j ɲˌy5ŋ t̪ˈə6p pˈɒdkast t̪ˈi͡ɛɜp tˈɛw kˌu͡ə4 vˌeˌɛɜsˈaː tˈeɜ ɲˈi4 ɲˈɛɜ!
-..\data\data_matchaTTS\voice6_0204.wav|vˈi͡ɛ6c t͡ʃˌɔ fˈɛɜp ŋˈy͡ə2j t͡ʃˈɛ4 ɗˌy͡ə6c t̪ˈy6 zˈɔ mˈo6t̪ kˈe-ɜc kˈɔɜ ˈiɜ tˈyɜc vˌaː2 kˈɔɜ zˈəːɜj hˈaː6n.
-..\data\data_matchaTTS\voice2_0011.wav|ɗˈoŋ hˈo2 ɗˈi͡ɛ4m t̪ˈaːɜm zˈəː2 sˈaːɜŋ vˈaː2w ŋˈa2j ɗˈə2w t̪ˈi͡ɛn kwˈaj t͡ʃˈəː4 lˈaː6j lˈaː2m.
-..\data\data_matchaTTS\voice12_0229.wav|ŋˈy͡ə2j t̪ˈaː kˈɔɜ tˈe4 bˌi6 ɗˈo6ŋ lˈɔ2ŋ vˌi2 vˈɛ4 ŋwˈaː2j, vˌi2 sˈy6 t̪ˈy4 t̪ˈeɜ, vˌi2 ɲˌy5ŋ kˈaː4m sˈuɜc mˈəːɜj mˈɛ4 twˈaːɜŋ kwˈaː.
-..\data\data_matchaTTS\voice6_0038.wav|tˈɛw kˈe-ɜc fˈɔɜŋ xwˈaːɜŋ, hˈaː2j hˈy͡əɜc, t̪ˈy6 zˈɔ, ɗˈoj xˌi fˈaːɜ t͡ʃˈuɜt̪ t͡ʃˈəm bˈi͡ɛɜm.
-..\data\data_matchaTTS\voice8_0001.wav|sˌɛ5 kˈɔɜ ɲˌy5ŋ lˌuɜc kˈə6w t͡ʃˌa4ŋ mˈu͡əɜn ɗˈaːɜp lˈaː6j kˈə1w hˈɔ4j nˈa2j.
-..\data\data_matchaTTS\voice8_0203.wav|ɲˈaː2 hˈi͡ɛ2n t͡ʃˈi͡ɛɜt̪ ˈon t̪ˈo2n zˈaː4ŋ
-..\data\data_matchaTTS\voice5_0252.wav|t͡ʃˈi4 mˈɔŋ mˈo6t̪ ŋˈa2j nˈaː2w ɗˈɔɜ,
-..\data\data_matchaTTS\voice15_0139.wav|kˈo xˌoŋ mˈu͡əɜn t̪ˈi͡ɛɜp t̪ˈu6c mˈoɜj kwˈaːn hˈe6 vˌəːɜj mˈo6t̪ ŋˈy͡ə2j xˌoŋ tˈə6t̪ sˈy6 ˈi͡ɛw mˈi2ɲ.
-..\data\data_matchaTTS\voice16_0062.wav|bˌəː4j sˈaːw tˈeɜ ɲˈi4?
-..\data\data_matchaTTS\voice1_0140.wav|vˌaː2 mˈo6t̪ lˈəː2j sˈin lˈo5j.
-..\data\data_matchaTTS\voice13_0058.wav|ɲˌy xˈɛ mˈo6t̪ mˈɔɜn kwˈaː2 xˌoŋ ŋˈy2ŋ ˈiɜ ŋˈi͡ə5, ɗˌe4 xˌoŋ lˈaː2m ŋˈy͡ə2j t̪ˈa6ŋ bˈu͡ə2n.
-..\data\data_matchaTTS\voice20_0048.wav|ɲˌy5ŋ ɗˈy͡əɜ t͡ʃˈɛ4 kˈɔɜ ŋwˈaː6j hˈi2ɲ xˌoŋ ɗˈɛ6p ɗˌaː5 lˈəːɜn lˈen ɲˌy tˈeɜ nˈaː2w?
-..\data\data_matchaTTS\voice18_0129.wav|mˌɔ6j tˈyɜ kˈyɜ tˈeɜ, tˈu vˈaː2w t̪ˈə2m mˈaɜt̪, kˈyɜ ɲˈɔ4 bˈɛɜ vˌaː2 zˈi6w zˈaː2ŋ.
-..\data\data_matchaTTS\voice15_0084.wav|xˌoŋ bˈi͡ɛɜt̪ ɲˌy5ŋ xwˈe-4ɲ xˈaɜc t̪ˈy2ŋ xˈi͡ɛɜn t̪ˈim t̪ˈəːɜ zˈuŋ ɗˈo6ŋ kˈɔɜ t̪ˈy2ŋ tˈy6c sˈy6 t̪ˈo2n t̪ˈaː6j hˈaj xˌoŋ,
-..\data\data_matchaTTS\voice14_0195.wav|xˌi t͡ʃˌy͡ə kˈi6p nˈɔɜj t͡ʃwˈi͡ɛ6n vˌəːɜj mˈɛ6 lˈə2n kˈu͡əɜj.
-..\data\data_matchaTTS\voice7_0097.wav|mˌo5j lˈə2n vˈe2, ɲˈi2n ˈoŋ lˈaː6j ɣˈə͡ɪ2 ˈi͡ɛɜw ɗˈi mˈo6t̪ t͡ʃˈuɜt̪.
-..\data\data_matchaTTS\voice12_0204.wav|mˈi2ɲ t͡ʃˈɔ6n ˈi͡ɛw ŋˈy͡ə2j ˈə͡ɪɜ, xˌoŋ vˌi2 lˈiɜ zˈɔ zˈi2 zˈɔ5 zˈaː2ŋ.
-..\data\data_matchaTTS\voive11_0226.wav|vˌaː2 kˈu͡əɜj kˈu2ŋ kˈu5ŋ t͡ʃˈi4 lˌaː2 sˈy6 t͡ʃˈoɜŋ zˈo5ŋ.
-..\data\data_matchaTTS\voive11_0017.wav|vˈo lˈiɜ vˌi2 nˈɔɜ xˌoŋ fˌaː4j lˌaː2 ɗˈi͡ɛ2w kˈɔɜ tˈe4 sˈa4j zˈaː vˌəːɜj mˈo6t̪ ŋˈy͡ə2j ɗˈaː2n ˈoŋ.
-..\data\data_matchaTTS\voice8_0163.wav|lwˈaː6j hˈi2ɲ nˈa2j tˈy͡ə2ŋ ɗˌy͡ə6c tˈə͡ɪɜ t͡ʃˈɔŋ kˌaːɜc kˈu͡ə6c hˈon ɲˈən xˌoŋ kˈɔɜ t̪ˈi2ɲ kˈaː4m,
-..\data\data_matchaTTS\voice12_0093.wav|ɲˌyŋ t͡ʃˌa4ŋ ɗˌe4 lˈaː6j t͡ʃˌɔ ˈɛm mˈo6t̪ zˈɔ2ŋ t̪ˈin nˈaː2w.
-..\data\data_matchaTTS\voice4_0134.wav|zˈaːɜ t͡ʃˈi6 kˌu͡ə4 ŋˈy͡ə2j ŋˈe6 sˈi5 xˌi ɗˈɔɜ sˌɛ5 xˌoŋ t͡ʃˈi4 nˈa2m ˈəː4 kˈi5 nˈaŋ, vˈɛ5 t̪ˈaj ɗˈi͡ɛw lwˈi͡ɛ6n.
-..\data\data_matchaTTS\voice7_0025.wav|hˈi2ɲ ˈe-4ɲ ˈoŋ ɲˈaɜm mˈaɜt̪ t͡ʃˈɔŋ vˈɔ2ŋ t̪ˈaj kˌu͡ə4 ɲˌy5ŋ ŋˈy͡ə2j tˈən ˈi͡ɛw.
-..\data\data_matchaTTS\voice15_0137.wav|vˌaː2 hˈɔ6 ɗˌaː5 kˈɔɜ ɲˌy5ŋ bˈu͡ə4j hˈɛ6n hˈɔ2 zˈi͡ɛŋ.
-..\data\data_matchaTTS\voice15_0048.wav|lˈaːɜ tˈy t̪ˈi͡ɛɜp tˈɛw ɗˌy͡ə6c ɣˈy4j t̪ˌy2 bˈaː6n kˈɔɜ bˈi͡ɛ6t̪ zˈe-ɲ lˌaː2 mˈy͡ə bˈi͡ɛ4n, ɣˈy4j kˈə6w ŋˈoj sˈaːw hˈaː4j kˈə4w.
-..\data\data_matchaTTS\voice5_0247.wav|ŋˈa2j ŋˈo ɲˈəɜt̪ kˌu͡ə4 t̪ˈu͡ə4j mˈy͡ə2j t̪ˈaːɜm hˈaːj mˈy͡əj.
-..\data\data_matchaTTS\voice13_0067.wav|ɗˌy͡ə6c t͡ʃˈəɜp ɲˈə6n, ɗˌy͡ə6c ˈi͡ɛw tˈy͡əŋ vˌaː2 ɗˌy͡ə6c sˈoɜŋ ˈaːn t̪wˈaː2n
-..\data\data_matchaTTS\voice8_0228.wav|t̪ˈaː sˌɛ5 ˈaːn t̪wˈaː2n ˈəː4 t͡ʃˈɔŋ ɗˈoj t̪ˈaj kˌu͡ə4 hˈɔ6
-..\data\data_matchaTTS\voice5_0131.wav|vˌaː2 ɗˈo6k ɲˈəɜt̪ ŋˈɛ ŋˈoɜk ŋˈe-ɜc tˈə6t̪.
-..\data\data_matchaTTS\voice8_0139.wav|t̪ˈi2ɲ ˈi͡ɛw t͡ʃˈoɜŋ zˈo5ŋ xˌoŋ kˈɔɜ ɗˈu4 tˈəː2j zˈaːn t͡ʃˌɔ ɲˌy5ŋ kˈaː4m sˈuɜc tˈən mˈə6t̪ sˈə1w sˈaɜc hˈəːn.
-..\data\data_matchaTTS\voive11_0199.wav|nˈo5j ɗˈaw mˌaː2 hˈɔ6 mˈaːŋ tˈɛw xˌoŋ tˈe4 lˌaː2 kˌaːɜj kˈəːɜ ɗˌe4 hˈɔ6 lˈaː2m ɗˈaw ŋˈy͡ə2j xˈaːɜc.
-..\data\data_matchaTTS\voice8_0116.wav|vˌaː2 twˈaː4 mˈaː5n ɲˈu kˈə2w sˈiɲ lˈiɜ.
-..\data\data_matchaTTS\voice19_0306.wav|vˌəːɜj kˌɔn ŋˈy͡ə2j,
-..\data\data_matchaTTS\voice3_0126.wav|tˈy4 ŋˈi5 mˌaː2 sˈɛm.
-..\data\data_matchaTTS\voice5_0139.wav|ɲˌyŋ kˈiɜ ˈyɜc vˈe2 kˈə6w, vˈe2 t͡ʃˈuɜŋ t̪ˈaː,
-..\data\data_matchaTTS\voice1_0046.wav|ɗˌeɜn lˌuɜc ɲˈə6n zˈaː tˌi2 ɗˈo2ŋ hˈo2 ɗˌaː5 ɗˈi͡ɛ4m hˈaː͡ɪ bˈaː zˈəː2 sˈaːɜŋ.
-..\data\data_matchaTTS\voice10_0027.wav|nˌeɜw xˌi ˈə͡ɪɜ ˈe-ɲ hˈaj ˈɛm t͡ʃˌy͡ə t̪ˈy2ŋ vˈəː5 vˈu6n ɗˌeɜn mˈyɜc kˈə2n mˈo6t̪ ˈaːj ɗˈɔɜ ɗˌe4 nˈy͡əŋ t̪ˈy͡ə6, tˌi2 kˈɔɜ lˈɛ5 ɗˌaː5 t͡ʃˌa4ŋ vˈo t̪ˈi2ɲ bˈy͡əɜc kwˈaː kˈu͡ə6c ɗˈəː2j ɲˈaw.
-..\data\data_matchaTTS\voice5_0270.wav|mˈo6t̪ kˈə1w t͡ʃwˈi͡ɛ6n ɗˈɛ6p ɗˈɛ5 xˈaːɜc sˌɛ5 lˈaː6j bˈaɜt̪ ɗˈə2w,
-..\data\data_matchaTTS\voice10_0079.wav|kˈə6w ˈom t̪ˈəːɜ xˌoŋ fˌaː4j vˌi2 t̪ˈi2ɲ kˈaː4m nˈaːm nˈy5,
-..\data\data_matchaTTS\voice12_0006.wav|nˈɔɜ lˈa6ŋ lˈɛ5, t͡ʃˈəː t͡ʃˈɔ6j ɲˌy ɗˌaːŋ ɗˈyɜŋ zˈy͡ə5 mˈo6t̪ kˈə͡ɪ kˈə2w mˌaː2 kˈaː4 hˈaːj bˈen ɗˈe2w xˌoŋ zˈaːɜm bˈy͡əɜc t̪ˈi͡ɛɜp hwˌa6c kwˈaj ɗˈə2w.
-..\data\data_matchaTTS\voice10_0066.wav|kˈu5ŋ t͡ʃˈiɜɲ kˈə6w lˌaː2 ŋˈy͡ə2j ɗˈə2w t̪ˈi͡ɛn xˌoŋ nˈɔɜj zˈi2, t͡ʃˈi4 ˈan wˈi4 vˌaː2 ɗˈo6ŋ vˈi͡ɛn t̪ˈəːɜ.
-..\data\data_matchaTTS\voice19_0272.wav|ˈe-ɲ nˈɔɜj vˈə͡ɪ6,
-..\data\data_matchaTTS\voice13_0079.wav|kˌaːɜc hˈe-2ɲ ɗˈo6ŋ nˈɛɜ t͡ʃˈe-ɜɲ nˈa2j kˈɔɜ tˈe4 lˌaː2 hˈi2ɲ tˈyɜc lˈy͡ə2 ɣˈaː6t̪, ɲˌyŋ t͡ʃˈuɜŋ t̪ˈaː xˌoŋ nˈɔɜj zˈoɜj.
-..\data\data_matchaTTS\voice1_0188.wav|sˈaw ɣˈə2n mˈo6t̪ tˈaːɜŋ ˈim lˈa6ŋ, xˌoŋ mˈo6t̪ zˈɔ2ŋ t̪ˈin ɲˈaɜn,
-..\data\data_matchaTTS\voice2_0046.wav|mˈoj t͡ʃˈy͡ə2ŋ sˈoɜŋ vˌaː2 t͡ʃˈaː4j ŋˈi͡ɛ6m kˈaːɜ ɲˈən kˈu5ŋ ɣˈɔɜp fˈə2n kwˈaːn t͡ʃˈɔ6ŋ lˈaː2m xˈəː4j fˈaːɜt̪ hwˌa6c t͡ʃˈə2m t͡ʃˈɔ6ŋ tˈem bˈe6ɲ.
-..\data\data_matchaTTS\voice3_0218.wav|ɗˌe4 kˈu͡əɜj kˈu2ŋ vˌə5n t͡ʃˈɔ6n ɲˈaw vˌi2 ɲˈaw vˌaː2 bˈəɜt̪ t͡ʃˈəɜp ɲˌy5ŋ ɗˈi͡ɛ2w xˌoŋ hwˈaː2n hˈaː4w ˈəː4 nˈəːj ɲˈaw.
-..\data\data_matchaTTS\voice19_0347.wav|lˌaː2 kˈaː4m zˈaːɜc nˈaɜŋ t͡ʃˈaː2n vˈaː2w fˈɔ2ŋ.
-..\data\data_matchaTTS\voice4_0141.wav|t͡ʃˈɔŋ mˈo6t̪ tˈeɜ zˈəːɜj ŋˈa2j kˈaː2ŋ bˈaː5w hwˈaː2 bˌəː4j ɲˌy5ŋ sˈaː4n fˈə4m ɗˌy͡ə6c t̪ˈaː6w zˈaː hˈaː2ŋ lwˈaː6t̪ mˈo6t̪ kˈe-ɜc hwˈaː2n hˈaː4w bˌəː4j ˌaːˈi.
-..\data\data_matchaTTS\voice14_0161.wav|zˈəː2 ɗˈə͡ɪ, nˈu6 kˈy͡ə2j kˌu͡ə4 mˈɛ6 t͡ʃˈi4 kˈɔɜ tˈe4 swˈəɜt̪ hˈi͡ɛ6n t͡ʃˈen t̪ˈəɜm zˈi ˈe-4ɲ.
-..\data\data_matchaTTS\voice5_0061.wav|ɗˈoj lˈə2n ˈe-ɜɲ mˈaɜt̪ kˈə6w ɲˌy mˈu͡əɜn nˈɔɜj ɗˈi͡ɛ2w zˈi2 ɗˈɔɜ ɲˌyŋ zˈo2j lˈaː6j tˈoj.
-..\data\data_matchaTTS\voice3_0156.wav|t͡ʃˈuɜŋ mˈi2ɲ mˈu͡əɜn ɗˌy͡ə6c ˈi͡ɛw xˌoŋ t͡ʃˈi4 vˌi2 ɲˌy5ŋ ˈi͡ɛw ɗˈi͡ɛ4m, mˌaː2 kˌɔ2n vˌi2 ɲˌy5ŋ xwˈi͡ɛɜt̪ ɗˈi͡ɛ4m.
-..\data\data_matchaTTS\voice5_0182.wav|mˈo6t̪ ŋˈy͡ə2j zˈaːɜm tˈe-2ɲ tˈə6t̪ vˌəːɜj kˈaː4m sˈuɜc.
-..\data\data_matchaTTS\voice6_0059.wav|mˈɑːk twˈe͡ɪn ɗˌaː5 t̪ˈy2ŋ nˈɔɜj ɲˌy vˈə͡ɪ6.
-..\data\data_matchaTTS\voice3_0115.wav|ˈe-ɲ ˈi͡ɛw ˈɛm vˌi2 ˈɛm tˈoŋ mˈiɲ vˌaː2 hˈi͡ɛ4w t͡ʃwˈi͡ɛ6n. ŋˈɛ tˌi2 kˈu5ŋ t̪ˈaː6m ɗˌy͡ə6c ɗˈɔɜ, sˈɔŋ t͡ʃˌy͡ə ɗˈu4 ɗˈə1w.
-..\data\data_matchaTTS\voice6_0092.wav|mˌaː2 ɗˈoj xˌi ŋˈy͡ə2j ŋwˈaː2j xˈɔɜ tˈə͡ɪɜ ɗˌy͡ə6c.
-..\data\data_matchaTTS\voice4_0147.wav|mˌaː2 lˌaː2 sˈy6 ɗˈo2ŋ ɗˈi͡ɛ6w t͡ʃˌɔ mˈo6t̪ t̪ˈəɜm hˈo2n, zˈaːɜ t͡ʃˈi6 sˌɛ5 t͡ʃˈi͡ə vˈe2 mˈa6t̪ kˈaː4m sˈuɜc.
-..\data\data_matchaTTS\voice1_0054.wav|kˈə6w kˈɔɜ mˈo6t̪ bˈyɜc t̪ˈy͡ə2ŋ zˈa2j t͡ʃˈɔŋ t̪ˈim mˌaː2 ŋˈaj kˈaː4 mˈi2ɲ kˈu5ŋ xˌoŋ tˈe4 t̪ˈi2m ɗˌy͡ə6c t͡ʃˈi͡ə2 xwˈaːɜ ɗˌe4 mˈəː4.
-..\data\data_matchaTTS\voice17_0042.wav|tˈe-2ɲ ɲˌy5ŋ kˌɔn t͡ʃˈy5 xˌoŋ lˈa6ŋ lˈɛ5
-..\data\data_matchaTTS\voice9_0040.wav|vˌaː2 ɗˈə͡ɪ t͡ʃˈaɜc hˈa4n kˈu5ŋ lˌaː2 mˈo6t̪ nˈo5j bˈan xwˈan kˌu͡ə4 fˈə2n lˈəːɜn ŋˈy͡ə2j t͡ʃˈɛ4 hˈi͡ɛ6n nˈaj.
-..\data\data_matchaTTS\voice14_0093.wav|mˈɛ6 ˈəːj, lˌaː2 lˈaːɜ tˈy tˈyɜ bˈaː kˌu͡ə4 t̪ˈə6p ɹˈe͡ɪdɪˌə͡ʊ ŋˈa2j hˈom nˈaj ɗˌe4 ɣˈy4j t̪ˌy2 kˌɔn ɣˈaːɜj kˌu͡ə4 mˈɛ6.
-..\data\data_matchaTTS\voice9_0003.wav|tˈy4 mˈaɜt̪ ɗˈə2w bˈa2ŋ ɲˌy5ŋ kˈə1w hˈɔ4j vˈi sˈaː
-..\data\data_matchaTTS\voice10_0009.wav|ɲˌy5ŋ kˌaːɜj ˈom t̪ˈy2ŋ xˈi͡ɛɜn t̪ˈim zˈuŋ ɗˈo6ŋ, zˈəː2 t͡ʃˈi4 kˌɔ2n lˌaː2 kˈiɜ ˈyɜc ɲˈyɜc ɲˈoɜj.
-..\data\data_matchaTTS\voice4_0000.wav|ŋˈa2j hˈom nˈaj kˌu͡ə4 kˈə6w tˈeɜ nˈaː2w?
-..\data\data_matchaTTS\voice7_0198.wav|kˈaː4m ˈəːn mˈɛ6.
-..\data\data_matchaTTS\voice13_0080.wav|t͡ʃˈuɜŋ t̪ˈaː kˈɔɜ tˈe4 t͡ʃˈe-ɜɲ nˈɔɜj sˈy6 tˈə6t̪ t͡ʃˈɔŋ lˌuɜc ɗˈɔɜ xˌoŋ?
-..\data\data_matchaTTS\voice20_0131.wav|xˌoŋ fˌaː4j vˌi2 mˈu͡əɜn ŋˈy͡ə2j xˈaːɜc ɲˈi2n tˈə͡ɪɜ mˈi2ɲ ɗˈɛ6p, mˌaː2 lˌaː2 vˌi2 lˌuɜc ɗˈɔɜ mˌɔ6j hˈe-2ɲ ɗˈo6ŋ sˌɛ5 ɲˈe-ɲ ɲˈɛ6n, xwˈɛ4 mˈe-6ɲ hˈəːn, hwˌa6c lˌaː2 kˈə6w mˈu͡əɜn mˈi2ɲ ɗˈə͡ɪ2 ɗˈa6n hˈəːn.
-..\data\data_matchaTTS\voice1_0043.wav|kˈə6w hˈɔ6k zˈəɜt̪ zˈɔ4j ɲˌyŋ lˈaː6j lˈu͡ən xˈi͡ɛm t̪ˈoɜn vˌəːɜj mˌɔ6j ŋˈy͡ə2j.
-..\data\data_matchaTTS\voive11_0034.wav|ɗˌe4 zˈo2j mˈu6c ɗˈiɜc ŋˈəː5 ɗˈɔɜ t͡ʃˈɔŋ kˈo ɗˈəːn mˌaː2 xˌoŋ hˈe2 ɲˈə6n zˈaː ɗˈɔɜ t͡ʃˈi4 lˌaː2 mˈo6t̪ ˈaː4w ˈe-4ɲ.
-..\data\data_matchaTTS\voice5_0107.wav|mˌaː2 xˌoŋ bˈi͡ɛɜt̪ t͡ʃˈiɜɲ sˈy6 t͡ʃˈoɜn t͡ʃˈe-ɜɲ ɗˈɔɜ ɗˌaː5 xˈi͡ɛɜn kˈə6w t̪ˈo4n tˈy͡əŋ ɲˈi͡ɛ2w ɗˌeɜn tˈeɜ nˈaː2w.
-..\data\data_matchaTTS\voice1_0137.wav|sˌɛ5 kˈɔɜ mˈo6t̪ ŋˈy͡ə2j xˈaːɜc ˈəː4 ɗˈɔɜ.
-..\data\data_matchaTTS\voice8_0068.wav|kˈu5ŋ ɲˌy xˈaːw xˈaːɜt̪ ɗˌy͡ə6c xˈaːɜm fˈaːɜ ɲˌy5ŋ ɗˈi͡ɛ2w mˈəːɜj mˈɛ4 lˈə4n xwˈəɜt̪.
-..\data\data_matchaTTS\voice14_0002.wav|xˌi ˈə͡ɪɜ, t͡ʃˈuɜŋ t̪ˈaː t͡ʃˌa4ŋ kˈə2n lˈiɜ zˈɔ zˈi2 ɗˌe4 ˈom mˈɛ6 tˈə6t̪ t͡ʃˈa6t̪.
-..\data\data_matchaTTS\voice14_0203.wav|sˈoɜŋ t͡ʃˌɔ kˈaː4 fˈə2n kˌu͡ə4 mˈɛ6 nˈy͡ə5.
-..\data\data_matchaTTS\voice19_0330.wav|mˈu͡ə2 nˈaː2w kˈu5ŋ vˈə͡ɪ6, tˈoj.
-..\data\data_matchaTTS\voive11_0083.wav|zˌu2 xˌoŋ fˌaː4j lˌaː2 ˈi͡ɛɜw t̪ˈoɜ kwˈi͡ɛɜt̪ ɗˈi6ɲ, ɲˌyŋ ɗˈə͡ɪ lˌaː2 nˈe2n t̪ˈaː4ŋ zˈuɜp hˈɔ6 zˈe5 fˈaːɜt̪ t͡ʃˈi͡ɛ4n ɲˈən kˈe-ɜc ˈaːɜj kˈi4 hˈəːn xˌi ɣˈa6p mˈoj t͡ʃˈy͡ə2ŋ bˈəɜt̪ lˈəː6j.
-..\data\data_matchaTTS\voice3_0189.wav|t̪ˈi2ɲ ˈi͡ɛw tˈə6t̪ sˈy6 xˌoŋ t͡ʃˈi4 zˈy2ŋ lˈaː6j ˈəː4 ɲˌy5ŋ kˈaː4m sˈuɜc bˈaːn ɗˈə2w,
-..\data\data_matchaTTS\voive11_0130.wav|vˌəːɜj ɲˌy5ŋ ŋˈy͡ə2j kˈɔɜ bˈi͡ɛ4w hˈi͡ɛ6n ˈaːɜj kˈi4 ˈəː4 mˈyɜc ɗˈo6 ɲˈɛ6
-..\data\data_matchaTTS\voice16_0198.wav|ɲˌyŋ kˈu5ŋ kˈɔɜ tˈe4 lˌaː2 vˌi2 tˈeɜ zˈəːɜj ɗˌaː5 t̪ˈy2ŋ lˈaː2m t̪ˈo4n tˈy͡əŋ kˈə6w ɗˌeɜn mˈyɜc xˌoŋ tˈe4 lˈəːɜn.
-..\data\data_matchaTTS\voice15_0031.wav|mˈi2ɲ ɗˌaː5 kwˈɛn vˌəːɜj vˈi͡ɛ6c zˈəɜw ɗˈi ɲˌy5ŋ zˈi2 mˈi2ɲ tˈy6c sˈy6 mˈu͡əɜn.
-..\data\data_matchaTTS\voice16_0027.wav|sˈaw ɗˈɔɜ ɗˈi tˈa4ŋ t̪ˌəːɜj bˈi2ɲ mˈiɲ. mˈo6t̪ hˈy͡əɜŋ zˈə5n mˈoŋ lˈuŋ.
-..\data\data_matchaTTS\voice9_0123.wav|zˈy͡ə5 lˈiɜ t͡ʃˈiɜ vˌaː2 kˈaː4m sˈuɜc, zˈy͡ə5 ˈy͡əɜc mˈəː vˌaː2 tˈy6c t̪ˈeɜ.
-..\data\data_matchaTTS\voice14_0150.wav|zˈo2j mˈɛ6 sˌɛ5 zˈə͡ɪ6, sˌɛ5 zˈə͡ɪ6 nˈəɜw bˈy͡ə5 sˈaːɜŋ t͡ʃˌɔ kˌɔn.
-..\data\data_matchaTTS\voice9_0224.wav|xˌoŋ t͡ʃˈi4 lˌaː2 zˈaːj ɗwˈaː6n t͡ʃwˈə4n bˌi6 vˈe2 mˈa6t̪ tˈe4 t͡ʃˈəɜt̪, mˌaː2 kˌɔ2n lˌaː2 kˈe-ɜɲ kˈy͡ə4 mˈəː4 zˈaː sˈy6 t͡ʃˈy͡ə4ŋ tˈe-2ɲ t͡ʃˈɔŋ t̪ˈəm hˈo2n.
-..\data\data_matchaTTS\voice19_0240.wav|t͡ʃˈi4 kˈə2n ɲˈi2n tˈə͡ɪɜ ɲˈaw,
-..\data\data_matchaTTS\voice15_0070.wav|kˈə6w ɲˈəːɜ ɲˌy5ŋ ɗˈi͡ɛ2w ɲˈɔ4 ɲˈa6t̪ vˈe2 t̪ˈəːɜ, kˈə6w bˈi͡ɛɜt̪ t̪ˈəːɜ tˈiɜc zˈi2, ɣˈɛɜt̪ zˈi2.
-..\data\data_matchaTTS\voice6_0130.wav|bˈi͡ɛɜn ɲˌy5ŋ sˈy6 hwˈaːŋ mˈaːŋ tˈe-2ɲ t̪ˈi͡ɛɜŋ kˈy͡ə2j ɗˌe4 zˈy5 bˈaː4n tˈən xˌoŋ bˌi6 ɣˈu6c ŋˈaː5.
-..\data\data_matchaTTS\voice8_0184.wav|vˌi2 sˈaːw kˌɔn xˌoŋ tˈe4 ɣˈa6p ɗˈuɜŋ ŋˈy͡ə2j?
-..\data\data_matchaTTS\voice14_0035.wav|mˈa6c t͡ʃˌɔ mˈɛ6 ɗˌaːŋ ɗˈun lˈen ˈəː4 ŋwˈaː2j vˌi2 lˈe-6ɲ.
-..\data\data_matchaTTS\voice14_0063.wav|ɲˌyŋ vˌi2 ɲˈi͡ɛ2w lˈiɜ zˈɔ vˌaː2 mˈo6t̪ vˈaː2j sˈy6 kˈoɜ mˌaː2 mˈɛ6 ɗˌaː5 mˈaːŋ tˈaːj mˈi2ɲ sˈaw xˌi ɣˈa6p bˈaː,
-..\data\data_matchaTTS\voice8_0234.wav|lˌaː2 kˈaː4m tˈə͡ɪɜ t̪ˈaː tˈy6c sˈy6 kwˈiɜ zˈaːɜ.
-..\data\data_matchaTTS\voice17_0120.wav|ɲˌy5ŋ lˈaːɜ tˈy vˈi͡ɛɜt̪ vˈo6j nˈəːj t͡ʃˈi͡ɛɜn t͡ʃˈy͡ə2ŋ
-..\data\data_matchaTTS\voice16_0031.wav|ɲˌyŋ hˈa5j bˈaɜt̪ hˈɔ6 kˈoɜ ɣˈaɜŋ vˈɛ5 bˈaː4n ɗˈo2 t̪ˈəm t͡ʃˈiɜ kˌu͡ə4 mˈo6t̪ ɗˈy͡əɜ t͡ʃˈɛ4.
-..\data\data_matchaTTS\voice12_0182.wav|xˌoŋ kˈɔɜ t̪ˈi2ɲ kˈaː4m ɲˌy kˈə6w t̪ˈy2ŋ nˈɔɜj.
-..\data\data_matchaTTS\voice20_0065.wav|t̪ˈaː6j sˈaːw xˌi kˈo ɗˌaː5 kˈoɜ ɣˈaɜŋ t͡ʃˈəː4 nˌen swˈəɜt̪ sˈaɜc hˈəːn,
-..\data\data_matchaTTS\voice13_0122.wav|bˌəː4j vˈə͡ɪ6, ɗˈi͡ɛ2w ɗˈɔɜ kˌɔ2n fˈu6 tˈu͡ə6c vˈaː2w ŋˈy͡ə2j nˈɔɜj zˈoɜj vˌaː2 ŋˈy͡ə2j t̪ˈi͡ɛɜp ɲˈə6n lˈəː2j nˈɔɜj zˈoɜj ɗˈɔɜ.
-..\data\data_matchaTTS\voice13_0066.wav|t̪ˈəɜt̪ kˈaː4 ɲˌy5ŋ hˈi2ɲ tˈyɜc nˈa2j ɗˈe2w fˈaː4n ˈe-ɜɲ ɲˈu kˈə2w sˈə1w sˈaː t͡ʃˈɔŋ t̪ˈəm lˈiɜ kˌɔn ŋˈy͡ə2j.
-..\data\data_matchaTTS\voice6_0070.wav|xˌi kˌɔn ŋˈy͡ə2j xˌoŋ tˈe4 tˈaj ɗˈo4j ɗˌy͡ə6c hˈi͡ɛ6n tˈy6c, kˈəː t͡ʃˈeɜ fˈɔ2ŋ vˈe6 sˌɛ5 ɗˌy͡ə6c kˈiɜc hwˈaː6t̪.
-..\data\data_matchaTTS\voice14_0006.wav|t̪ˈy6 ɲˈi͡ɛn ɲˌy tˈe4 nˈɔɜ lˈu͡ən sˈa5n kˈɔɜ t͡ʃˈɔŋ t̪ˈim vˌaː2 t͡ʃˈy6c t͡ʃˈəː2j t͡ʃˈen mˈoj kˌu͡ə4 mˌo5j ɗˈy͡əɜ t͡ʃˈɛ4.
-..\data\data_matchaTTS\voice13_0194.wav|xˌoŋ kˈə2n fˌaː4j kˈe4 hˈeɜt̪, xˌoŋ kˈə2n fˌaː4j sˈoɜŋ t͡ʃˈə2n t͡ʃˈu6j.
-..\data\data_matchaTTS\voice16_0115.wav|lˈu͡ən mˈi͡ɛ6ŋ nˈɔɜj vˈe2 t̪ˈu͡ə4j tˈəː ɗˈə͡ɪ2 ɗˈaw tˈy͡əŋ,
-..\data\data_matchaTTS\voice13_0062.wav|ɗˌe4 mˈu͡ə sˈe-ɜc t͡ʃˌɔ pɪnˈɒkɪˌə͡ʊ ɗˈi hˈɔ6k.
-..\data\data_matchaTTS\voice12_0163.wav|kˈə6w bˈaː4w xˌoŋ, ˈi͡ɛw mˈo6t̪ ˈɛm bˈɛɜ tˈoj.
-..\data\data_matchaTTS\voice19_0311.wav|ɲˌyŋ kˈə6w ˈəːj,
-..\data\data_matchaTTS\voice4_0090.wav|kˈɔɜ lˈɛ5 sˈy6 xˈaːɜc bˈi͡ɛ6t̪ xˌoŋ nˈa2m ˈəː4 kˈeɜt̪ kwˈaː4 mˌaː2 nˈa2m ˈəː4 hˈe-2ɲ t͡ʃˈi2ɲ,
-..\data\data_matchaTTS\voice2_0137.wav|t͡ʃˈuɜŋ t̪ˈaː kˈɔɜ tˈe4 bˈy͡əɜc tˈem mˈo6t̪ bˈy͡əɜc vˈe2 fˈi͡əɜ kˌu͡ə4 sˈy6 tˈəɜw hˈi͡ɛ4w vˌaː2 lˈɔ2ŋ kˈaː4m tˈoŋ,
-..\data\data_matchaTTS\voice4_0173.wav|vˌaː2 ɗˈɔɜ lˌaː2 sˈoɜ pˈɒdkast lˈə2n nˈa2j.
-..\data\data_matchaTTS\voice1_0220.wav|mˈi2ɲ sˌɛ5 ɲˈəːɜ mˈaː5j mˈoɜj t̪ˈi2ɲ nˈa2j.
-..\data\data_matchaTTS\voice5_0011.wav|ɲˌy5ŋ ˈi͡ɛw tˈy͡əŋ t͡ʃˌy͡ə ɗˌy͡ə6c kˈəɜt̪ tˈe-2ɲ lˈəː2j vˌaː2 kˈaː4 ɲˌy5ŋ zˈuŋ ɗˈo6ŋ vˌə5n kˌɔ2n xˈaɜc xˈɔ4j t͡ʃˈəː2 ɗˈəː6j mˈo6t̪ kˌaːɜj t̪ˈen.
-..\data\data_matchaTTS\voice14_0255.wav|t͡ʃˈuɜŋ t̪ˈaː zˈe5 zˈaː2ŋ zˈe-2ɲ ɲˌy5ŋ lˈəː2j zˈi6w zˈaː2ŋ t͡ʃˌɔ ŋˈy͡ə2j ŋwˈaː2j.
-..\data\data_matchaTTS\voice9_0081.wav|tˌi2 sˈyɜc xwˈɛ4 sˈiɲ sˈaː4n ɗˌaː5 xˌoŋ kˌɔ2n ɲˌy sˈy͡ə.
-..\data\data_matchaTTS\voice6_0065.wav|vˌəːɜj d͡ʒˈɛn zˈɛɜt, t̪ˈi͡ɛɜŋ kˈy͡ə2j ɗˈoj xˌi xˌoŋ t͡ʃˈi4 lˌaː2 bˈi͡ɛ4w hˈi͡ɛ6n kˌu͡ə4 nˈi͡ɛ2m vˈuj.
-..\data\data_matchaTTS\voice16_0142.wav|vˌaː2 zˈo2j xˌi ɗˌeɜn t̪ˈu͡ə4j t͡ʃˈy͡ə4ŋ tˈe-2ɲ,
-..\data\data_matchaTTS\voice15_0171.wav|kˈə6w ˈəːj, hˈa5j ɗˌe4 t̪ˈəːɜ ɗˌy͡ə6c ɣˈɔɜp mˈo6t̪ fˈə2n t͡ʃˈɔŋ kˈu͡ə6c sˈoɜŋ kˌu͡ə4 kˈə6w.
-..\data\data_matchaTTS\voice9_0055.wav|ɲˌyŋ tˈi͡ɛɜt̪ ŋˈi5, sˈə͡ɪ zˈy6ŋ kwˈaːn ɗˈi͡ɛ4m vˈy5ŋ vˈaː2ŋ ŋˈaj t̪ˌy2 bˈə͡ɪ zˈəː2.
-..\data\data_matchaTTS\voice18_0135.wav|mˌo5j lˈə2n kˈə6w mˈi4m kˈy͡ə2j vˌəːɜj mˈo6t̪ ŋˈy͡ə2j, ɗˈɔɜ lˌaː2 hˈe-2ɲ ɗˈo6ŋ kˌu͡ə4 t̪ˈi2ɲ ˈi͡ɛw.
-..\data\data_matchaTTS\voice19_0034.wav|kˈoɜ lˈe-ɜc mˈi2ɲ kwˈaː ɲˌy5ŋ kˈəːn mˈo6ŋ mˈi6,
-..\data\data_matchaTTS\voice2_0072.wav|kˌɔ2n bˈen kˈi͡ə lˌaː2 kˈe-ɜɲ ɗˈo2ŋ hwˈaː2 zˈy6c zˈəː5, ɲˌy5ŋ bˈə2w t͡ʃˈəː2j swˈaɜj kˈu͡ə6n, kˈu2ŋ lˈaː2n sˈɔɜŋ ˈe-ɜɲ sˈaːɜŋ t͡ʃˈi4 mˈi2ɲ xˌoŋ ɲˈi2n tˈə͡ɪɜ.
-..\data\data_matchaTTS\voice14_0191.wav|kˈe-ɜɲ hwˈaː t̪ˈy͡əj tˈaɜm, kˈɔɜ bˈoŋ hwˈaː mˈɛ6 tˈiɜc ɲˈəɜt̪.
-..\data\data_matchaTTS\voice3_0090.wav|mˈo hˈi2ɲ fˈe͡ɪsɪz nˈa2j xˌoŋ fˌaː4j lˌaː2 mˈo6t̪ kˈoŋ tˈyɜc kˈyɜŋ ɲˈəɜt̪,
-..\data\data_matchaTTS\voice4_0092.wav|vˌaː2 ɗˌaː5 t͡ʃˈɔ6n kˈe-ɜc kˈe4 lˈaː6j kˈə1w t͡ʃwˈi͡ɛ6n kˌu͡ə4 mˈi2ɲ bˈa2ŋ mˈa2w sˈaɜc vˌaː2 ɗˈy͡ə2ŋ nˈɛɜt̪.
-..\data\data_matchaTTS\voice10_0103.wav|xˌi kˈə6w hˈɔ4j vˈe2 mˈoɜj kwˈaːn hˈe6 kˌu͡ə4 bˈɔ6n mˈi2ɲ, mˈi2ɲ ɗˌaː5 t͡ʃˈə2m ŋˈəm mˈo6t̪ lˌuɜc lˈə1w vˌaː2 zˈo2j mˈi2ɲ nˈɔɜj :
-..\data\data_matchaTTS\voice20_0113.wav|xˌoŋ fˌaː4j t̪ˈo6j t͡ʃˈɔŋ t̪ˈo6j lˈo5j mˌaː2 lˌaː2 t̪ˈo6j t͡ʃˈɔŋ t̪ˈo6j ŋˈi͡ɛ6p. ŋwˈaː6j hˈi2ɲ kˌu͡ə4 mˈi2ɲ, mˈi2ɲ xˌoŋ kwˈi͡ɛɜt̪ ɗˈi6ɲ ɗˌy͡ə6c.
-..\data\data_matchaTTS\voice16_0088.wav|ɗˈɔɜ lˌaː2 t͡ʃˈoɜn ɗˌeɜn kˌu͡ə4 ɲˌy5ŋ ɗˈy͡əɜ t͡ʃˈɛ4 bˌi6 lˈaː5ŋ kwˈen, ɲˌy5ŋ ɗˈy͡əɜ bˈɛɜ xˌoŋ ˈaːj t̪ˈi2m.
-..\data\data_matchaTTS\voice10_0171.wav|bˌəː4j vˌi2 t̪wˈaː2 tˈe-2ɲ xˌoŋ tˈe4 nˈaː2w sˈu6p ɗˈo4 nˌeɜw ɲˌy t͡ʃˈi4 kˈɔɜ mˈo6t̪ vˈeɜt̪ nˈyɜt̪ ˈəː4 t͡ʃˈen t̪ˈy͡ə2ŋ.
-..\data\data_matchaTTS\voice5_0137.wav|kˈaː4m ˈəːn kˈə6w vˌi2 ɗˌaː5 lˌaː2 tˈe-ɲ swˈən kˌu͡ə4 t̪ˈəːɜ.
-..\data\data_matchaTTS\voice3_0154.wav|bˌəː4j vˌi2 kˈɔɜ lˈɛ5 sˈə1w tˈa4m bˈen t͡ʃˈɔŋ, kˈɔɜ mˈo6t̪ xˈaːɜt̪ xˈaːw lˈəːɜn lˈaːw hˈəːn ɲˈi͡ɛ2w, vˌə5n lˈu͡ən hˈi͡ɛ6n hˈi5w.
-..\data\data_matchaTTS\voice5_0098.wav|t̪ˈəːɜ ŋˈi5 nˌeɜw mˈi2ɲ t̪ˌy2 t͡ʃˈoɜj tˌi2 sˌɛ5 zˈy5 ɗˌy͡ə6c kˈə6w ˈəː4 lˈaː6j.
-..\data\data_matchaTTS\voice12_0221.wav|kˈu5ŋ xˌoŋ fˌaː4j lˌaː2 tˈyɜ ɗˌe4 t͡ʃˈuɜŋ t̪ˈaː t̪ˈi2m ɗˌeɜn mˌo5j xˌi tˈə͡ɪɜ t͡ʃˈaːɜn.
-..\data\data_matchaTTS\voice3_0060.wav|ɲˌyŋ ŋˈy͡ə2j ˈə͡ɪɜ lˈaː6j t͡ʃˈən t͡ʃˈɔ6ŋ kˈaː4 ɲˌy5ŋ ɗˈi͡ɛ2w t͡ʃˌy͡ə hwˈaː2n hˈaː4w ˈə͡ɪɜ,
-..\data\data_matchaTTS\voice9_0147.wav|ˈəː4 ɲˈi͡ɛ2w kˈu͡əɜc zˈaː, kˌaːɜc t͡ʃˈiɜɲ sˈe-ɜc hˈo5 t͡ʃˈəː6 sˈiɲ sˈaː4n.
-..\data\data_matchaTTS\voice5_0237.wav|"vˌi2 ɗˌaː5 t͡ʃˈon vˈu2j t̪ˈi2ɲ kˈaː4m ˈə͡ɪɜ zˈy͡əɜj ɣˈoɜk kˈə͡ɪ mˈaːŋ t̪ˈen "" tˈe-ɲ swˈən "","
-..\data\data_matchaTTS\voice18_0021.wav|t̪ˌy2 xˌi nˈaː2w, kˌɔn ŋˈy͡ə2j bˈaɜt̪ ɗˈə2w kˈy͡ə2j, zˌu2 lˌuɜc ɗˈɔɜ hˈɔ6 t͡ʃˌa4ŋ hˈe2 vˈuj.
-..\data\data_matchaTTS\voice7_0073.wav|ɗˈi2ɲ zˈaː t͡ʃˈɔŋ tˈəː2j bˈi2ɲ.
-..\data\data_matchaTTS\voice14_0196.wav|t̪ˈoj bˈi͡ɛɜt̪ zˈa2ŋ mˈɛ6 t̪ˈoj fˌaː4j ɗˈi.
-..\data\data_matchaTTS\voice4_0091.wav|hˈe-2ɲ t͡ʃˈi2ɲ kˌu͡ə4 mˈo6t̪ t̪ˈəm hˈo2n ɗˌaː5 sˈoɜŋ, ɗˌaː5 ˈi͡ɛw, ɗˌaː5 ɗˈaw.
-..\data\data_matchaTTS\voice6_0094.wav|mˌaː2 kˈɔɜ vˈaːj t͡ʃˈɔ2 zwˈi t͡ʃˈi2 ɗˈo6ŋ lˈy6c ɗˌe4 lˈaː2m vˈi͡ɛ6c t̪ˈoɜt̪ hˈəːn.
-..\data\data_matchaTTS\voice16_0023.wav|vˌi2 sˈaːw pˈiːtə pˈaːn xˌoŋ lˈəːɜn lˈen?
-..\data\data_matchaTTS\voice19_0297.wav|mˈa6c ɲˈi͡ɛn kˈyɜ hˈeɜt̪ mˈi2ɲ sˈe-ɲ.
-..\data\data_matchaTTS\voice13_0142.wav|sˈy6 t͡ʃˈy͡ə4ŋ tˈe-2ɲ xˌoŋ t͡ʃˈi4 ɗˌeɜn t̪ˌy2 t̪ˈu͡ə4j t̪ˈaːɜc,
-..\data\data_matchaTTS\voice17_0247.wav|ɗˌaː5 t͡ʃˈəː4 tˈe-2ɲ nˈo5j ˈaːɜm ˈe-4ɲ ˈəm tˈə2m hˈa4n sˈə1w t͡ʃˈɔŋ t͡ʃˈaːɜj t̪ˈim sˈu͡əɜt̪ fˈə2n ɗˈəː2j kˌɔ2n lˈaː6j sˈaw t͡ʃˈi͡ɛɜn t͡ʃˈe-ɲ.
-..\data\data_matchaTTS\voice19_0075.wav|xˌoŋ bˈaː2j t̪ˈi͡ɛɜt̪ t͡ʃˈəɜt̪ tˈaː4j.
-..\data\data_matchaTTS\voice2_0076.wav|ɲˌy tˈe4 ɗˈə2w ˈɔɜk bˌi6 ɲˈəɜn t͡ʃˈi2m t͡ʃˈɔŋ mˈo6t̪ kˈəːn lˈəːɜp swˈi t̪ˈy.
-..\data\data_matchaTTS\voice17_0127.wav|mˈɔŋ ˈy͡əɜc ɗˌy͡ə6c mˈo6t̪ lˈə2n ɣˈa6p lˈaː6j ŋˈy͡ə2j tˈən,
-..\data\data_matchaTTS\voice13_0013.wav|t͡ʃˈɔŋ lˌuɜc ɗˈɔɜ, kˈəː tˈe4 kˌu͡ə4 t̪ˈi2ɲ ŋwˈi͡ɛ6n vˈi͡ɛn sˌɛ5 ɗˌy͡ə6c mˈaɜj kwˈɛɜt̪ hˈo2ŋ ŋwˈaː6j t͡ʃˈam sˈɔɜk t̪ˈi4 mˈi4.
-..\data\data_matchaTTS\voice8_0118.wav|bˈaːw ɣˈo2m ɲˌy5ŋ kˈaː4m zˈaːɜc xˈi͡ɛɜn t͡ʃˈuɜŋ t̪ˈaː kwˈi͡ɛɜt̪ t̪ˈəm ˈəː4 bˈen kˈe-6ɲ ŋˈy͡ə2j ˈə͡ɪɜ,
-..\data\data_matchaTTS\voice5_0052.wav|zˈo2j, ˈe-ɲ t̪ˈaː zˈy2ŋ lˈaː6j mˈo6t̪ zˈə͡ɪ lˈə1w hˈəːn bˈi2ɲ tˈy͡ə2ŋ.
-..\data\data_matchaTTS\voice6_0178.wav|kˈɔɜ tˈe4 t͡ʃˈəː4 tˈe-2ɲ sˈy6 tˈi͡ɛɜw t͡ʃwˈi͡ɛn ŋˈi͡ɛ6p t͡ʃˈɔŋ mˈoj t͡ʃˈy͡ə2ŋ kˈoŋ sˈəː4,
-..\data\data_matchaTTS\voice4_0037.wav|vˌəːɜj xˈaː4 nˈaŋ sˈy4 lˈiɜ zˈy5 lˈi͡ɛ6w xˈo4ŋ lˈo2 vˌaː2 fˈaːɜt̪ tˈaː4w hˈaː2ŋ t͡ʃˈam fˈy͡əŋ ˈaːɜn t͡ʃˈɔŋ t̪ˈə2m t̪ˈaj,
-..\data\data_matchaTTS\voice15_0177.wav|vˌi2 kˈə6w sˈyɜŋ ɗˈaːɜŋ ɗˌy͡ə6c ˈi͡ɛw tˈy͡əŋ.
-..\data\data_matchaTTS\voice5_0253.wav|xˌi ɲˈəːɜ vˈe2 tˈəː2j ˈaːɜw t͡ʃˈaɜŋ,
-..\data\data_matchaTTS\voice16_0067.wav|mˌaː2 lˌaː2 bˌəː4j vˌi2 t͡ʃˈiɜɲ bˈaː4n tˈən kˈə6w sˈəː6 ɗˈi͡ɛ2w ɗˈɔɜ.
-..\data\data_matchaTTS\voice9_0118.wav|vˌaː2 xˌi ˈə͡ɪɜ, xˌoŋ ˈiɜt̪ ŋˈy͡ə2j kˈaː4m tˈə͡ɪɜ kˈo ɗˈo6k, kˈi6p tˈəː2j, bˈəɜt̪ lˈy6c.
-..\data\data_matchaTTS\voice4_0002.wav|zˈy͡ə6 t͡ʃˈen fˈy͡əŋ fˈaːɜp fˈɜːst pɹˈɪnsɪpə͡l θˈɪŋkɪŋ t̪ˌy2 zwˈi ŋwˈi͡ɛn bˈaː4n.
-..\data\data_matchaTTS\voice18_0085.wav|xˌi kˈaː4 kˈo6ŋ ɗˈo2ŋ ɗˌaːŋ kˈə2w mˈɔŋ t͡ʃˌɔ ɲˌy5ŋ ŋˈy͡ə2j zˈən ˈəː4 ɗˈɔɜ ɗˌy͡ə6c bˈaː4w t̪wˈaː2n t̪ˈiɜɲ mˈaː6ŋ, vˈy͡ə6t̪ kwˈaː ɗˌy͡ə6c kˈəːn hwˈaː4 hwˈaː6n tˌi2 vˌə5n kˈɔɜ mˈo6t̪ sˈoɜ kˈaːɜ ɲˈən bˈu͡əŋ ɲˌy5ŋ lˈəː2j zˈɛ2m fˈaː bˈi2ɲ lwˈə6n ɲˌy lˌaː2 :
-..\data\data_matchaTTS\voice9_0156.wav|xˌi hˈɔ6 ɗˈɔ2j hˈɔ4j mˈo6t̪ sˈy6 ˈo4n ɗˈi6ɲ t͡ʃˈy͡əɜc xˌi zˈəɜn tˈən,
-..\data\data_matchaTTS\voice14_0248.wav|mˈɛ6 fˌaː4j hˈɔ6k kˈe-ɜc kˈi͡ɛn kˈy͡ə2ŋ.
-..\data\data_matchaTTS\voice6_0122.wav|t͡ʃˈu4 ɗˈo6ŋ t̪ˈi͡ɛɜp tˈu, fˈaː4n hˈo2j vˌaː2 xˌoŋ ŋˈaː6j hˈɔ6k hˈɔ4j.
-..\data\data_matchaTTS\voice8_0062.wav|nˈɔɜj xˌoŋ t͡ʃˈy2ŋ ŋˈy͡ə2j mˌaː2 kˈə6w tˈiɜc kˈu5ŋ t͡ʃˈi4 lˌaː2 t̪ˈəːɜ mˌaː2 kˈə6w t̪ˈy͡ə4ŋ t̪ˈy͡ə6ŋ zˈaː.
-..\data\data_matchaTTS\voive11_0179.wav|mˈi2ɲ vˌə5n lˌaː2 mˈo6t̪ kˌɔn ŋˈy͡ə2j ɗˈo6k lˈə6p.
-..\data\data_matchaTTS\voice20_0091.wav|ɲˌy t͡ʃˈɔŋ kˈə1w nˈɔɜj, hˈi5w sˈaː6 t̪ˈy6 ɲˈi͡ɛn hˈy͡əŋ, tˈoj xˌoŋ sˈaːw ɗˈə1w.
-..\data\data_matchaTTS\voice1_0065.wav|kˈə6w kˈu5ŋ lˌaː2 mˈo6t̪ ŋˈu͡ə2n ɗˈo6ŋ lˈy6c zˈəɜt̪ lˈəːɜn zˈuɜp mˈi2ɲ kˈɔɜ tˈe4 kˈoɜ ɣˈaɜŋ t̪ˈy2ŋ ŋˈa2j ɗˌe4 bˈaː4n tˈən t̪ˈoɜt̪ hˈəːn.
-..\data\data_matchaTTS\voice19_0087.wav|ɗˈoŋ ɣˈaɜn lˈi͡ɛ2n vˌəːɜj kˈə͡ɪ zˈaː2.
-..\data\data_matchaTTS\voice19_0288.wav|ɲˌyŋ nˈɔɜ xˌoŋ fˌaː4j lˌaː2 zˈəɜw t͡ʃˈəɜm hˈeɜt̪ kˌu͡ə4 kˈu͡ə6c ɗˈəː2j mˌo5j ŋˈy͡ə2j.
-..\data\data_matchaTTS\voice1_0262.wav|xˌi ŋˈa2j ɗˈɔɜ ɗˌeɜn, mˈɔŋ zˈa2ŋ kˈə6w kˈɔɜ tˈe4 t͡ʃˈaːw t͡ʃˌɔ hˈɔ6.
-..\data\data_matchaTTS\voice6_0188.wav|xˌoŋ lˈaː2m lˈu mˈəː2 ɗˈi zˈaːɜ t͡ʃˈi6 kˌu͡ə4 bˈaː4n tˈən,
-..\data\data_matchaTTS\voice4_0126.wav|xˌi mˈaɜj ˈe-4ɲ zˈaː ɗˈəː2j vˈaː2w tˈeɜ kˈi4 mˈy͡ə2j t͡ʃˈiɜn, ŋˈy͡ə2j t̪ˈaː kˈu5ŋ ɗˌaː5 t̪ˈy2ŋ hwˈaː4ŋ sˈəː6 zˈa2ŋ hˈo6j hˈoaː6 sˌɛ5 t͡ʃˈeɜt̪.
-..\data\data_matchaTTS\voice9_0096.wav|tˈoŋ kwˈaː kwˈaːɜ t͡ʃˈi2ɲ nˈu͡əj kˌɔn,
-..\data\data_matchaTTS\voice18_0092.wav|hˈo6j t͡ʃˈyɜŋ t͡ʃˈə2m kˈaː4m kˈy͡ə2j kˈu5ŋ zˈoɜŋ ɲˌy mˈo6t̪ hˈo2j t͡ʃˈu͡əŋ kˈe-4ɲ bˈaːɜw, nˈɔɜ lˌaː2 lˈəː2j ɲˈaɜc ɲˈəː4, lˌaː2 lˈəː2j kˈe1w ɣˈɔ6j t̪ˌy2 sˈiɲ mˈaː6ŋ.
-..\data\data_matchaTTS\voice3_0082.wav|mˈu6c t̪ˈi͡ɛw kˈu͡ə6c sˈoɜŋ, kˈe-ɜc zˈaː4j kwˈi͡ɛɜt̪ sˈuŋ ɗˈo6t̪ vˌaː2 kwˈaːn ɗˈi͡ɛ4m vˈe2 t̪ˈy͡əŋ lˈaːj.
-..\data\data_matchaTTS\voice14_0179.wav|ɲˌy5ŋ kˈi4 nˈi͡ɛ6m vˈe2 mˈɛ6 t͡ʃˈɔŋ t̪ˈoj hˈi͡ɛ6n lˈen ŋˈa2j mˈo6t̪ ɲˈi͡ɛ2w.
-..\data\data_matchaTTS\voice6_0184.wav|tˈə6m t͡ʃˈiɜ lˌaː2 sˈuɜc fˈaː6m vˌaː2 lˈaː2m t̪ˈo4n tˈy͡əŋ ŋˈy͡ə2j xˈaːɜc.
-..\data\data_matchaTTS\voice17_0208.wav|ɣˈy4j t̪ˌəːɜj ŋˈy͡ə2j tˈy͡əŋ lˌaː2 t͡ʃˈi͡ɛɜn sˈi5 hˈy͡əŋ tˈeɜ hˈyŋ,
-..\data\data_matchaTTS\voice13_0027.wav|sˈɔŋ kˈaː2ŋ swˈi ŋˈə5m t̪ˈaː kˈaː2ŋ ɲˈə6n zˈaː nˈɔɜ ˈə4n t͡ʃˈy͡əɜ mˈo6t̪ t̪ˈə2ŋ ˈiɜ ŋˈi͡ə5 sˈə1w sˈaː.
-..\data\data_matchaTTS\voice20_0019.wav|kˈe4 zˈaː ŋˈɛ ɲˌy vˈə͡ɪ6 tˌi2 vˌə5n kˌɔ2n ˈi nˈo4n t͡ʃˈaːɜn.
-..\data\data_matchaTTS\voice3_0139.wav|ɲˌy vˈə͡ɪ6, ŋˈy͡ə2j t̪ˈaː sˌɛ5 t͡ʃˌa4ŋ ɲˈə6n zˈaː nˌeɜw kˈəː tˈe4 kˌu͡ə4 t̪ˈaː t͡ʃˈɔŋ ɗˈem bˌi6 tˈaj tˈeɜ bˌəː4j ŋˈy͡ə2j xˈaːɜc.
-..\data\data_matchaTTS\voice18_0005.wav|nˈu6 kˈy͡ə2j lˌaː2 lwˈaː6j fˈaː4n ˈyɜŋ hˈe-2ɲ vˈi ˈəː4 kˌɔn ŋˈy͡ə2j, ɗˈɔɜŋ vˈaːj t͡ʃˈɔ2 ɲˌy mˈo6t̪ t̪ˈiɜn hˈi͡ɛ6w t̪ˈoɜt̪ vˌəːɜj ɗˈo2ŋ lwˈaː6j, t̪ˈaː6w sˈy6 lˈi͡ɛn kˈeɜt̪ vˌaː2 zˈuɜp t͡ʃˈuɜŋ t̪ˈaː sˈiɲ t̪ˈo2n.
-..\data\data_matchaTTS\voice14_0226.wav|kˌɔn bˈi͡ɛɜt̪ mˈɛ6 kˈu5ŋ ɲˈəːɜ kˌɔn ɲˈi͡ɛ2w lˈaɜm.
-..\data\data_matchaTTS\voice13_0193.wav|lˈy͡ə6 t͡ʃˈɔ6n t͡ʃˈuŋ tˈy6c t͡ʃˈəː4 nˌen kwˈiɜ zˈaːɜ hˈəːn bˈaːw zˈəː2 hˈeɜt̪,
-..\data\data_matchaTTS\voice12_0186.wav|ɲˌyŋ kˈɔɜ lˈɛ5 t̪ˈəːɜ t͡ʃˌy͡ə ɗˈu4 t̪ˈoɜt̪ ɗˌe4 kˈə6w tˈə6t̪ sˈy6 ˈi͡ɛw tˈy͡əŋ.
-..\data\data_matchaTTS\voice13_0190.wav|vˌaː2 kˈe-ɜc t̪ˈaː ɲˈi2n t͡ʃˈiɜɲ bˈaː4n tˈən mˈi2ɲ.
-..\data\data_matchaTTS\voice1_0053.wav|ɲˌyŋ kˈɔɜ lˈɛ5 t͡ʃˈɔŋ t̪ˈim kˈə6w t͡ʃˈəɜt̪ t͡ʃˈy͡əɜ ɲˌy5ŋ kˈaː4m sˈuɜc t̪ˈi͡ɛw kˈy6c mˌaː2 xˌoŋ tˈe4 nˈɔɜj zˈaː.
-..\data\data_matchaTTS\voice1_0217.wav|kˈə6w ɗˌaː5 ɗˌeɜn vˌaː2 sˈy͡ə4j ˈəɜm lˈɔ2ŋ mˈi2ɲ.
-..\data\data_matchaTTS\voice17_0162.wav|tˈə͡ɪɜ zˈaː6c ɗˈe-ɜɲ ɲˈi͡ɛ2w hˈəːn zˈaː6w t͡ʃˈy͡əɜc,
-..\data\data_matchaTTS\voice9_0015.wav|ɗˈy͡əɜ ɲˈɔ4 ɣˈaː2w xˈɔɜk ɗˌeɜn lˈaː6c zˈɔ6ŋ.
-..\data\data_matchaTTS\voice2_0129.wav|kˈu5ŋ xˌoŋ fˌaː4j ɗˈi͡ɛ2w kˈɔɜ tˈe4 sˈɛm ɲˈɛ6 hˈaj kˈɔɜ tˈe4 hˈi vˈɔ6ŋ nˈɔɜ t̪ˈy6 kwˈaː ɗˈi.
-..\data\data_matchaTTS\voice4_0016.wav|xˈəːj lˈaː6j kˈu͡ə6c t͡ʃˈe-ɲ lwˈə6n vˈe2 zˈe-ɲ zˈəːɜj kˌu͡ə4 sˈy6 sˈaːɜŋ t̪ˈaː6w vˌaː2 ɗˈaː6w ɗˈyɜc xˌi sˈy4 zˈu6ŋ ˌaːˈi t͡ʃˈɔŋ ŋˈe6 twˈə6t̪.
-..\data\data_matchaTTS\voice12_0001.wav|bˈaː2n t̪ˈaj ˈə͡ɪɜ, t̪ˈaː ɗˌaː5 t̪ˈy2ŋ nˈaɜm xˌoŋ bˈi͡ɛɜt̪ bˈaːw ɲˈi͡ɛw lˈə2n.
-..\data\data_matchaTTS\voice6_0033.wav|t̪ˌy2 kˈəː2t̪ ɲˈaː2 vˈoɜn ɗˌy͡ə6c ɗˈi6ɲ ŋˈi͡ə5 lˌaː2 mˈaːŋ hˈaː2m ˈiɜ, ɗˈu͡ə2 zˈəː5n, t͡ʃˈɔ6k kˈy͡ə2j, t͡ʃˈəm bˈi͡ɛɜm t͡ʃˈy͡əɜc ɲˌy5ŋ vˈəɜn ɗˈe2 ŋˈi͡ɛm t͡ʃˈɔ6ŋ.
-..\data\data_matchaTTS\voice8_0050.wav|zˈaːɜ mˌaː2 kˈo ˈə͡ɪɜ lˌaː2 ŋˈy͡ə2j ˈi͡ɛw kˌu͡ə4 mˈi2ɲ tˌi2 t̪ˈoɜt̪ ɲˈi4.
-..\data\data_matchaTTS\voice2_0141.wav|kˈy͡əɜj mˈəː4 vˌaː2 sˈɛɜ t͡ʃˈi͡ə t̪ˌy2 kˈaː4 mˈo6t̪ kˈo6ŋ ɗˈo2ŋ.
-..\data\data_matchaTTS\voice16_0138.wav|nˈəːj t̪ˈi2ɲ ˈi͡ɛw ɗˌy͡ə6c t͡ʃˈaːw ɗˈo4j bˈa2ŋ ɗˈi͡ɛ2w kˈi͡ɛ6n,
-..\data\data_matchaTTS\voice9_0069.wav|hˈɔ6 t̪ˈy2ŋ mˈəː vˈe2 mˈo6t̪ zˈaː ɗˈi2ɲ ˈəɜm ˈaːɜp vˌəːɜj t̪ˈi͡ɛɜŋ kˈy͡ə2j kˌɔn t͡ʃˈɛ4,
-..\data\data_matchaTTS\voice4_0129.wav|ɲˌyŋ xˌoŋ, hˈo6j hˈoaː6 xˌoŋ t͡ʃˈeɜt̪, nˈɔɜ t͡ʃˈi4 t͡ʃwˈi͡ɛ2n mˈi2ɲ.
-..\data\data_matchaTTS\voice19_0294.wav|kˈeɜt̪ tˈuɜc kˈu͡ə6c ɗˈəː2j,
-..\data\data_matchaTTS\voice3_0102.wav|tˈə6m t͡ʃˈiɜ vˈɔ2 ɗˈə2w bˈyɜt̪ t̪ˈaːj, xˌoŋ bˈi͡ɛɜt̪ fˌaː4j t͡ʃˈaː4 lˈəː2j ɲˌy tˈeɜ nˈaː2w.
-..\data\data_matchaTTS\voice1_0259.wav|tˌi2 hˈa5j t̪ˈi͡ɛɜp t̪ˈu6c zˈy5 zˈi2n nˈi͡ɛ2m t̪ˈin ˈə͡ɪɜ.
-..\data\data_matchaTTS\voice7_0202.wav|kˈə6w tˈən mˈeɜn, kˌɔn sˌɛ5 t͡ʃˈy͡ə4ŋ tˈe-2ɲ.
-..\data\data_matchaTTS\voice5_0138.wav|zˌu2 t͡ʃˈuɜŋ t̪ˈaː xˌoŋ tˈe4 kˈu2ŋ ɲˈaw ɗˈi ɗˌeɜn kˈu͡əɜj, ɲˌyŋ ˈe-ɲ vˌə5n sˌɛ5 mˈaː5j ˈi͡ɛw ˈɛm.
-..\data\data_matchaTTS\voice17_0143.wav|ŋˈa2j mˈaːj, t͡ʃˈi6 twˈi2 vˈe2 ɲˈə6n tˈy6c fˈə4m.
-..\data\data_matchaTTS\voice14_0260.wav|mˈɛ6 xˌoŋ kˈə2n t͡ʃˈuɜŋ t̪ˈaː fˌaː4j lˈaː2m ɗˈi͡ɛ2w zˈi2 ɗˈɔɜ kwˈaːɜ lˈəːɜn lˈaːw.
-..\data\data_matchaTTS\voice17_0170.wav|tˈa4ŋ mˈi5 kˌɔ2n hˈuŋ hˈaŋ,
-..\data\data_matchaTTS\voice19_0201.wav|kˌu͡ə4 mˈu͡ə2 ɗˈoŋ hˈiw hˈaɜt̪.
-..\data\data_matchaTTS\voice17_0174.wav|tˈəː2j zˈaːn ɗˈi6c ɗˈe-ɜɲ fˈaːɜ ˈaːɜc lˈi͡ɛ6t̪, ɲˌyŋ bˈɔ6n kˌɔn vˌə5n t̪ˈə6p ɗˌy͡ə6c ɲˈi͡ɛ2w bˈaː2j hˈaːɜt̪ mˈəːɜj.
-..\data\data_matchaTTS\voice12_0074.wav|ˈɛm t͡ʃˈu4 ɗˈo6ŋ tˌi2 ˈe-ɲ kˈu5ŋ t͡ʃˈi4 t͡ʃˈaː4 lˈəː2j vˈaː2j kˈə1w ŋˈaɜn ŋˈu4j zˈo2j ˈo4p lˈu͡ən.
-..\data\data_matchaTTS\voice10_0128.wav|t͡ʃˌy͡ə t̪ˈy2ŋ kˈɔɜ t͡ʃˈo5 nˈaː2w t͡ʃˈɔŋ mˈu͡ə2 ɗˈoŋ zˈi6w zˈaː2ŋ kˌu͡ə4 ˈɛm, zˈaːɜ ɲˌy xˌi ɗˈɔɜ ˈɛm zˈy5 ˈe-ɲ lˈaː6j lˈə1w hˈəːn mˈo6t̪ t͡ʃˈuɜt̪.
-..\data\data_matchaTTS\voice4_0104.wav|vˈe2 ˈe-ɜɲ mˈaɜt̪ ŋˈi͡ɛm xˈaɜc ɲˌyŋ ɗˈə͡ɪ2 ˈi͡ɛw tˈy͡əŋ kˌu͡ə4 t͡ʃˈaː, vˈe2 ɲˌy5ŋ t̪ˈəm hˈo2n ɗˌaː5 t̪ˈy2ŋ t̪ˈaːn vˈəː5 ɲˌyŋ vˌə5n ˈi͡ɛw tˈy͡əŋ zˈəɜt̪ ɗˈo5j t͡ʃˈən tˈe-2ɲ.
-..\data\data_matchaTTS\voice14_0153.wav|bˈaː2 ŋwˈaː6j lˈu͡ən nˈɔɜj zˈa2ŋ mˈɛ6 lˌaː2 mˈo6t̪ ŋˈy͡ə2j fˈu6 nˈy5 sˈi͡ɛŋ nˈaŋ, t͡ʃˈi6w kˈy6c t͡ʃˈi6w xˈɔɜ.
-..\data\data_matchaTTS\voice14_0162.wav|mˈɛ6 ˈəːj, xˌi kˌɔn vˈi͡ɛɜt̪ ɲˌy5ŋ zˈɔ2ŋ t̪ˈəm sˈy6 nˈa2j, nˈy͡əɜc mˈaɜt̪ kˌɔn kˈyɜ t͡ʃˈa4j mˈaː5j xˌoŋ ŋˈy2ŋ.
-..\data\data_matchaTTS\voice6_0063.wav|vˈi͡ɛ6c sˈy4 zˈu6ŋ t̪ˈi͡ɛɜŋ kˈy͡ə2j zˈuɜp hˈɔ6 zˈaː4m kˈaŋ tˈa4ŋ,
-..\data\data_matchaTTS\voice8_0174.wav|kˈɔɜ kˈaːm kˈeɜt̪ vˌaː2 t͡ʃˈaː2n ɗˈə͡ɪ2 ɗˈaːm mˈe.
-..\data\data_matchaTTS\voice9_0132.wav|xˌoŋ kˈɔɜ t̪ˈi͡ɛ2n tˌi2 ɗˈy2ŋ sˈin kˌɔn.
-..\data\data_matchaTTS\voice1_0110.wav|ɲˌyŋ kˈu5ŋ xˌoŋ tˈe4 lˈaː2m zˈi2 ɗˌy͡ə6c ɗˌe4 tˈaj ɗˈo4j tˈy6c t̪ˈaː6j, zˈa2ŋ t͡ʃˈuɜŋ mˈi2ɲ ɗˌaː5 kˈeɜt̪ tˈuɜc.
-..\data\data_matchaTTS\voice7_0039.wav|kˌɔn sˌɛ5 xˈɔɜk hˈa4n ɗˈem xˌi ɲˈəːɜ vˈe2 kˈi4 nˈi͡ɛ6m t̪ˈu͡ə4j tˈəː,
-..\data\data_matchaTTS\voice1_0072.wav|kˈə6w t͡ʃˌɔ t̪ˈəːɜ mˈo6t̪ kˈaː4m zˈaːɜc zˈəɜt̪ lˈaː6.
-..\data\data_matchaTTS\voice9_0011.wav|kˈaː4 vˈəː6 t͡ʃˈo2ŋ t͡ʃˈɛ4 ˈəː4 t͡ʃˈɔ6 t͡ʃˈɔŋ kˈan ɲˈaː2 kˈəɜp bˈoɜn
-..\data\data_matchaTTS\voice6_0072.wav|tˈɛw d͡ʒˈɔːd͡ʒ ˈiːmən va͡ɪ͡əlˈɪn, bˈaːɜc sˈi5 t̪ˈəm tˈə2n, zˈaːɜw sˈy t̪ˈaː6j t͡ʃˈy͡ə2ŋ ˈi hˈɑːvəd,
-..\data\data_matchaTTS\voice19_0222.wav|lˈɔ2ŋ lˈaː6j ˈy͡əɜp ɗˈə͡ɪ2 ɲˌy5ŋ kˈi4 nˈi͡ɛ6m.
-..\data\data_matchaTTS\voice3_0216.wav|t̪ˈi2ɲ ˈi͡ɛw xˌoŋ t͡ʃˈi4 lˌaː2 sˈy6 zˈuŋ ɗˈo6ŋ, mˌaː2 kˌɔ2n lˌaː2 sˈy6 hwˈaː2 kwˈi͡ɛ6n kˌu͡ə4 t̪ˈəm hˈo2n.
-..\data\data_matchaTTS\voice13_0175.wav|bˈaː6n kˈɔɜ bˈaːw ɲˈi͡ɛw t̪ˈi͡ɛ2n t͡ʃˈɔŋ t̪ˈaː2j xwˈaː4n?
-..\data\data_matchaTTS\voice3_0169.wav|kˈɔɜ tˈe4 sˌɛ5 xˌoŋ bˈaːw zˈəː2 kˈɔɜ mˈo6t̪ kˈə1w t͡ʃˈaː4 lˈəː2j hwˈaː2n hˈaː4w,
-..\data\data_matchaTTS\voive11_0098.wav|tˈuɜc ɗˈə͡ɪ4 vˈi͡ɛ6c ɗˈaː6w zˈaː mˈo6t̪ fˈi͡ɛn bˈaː4n tˈən tˈə6t̪ ɗˈaːɜŋ ŋˈy͡ə5ŋ mˈo6, bˈəɜt̪ kˈe4 sˈy6 tˈə6t̪ zˈaː sˈaːw.
-..\data\data_matchaTTS\voice7_0091.wav|mˈaːɜj t̪ˈɔɜk t͡ʃˈaɜŋ ɲˌy kˈy͡əɜc,
-..\data\data_matchaTTS\voice14_0113.wav|mˈɛ6 ˈəːj, kˌɔn sˈin lˈo5j vˌi2 ɗˌaː5 ɗˌy͡ə6c sˈiɲ zˈaː.
-..\data\data_matchaTTS\voice13_0064.wav|xˌi kˌɔn ŋˈy͡ə2j xˌoŋ ɗˈu4 kˈaːn ɗˈaː4m ɗˈoɜj zˈi͡ɛ6n vˌəːɜj tˈy6c t̪ˈeɜ
-..\data\data_matchaTTS\voice13_0090.wav|lˌuɜc ɗˈɔɜ t̪ˈoj kˌɔ2n nˈɔɜj zˈoɜj xˌoŋ? xˌoŋ hˈa4n.
-..\data\data_matchaTTS\voice6_0111.wav|t͡ʃˈɔŋ tˈəː2j zˈaːn ɣˈə2n ɗˈə͡ɪ,
-..\data\data_matchaTTS\voice10_0118.wav|lˌaː2 tˈy kˈu͡əɜj kˈu2ŋ kˌu͡ə4 sˈoɜ ɹˈe͡ɪdɪˌə͡ʊ ŋˈa2j hˈom nˈaj ɗˌy͡ə6c ɣˈy4j t̪ˌy2 bˈaː6n kˈɔɜ t̪ˈen lˌaː2 ˈɛnəː2.tˈe.ˈɛləː2.
-..\data\data_matchaTTS\voice12_0036.wav|lˈaː6j tˈe4 hˈi͡ɛ6n vˌəːɜj ŋˈy͡ə2j xˈaːɜc zˈa2ŋ, mˈi2ɲ lˌaː2 mˈo6t̪ ŋˈy͡ə2j ɗˈa6c bˈi͡ɛ6t̪ vˌəːɜj kˈə6w ˈə͡ɪɜ.
-..\data\data_matchaTTS\voice8_0030.wav|t̪ˈi͡ɛ2n bˈaː6c xˌoŋ t͡ʃˈi4 kwˈi͡ɛɜt̪ ɗˈi6ɲ kˈi͡ɛɜn t͡ʃˈuɜc ɲˈaː2 ˈəː4 mˌaː2 kˌɔ2n kwˈi͡ɛɜt̪ ɗˈi6ɲ zˈaː ɗˈi2ɲ vˌaː2 sˈy6 hˈaː2j hwˈaː2.
-..\data\data_matchaTTS\voice5_0003.wav|nˈəːj ɲˌy5ŋ ɗˈi͡ɛ2w zˈaːɜ ɲˌy t͡ʃˈəː4 tˈe-2ɲ ɲˌy5ŋ lˈy͡ə6 t͡ʃˈɔ6n ɗˈuɜŋ ɗˈaɜn vˌaː2 kˈi6p tˈəː2j.
-..\data\data_matchaTTS\voice17_0149.wav|vˌəːɜj ˈi͡ɛw kˈə2w ɲˈe-ɲ t͡ʃˈɔɜŋ tˈoŋ ɗˈy͡ə2ŋ,
-..\data\data_matchaTTS\voice3_0133.wav|mˈi2ɲ ŋˈi5 ɗˈɔɜ lˌaː2 ɗˈi͡ɛ2w ɗˈa6c bˈi͡ɛ6t̪.
-..\data\data_matchaTTS\voice3_0171.wav|bˌəː4j t̪ˈi2ɲ ˈi͡ɛw, nˌeɜw lˌaː2 tˈə6t̪, xˌoŋ tˈe4 bˌi6 zˈəːɜj hˈaː6n bˌəː4j mˈo6t̪ vˈaː2j ɗˈa6c ɗˈi͡ɛ4m zˈi͡ɛŋ lˈɛ4.
-..\data\data_matchaTTS\voice8_0047.wav|ŋˈy͡ə2j kˈo ɲˌy t̪wˈaː4 zˈaː mˈo6t̪ ˈe-ɜɲ hˈaː2w kwˈaːŋ xˈiɜ t͡ʃˈəɜt̪.
-..\data\data_matchaTTS\voice16_0185.wav|t̪ˌy2 ɗˈɔɜ, t̪ˈaː6w nˌen ɲˌy5ŋ kˌɔn ŋˈy͡ə2j t͡ʃˈy͡ə4ŋ tˈe-2ɲ vˌəːɜj nˈaŋ lˈy͡ə6ŋ ɗˈə͡ɪ2 ɗˈu4.
-..\data\data_matchaTTS\voice3_0101.wav|hˈaj ŋˈy͡ə6c lˈaː6j, ɗˌe4 zˈo2j t̪ˈaː sˌɛ5 xˌoŋ xˈɔ4j bˈoɜj zˈoɜj.
-..\data\data_matchaTTS\voice8_0145.wav|ɲˌyŋ tˈi͡ɛɜw hˈa4n vˈe2 sˈy6 tˈən tˈi͡ɛɜt̪ vˌaː2 ɗˈaːm mˈe.
-..\data\data_matchaTTS\voice5_0201.wav|ˈɛ zˈa2ŋ t͡ʃˌa4ŋ bˈaːw zˈəː2 kˌɔ2n kˈəː hˈo6j nˈɔɜj nˈy͡ə5.
-..\data\data_matchaTTS\voive11_0086.wav|tˌi2 fˈə2n lˈəːɜn kˌaːɜc bˈi͡ɛ4w hˈi͡ɛ6n ˈaːɜj kˈi4 ˈəː4 kˌɔn ŋˈy͡ə2j kˈɔɜ tˈe4 bˈaɜt̪ ŋˈu͡ə2n t̪ˌy2 ɲˌy5ŋ t̪ˈy͡əŋ t̪ˈaːɜc ɗˈə2w ɗˈəː2j vˌəːɜj ŋˈy͡ə2j t͡ʃˈam sˈɔɜk.
-..\data\data_matchaTTS\voice1_0136.wav|ɲˌy5ŋ zˈə͡ɪ fˈuɜt̪ t͡ʃˈɔŋ t͡ʃˈeɲ vˈeɲ kˈu5ŋ t͡ʃˌa4ŋ kˌɔ2n lˌaː2 mˈi2ɲ.
-..\data\data_matchaTTS\voice20_0120.wav|"ɲˌyŋ bˈaː6n xˌoŋ kˈə2n fˌaː4j kˈoɜ ɣˈaɜŋ tˈaj ɗˈo4j bˈaː4n tˈən mˈi2ɲ. fˈɔŋ t͡ʃˈaː2w nˈa2j sˌɛ5 zˈuɜp bˈaː6n tˈy6c hˈe-2ɲ kˌaːɜc xˈa4ŋ ɗˈi6ɲ vˈe2 t̪ˈi2ɲ ˈi͡ɛw bˈaː4n tˈən, lˈa6p ɗˈi lˈa6p lˈaː6j ɲˌy5ŋ kˈə1w tˈə2n t͡ʃˈuɜ ɲˌy, "" hˈa5j ˈi͡ɛw tˈy͡əŋ bˈaː4n tˈən mˈi2ɲ vˈo ɗˈi͡ɛ2w kˈi͡ɛ6n ""."
-..\data\data_matchaTTS\voice5_0114.wav|ɲˌyŋ t̪ˈəːɜ t̪ˈin, ɗˈɔɜ lˌaː2 ɲˌy5ŋ zˈi2 kˈə6w kˈu5ŋ zˈaj zˈyɜt̪ vˌaː2 swˈi ŋˈi5 zˈəɜt̪ ɲˈi͡ɛ2w.
-..\data\data_matchaTTS\voice16_0184.wav|nˌeɜw ɲˌy bˈaː4n tˈən kˌɔn ŋˈy͡ə2j xˌoŋ ɗˈu4 mˈe-6ɲ mˈɛ5 t͡ʃˈɔŋ t̪ˈəm t͡ʃˈiɜ.
-..\data\data_matchaTTS\voice8_0033.wav|t͡ʃˈuɜŋ t̪ˈaː t͡ʃˈɔ6n ˈəː4 kˈu2ŋ mˈo6t̪ ŋˈy͡ə2j lˌaː2 bˌəː4j vˌi2 ˈəː4 kˈe-6ɲ hˈɔ6 t̪ˈaː kˈaː4m tˈə͡ɪɜ zˈəɜt̪ vˈuj vˈɛ4, zˈəɜt̪ hˈe-6ɲ fˈuɜc.
-..\data\data_matchaTTS\voice13_0086.wav|t̪ˈoj mˈu͡əɜn nˈɔɜj t͡ʃwˈi͡ɛ6n vˌəːɜj mˈɑːk zˈʌkəbˌɜːɡ.
-..\data\data_matchaTTS\voice9_0164.wav|ɗˈi͡ɛ2w ɗˈɔɜ vˈo hˈi2ɲ t͡ʃˈuŋ lˈaː6j ɗˈi ŋˈy͡ə6c vˌəːɜj ɲˌy5ŋ kwˈi͡ɛ2n kˈəː bˈaː4n kˌu͡ə4 kˌɔn ŋˈy͡ə2j ɲˌy kwˈi͡ɛ2n ɗˌy͡ə6c ˈi͡ɛw, kwˈi͡ɛ2n t̪ˈy6 zˈɔ ŋˈon lwˈə6n.
-..\data\data_matchaTTS\voive11_0238.wav|t̪ˈi2ɲ ˈi͡ɛw ɗˈiɜc tˈy6c xˌoŋ ɗˈɔ2j hˈɔ4j bˈaː6n fˌaː4j hˈi sˈiɲ bˈaː4n ŋˈaː5.
-..\data\data_matchaTTS\voice2_0127.wav|ɲˌy5ŋ ɗˈi͡ɛ2w t̪ˈy͡ə4ŋ t͡ʃˈy2ŋ ɲˈɔ4 bˈɛɜ ˈə͡ɪɜ kˈɔɜ tˈe4 t̪ˈiɜc t̪ˈu6 tˈe-2ɲ mˈə2m mˈoɜŋ, t͡ʃˌɔ mˈo6t̪ vˈɔ2ŋ swˈaɜj ŋwˈi hˈi͡ɛ4m t͡ʃˈɔŋ t̪ˈy͡əŋ lˈaːj.
-..\data\data_matchaTTS\voive11_0161.wav|t̪ˈaː kˌɔ2n kˈɔɜ lˌaː2 t͡ʃˈiɜɲ mˈi2ɲ hˈaj xˌoŋ?
-..\data\data_matchaTTS\voice15_0074.wav|ɗˌaː5 t̪ˈy2ŋ t̪ˈin zˈa2ŋ kˈə6w kˈu5ŋ kˈɔɜ t͡ʃˈuɜt̪ zˈuŋ ɗˈo6ŋ vˌi2 t̪ˈəːɜ.
-..\data\data_matchaTTS\voice15_0135.wav|ˈe-ɲ nˈɔɜj zˈa2ŋ ɗˈɔɜ t͡ʃˈi4 lˌaː2 mˈo6t̪ sˈy6 kˈoɜ vˌaː2 hˈy͡əɜ sˌɛ5 xˌoŋ bˈaːw zˈəː2 lˈa6p lˈaː6j.
-..\data\data_matchaTTS\voice7_0081.wav|ɲˌyŋ lˈaː6j ˈiɜt̪ bˈa2j t̪ˈɔ4.
-..\data\data_matchaTTS\voice1_0129.wav|ɲˌyŋ xˌoŋ fˌaː4j lˌaː2 ˈe-ɲ ˈə͡ɪɜ kˌu͡ə4 hˈi͡ɛ6n t̪ˈaː6j.
-..\data\data_matchaTTS\voice3_0088.wav|kˈi5 nˈaŋ t͡ʃˈɔŋ mˈoɜj kwˈaːn hˈe6, bˈaːw ɣˈo2m xˈaː4 nˈaŋ zˈaːw t̪ˈi͡ɛɜp, ɗˈi͡ɛ2w t͡ʃˈi2ɲ kˈaː4m sˈuɜc.
-..\data\data_matchaTTS\voice6_0019.wav|mˈo6t̪ ɗˈo2ŋ ŋˈi͡ɛ6p hˈaj tˈə6m t͡ʃˈiɜ lˌaː2 t͡ʃˈiɜɲ mˈi2ɲ.
-..\data\data_matchaTTS\voice1_0022.wav|ɗˈuɜŋ lˌaː2 t̪ˈi2ɲ ɗˈə2w lˌaː2 t̪ˈi2ɲ zˈaːn zˈəː2 mˌaː2, t̪ˈaː xˌoŋ bˈi͡ɛɜt̪ kˈe-ɜc ˈi͡ɛw sˈaːw t͡ʃˌɔ ɗˈuɜŋ.
-..\data\data_matchaTTS\voice6_0197.wav|kˈaːɜ t̪ˈiɜɲ mˈe-6ɲ mˈɛ5, ɲˈu kˈə2w ɗˌy͡ə6c tˈe4 hˈi͡ɛ6n bˈaː4n tˈən vˌaː2 xˈaː4 nˈaŋ t̪ˈy zwˈi fˈaː4n bˈi͡ɛ6n kˌu͡ə4 d͡ʒˈɛn zˈɛɜt.
-..\data\data_matchaTTS\voice19_0265.wav|ˈan kˈɔɜ zˈi2 ɗˈɔɜ xˈaːɜc tˈy͡ə2ŋ.
-..\data\data_matchaTTS\voice6_0097.wav|ɲˌyŋ kˈu5ŋ xˌoŋ mˈu͡əɜn bˈi͡ɛɜn kˈu͡ə6c sˈoɜŋ kwˈaːɜ nˈa6ŋ nˈe2.
-..\data\data_matchaTTS\voice1_0002.wav|vˌə5n ɲˈəːɜ ɲˌy5ŋ kˌaːɜj ˈom ɗˈə͡ɪ2 fˈəɜn xˈiɜc, kˈaː4 ɲˌy5ŋ kˌaːɜj hˈon t͡ʃˈi4 nˈa2m lˈaː6j t͡ʃˈen ɗˈoj mˈaːɜ.
-..\data\data_matchaTTS\voice12_0128.wav|sˈaw hˈom ɗˈɔɜ, t̪ˈəːɜ vˌaː2 kˈə6w ɲˈaɜn t̪ˈin ˈiɜt̪ hˈəːn vˌaː2 t̪ˈəːɜ ɗˌaː5 xˈɔɜk zˈəɜt̪ ɲˈi͡ɛ2w t͡ʃˈɔŋ ŋˈa2j tˈaːɜŋ ɗˈɔɜ.
-..\data\data_matchaTTS\voice15_0001.wav|"ŋˈy͡ə2j t̪ˈaː tˈy͡ə2ŋ nˈɔɜj : "" ɣˈa6p ɗˌy͡ə6c mˈo6t̪ ŋˈy͡ə2j xˈi͡ɛɜn t͡ʃˈaːɜj t̪ˈim mˈi2ɲ zˈuŋ ɗˈo6ŋ lˌaː2 ɗˈi͡ɛ2w xˌoŋ hˈe2 zˈe5 zˈaː2ŋ. """
-..\data\data_matchaTTS\voice3_0160.wav|vˌaː2 t͡ʃˈən t͡ʃˈɔ6ŋ kˈaː4 ɲˌy5ŋ xˈi͡əɜ kˈe-6ɲ ˈiɜt̪ hwˈaː2n hˈaː4w kˌu͡ə4 ɲˈaw.
-..\data\data_matchaTTS\voice17_0306.wav|ˈe-ɲ zˈaːw t̪ˈə6n t̪ˈaj t͡ʃˌɔ ˈe-ɲ lˈy͡əŋ ŋˈɔ6k t͡ʃˈuɜ,
-..\data\data_matchaTTS\voice17_0169.wav|ɲˌyŋ xˌoŋ tˈe4 nˈaː2w lˈaː2m ŋˈu͡əj ɗˌy͡ə6c ɲˌy5ŋ t͡ʃˈaːɜj t̪ˈim kˌu͡ə4 t͡ʃˈuɜŋ kˌɔn mˈɛ6 ˈaː6.
-..\data\data_matchaTTS\voice8_0206.wav|xˌi ɲˈə6n zˈaː zˈa2ŋ mˈi2ɲ ɗˌaː5 bˈɔ4 lˈəː5 kˈəː hˈo6j.
-..\data\data_matchaTTS\voice19_0341.wav|ɗˈuɜŋ xˌoŋ?
-..\data\data_matchaTTS\voice8_0015.wav|xˌi bˈaː kˈɔɜ t̪ˈəɜt̪ kˈaː4 mˌɔ6j tˈyɜ, bˈaː vˌə5n ˈi͡ɛw mˈɛ6 ɲˌy ŋˈa2j ɗˈə2w.
-..\data\data_matchaTTS\voice1_0138.wav|bˈi͡ɛn ˈe-ɲ kˈu2ŋ ˈe-ɲ vˈy͡ə6t̪ kwˈaː ɲˌy5ŋ mˈu͡ə2 ɗˈoŋ zˈaːɜ zˈɛɜt̪ t͡ʃˌɔ t̪ˌəːɜj t̪ˈə6n ɲˌy5ŋ zˈə͡ɪ fˈuɜt̪ kˈu͡əɜj kˈu2ŋ.
-..\data\data_matchaTTS\voive11_0148.wav|vˌaː2 xˈi͡ɛɜn t̪ˈaː sˈoɜŋ t͡ʃˈɔŋ t͡ʃˈaː6ŋ tˈaːɜj ŋˈi ŋˈəː2 t͡ʃˈiɜɲ mˈi2ɲ t̪ˈy2ŋ ŋˈa2j.
-..\data\data_matchaTTS\voice14_0214.wav|ɲˌyŋ kˌɔn vˌə5n kˈɔɜ lˌuɜc kˈaː4m tˈə͡ɪɜ lˈaː6c lˈɔ5ŋ, vˌə5n mˈɔŋ kˈɔɜ mˈɛ6 bˈen kˈe-6ɲ.
-..\data\data_matchaTTS\voice9_0195.wav|ɲˌy t͡ʃˈiɜɲ t͡ʃˈaː mˈi2ɲ hwˌa6c mˈo6t̪ ŋˈy͡ə2j mˈɛ6 hˈaj lˈɔ ˈə1w lˈu͡ən t͡ʃˈi4 t͡ʃˈiɜc kˌɔn.
-..\data\data_matchaTTS\voice4_0154.wav|hˈɔ6 zˈu2ŋ ŋˈe6 twˈə6t̪ ɗˌe4 ɲˈaɜc t͡ʃˈuɜŋ t̪ˈaː ɲˈəːɜ zˈaː zˈa2ŋ, ɗˌy͡ə6c lˈaː2m ŋˈy͡ə2j, vˌəːɜj t̪ˈəɜt̪ kˈaː4 ɲˌy5ŋ zˈi2 t̪ˈaːn vˈəː5 vˌaː2 vˈu6ŋ vˈe2.
-..\data\data_matchaTTS\voice3_0026.wav|ɗˈa6c bˈi͡ɛ6t̪ t͡ʃˈɔŋ sˈaː5 hˈo6j hˈi͡ɛ6n ɗˈaː6j, vˌəːɜj sˈy6 bˈu2ŋ nˈo4 kˌu͡ə4 mˈaː6ŋ sˈaː5 hˈo6j vˌaː2 kˌaːɜc ˈyɜŋ zˈu6ŋ hˈɛ6n hˈɔ2.
-..\data\data_matchaTTS\voice3_0107.wav|tˈɛw twˈi͡ɛɜt̪ ɲˈu kˈə2w mˈɑːslə͡ʊ, xˌi twˈaː4 mˈaː5n ɲˌy5ŋ ɲˈu kˈə2w kˈəː bˈaː4n ɲˌy sˈiɲ lˈiɜ vˌaː2 ˈaːn t̪wˈaː2n, kˌɔn ŋˈy͡ə2j sˌɛ5 kˈɔɜ sˈu hˈy͡əɜŋ t̪ˈi2m kˈi͡ɛɜm sˈy6 twˈaː4 mˈaː5n ˈəː4 kˌaːɜc xˈi͡əɜ kˈe-6ɲ xˈaːɜc t͡ʃˈɔŋ kˈu͡ə6c sˈoɜŋ.
-..\data\data_matchaTTS\voice5_0256.wav|bˈaː6n zˈa6m tˈe-2ɲ ˈaːn,
-..\data\data_matchaTTS\voice3_0163.wav|swˈi t͡ʃˌɔ kˈu2ŋ, t̪ˈi2ɲ ˈi͡ɛw lˌaː2 kˈeɜt̪ kwˈaː4 t̪ˌy2 mˈo6t̪ t͡ʃˈu͡ə5j ɲˌy5ŋ sˈy6 lˈy͡ə6 t͡ʃˈɔ6n.
-..\data\data_matchaTTS\voice10_0088.wav|vˌi2 t̪ˈəːɜ ɗˌaː5 mˈəː zˈəɜt̪ ɲˈi͡ɛ2w vˈe2 kˈə6w, t̪ˈəːɜ ɗˌaː5 ɗˈi6ɲ ɲˈaɜn t̪ˈin hˈɔ4j tˈam, ɲˌyŋ zˈo2j lˈaː6j swˈaːɜ, sˈəː6 kˈə6w tˈə͡ɪɜ fˈi͡ɛ2n, sˈəː6 kˈə6w ɣˈɛɜt̪ t̪ˈəːɜ.
-..\data\data_matchaTTS\voice20_0013.wav|vˌaː2 nˈo5j tˈoɜŋ xˈo4 lˌaː2 sˈy6 ŋwˈi͡ɛ2n zˈu͡ə4 kˈaː4 ɗˈəː2j mˌaː2 kˈo fˌaː4j t͡ʃˈi6w ɗˈy6ŋ.
-..\data\data_matchaTTS\voice16_0217.wav|mˌaː2 lˌaː2 ŋˈy͡ə2j ɗˈu4 kˈaːn ɗˈaː4m ɗˌe4 ˈi͡ɛw tˈy͡əŋ ɗˈy͡əɜ bˈɛɜ bˈen t͡ʃˈɔŋ mˈi2ɲ mˌaː2 xˌoŋ t͡ʃˈoɜn t͡ʃˈa6j,
-..\data\data_matchaTTS\voice1_0248.wav|ɲˌyŋ sˌɛ5 xˌoŋ tˈe4 t̪ˈi2m lˈaː6j ɗˌy͡ə6c kˈaː4m zˈaːɜc ˈi͡ɛw ˈaːj ɗˈɔɜ.
-..\data\data_matchaTTS\voice5_0013.wav|lˈaːɜ tˈy ɗˈə2w t̪ˈi͡ɛn ɗˌy͡ə6c ɣˈy4j t̪ˌy2 bˈaː6n kˈɔɜ t̪ˈen lˌaː2 kˈaː.kˈɔ, ɣˈy4j mˈa6t̪ t͡ʃˈaŋ.
-..\data\data_matchaTTS\voice20_0032.wav|ɲˈi2n t̪ˈo4ŋ tˈe4 vˈaː2w kˌɔn ŋˈy͡ə2j nˈa2j, ŋˈy͡ə2j ŋwˈaː2j tˈə͡ɪɜ kˈɔɜ mˈo6t̪ tˈyɜ zˈi2 ɗˈɔɜ kˈyɜ ɗˈə͡ɪ4 lˈen t͡ʃˈo2j t͡ʃˈo6j.
-..\data\data_matchaTTS\voive11_0203.wav|vˌaː2 xˌoŋ t͡ʃˈi6w t͡ʃˈe-ɜc ɲˈi͡ɛ6m ɗˌy͡ə6c vˌəːɜj kˈaː4m sˈuɜc kˌu͡ə4 bˈaː4n tˈən.
-..\data\data_matchaTTS\voice18_0058.wav|nˌeɜw kˈyɜ t̪ˈi͡ɛw kˈy6c ɲˌy vˈə͡ɪ6 tˌi2 xˌoŋ ˈaːj mˈu͡əɜn lˈaː2m bˈaː6n vˌəːɜj mˈa2j ɗˈə1w.
-..\data\data_matchaTTS\voice14_0056.wav|ɲˌyŋ kˌɔn vˌə5n mˈu͡əɜn tˈy4, tˈy4 sˈoɜŋ vˌi2 mˈɛ6 ɲˌy kˈe-ɜc mˈɛ6 ɗˌaː5 sˈoɜŋ vˌi2 kˌɔn.
-..\data\data_matchaTTS\voice14_0132.wav|kˌɔn bˈi͡ɛɜt̪ mˈɛ6 ɗˌaː5 ɲˈə6n zˈaː ɲˌy5ŋ zˈi2 mˈɛ6 ɗˌaː5 lˈaː2m.
-..\data\data_matchaTTS\voice1_0194.wav|nˌen ɗˌaː5 kˈɛɜw t͡ʃˈuɜŋ t̪ˈaː ɣˈə2n lˈaː6j.
-..\data\data_matchaTTS\voice2_0136.wav|hˈi vˈɔ6ŋ zˈa2ŋ sˈaw t̪ˈəɜt̪ kˈaː4 ɲˌy5ŋ kˈə1w t͡ʃwˈi͡ɛ6n vˌaː2 t͡ʃˈi͡ə sˈɛ4 vˈe2 kˈan bˈe6ɲ nˈa2j,
-..\data\data_matchaTTS\voice17_0216.wav|ˈe-ɲ sˈəː6 zˈa2ŋ mˈi2ɲ xˌoŋ tˈe4 ɗˈɛm lˈaː6j hˈe-6ɲ fˈuɜc t͡ʃˈɔ6n vˈɛ6n t͡ʃˌɔ t͡ʃˈi6.
-..\data\data_matchaTTS\voice19_0218.wav|t̪ˈy zˈaːɜc kˌu͡ə4 kˌɔn ŋˈy͡ə2j kˈɔɜ vˈɛ4 ɲˈa6j kˈaː4m hˈəːn.
-..\data\data_matchaTTS\voice12_0164.wav|t͡ʃˈəː2j ˈəːj, t̪ˈəːɜ vˈuj kwˈaːɜ ˈə͡ɪɜ.
-..\data\data_matchaTTS\voice6_0112.wav|t͡ʃˈiɜɲ lˌaː2 mˈo6t̪ ɗˈaː6j zˈi͡ɛ6n ɗˈi͡ɛ4n hˈi2ɲ vˌaː2 sˈoɜŋ ɗˈo6ŋ t͡ʃˌɔ mˈo6t̪ tˈeɜ hˈe6 t͡ʃˈɛ4 mˈaːŋ t̪ˈiɲ tˈə2n kˈəː hˈo6j mˌaː2 sˈə1w sˈaɜc.
-..\data\data_matchaTTS\voice15_0146.wav|hˈaːj ŋˈy͡ə2j bˈaɜt̪ ɗˈə2w zˈe-2ɲ ɲˈi͡ɛ2w tˈəː2j zˈaːn t͡ʃˌɔ ɲˈaw hˈəːn, t͡ʃˈi͡ə sˈɛ4 ɲˌy5ŋ kˈə1w t͡ʃwˈi͡ɛ6n vˌaː2 ˈy͡əɜc mˈəː vˈe2 t̪ˈy͡əŋ lˈaːj.
-..\data\data_matchaTTS\voice13_0130.wav|xˌoŋ fˌaː4j bˌəː4j vˌi2 kˈə6w ɗˌaː5 hˈɔ6k ɗˌy͡ə6c zˈaːɜ t͡ʃˈi6 kˌu͡ə4 sˈy6 t͡ʃˈuŋ tˈy6c,
-..\data\data_matchaTTS\voice17_0082.wav|tˈeɜ lˌaː2 t͡ʃˈuɜŋ kˌɔn ɗˌaː5 t͡ʃˈəɜm zˈyɜt̪ zˈaːj ɗwˈaː6n hˈe-2ɲ kwˈən.
-..\data\data_matchaTTS\voice3_0242.wav|hˈa5j ɗˈaŋ kˈiɜ kˈeɲ ɣˈi͡ɛ2n mˈi2 ɣˈɔ5 ɗˌe4 xˌoŋ bˈɔ4 lˈəː5 ɲˌy5ŋ vˈɪdɪə͡ʊ hˈəɜp zˈə5n.
-..\data\data_matchaTTS\voice14_0127.wav|ɲˈi2n tˈə͡ɪɜ kˌɔn xˌoŋ tˈe4 bˈi2ɲ t̪ˈi5ɲ, xˌoŋ tˈe4 kˈəɜt̪ tˈe-2ɲ lˈəː2j mˌaː2 kˈə6w kˈu5ŋ fˌaː4j hˈəːɜt̪ hˈaː4j t͡ʃˈa6j ɗˌeɜn.
-..\data\data_matchaTTS\voice13_0115.wav|zˌu2 vˈo hˈaː6j hˈaj kˈɔɜ hˈaː6j tˌi2 mˈo6t̪ xˌi ɗˌaː5 nˈɔɜj zˈoɜj, ɗˈe2w ɣˈə͡ɪ zˈaː t̪ˈaːɜc ɗˈo6ŋ t̪ˈi͡ɛw kˈy6c.
-..\data\data_matchaTTS\voice13_0005.wav|xˌi ˈə͡ɪɜ, mˈu5j kˌu͡ə4 kˈə6w sˌɛ5 zˈaː2j zˈaː.
-..\data\data_matchaTTS\voice9_0158.wav|mˌaː2 kˈə2n mˈo6t̪ hˈe6 sˈiɲ tˈaːɜj hˈo5 t͡ʃˈəː6 tˈy6c t͡ʃˈəɜt̪, t̪ˌy2 t͡ʃˈiɜɲ sˈe-ɜc kˈoŋ ɗˌeɜn ɲˈə6n tˈyɜc kˈo6ŋ ɗˈo2ŋ.
-..\data\data_matchaTTS\voice5_0104.wav|lˈə2n ɗˈə2w t̪ˈi͡ɛn t̪ˈəːɜ tˈy4 ɲˈə6n zˈa2ŋ t̪ˈəːɜ kˈu5ŋ tˈiɜc kˈə6w.
-..\data\data_matchaTTS\voice16_0046.wav|ɗˈaːɜm t͡ʃˈɛ4 kˌɔn sˌɛ5 xˌoŋ bˈaːw zˈəː2 zˈaː2 ɗˈi xˌi ɗˌeɜn nˌɛvəlˈand.
-..\data\data_matchaTTS\voice13_0038.wav|t̪ˌy2 ɣˈɔɜk ɲˈi2n zˈaːɜw zˈu6c, ɗˈə͡ɪ lˌaː2 mˈo6t̪ kˈoŋ kˈu6 t͡ʃˈy6c kwˈaːn, sˈiɲ ɗˈo6ŋ, zˈuɜp t͡ʃˈɛ4 ˈɛm ɲˈə6n bˈi͡ɛɜt̪ ɗˌy͡ə6c zˈa2ŋ hˈe-2ɲ vˈi zˈaːn zˈoɜj lˈu͡ən ɗˈi kˈɛ2m hˈə6w kwˈaː4.
-..\data\data_matchaTTS\voice5_0158.wav|t̪ˈəːɜ xˌoŋ mˈɔŋ kˈə6w fˌaː4j tˈiɜc lˈaː6j t̪ˈəːɜ ŋˈaj lˈə6p t̪ˈyɜc, t͡ʃˈi4 mˈɔŋ kˈə6w hˈi͡ɛ4w ɗˌy͡ə6c t̪ˈəɜm lˈɔ2ŋ t̪ˈəːɜ.
-..\data\data_matchaTTS\voice17_0176.wav|mˈɛ6 ɣˈy4j tˈem t͡ʃˌɔ kˌɔn ˈiɜt̪ zˈə͡ɪɜ.
-..\data\data_matchaTTS\voice8_0036.wav|mˈo6t̪ xˌi kˈaː4 hˈaːj ɗˌaː5 ɣˈe-ɜɲ vˈaːɜc nˈəː6 nˈə2n hwˌa6c kˈu͡ə6c sˈoɜŋ bˈeɜ t̪ˈaɜc tˌi2 t̪ˈəm t͡ʃˈaː6ŋ kˌu͡ə4 hˈaːj ŋˈy͡ə2j sˌɛ5 ɲˈə6n ɗˈi6ɲ xˌoŋ tˈe4 ɲˌy bˈaːn ɗˈə2w.
-..\data\data_matchaTTS\voice2_0027.wav|bˈaːw ɣˈo2m hˈyŋ kˈaː4m lˌaː2 t͡ʃˈaː6ŋ tˈaːɜj kˈaː4m sˈuɜc kˈy6c kˈaːw vˌaː2 t͡ʃˈə2m kˈaː4m lˌaː2 kˈy6c tˈəɜp.
-..\data\data_matchaTTS\voice6_0091.wav|lˌaː2 mˈo6t̪ t̪ˈiɲ tˈə2n t͡ʃˈe-ɜc ɲˈi͡ɛ6m vˈy5ŋ t͡ʃˈaɜc, mˈo6t̪ nˈo6j lˈy6c bˈe2n bˈi4.
-..\data\data_matchaTTS\voice9_0092.wav|t̪ˌy2 ɣˈɔɜk ɲˈi2n t̪ˈəm lˈiɜ hˈɔ6k,
-..\data\data_matchaTTS\voice15_0052.wav|zˈoɜŋ ɲˌy kˈe-ɜc t̪ˈəːɜ tˈiɜc kˈə6w, xˌoŋ kˈə2n lˈiɜ zˈɔ, xˌoŋ kˈə2n ɗˈi͡ɛ2w kˈi͡ɛ6n, t͡ʃˈi4 ɗˈəːn zˈaː4n lˌaː2 tˈiɜc.
-..\data\data_matchaTTS\voice7_0165.wav|t͡ʃˈen bˈyɜc ˈe-4ɲ kˌu͡ə4 bˈoɜ t͡ʃˈɛw t͡ʃˈen t̪ˈy͡ə2ŋ nˈam ˈə͡ɪɜ.
-..\data\data_matchaTTS\voice19_0259.wav|vˈy͡ə6t̪ kwˈaː hˈeɜt̪ mˌɔ6j xˈɔɜ xˈan.
-..\data\data_matchaTTS\voice13_0084.wav|tˈə6m t͡ʃˈiɜ t͡ʃˈuɜŋ t̪ˈaː kˈɔɜ tˈe4 lˈy͡ə2 ɣˈaː6t̪ bˈa2ŋ sˈy6 tˈə6t̪.
-..\data\data_matchaTTS\voice5_0078.wav|t͡ʃˈuɜŋ t̪ˈaː kwˈɛn ɲˈaw t̪ˌy2 ɲˌy5ŋ nˈam tˈaːɜŋ ˈo4n ˈaː2w ɲˈəɜt̪ kˌu͡ə4 t̪ˈu͡ə4j hˈɔ6k t͡ʃˈɔ2.
-..\data\data_matchaTTS\voice8_0224.wav|t̪ˈaː ɗˌaː5 t͡ʃˈəː4 tˈe-2ɲ kˌɔn ŋˈy͡ə2j ɲˌy hˈi͡ɛ6n t̪ˈaː6j
-..\data\data_matchaTTS\voice6_0002.wav|tˈy4 mˈaɜt̪ ɗˈə2w bˈa2ŋ ɲˌy5ŋ kˈə1w hˈɔ4j vˌi2 sˈaːw, zˈy͡ə6 t͡ʃˈen fˈy͡əŋ fˈaːɜp fˈɜːst pɹˈɪnsɪpə͡l θˈɪŋkɪŋ t̪ˌy2 zwˈi ŋwˈi͡ɛn bˈaː4n.
-..\data\data_matchaTTS\voice12_0235.wav|ɗˌe4 nˈɔɜj zˈaː ɲˌy5ŋ ɗˈi͡ɛ2w tˈə6t̪ lˈɔ2ŋ, ɗˌe4 sˈaːɜc ɗˈi6ɲ zˈɔ5 zˈaː2ŋ lˌaː2 ŋˈy͡ə2j sˌɛ5 kˈu2ŋ ɲˈaw bˈy͡əɜc t̪ˈi͡ɛɜp.
-..\data\data_matchaTTS\voice20_0141.wav|ɗˌy͡ə6c zˈo2j, vˈə͡ɪ6 bˈə͡ɪ zˈəː2, xˌi ɲˈi2n vˈaː2w ɣˈy͡əŋ, kˈə6w tˈə͡ɪɜ zˈi2?
-..\data\data_matchaTTS\voice13_0007.wav|ɗˈi͡ɛ2w nˈa2j ɗˌaː5 ˈaːɜm ˈe-4ɲ vˌaː2 ɗˈi sˈə1w vˈaː2w t̪ˈi͡ɛ2m tˈyɜc kˌu͡ə4 ɲˈi͡ɛ2w ɗˈy͡əɜ bˈɛɜ.
-..\data\data_matchaTTS\voive11_0160.wav|vˌaː2 t̪ˈy6 hˈɔ4j bˈaː4n tˈən sˈɛm t̪ˈaː kˈɔɜ tˈy6c sˈy6 hˈe-6ɲ fˈuɜc bˈen ŋˈy͡ə2j nˈa2j hˈaj xˌoŋ?
-..\data\data_matchaTTS\voice9_0008.wav|vˌaː2 ɗˌe4 kˈɔɜ mˈo6t̪ t̪ˈiɲ tˈə2n sˈoɜŋ tˈy6c sˈy6
-..\data\data_matchaTTS\voice10_0110.wav|mˈi2ɲ ɗˌaː5 lˈu͡ən fˈu4 ɲˈə6n t̪ˈi2ɲ kˈaː4m kˌu͡ə4 mˈi2ɲ zˈe-2ɲ t͡ʃˌɔ kˈə6w t͡ʃˈy͡əɜc mˈa6t̪ bˈaː6n bˈɛ2.
-..\data\data_matchaTTS\voice17_0241.wav|twˈi4 kˈɔɜ ŋˈɛ lˈəː2j nˈɔɜj ˈim lˈa6ŋ ɲˌyŋ zˈəɜt̪ vˈaːŋ sˈaː kˌu͡ə4 t͡ʃˈaːɜj t̪ˈim mˈi2ɲ xˌoŋ?
+voice5_0249.wav|
+voice19_0225.wav|
+voice16_0099.wav|
+voice30_0263.wav|
+voice20_0142.wav|
+voice4_0106.wav|
+voice24_0010.wav|
+voice23_0070.wav|
+voice13_0243.wav|
+voice15_0019.wav|
+voice19_0145.wav|
+voice9_0208.wav|
+voice27_0239.wav|
+voice7_0053.wav|
+voice26_0175.wav|
+voice32_0065.wav|
+voice23_0213.wav|
+voice22_0022.wav|
+voice3_0325.wav|
+voice10_0144.wav|
+voice7_0035.wav|
+voice20_0295.wav|
+voice33_0111.wav|
+voice14_0194.wav|
+voice31_0264.wav|
+voice11_0152.wav|
+voice28_0227.wav|
+voice26_0139.wav|
+voice17_0086.wav|
+voice9_0228.wav|
+voice1_0239.wav|
+voice25_0438.wav|
+voice15_0128.wav|
+voice28_0275.wav|
+voice33_0174.wav|
+voice3_0198.wav|
+voice22_0106.wav|
+voice30_0147.wav|
+voice6_0114.wav|
+voice5_0010.wav|
+voice7_0147.wav|
+voice36_0059.wav|
+voice37_0032.wav|
+voice3_0063.wav|
+voice27_0057.wav|
+voice9_0313.wav|
+voice21_0082.wav|
+voice11_0189.wav|
+voice19_0026.wav|
+voice33_0263.wav|
+voice38_0026.wav|
+voice28_0346.wav|
+voice16_0055.wav|
+voice30_0292.wav|
+voice20_0114.wav|
+voice3_0281.wav|
+voice15_0142.wav|
+voice25_0340.wav|
+voice19_0263.wav|
+voice16_0091.wav|
+voice5_0139.wav|
+voice18_0293.wav|
+voice18_0185.wav|
+voice26_0255.wav|
+voice30_0144.wav|
+voice10_0061.wav|
+voice29_0255.wav|
+voice3_0081.wav|
+voice10_0042.wav|
+voice21_0035.wav|
+voice25_0321.wav|
+voice17_0339.wav|
+voice1_0062.wav|
+voice24_0099.wav|
+voice31_0200.wav|
+voice21_0270.wav|
+voice3_0349.wav|
+voice40_0000.wav|
+voice25_0104.wav|
+voice39_0107.wav|
+voice11_0081.wav|
+voice6_0047.wav|
+voice27_0126.wav|
+voice25_0007.wav|
+voice19_0140.wav|
+voice26_0151.wav|
+voice13_0106.wav|
+voice11_0061.wav|
+voice23_0227.wav|
+voice3_0108.wav|
+voice1_0070.wav|
+voice36_0105.wav|
+voice36_0160.wav|
+voice20_0013.wav|
+voice18_0000.wav|
+voice40_0101.wav|
+voice24_0163.wav|
+voice12_0111.wav|
+voice6_0142.wav|
+voice8_0132.wav|
+voice13_0091.wav|
+voice11_0007.wav|
+voice10_0226.wav|
+voice19_0271.wav|
+voice31_0170.wav|
+voice28_0163.wav|
+voice9_0117.wav|
+voice10_0219.wav|
+voice30_0296.wav|
+voice23_0031.wav|
+voice22_0111.wav|
+voice23_0114.wav|
+voice25_0427.wav|
+voice15_0248.wav|
+voice8_0255.wav|
+voice28_0209.wav|
+voice11_0067.wav|
+voice9_0145.wav|
+voice26_0235.wav|
+voice31_0227.wav|
+voice11_0294.wav|
+voice18_0121.wav|
+voice20_0205.wav|
+voice31_0294.wav|
+voice3_0093.wav|
+voice3_0128.wav|
+voice19_0179.wav|
+voice11_0138.wav|
+voice9_0027.wav|
+voice17_0180.wav|
+voice27_0244.wav|
+voice27_0206.wav|
+voice20_0199.wav|
+voice29_0228.wav|
+voice4_0013.wav|
+voice10_0073.wav|
+voice16_0033.wav|
+voice22_0147.wav|
+voice9_0030.wav|
+voice9_0237.wav|
+voice18_0301.wav|
+voice25_0402.wav|
+voice31_0208.wav|
+voice16_0051.wav|
+voice16_0222.wav|
+voice23_0204.wav|
+voice2_0040.wav|
+voice9_0005.wav|
+voice3_0036.wav|
+voice30_0050.wav|
+voice39_0194.wav|
+voice30_0252.wav|
+voice15_0140.wav|
+voice18_0295.wav|
+voice39_0206.wav|
+voice13_0039.wav|
+voice24_0151.wav|
+voice9_0080.wav|
+voice5_0241.wav|
+voice21_0083.wav|
+voice26_0297.wav|
+voice20_0226.wav|
+voice32_0207.wav|
+voice17_0245.wav|
+voice2_0048.wav|
+voice27_0036.wav|
+voice34_0044.wav|
+voice28_0090.wav|
+voice16_0001.wav|
+voice7_0066.wav|
+voice39_0166.wav|
+voice16_0278.wav|
+voice31_0003.wav|
+voice17_0286.wav|
+voice15_0201.wav|
+voice19_0016.wav|
+voice31_0082.wav|
+voice32_0004.wav|
+voice40_0118.wav|
+voice35_0004.wav|
+voice15_0285.wav|
+voice34_0069.wav|
+voice21_0030.wav|
+voice21_0294.wav|
+voice18_0031.wav|
+voice25_0304.wav|
+voice28_0009.wav|
+voice6_0084.wav|
+voice36_0168.wav|
+voice39_0117.wav|
+voice15_0036.wav|
+voice5_0091.wav|
+voice33_0171.wav|
+voice3_0215.wav|
+voice12_0016.wav|
+voice19_0299.wav|
+voice17_0306.wav|
+voice8_0282.wav|
+voice18_0225.wav|
+voice31_0184.wav|
+voice21_0268.wav|
+voice2_0153.wav|
+voice19_0340.wav|
+voice9_0273.wav|
+voice23_0265.wav|
+voice3_0009.wav|
+voice28_0276.wav|
+voice19_0239.wav|
+voice27_0050.wav|
+voice1_0148.wav|
+voice17_0076.wav|
+voice31_0207.wav|
+voice3_0323.wav|
+voice13_0215.wav|
+voice11_0209.wav|
+voice33_0031.wav|
+voice40_0093.wav|
+voice17_0051.wav|
+voice30_0227.wav|
+voice15_0139.wav|
+voice17_0183.wav|
+voice33_0043.wav|
+voice33_0219.wav|
+voice17_0425.wav|
+voice3_0169.wav|
+voice8_0017.wav|
+voice20_0261.wav|
+voice27_0252.wav|
+voice9_0182.wav|
+voice24_0012.wav|
+voice40_0076.wav|
+voice15_0151.wav|
+voice25_0009.wav|
+voice6_0107.wav|
+voice9_0284.wav|
+voice31_0308.wav|
+voice25_0047.wav|
+voice8_0250.wav|
+voice21_0179.wav|
+voice3_0286.wav|
+voice40_0045.wav|
+voice1_0136.wav|
+voice1_0080.wav|
+voice18_0220.wav|
+voice28_0045.wav|
+voice26_0086.wav|
+voice21_0148.wav|
+voice14_0004.wav|
+voice11_0133.wav|
+voice33_0067.wav|
+voice40_0008.wav|
+voice39_0204.wav|
+voice4_0009.wav|
+voice20_0177.wav|
+voice25_0330.wav|
+voice4_0040.wav|
+voice33_0122.wav|
+voice2_0058.wav|
+voice8_0218.wav|
+voice36_0005.wav|
+voice36_0186.wav|
+voice18_0022.wav|
+voice28_0206.wav|
+voice31_0142.wav|
+voice36_0274.wav|
+voice29_0190.wav|
+voice23_0238.wav|
+voice33_0127.wav|
+voice32_0125.wav|
+voice9_0120.wav|
+voice29_0104.wav|
+voice10_0059.wav|
+voice22_0073.wav|
+voice28_0270.wav|
+voice11_0024.wav|
+voice28_0103.wav|
+voice1_0199.wav|
+voice21_0079.wav|
+voice10_0283.wav|
+voice12_0239.wav|
+voice9_0025.wav|
+voice3_0224.wav|
+voice3_0239.wav|
+voice27_0202.wav|
+voice37_0054.wav|
+voice3_0192.wav|
+voice23_0110.wav|
+voice15_0071.wav|
+voice19_0033.wav|
+voice31_0347.wav|
+voice23_0277.wav|
+voice30_0088.wav|
+voice31_0334.wav|
+voice27_0016.wav|
+voice31_0216.wav|
+voice36_0311.wav|
+voice15_0148.wav|
+voice39_0081.wav|
+voice5_0223.wav|
+voice3_0200.wav|
+voice14_0059.wav|
+voice27_0125.wav|
+voice31_0382.wav|
+voice5_0084.wav|
+voice37_0044.wav|
+voice28_0302.wav|
+voice32_0052.wav|
+voice29_0037.wav|
+voice15_0187.wav|
+voice12_0179.wav|
+voice4_0140.wav|
+voice15_0226.wav|
+voice22_0168.wav|
+voice26_0127.wav|
+voice39_0048.wav|
+voice11_0014.wav|
+voice8_0078.wav|
+voice40_0083.wav|
+voice32_0145.wav|
+voice25_0325.wav|
+voice25_0240.wav|
+voice7_0048.wav|
+voice29_0154.wav|
+voice28_0202.wav|
+voice11_0197.wav|
+voice12_0236.wav|
+voice19_0015.wav|
+voice31_0243.wav|
+voice27_0181.wav|
+voice32_0044.wav|
+voice29_0210.wav|
+voice24_0122.wav|
+voice32_0048.wav|
+voice15_0275.wav|
+voice31_0095.wav|
+voice27_0216.wav|
+voice18_0106.wav|
+voice19_0229.wav|
+voice27_0195.wav|
+voice30_0073.wav|
+voice36_0195.wav|
+voice18_0063.wav|
+voice6_0183.wav|
+voice34_0076.wav|
+voice28_0121.wav|
+voice33_0073.wav|
+voice10_0176.wav|
+voice40_0105.wav|
+voice13_0272.wav|
+voice12_0251.wav|
+voice15_0292.wav|
+voice15_0194.wav|
+voice27_0258.wav|
+voice2_0049.wav|
+voice16_0256.wav|
+voice28_0014.wav|
+voice33_0155.wav|
+voice13_0170.wav|
+voice6_0126.wav|
+voice32_0060.wav|
+voice14_0065.wav|
+voice36_0327.wav|
+voice9_0070.wav|
+voice39_0104.wav|
+voice5_0031.wav|
+voice6_0096.wav|
+voice4_0089.wav|
+voice15_0023.wav|
+voice2_0123.wav|
+voice11_0144.wav|
+voice23_0131.wav|
+voice39_0175.wav|
+voice18_0166.wav|
+voice28_0133.wav|
+voice32_0073.wav|
+voice15_0041.wav|
+voice10_0269.wav|
+voice5_0280.wav|
+voice28_0001.wav|
+voice35_0137.wav|
+voice16_0294.wav|
+voice7_0133.wav|
+voice30_0107.wav|
+voice3_0298.wav|
+voice32_0099.wav|
+voice14_0078.wav|
+voice13_0262.wav|
+voice25_0046.wav|
+voice8_0167.wav|
+voice18_0252.wav|
+voice23_0105.wav|
+voice25_0285.wav|
+voice26_0267.wav|
+voice26_0037.wav|
+voice18_0044.wav|
+voice13_0030.wav|
+voice36_0042.wav|
+voice15_0265.wav|
+voice3_0024.wav|
+voice12_0177.wav|
+voice26_0334.wav|
+voice18_0162.wav|
+voice6_0145.wav|
+voice23_0053.wav|
+voice36_0027.wav|
+voice5_0097.wav|
+voice4_0020.wav|
+voice16_0298.wav|
+voice11_0070.wav|
+voice27_0196.wav|
+voice14_0177.wav|
+voice2_0150.wav|
+voice22_0032.wav|
+voice12_0050.wav|
+voice10_0000.wav|
+voice19_0335.wav|
+voice11_0001.wav|
+voice18_0168.wav|
+voice7_0011.wav|
+voice38_0074.wav|
+voice25_0397.wav|
+voice18_0238.wav|
+voice8_0263.wav|
+voice16_0290.wav|
+voice20_0071.wav|
+voice25_0071.wav|
+voice38_0067.wav|
+voice21_0287.wav|
+voice12_0176.wav|
+voice36_0359.wav|
+voice30_0096.wav|
+voice4_0134.wav|
+voice40_0004.wav|
+voice26_0033.wav|
+voice3_0216.wav|
+voice9_0242.wav|
+voice35_0117.wav|
+voice18_0169.wav|
+voice39_0202.wav|
+voice17_0323.wav|
+voice6_0094.wav|
+voice15_0001.wav|
+voice27_0035.wav|
+voice7_0111.wav|
+voice28_0170.wav|
+voice37_0000.wav|
+voice10_0261.wav|
+voice15_0163.wav|
+voice13_0308.wav|
+voice4_0036.wav|
+voice32_0000.wav|
+voice29_0106.wav|
+voice7_0003.wav|
+voice28_0141.wav|
+voice1_0024.wav|
+voice16_0208.wav|
+voice25_0045.wav|
+voice36_0092.wav|
+voice33_0150.wav|
+voice3_0302.wav|
+voice15_0083.wav|
+voice17_0003.wav|
+voice30_0215.wav|
+voice3_0140.wav|
+voice5_0152.wav|
+voice4_0002.wav|
+voice26_0277.wav|
+voice19_0312.wav|
+voice9_0064.wav|
+voice31_0088.wav|
+voice13_0304.wav|
+voice19_0060.wav|
+voice27_0018.wav|
+voice10_0134.wav|
+voice21_0154.wav|
+voice25_0419.wav|
+voice12_0189.wav|
+voice25_0126.wav|
+voice20_0030.wav|
+voice32_0162.wav|
+voice15_0268.wav|
+voice26_0287.wav|
+voice34_0013.wav|
+voice36_0213.wav|
+voice26_0236.wav|
+voice13_0013.wav|
+voice25_0159.wav|
+voice33_0149.wav|
+voice10_0228.wav|
+voice25_0156.wav|
+voice18_0125.wav|
+voice3_0049.wav|
+voice28_0331.wav|
+voice19_0088.wav|
+voice33_0003.wav|
+voice26_0270.wav|
+voice34_0106.wav|
+voice15_0080.wav|
+voice18_0118.wav|
+voice36_0020.wav|
+voice8_0103.wav|
+voice3_0366.wav|
+voice27_0115.wav|
+voice3_0219.wav|
+voice27_0123.wav|
+voice29_0056.wav|
+voice37_0014.wav|
+voice17_0016.wav|
+voice19_0289.wav|
+voice25_0147.wav|
+voice34_0050.wav|
+voice16_0231.wav|
+voice34_0141.wav|
+voice6_0178.wav|
+voice31_0109.wav|
+voice36_0212.wav|
+voice10_0072.wav|
+voice10_0266.wav|
+voice35_0064.wav|
+voice39_0197.wav|
+voice1_0237.wav|
+voice13_0098.wav|
+voice15_0294.wav|
+voice27_0131.wav|
+voice3_0292.wav|
+voice4_0003.wav|
+voice15_0276.wav|
+voice30_0078.wav|
+voice18_0160.wav|
+voice26_0077.wav|
+voice36_0141.wav|
+voice5_0233.wav|
+voice19_0187.wav|
+voice28_0056.wav|
+voice39_0080.wav|
+voice7_0223.wav|
+voice35_0101.wav|
+voice21_0070.wav|
+voice33_0077.wav|
+voice33_0209.wav|
+voice37_0017.wav|
+voice40_0136.wav|
+voice21_0084.wav|
+voice31_0113.wav|
+voice21_0041.wav|
+voice27_0188.wav|
+voice40_0087.wav|
+voice29_0024.wav|
+voice36_0197.wav|
+voice19_0120.wav|
+voice28_0162.wav|
+voice19_0169.wav|
+voice19_0053.wav|
+voice27_0197.wav|
+voice11_0284.wav|
+voice23_0129.wav|
+voice23_0157.wav|
+voice5_0181.wav|
+voice17_0344.wav|
+voice5_0075.wav|
+voice22_0186.wav|
+voice19_0028.wav|
+voice1_0192.wav|
+voice6_0082.wav|
+voice13_0026.wav|
+voice20_0247.wav|
+voice1_0204.wav|
+voice16_0013.wav|
+voice17_0378.wav|
+voice21_0002.wav|
+voice31_0092.wav|
+voice8_0127.wav|
+voice31_0116.wav|
+voice10_0020.wav|
+voice18_0134.wav|
+voice6_0057.wav|
+voice8_0203.wav|
+voice10_0221.wav|
+voice31_0193.wav|
+voice34_0016.wav|
+voice14_0077.wav|
+voice1_0133.wav|
+voice9_0272.wav|
+voice19_0069.wav|
+voice9_0317.wav|
+voice25_0431.wav|
+voice40_0063.wav|
+voice22_0190.wav|
+voice13_0287.wav|
+voice7_0171.wav|
+voice25_0352.wav|
+voice14_0128.wav|
+voice32_0226.wav|
+voice9_0224.wav|
+voice6_0187.wav|
+voice32_0123.wav|
+voice21_0014.wav|
+voice20_0296.wav|
+voice1_0066.wav|
+voice26_0253.wav|
+voice4_0117.wav|
+voice1_0111.wav|
+voice9_0206.wav|
+voice33_0107.wav|
+voice30_0253.wav|
+voice18_0223.wav|
+voice18_0255.wav|
+voice38_0102.wav|
+voice23_0133.wav|
+voice2_0197.wav|
+voice25_0100.wav|
+voice20_0054.wav|
+voice40_0110.wav|
+voice1_0169.wav|
+voice16_0012.wav|
+voice30_0003.wav|
+voice36_0250.wav|
+voice17_0363.wav|
+voice3_0344.wav|
+voice23_0248.wav|
+voice18_0081.wav|
+voice3_0025.wav|
+voice31_0305.wav|
+voice34_0020.wav|
+voice23_0036.wav|
+voice25_0082.wav|
+voice19_0266.wav|
+voice40_0056.wav|
+voice31_0068.wav|
+voice11_0122.wav|
+voice5_0114.wav|
+voice3_0173.wav|
+voice16_0074.wav|
+voice2_0047.wav|
+voice25_0256.wav|
+voice18_0204.wav|
+voice26_0182.wav|
+voice18_0213.wav|
+voice17_0124.wav|
+voice17_0297.wav|
+voice20_0258.wav|
+voice8_0009.wav|
+voice25_0439.wav|
+voice20_0037.wav|
+voice29_0148.wav|
+voice14_0191.wav|
+voice38_0077.wav|
+voice21_0298.wav|
+voice29_0180.wav|
+voice21_0234.wav|
+voice11_0110.wav|
+voice30_0277.wav|
+voice12_0108.wav|
+voice36_0261.wav|
+voice21_0054.wav|
+voice35_0124.wav|
+voice35_0032.wav|
+voice3_0031.wav|
+voice20_0198.wav|
+voice32_0168.wav|
+voice1_0036.wav|
+voice18_0156.wav|
+voice2_0187.wav|
+voice16_0097.wav|
+voice39_0059.wav|
+voice19_0213.wav|
+voice17_0135.wav|
+voice2_0070.wav|
+voice28_0142.wav|
+voice18_0306.wav|
+voice37_0078.wav|
+voice18_0282.wav|
+voice36_0121.wav|
+voice13_0283.wav|
+voice9_0316.wav|
+voice30_0248.wav|
+voice26_0071.wav|
+voice18_0265.wav|
+voice1_0170.wav|
+voice20_0189.wav|
+voice25_0011.wav|
+voice12_0135.wav|
+voice25_0241.wav|
+voice25_0238.wav|
+voice15_0165.wav|
+voice33_0176.wav|
+voice4_0025.wav|
+voice20_0211.wav|
+voice21_0202.wav|
+voice21_0218.wav|
+voice16_0100.wav|
+voice39_0100.wav|
+voice6_0033.wav|
+voice13_0228.wav|
+voice11_0268.wav|
+voice21_0292.wav|
+voice28_0223.wav|
+voice29_0176.wav|
+voice19_0311.wav|
+voice17_0026.wav|
+voice11_0281.wav|
+voice13_0184.wav|
+voice28_0054.wav|
+voice19_0052.wav|
+voice26_0049.wav|
+voice25_0360.wav|
+voice35_0098.wav|
+voice31_0383.wav|
+voice14_0100.wav|
+voice20_0170.wav|
+voice11_0302.wav|
+voice9_0282.wav|
+voice1_0159.wav|
+voice2_0035.wav|
+voice25_0303.wav|
+voice25_0124.wav|
+voice8_0280.wav|
+voice21_0059.wav|
+voice30_0114.wav|
+voice32_0012.wav|
+voice38_0123.wav|
+voice16_0221.wav|
+voice9_0315.wav|
+voice32_0033.wav|
+voice21_0043.wav|
+voice13_0310.wav|
+voice25_0375.wav|
+voice13_0136.wav|
+voice17_0249.wav|
+voice15_0169.wav|
+voice19_0163.wav|
+voice21_0147.wav|
+voice12_0221.wav|
+voice12_0219.wav|
+voice23_0037.wav|
+voice32_0246.wav|
+voice18_0035.wav|
+voice12_0211.wav|
+voice8_0020.wav|
+voice13_0113.wav|
+voice32_0050.wav|
+voice21_0065.wav|
+voice38_0015.wav|
+voice19_0031.wav|
+voice25_0332.wav|
+voice5_0061.wav|
+voice7_0159.wav|
+voice32_0040.wav|
+voice14_0150.wav|
+voice17_0412.wav|
+voice3_0348.wav|
+voice9_0235.wav|
+voice34_0018.wav|
+voice29_0129.wav|
+voice39_0043.wav|
+voice8_0083.wav|
+voice30_0037.wav|
+voice10_0129.wav|
+voice11_0145.wav|
+voice9_0198.wav|
+voice14_0087.wav|
+voice15_0280.wav|
+voice32_0146.wav|
+voice3_0046.wav|
+voice30_0159.wav|
+voice32_0095.wav|
+voice26_0088.wav|
+voice8_0225.wav|
+voice14_0151.wav|
+voice18_0231.wav|
+voice21_0277.wav|
+voice7_0030.wav|
+voice11_0244.wav|
+voice12_0085.wav|
+voice12_0106.wav|
+voice8_0154.wav|
+voice33_0139.wav|
+voice8_0136.wav|
+voice24_0109.wav|
+voice5_0132.wav|
+voice19_0104.wav|
+voice29_0193.wav|
+voice1_0012.wav|
+voice20_0023.wav|
+voice20_0165.wav|
+voice30_0235.wav|
+voice39_0056.wav|
+voice35_0069.wav|
+voice30_0046.wav|
+voice8_0235.wav|
+voice34_0019.wav|
+voice6_0117.wav|
+voice10_0006.wav|
+voice24_0113.wav|
+voice23_0167.wav|
+voice38_0114.wav|
+voice32_0233.wav|
+voice3_0247.wav|
+voice1_0023.wav|
+voice39_0193.wav|
+voice2_0104.wav|
+voice40_0113.wav|
+voice35_0134.wav|
+voice23_0198.wav|
+voice26_0163.wav|
+voice21_0278.wav|
+voice32_0046.wav|
+voice20_0120.wav|
+voice31_0165.wav|
+voice7_0023.wav|
+voice1_0055.wav|
+voice28_0226.wav|
+voice17_0365.wav|
+voice26_0194.wav|
+voice12_0109.wav|
+voice3_0236.wav|
+voice25_0448.wav|
+voice25_0278.wav|
+voice24_0001.wav|
+voice12_0258.wav|
+voice25_0180.wav|
+voice18_0260.wav|
+voice38_0004.wav|
+voice17_0319.wav|
+voice13_0197.wav|
+voice8_0124.wav|
+voice4_0054.wav|
+voice9_0283.wav|
+voice2_0095.wav|
+voice21_0023.wav|
+voice30_0155.wav|
+voice28_0005.wav|
+voice36_0351.wav|
+voice2_0038.wav|
+voice31_0268.wav|
+voice17_0197.wav|
+voice17_0089.wav|
+voice20_0278.wav|
+voice13_0236.wav|
+voice34_0146.wav|
+voice35_0000.wav|
+voice23_0144.wav|
+voice28_0151.wav|
+voice16_0289.wav|
+voice23_0062.wav|
+voice6_0110.wav|
+voice26_0003.wav|
+voice20_0255.wav|
+voice25_0125.wav|
+voice17_0273.wav|
+voice22_0198.wav|
+voice3_0021.wav|
+voice16_0205.wav|
+voice12_0203.wav|
+voice17_0104.wav|
+voice22_0030.wav|
+voice25_0113.wav|
+voice6_0006.wav|
+voice35_0107.wav|
+voice25_0191.wav|
+voice33_0098.wav|
+voice31_0049.wav|
+voice1_0151.wav|
+voice32_0135.wav|
+voice25_0245.wav|
+voice20_0121.wav|
+voice25_0204.wav|
+voice8_0081.wav|
+voice33_0044.wav|
+voice36_0118.wav|
+voice18_0299.wav|
+voice23_0097.wav|
+voice17_0247.wav|
+voice17_0227.wav|
+voice14_0040.wav|
+voice32_0273.wav|
+voice31_0056.wav|
+voice17_0293.wav|
+voice31_0255.wav|
+voice11_0245.wav|
+voice24_0142.wav|
+voice10_0268.wav|
+voice26_0138.wav|
+voice24_0048.wav|
+voice32_0045.wav|
+voice34_0054.wav|
+voice20_0214.wav|
+voice11_0275.wav|
+voice9_0055.wav|
+voice26_0220.wav|
+voice40_0070.wav|
+voice5_0153.wav|
+voice40_0007.wav|
+voice25_0116.wav|
+voice30_0244.wav|
+voice20_0022.wav|
+voice11_0099.wav|
+voice24_0055.wav|
+voice13_0044.wav|
+voice12_0205.wav|
+voice25_0277.wav|
+voice20_0122.wav|
+voice9_0212.wav|
+voice1_0233.wav|
+voice21_0252.wav|
+voice40_0099.wav|
+voice27_0088.wav|
+voice27_0230.wav|
+voice15_0238.wav|
+voice10_0274.wav|
+voice32_0155.wav|
+voice28_0033.wav|
+voice18_0019.wav|
+voice21_0096.wav|
+voice36_0374.wav|
+voice36_0286.wav|
+voice27_0013.wav|
+voice8_0163.wav|
+voice5_0037.wav|
+voice21_0315.wav|
+voice1_0137.wav|
+voice33_0138.wav|
+voice18_0094.wav|
+voice2_0056.wav|
+voice31_0340.wav|
+voice32_0021.wav|
+voice29_0035.wav|
+voice12_0055.wav|
+voice15_0097.wav|
+voice27_0014.wav|
+voice1_0067.wav|
+voice28_0018.wav|
+voice28_0098.wav|
+voice4_0164.wav|
+voice18_0297.wav|
+voice18_0122.wav|
+voice2_0141.wav|
+voice19_0086.wav|
+voice36_0361.wav|
+voice5_0012.wav|
+voice25_0236.wav|
+voice7_0027.wav|
+voice30_0293.wav|
+voice20_0267.wav|
+voice21_0100.wav|
+voice22_0196.wav|
+voice17_0379.wav|
+voice8_0238.wav|
+voice26_0013.wav|
+voice27_0222.wav|
+voice23_0194.wav|
+voice1_0132.wav|
+voice31_0284.wav|
+voice13_0178.wav|
+voice7_0034.wav|
+voice13_0047.wav|
+voice9_0139.wav|
+voice10_0235.wav|
+voice15_0016.wav|
+voice17_0056.wav|
+voice10_0128.wav|
+voice33_0207.wav|
+voice25_0054.wav|
+voice17_0091.wav|
+voice17_0417.wav|
+voice21_0029.wav|
+voice26_0271.wav|
+voice17_0376.wav|
+voice33_0002.wav|
+voice4_0042.wav|
+voice6_0010.wav|
+voice15_0048.wav|
+voice18_0155.wav|
+voice33_0032.wav|
+voice29_0214.wav|
+voice39_0140.wav|
+voice5_0033.wav|
+voice4_0154.wav|
+voice3_0258.wav|
+voice36_0326.wav|
+voice10_0171.wav|
+voice5_0068.wav|
+voice14_0107.wav|
+voice12_0100.wav|
+voice24_0117.wav|
+voice36_0239.wav|
+voice20_0201.wav|
+voice15_0250.wav|
+voice26_0202.wav|
+voice4_0114.wav|
+voice12_0044.wav|
+voice27_0082.wav|
+voice23_0001.wav|
+voice8_0044.wav|
+voice19_0211.wav|
+voice33_0131.wav|
+voice26_0199.wav|
+voice29_0237.wav|
+voice19_0037.wav|
+voice4_0115.wav|
+voice3_0056.wav|
+voice17_0416.wav|
+voice1_0143.wav|
+voice10_0148.wav|
+voice8_0279.wav|
+voice20_0014.wav|
+voice26_0149.wav|
+voice9_0155.wav|
+voice34_0143.wav|
+voice17_0010.wav|
+voice27_0099.wav|
+voice35_0152.wav|
+voice30_0036.wav|
+voice9_0318.wav|
+voice18_0104.wav|
+voice16_0175.wav|
+voice17_0282.wav|
+voice26_0234.wav|
+voice1_0051.wav|
+voice36_0115.wav|
+voice12_0072.wav|
+voice17_0244.wav|
+voice6_0158.wav|
+voice16_0036.wav|
+voice28_0191.wav|
+voice13_0125.wav|
+voice25_0225.wav|
+voice29_0096.wav|
+voice5_0270.wav|
+voice8_0177.wav|
+voice10_0122.wav|
+voice33_0076.wav|
+voice16_0274.wav|
+voice4_0084.wav|
+voice11_0228.wav|
+voice21_0133.wav|
+voice39_0053.wav|
+voice30_0072.wav|
+voice2_0018.wav|
+voice21_0094.wav|
+voice21_0071.wav|
+voice9_0109.wav|
+voice17_0368.wav|
+voice1_0208.wav|
+voice26_0015.wav|
+voice5_0165.wav|
+voice8_0054.wav|
+voice25_0151.wav|
+voice34_0003.wav|
+voice33_0168.wav|
+voice24_0030.wav|
+voice14_0005.wav|
+voice31_0248.wav|
+voice36_0378.wav|
+voice12_0069.wav|
+voice33_0006.wav|
+voice26_0128.wav|
+voice27_0165.wav|
+voice9_0286.wav|
+voice27_0180.wav|
+voice37_0130.wav|
+voice28_0160.wav|
+voice28_0267.wav|
+voice7_0257.wav|
+voice23_0240.wav|
+voice33_0091.wav|
+voice26_0044.wav|
+voice32_0147.wav|
+voice17_0110.wav|
+voice1_0183.wav|
+voice25_0428.wav|
+voice31_0222.wav|
+voice38_0003.wav|
+voice34_0149.wav|
+voice18_0199.wav|
+voice21_0087.wav|
+voice25_0400.wav|
+voice8_0117.wav|
+voice9_0156.wav|
+voice10_0190.wav|
+voice32_0250.wav|
+voice25_0226.wav|
+voice27_0102.wav|
+voice17_0005.wav|
+voice23_0071.wav|
+voice18_0147.wav|
+voice13_0306.wav|
+voice32_0229.wav|
+voice23_0261.wav|
+voice13_0064.wav|
+voice32_0026.wav|
+voice11_0034.wav|
+voice25_0196.wav|
+voice28_0186.wav|
+voice27_0041.wav|
+voice39_0032.wav|
+voice4_0059.wav|
+voice10_0071.wav|
+voice26_0076.wav|
+voice17_0292.wav|
+voice17_0386.wav|
+voice27_0045.wav|
+voice25_0420.wav|
+voice36_0114.wav|

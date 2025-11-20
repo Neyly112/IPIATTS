@@ -9,7 +9,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
 from _constants import AUDIO_TEXT_FILE_LIST_PATH, FIELD_SEP
 
-TRANSCRIPTION_FILE = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "_all.txt")
+TRANSCRIPTION_FILE = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "_all_corrected.txt")
 RAW_DATA = pd.read_csv(TRANSCRIPTION_FILE, sep=FIELD_SEP, names=["audio", "text"])
 
 MODEL_ID = "vinai/PhoGPT-4B-Chat"  # "vinai/PhoGPT-4B-Chat", "vinai/PhoGPT-7B5-Instruct" (7B need login token)

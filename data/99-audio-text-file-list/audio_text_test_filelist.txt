@@ -1,231 +1,554 @@
-..\data\data_matchaTTS\voice9_0126.wav|Những bé còi cọc, bệnh thật không có tiền chạy chữa.
-..\data\data_matchaTTS\voice17_0252.wav|Đáp lại thư gửi về chiến trường, những cánh thư hậu phương gửi ra tiền tuyến là lời động viên.
-..\data\data_matchaTTS\voice18_0066.wav|Đến tuổi dựng vợ gả chồng mà chưa kết hôn là bất thường. Thích người đồng giới cũng là bất thường. Kết hôn xong không sinh con cũng là bất thường. Công việc đang ổn định lại muốn từ chức cũng là bất thường.
-..\data\data_matchaTTS\voice7_0082.wav|Hoặc cây ông bày tỏ cũng rất khác,
-..\data\data_matchaTTS\voice1_0205.wav|Đây chính là mối tình đầu của mình.
-..\data\data_matchaTTS\voive11_0043.wav|Trong các mối quan hệ, họ thường có xu hướng điều khiển hoặc bóp méo cảm xúc của người khác.
-..\data\data_matchaTTS\voice12_0242.wav|Đừng quên đón theo dõi kênh và chờ đợi những tập radio tiếp theo của Visa Thế Nhỉ nhé.
-..\data\data_matchaTTS\voice9_0243.wav|Nếu bạn cảm thấy đồng cảm với những lời chia sẻ này, hãy cho tôi biết nhé!
-..\data\data_matchaTTS\voice12_0096.wav|"Nhưng mà đời, làm gì có hai từ "" giá như ""."
-..\data\data_matchaTTS\voice12_0212.wav|Khi người ấy nói lời chia tay, mình đã khóc rất nhiều, nhưng chỉ trong một đêm.
-..\data\data_matchaTTS\voive11_0072.wav|Còn bên trong là cả một chuỗi nguyên nhân tích tụ tính cách ái kỷ, không hình thành từ một nguyên nhân đơn lẻ.
-..\data\data_matchaTTS\voice2_0068.wav|"Nhưng họ cũng gọi ông là "" kẻ điên ""."
-..\data\data_matchaTTS\voice2_0135.wav|Và không ai có thể giúp ta tốt hơn khi bản thân ta sẵn sàng đối diện và chăm sóc sức khỏe tinh thần của mình.
-..\data\data_matchaTTS\voice12_0148.wav|"Cậu thì hay hỏi tớ rằng : "" Khe có yêu tớ không? """
-..\data\data_matchaTTS\voice10_0060.wav|Ê, thật sự rất nhớ cậu đấy.
-..\data\data_matchaTTS\voice6_0144.wav|"Mà đối diện với "" bầy "" những vấn đề nhức nhối của xã hội bằng trí tuệ và bản lĩnh."
-..\data\data_matchaTTS\voice19_0214.wav|Thì cũng đều đáng được trân trọng.
-..\data\data_matchaTTS\voice2_0015.wav|Mới hôm qua thôi, cậu còn hết mình ở cái thành phố nhộn nhịp này.
-..\data\data_matchaTTS\voice15_0014.wav|Cũng bắt đầu thôi nào.
-..\data\data_matchaTTS\voice16_0156.wav|Và đôi khi, sự tồn tại của một Wendy cũng vô tình duy trì một Peter Pan.
-..\data\data_matchaTTS\voice16_0074.wav|Cậu đã ở đó lâu đến nỗi khi trở về, cửa sổ đã đóng kín.
-..\data\data_matchaTTS\voive11_0241.wav|Nếu một người chỉ có thể tồn tại bằng cách làm cho người khác trở nên nhỏ bé, thì họ sẽ không bao giờ cảm thấy đủ.
-..\data\data_matchaTTS\voice5_0126.wav|Cậu là một phần ký ức chẳng thể xóa mờ.
-..\data\data_matchaTTS\voice2_0124.wav|Một chút hưng phấn sau những thành công, một vài đêm mất ngủ vì ý tưởng sáng tạo.
-..\data\data_matchaTTS\voice17_0323.wav|Vẫn cẩn thận nắn nót từng chữ gửi về quê nhà.
-..\data\data_matchaTTS\voice17_0121.wav|Không chỉ ghi lại cuộc sống sinh hoạt,
-..\data\data_matchaTTS\voice7_0008.wav|Có những điều bình thường ngày xưa, lớn lên rồi mới thấy hạnh phúc.
-..\data\data_matchaTTS\voice14_0232.wav|Đó là cách con tự ăn hủi bản thân.
-..\data\data_matchaTTS\voice5_0154.wav|Rằng chỉ cần nói ra lòng mình, một phép màu nào đó sẽ xảy ra.
-..\data\data_matchaTTS\voice1_0134.wav|Người ngồi sau yên xe anh lúc ấy không còn là mình nữa.
-..\data\data_matchaTTS\voice8_0240.wav|Vì khó nắm bắt nên cũng khó kiếm tìm.
-..\data\data_matchaTTS\voice8_0173.wav|Là tình yêu lý tưởng, tình yêu lãng mạn.
-..\data\data_matchaTTS\voive11_0134.wav|Điều quan trọng là ta phải giữ được sự tỉnh táo để nhận ra được dấu hiệu thao túng.
-..\data\data_matchaTTS\voice8_0127.wav|nên cái này không được gọi là tình yêu.
-..\data\data_matchaTTS\voice3_0214.wav|Mà là để cả hai cùng trở thành những phiên bản tốt hơn cho chính mình,
-..\data\data_matchaTTS\voice13_0113.wav|Lời nói dối thì luôn cần được bảo vệ khỏi bị lật tẩy.
-..\data\data_matchaTTS\voice18_0037.wav|Chứng chẩm cảm cười, Smiling Depression là chứng chẩm cảm chức năng cao hay còn được gọi là giới loạn chẩm cảm kéo dài.
-..\data\data_matchaTTS\voice1_0235.wav|Đó là những ngày ta còn chưa đủ trưởng thành.
-..\data\data_matchaTTS\voive11_0196.wav|Ta hiểu rằng không chỉ riêng những người từng bị tổn thương bởi kẻ ái kỷ.
-..\data\data_matchaTTS\voice14_0118.wav|Đã gửi tiếp theo được gửi tới người mẹ nơi xa, từ loài hoa của Ánh Dương.
-..\data\data_matchaTTS\voice14_0253.wav|Mẹ đã không còn sống cho riêng mình nữa.
-..\data\data_matchaTTS\voice1_0151.wav|Để không làm phiền tới cuộc sống hiện tại của anh nữa.
-..\data\data_matchaTTS\voice19_0257.wav|Khi nhìn thấy những cuộc tình dang dở,
-..\data\data_matchaTTS\voice13_0019.wav|Nhưng sự thay đổi này rất nhỏ nên khó nhận biết được bằng mắt thường.
-..\data\data_matchaTTS\voice7_0090.wav|Ông luôn đẹp, rất bảnh dù tuổi đã cao.
-..\data\data_matchaTTS\voice2_0101.wav|Quan trọng nhất là bệnh nhân và gia đình cần hiểu.
-..\data\data_matchaTTS\voice7_0192.wav|Đêm về thức khuya để làm thêm kiếm tiền nuôi hai con ăn học.
-..\data\data_matchaTTS\voice13_0048.wav|Mà để ta học được cách lựa chọn giữa cái lợi ngắn hạn và cái giá dài lâu.
-..\data\data_matchaTTS\voice3_0075.wav|gia đình, thể hiện cách một người tương tác với gia đình.
-..\data\data_matchaTTS\voice4_0051.wav|Rồi tổng hợp và mô phỏng lại phong cách nghệ thuật còn con người,
-..\data\data_matchaTTS\voice1_0168.wav|Từ khoảnh khắc ấy, mình nhận ra đây là tình yêu.
-..\data\data_matchaTTS\voice8_0060.wav|Rằng cô cũng rất lôi thôi, cáo bẩn và khó chịu vô cớ.
-..\data\data_matchaTTS\voice7_0186.wav|Nằm cấp 2, con thấy mẹ khóc trong góc phòng.
-..\data\data_matchaTTS\voice10_0086.wav|Ngoài tớ cũng có rất nhiều những người như tớ, đều thích cậu, tớ nhớ cậu cả ngàn lần, từng giây từng phút.
-..\data\data_matchaTTS\voice17_0273.wav|Mà tôi là một trong hàng trăm người khác đang nằm trong hoàn cảnh ấy.
-..\data\data_matchaTTS\voice17_0003.wav|Thử mắt đầu bằng những câu hỏi Vì sao?
-..\data\data_matchaTTS\voice19_0049.wav|Một hốc cây rỗng.
-..\data\data_matchaTTS\voice15_0081.wav|Cậu không bận, cậu chỉ là không còn muốn dành thời gian cho tớ nữa.
-..\data\data_matchaTTS\voice2_0091.wav|Việc hỗ trợ người bệnh không chỉ cần kiến thức mà còn cần sức mạnh tinh thần bền bỉ, kiên trì.
-..\data\data_matchaTTS\voice2_0120.wav|Mà vẫn đạt được những thành tựu phi thường.
-..\data\data_matchaTTS\voice12_0138.wav|Gửi cậu, bé bê, tớ và cậu lên lớp 3 mới quen nhau.
-..\data\data_matchaTTS\voice13_0107.wav|Bởi vì chúng gây ra các kết quả xấu với người nói chúng.
-..\data\data_matchaTTS\voice4_0031.wav|Và gõ câu lệnh yêu cầu hiển thị theo phong cách của Studio Ghibli.
-..\data\data_matchaTTS\voice13_0093.wav|Nhưng một nửa sự thật, nếu bị sử dụng để lừa gạt, che đậy, dẫn dắt người khác hiểu sai, thì nó sẽ trở thành một nửa của sự thật.
-..\data\data_matchaTTS\voice15_0143.wav|Một ngày trong một buổi triển lãm tranh, Linh gặp Minh, một chàng trai hiền lành, điềm đạm và rất thấu hiểu.
-..\data\data_matchaTTS\voice3_0128.wav|Anh yêu em vì em thông minh và thành đạt
-..\data\data_matchaTTS\voice16_0131.wav|Thường thì bên trong một người từ chối trưởng thành.
-..\data\data_matchaTTS\voice4_0127.wav|Ai cần những bức tranh chân dung vẽ tay mất hàng tháng trời?
-..\data\data_matchaTTS\voice8_0186.wav|Con hãy đi đến cánh đồng và chọn bông hoa mà con tin là đẹp nhất.
-..\data\data_matchaTTS\voice5_0215.wav|Bằng cỏ dại sau mưa.
-..\data\data_matchaTTS\voice9_0137.wav|Để thấy một bối cảnh lớn hơn.
-..\data\data_matchaTTS\voice7_0158.wav|Cho một máy tính trọn vẹn.
-..\data\data_matchaTTS\voice16_0022.wav|Liệu có thể lớn lên mà vẫn giữ được phần trẻ thơ ở trong mình hay không? Hãy cùng bắt đầu nhé.
-..\data\data_matchaTTS\voice17_0025.wav|Đó không chỉ đơn thuần là những mảnh giấy ghi chép.
-..\data\data_matchaTTS\voice13_0133.wav|đều xứng đáng được khen ngợi và cảm kích.
-..\data\data_matchaTTS\voice18_0029.wav|Duchesne cho rằng nụ cười thật sự là một cách hình tượng hóa, đó là nụ cười bằng mắt.
-..\data\data_matchaTTS\voice15_0056.wav|Như một cách để bản thân không phải gồng gánh những nỗi đau này một mình nữa.
-..\data\data_matchaTTS\voice7_0108.wav|Nhưng căn bệnh Alzheimer đã khiến bà chẳng còn nhớ gì nữa.
-..\data\data_matchaTTS\voice14_0081.wav|Nhưng rồi mình hiểu ra rằng, mẹ sẽ không bao giờ hạnh phúc nếu như cứ ở lại nơi đó.
-..\data\data_matchaTTS\voice3_0178.wav|Đó là lúc bản thân mong được công nhận.
-..\data\data_matchaTTS\voice17_0293.wav|Nhưng anh linh cảm mách bảo rằng đêm nay anh sẽ không trở về.
-..\data\data_matchaTTS\voice8_0227.wav|Những phần mong manh về con người của ta
-..\data\data_matchaTTS\voice5_0167.wav|Nhưng lòng thì đau như bị cắt.
-..\data\data_matchaTTS\voice20_0125.wav|"Sau cùng thì mọi thứ đều có thể phản tác dụng và khiến cậu càng thêm phiền não về cơ thể của mình. Vậy có hướng đi nào tối ưu hơn phong trào "" body positivity "" ( tích cực với cơ thể ) không?"
-..\data\data_matchaTTS\voice15_0121.wav|Chỉ thế thôi, vì nếu so với những băn khoăn trong cuộc sống của em, anh chẳng có gì nhiều.
-..\data\data_matchaTTS\voice6_0147.wav|Như gặp nhau cuối năm, ơn trời cậu đây rồi, Hội ngộ danh hài.
-..\data\data_matchaTTS\voice4_0167.wav|AI có thể tạo ra những điều kỳ diệu đến mức nào? Thì sức mạnh lớn nhất, vẻ đẹp chân thực nhất là gì? AI có thể tạo ra những điều kỳ diệu đến mức nào? Thì sức mạnh lớn nhất, vẻ đẹp chân thực nhất là gì?
-..\data\data_matchaTTS\voice4_0162.wav|Mà đó chính là trái tim con người, với tất cả những vết sước, những dung động và những yêu thương chân thành.
-..\data\data_matchaTTS\voive11_0051.wav|Phải được đặt lên hàng đầu
-..\data\data_matchaTTS\voice17_0103.wav|Nhưng nói đúng hơn là đường hầm liên lạc.
-..\data\data_matchaTTS\voice9_0188.wav|Một đứa trẻ không chỉ cần sữa và tã, mà còn cần sự hiện diện trọn vẹn về mặt cảm xúc của ba mẹ.
-..\data\data_matchaTTS\voice4_0097.wav|Những sản phẩm do trí tuệ nhân tạo ( AI ) tạo ra thường thiếu vắng chiều sâu của một thế giới nội tâm phức tạp,
-..\data\data_matchaTTS\voice19_0227.wav|Là chuyện về những ngón tay đan,
-..\data\data_matchaTTS\voice3_0012.wav|Hay cậu có bao giờ tự hỏi rằng bản thân mình yêu người đó vì điều gì?
-..\data\data_matchaTTS\voice17_0168.wav|Bồng đạn của chúng có thể làm đường cho xe chạy bon bon trên núi rừng.
-..\data\data_matchaTTS\voice5_0275.wav|Đúng không?
-..\data\data_matchaTTS\voice12_0100.wav|Vì tôi và cậu cũng không nói chuyện mấy khi còn học lớp mười.
-..\data\data_matchaTTS\voice3_0120.wav|và chúng ít khi mang lại sự thỏa mãn sâu sắc.
-..\data\data_matchaTTS\voice6_0134.wav|như một cách để thể hiện cá tính riêng của mình, đối thoại với thực tại.
-..\data\data_matchaTTS\voice19_0020.wav|Dưa có ai thích mùa đông không vậy?
-..\data\data_matchaTTS\voive11_0212.wav|Xin hãy nhớ rằng yêu bản thân, self love.
-..\data\data_matchaTTS\voice17_0296.wav|Sống và hành động theo lý tưởng của Đảng và Tổ quốc giao cho.
-..\data\data_matchaTTS\voice1_0031.wav|Tôi mong rằng cậu sẽ tìm được hạnh phúc của cuộc đời mình.
-..\data\data_matchaTTS\voice3_0015.wav|Khi cậu nhận ra rằng ai đó khác cũng có những điều đặc biệt tương tự,
-..\data\data_matchaTTS\voice4_0149.wav|Điều gì khiến tác phẩm của mình là duy nhất?
-..\data\data_matchaTTS\voice5_0041.wav|Với mối tình mà tớ đã cất giữ suốt những tháng năm đẹp nhất.
-..\data\data_matchaTTS\voice12_0023.wav|Khiến trái tim mình rất đỗi bồi hồi.
-..\data\data_matchaTTS\voice3_0212.wav|và cùng tiến ra hướng đi chung cho cả hai.
-..\data\data_matchaTTS\voice4_0062.wav|Bởi có lẽ đây chính là khía cạnh ảnh hưởng trực tiếp đến cơm áo gạo tiền của nghệ sĩ.
-..\data\data_matchaTTS\voice1_0258.wav|Vẫn có thể hóa thành một mối duyên trọn vẹn
-..\data\data_matchaTTS\voice6_0041.wav|Có hơn bảy mươi hai phần trăm Gen Z thường xuyên cảm thấy căng thẳng.
-..\data\data_matchaTTS\voice9_0139.wav|Ai mới là người cần phải chịu trách nhiệm cho vấn đề này?
-..\data\data_matchaTTS\voice4_0026.wav|và chiều sâu cảm xúc cho mỗi câu chuyện.
-..\data\data_matchaTTS\voice19_0286.wav|Về cuộc tình mà em đã luôn chân chọc.
-..\data\data_matchaTTS\voice15_0000.wav|Các cậu đang lắng nghe vì sao thế nhỉ? Radio, nơi giúp cậu gửi đi, những lá thư không gửi.
-..\data\data_matchaTTS\voice3_0175.wav|Nhưng trong chính khoảnh khắc được khỏi,
-..\data\data_matchaTTS\voice19_0052.wav|Rồi chúng sẽ bị trừng phạt.
-..\data\data_matchaTTS\voice8_0003.wav|Xin chào, chúng mình là VySal. Thế nhé?
-..\data\data_matchaTTS\voice8_0141.wav|và có thể biến mất một cách bất ngờ.
-..\data\data_matchaTTS\voice17_0179.wav|Thì em, tình hình học tập của em ra sao, có tốt không?
-..\data\data_matchaTTS\voice4_0159.wav|Mối đe dọa lớn nhất có lẽ không đến từ một thuật toán, mà là sự thiếu trách nhiệm và đạo đức của con người.
-..\data\data_matchaTTS\voice20_0137.wav|Thay vì vậy, mình thấy thương chúng và mình biết những điều tốt nhất mình có thể làm để thay đổi những điều mà mình có thể.
-..\data\data_matchaTTS\voice1_0236.wav|"Để hiểu hết ý nghĩa của hai chữ "" yêu thương """
-..\data\data_matchaTTS\voice14_0187.wav|Lúc đó, tôi không biết sẽ sống tiếp với những cảm xúc nào trong những ngày tiếp theo nữa.
-..\data\data_matchaTTS\voice13_0016.wav|Để giải thích cho điều này, tiến sĩ Emilio cho biết khi nói dối cần hoạt động não nhiều nên nhiệt độ vùng trán tăng.
-..\data\data_matchaTTS\voice15_0154.wav|Tôi viết những dòng này với tất cả nỗi lòng của mình, với hy vọng rằng cậu sẽ hiểu được những gì mà tôi đang cảm thấy.
-..\data\data_matchaTTS\voive11_0236.wav|Là cứu chính mình thoát khỏi vòng xoáy tổn thương
-..\data\data_matchaTTS\voice19_0212.wav|Để biết giữ lời hứa,
-..\data\data_matchaTTS\voice20_0134.wav|Nói cách khác, nó giảm thiểu sự tiêu cực hướng tới cơ thể nhất có thể, giúp ta không tiêu cực và cố gắng thay đổi cơ thể một cách cực đoan, cũng không quá buông thả bản thân, mà là sự thấu hiểu cơ thể.
-..\data\data_matchaTTS\voice2_0122.wav|Không hề thua kém gì trầm cảm, căn bệnh vốn đã được nhắc tới nhiều hơn trong đời sống thường nhật.
-..\data\data_matchaTTS\voice3_0202.wav|Để là chính mình.
-..\data\data_matchaTTS\voice7_0009.wav|Thứ chúng mình nhớ nhất không chỉ là ngôi nhà với mái ngói cũ kỹ hay khu vườn rợp bóng cây, mà còn có những kỷ niệm thời thơ ấu bên bạn bè thân thiết.
-..\data\data_matchaTTS\voive11_0234.wav|Nhưng, bạn không thể cứu một người không muốn tự cứu lấy mình.
-..\data\data_matchaTTS\voive11_0158.wav|Để rồi chính môi trường độc hại kia đã vô tình trở thành vùng an toàn.
-..\data\data_matchaTTS\voice8_0256.wav|Chưa bao giờ là chuyện dễ dàng
-..\data\data_matchaTTS\voive11_0129.wav|Ta không thể chỉ chờ đợi thời gian mà còn phải chủ động bước vào hành trình tái tạo lại chính mình từ bên trong.
-..\data\data_matchaTTS\voice1_0160.wav|Người ta bảo chờ đợi một người có lẽ là điều dại dột nhất.
-..\data\data_matchaTTS\voice8_0248.wav|Cuộc sống là một hành trình trở về
-..\data\data_matchaTTS\voice19_0276.wav|và đều nghĩ rằng yêu là phải hết mình,
-..\data\data_matchaTTS\voice20_0078.wav|Cậu chẳng quan tâm tới ngoại hình hay mấy cái đường nét khó coi trên khuôn mặt của cậu,
-..\data\data_matchaTTS\voice9_0155.wav|Khi họ lựa chọn chỉ hoãn việc sinh con, không thể trách họ.
-..\data\data_matchaTTS\voice12_0184.wav|Thứ đã dành suốt 4 5 tháng để tìm hiểu về một người.
-..\data\data_matchaTTS\voice18_0071.wav|Lớn rồi mà vẫn không hiểu chuyện gì.
-..\data\data_matchaTTS\voice13_0063.wav|Rồi ta cũng có cả những lời nói dối mang tính tự lừa dối bản thân.
-..\data\data_matchaTTS\voice2_0097.wav|gồm thuốc ổn định khí sắc, thuốc chống chẩm cảm hoặc chống loạn thần khi cần.
-..\data\data_matchaTTS\voice5_0241.wav|Chúng ta bước vào một chương mới của cuộc đời.
-..\data\data_matchaTTS\voice19_0144.wav|Chúng ta càng khó chấp nhận nhìn thấy họ già yếu đi.
-..\data\data_matchaTTS\voice5_0239.wav|Ký ức sẽ hóa thành tro tàn.
-..\data\data_matchaTTS\voice17_0066.wav|Là ba mẹ vợ con.
-..\data\data_matchaTTS\voice5_0053.wav|Và tớ sẽ không bao giờ quên lần duy nhất, tớ được chở cậu đi lượn lờ phố vào buổi tối.
-..\data\data_matchaTTS\voice3_0188.wav|Cả tốt lẫn chưa tốt.
-..\data\data_matchaTTS\voice5_0155.wav|Nhưng hóa ra, đời không giống như những câu chuyện tớ tự vẽ trong đầu.
-..\data\data_matchaTTS\voice16_0171.wav|Không phải ai mang hội chứng Peter Pan cũng bất nguồn từ tổn thương cá nhân.
-..\data\data_matchaTTS\voice14_0152.wav|Nhưng cuối cùng thì chỉ có thể ôm niềm tin ấy mà khóc mỗi đêm.
-..\data\data_matchaTTS\voive11_0049.wav|Quỹ đạo của người khác
-..\data\data_matchaTTS\voice13_0164.wav|nó đem lại cho ta những hy vọng tuyệt vời.
-..\data\data_matchaTTS\voice14_0021.wav|Nhưng lại vụng về với chính những người sinh ra mình.
-..\data\data_matchaTTS\voice3_0132.wav|Em đã thấy mình thương anh rất nhiều.
-..\data\data_matchaTTS\voice4_0084.wav|Vậy nếu trí tuệ nhân tạo có thể tạo ra một bức tranh hoàn hảo, thì nó sẽ làm được những gì?
-..\data\data_matchaTTS\voice1_0165.wav|Trong những ngày mà cả hai vẫn chỉ là bạn.
-..\data\data_matchaTTS\voice16_0049.wav|Kể cả khi ở Neverland, những cậu bé đi lạc vẫn là một nhóm những đứa trẻ luôn theo chân Peter Pan.
-..\data\data_matchaTTS\voive11_0142.wav|Chỉ là một cách lẩn tránh trách nhiệm khi đối diện với kiểu người lươn lẹo và thao túng thiếu trung thực.
-..\data\data_matchaTTS\voice1_0039.wav|Mình tình cờ biết cậu vào một ngày cuối thu, trong cái tiết trời man mát, trong lành.
-..\data\data_matchaTTS\voice2_0055.wav|Nếu chị tập trung vào điều trị trầm cảm mà bỏ qua hương cảm, việc điều chỉnh bệnh sẽ không toàn diện, dẫn tới nguy cơ tái phát cao.
-..\data\data_matchaTTS\voice4_0059.wav|Khi sự sáng tạo của con người và bản sao từ trí tuệ nhân tạo ngày càng khó phân biệt ranh giới,
-..\data\data_matchaTTS\voice20_0117.wav|Yêu thương và chấp nhận bản thân là như thế nào? Yêu bản thân là một cụm từ không còn xa lạ với chúng ta ngày nay,
-..\data\data_matchaTTS\voice14_0231.wav|Nghe lại những tin nhắn mẹ gửi.
-..\data\data_matchaTTS\voice4_0012.wav|và cũng gieo vào lòng một nỗi lo ngại về đạo đức liên quan đến việc AI sử dụng các tác phẩm sáng tạo có bản quyền,
-..\data\data_matchaTTS\voice19_0125.wav|Người cha luôn theo xác con gái.
-..\data\data_matchaTTS\voice10_0176.wav|Cho nên cách tốt nhất chính là rời đi,
-..\data\data_matchaTTS\voice20_0052.wav|Thế là cô lao vào học học điên cuồng.
-..\data\data_matchaTTS\voice1_0078.wav|Dù bình thường, tớ còn chẳng thèm giao tiếp với người khác.
-..\data\data_matchaTTS\voice5_0236.wav|Bởi vì tôi không muốn sau này phải hối hận,
-..\data\data_matchaTTS\voice18_0140.wav|Mong cậu sẽ luôn cười thật tươi, # # # Tách cà phê nóng hổi trên tay, tôi ngồi xuống ghế đối diện. Cậu ấy nhìn tôi với ánh mắt tò mò và hỏi tôi muốn uống gì không? Tôi mỉm cười và nói rằng tôi chỉ là một người lạ mới quen thôi nên chẳng biết phải gọi đồ uống thế nào cả. Cậu ấy liền đưa cho tôi một tờ giấy và bảo tôi viết ra những thứ mình thích ăn hoặc uống vào đó. Tôi làm theo lời cậu ấy rồi đưa lại cho cậu ấy xem. Cậu ấy gật đầu tỏ vẻ hiểu ý và nói rằng tôi có thể chọn bất cứ món nào trong thực đơn của quán. Tôi cảm ơn cậu ấy rối rít vì đã giúp đỡ nhưng cũng hơi lo lắng khi lần đầu tiên đến đây.
-..\data\data_matchaTTS\voice9_0057.wav|Còn bây giờ, hãy cùng chúng mình bắt đầu tập podcast ngày hôm nay nhé.
-..\data\data_matchaTTS\voice8_0200.wav|Cậu bắt đầu nhận ra rằng
-..\data\data_matchaTTS\voice9_0209.wav|Màng thai là một hành trình kỳ diệu 9 tháng mười ngày thai nghén, một cơ thể, hai trái tim, hai nhịp đập.
-..\data\data_matchaTTS\voice17_0330.wav|Và trên hết, là nhắc ta biết ơn những con người đã đi qua chiến tranh.
-..\data\data_matchaTTS\voice3_0044.wav|Đây chính là giai đoạn kết nối hai con người vốn thuộc về hai thế giới khác nhau,
-..\data\data_matchaTTS\voice9_0101.wav|Bản năng làm cha mẹ là như vậy mà.
-..\data\data_matchaTTS\voice14_0009.wav|Mà tại sao đó trong trách nhiệm trưởng thành, chúng ta dần đánh mất đi sự tự nhiên trong cách thể hiện cảm xúc.
-..\data\data_matchaTTS\voice8_0064.wav|Nhưng đôi khi ta nhầm lẫn giữa ái tình và ái mộ.
-..\data\data_matchaTTS\voice16_0159.wav|Bảo vệ và làm thay mọi thứ cho người khác.
-..\data\data_matchaTTS\voice19_0130.wav|như chỉ sợ một câu nói nữa thôi sẽ làm cho con bé gấp giấc ngủ.
-..\data\data_matchaTTS\voice19_0174.wav|Người ta thấy lãng mạn, đông đúc.
-..\data\data_matchaTTS\voice8_0109.wav|Là những thành tố cấu thành.
-..\data\data_matchaTTS\voice9_0213.wav|Những lần lo lắng khi chưa thấy em bé vào đúng tổ,
-..\data\data_matchaTTS\voice15_0170.wav|Nơi mà tình bạn của chúng ta có thể nở rộ và chạm tới những điều đẹp đẽ nhất.
-..\data\data_matchaTTS\voice4_0057.wav|Đó có thể là một vẹn màu vô tình loang ra, một nét bút uốn lượn bất tận.
-..\data\data_matchaTTS\voice10_0087.wav|Nỗi nhớ của tớ nhiều như vậy, không biết vũ trụ có gửi được một ít nào tới cậu không? Tớ nghĩ là có.
-..\data\data_matchaTTS\voive11_0145.wav|Với người ấy, kỷ luật còn ở mức độ nghiêm trọng hơn.
-..\data\data_matchaTTS\voice17_0152.wav|Trong thời gian chúng con làm việc,
-..\data\data_matchaTTS\voice3_0011.wav|Vậy liệu những cảm xúc đó chỉ là cơn cảm nắng nhất thời?
-..\data\data_matchaTTS\voice18_0079.wav|Đáng buồn thay, họ đang bị trầm cảm.
-..\data\data_matchaTTS\voice20_0074.wav|chật vật lắm thì cậu kiếm được một công việc bắt đầu.
-..\data\data_matchaTTS\voice9_0039.wav|Lập luận của ai thì cũng có phần đúng.
-..\data\data_matchaTTS\voice2_0056.wav|Biểu hiện của rối loạn lưỡng cực rất đa dạng và tùy theo từng người. Khi rơi vào giai đoạn hưng cảm ( mania ), bệnh nhân thường có những hành vi quá khích như nói nhiều, hoạt động liên tục không nghỉ ngơi, cảm thấy vui vẻ, yêu đời một cách thái quá; ngược lại, khi rơi vào giai đoạn trầm cảm ( depression ), bệnh nhân thường có biểu hiện buồn rầu, chán nản, mệt mỏi, mất hứng thú với các hoạt động mà trước đây họ rất thích.
-..\data\data_matchaTTS\voice14_0142.wav|Bà ngoại phải ôm chặt nỗi đau mất cả 2 người con gái.
-..\data\data_matchaTTS\voice5_0027.wav|Và biết đâu, cậu cũng sẽ cảm nhận được điều gì đó.
-..\data\data_matchaTTS\voice14_0158.wav|Vì con mà mẹ phải chịu nhiều áp lực.
-..\data\data_matchaTTS\voice12_0083.wav|Em biết em không xinh đẹp, chẳng giỏi giang.
-..\data\data_matchaTTS\voice8_0249.wav|Trở về với thiên nhiên
-..\data\data_matchaTTS\voice3_0105.wav|ấy là để được công nhận, để được yêu, khát khao được yêu như chính mình.
-..\data\data_matchaTTS\voice12_0147.wav|Tớ là kiểu người hơi cọc, chẳng đòi nói những lời yêu thương.
-..\data\data_matchaTTS\voice20_0055.wav|Chúng nhận thấy giá trị lợi dụng của cô, chúng nâng tay rồi không động đến cô nữa.
-..\data\data_matchaTTS\voice3_0159.wav|Tình yêu đích thực được thử thách và trưởng thành khi chúng ta chấp nhận.
-..\data\data_matchaTTS\voice9_0162.wav|Chúng ta không nên rơi vào lối tư duy phiến diện ấy.
-..\data\data_matchaTTS\voice1_0113.wav|Nhưng tình đầu nó nớt, chỉ kéo dài 5 tháng rồi kết thúc vì cả hai còn quá trẻ con.
-..\data\data_matchaTTS\voice19_0076.wav|Con người sẽ bị suy tim.
-..\data\data_matchaTTS\voice3_0008.wav|Đó là khoảnh khắc tình yêu gõ cửa, khiến cậu bỗng thấy cuộc đời này thật đáng yêu biết nhường nào.
-..\data\data_matchaTTS\voice6_0004.wav|Và để có một tinh thần sống thực sự, hãy đến với tập podcast số này nhé.
-..\data\data_matchaTTS\voice10_0132.wav|Nó không khiến em hào hứng, không lạ em cảm thấy ấm áp.
-..\data\data_matchaTTS\voice18_0048.wav|Chỉ cần bước tới cửa nhà, thật vội ba lô xuống là tất cả năng lượng dùng như rút ra khỏi cơ thể.
-..\data\data_matchaTTS\voice19_0344.wav|Đánh giá cao sự ấm áp của mặt trời vào mùa đông.
-..\data\data_matchaTTS\voive11_0027.wav|và đó cũng chính là lúc cô nhận ra
-..\data\data_matchaTTS\voice7_0058.wav|Con sẽ cố đi thật nhanh.
-..\data\data_matchaTTS\voice19_0264.wav|Mình đã từng nghĩ hoặc rằng ẩn sau sự chia ly này,
-..\data\data_matchaTTS\voice15_0058.wav|Bởi vì giờ đây, tôi cũng chẳng chắc tình cảm của mình có còn ý nghĩa không nữa.
-..\data\data_matchaTTS\voice15_0020.wav|Nhưng với mình, tình yêu giống như một ván bài mà mình không dám đặt cược.
-..\data\data_matchaTTS\voice19_0018.wav|Chưa một lần nào mình đưa đông vào danh sách yêu thích của mình.
-..\data\data_matchaTTS\voice8_0207.wav|Con lại không thể quay đầu trở lại một lần nữa.
-..\data\data_matchaTTS\voice3_0051.wav|Được gọi là cơ chế phản chiếu cảm xúc, khi ai đó khiến cậu cảm thấy mình được chấp nhận.
-..\data\data_matchaTTS\voice19_0190.wav|Mẹ trích ra mua cho con cái xe đạp đi học nhé.
-..\data\data_matchaTTS\voice19_0017.wav|Thức thâu đêm nên bếp lửa trong nồi bánh.
-..\data\data_matchaTTS\voice19_0258.wav|Khi cả hai trẻ quá biết bao thăng trầm,
-..\data\data_matchaTTS\voice16_0143.wav|Phần trẻ con bị đánh cắp trỗi dậy,
-..\data\data_matchaTTS\voice1_0267.wav|Coi đó là một kết thúc trọn vẹn cho một thanh xuân đã từng rực rỡ, sôi nổi.
-..\data\data_matchaTTS\voice7_0104.wav|và nhớ ông rất nhiều.
-..\data\data_matchaTTS\voice20_0058.wav|Trời hạ, đã xấu thì không có cách nào để hết xấu đâu.
-..\data\data_matchaTTS\voice5_0160.wav|Tôi biết mình đã thua.
-..\data\data_matchaTTS\voice12_0110.wav|Hãy cùng thích màu xanh da trời nhạt.
+voice27_0237.wav|Hãy hài lòng với bản thân mình,
+voice38_0016.wav|Bạo lực giữa người chồng đối với người vợ trong gia đình là dạng bạo lực phổ biến nhất, chiếm tới 70%.
+voice12_0068.wav|Anh có khỏe không?
+voice20_0152.wav|Cậu thèm khát cái gọi là tình yêu.
+voice16_0138.wav|nhưng nó là một thuật ngữ có giá trị biểu tượng mạnh mẽ,
+voice17_0300.wav|Để những người mẹ, người chị, người vợ
+voice33_0256.wav|Suy nghĩ cùng,
+voice24_0100.wav|Có con người hiện chỉ có thể đảm bảo duy trì trạng thái giao tiếp tương đối ổn định với dưới 150 người.
+voice30_0021.wav|Người nhà quê chân đất thì nên yên phận, đừng cố trèo cao.
+voice29_0128.wav|Người đời cũng không biết rằng,
+voice27_0289.wav|Đó chính là bất công luôn xảy ra với tất cả mọi người.
+voice25_0407.wav|Vẫn hằng gắn bó với mình.
+voice7_0082.wav|Lạ thư tiếp theo được gửi từ bạn Mel.
+voice14_0178.wav|Mẹ đã chấp nhận rời xa con, chấp nhận những ngày tháng cô đơn nơi đất khách.
+voice3_0181.wav|Hãy giải mã bài toán tình yêu.
+voice6_0075.wav|Khi con người không thể thay đổi được hiện thực, cơ chế phòng vệ sẽ được kích hoạt.
+voice33_0114.wav|"Kế mình trở nên ""ngõ ngách"","
+voice25_0106.wav|Tất cả đều trọn vẹn niềm vui
+voice6_0023.wav|Khi không thể thay đổi được hoàn cảnh, chúng mình dùng tiếng cười để chữa lại những tổn thương.
+voice27_0273.wav|Vòng trào này sẽ tập trung vào việc
+voice7_0075.wav|và trải nghiệm những điều mới mẻ nhất trên đời.
+voice1_0229.wav|như một minh chứng rằng thời gian có thể làm mọi thứ thay đổi,
+voice33_0220.wav|Thì có phải những gánh nặng ấy,
+voice15_0066.wav|Nhưng dù sao thì tớ vẫn muốn nói ra.
+voice5_0283.wav|và đó là số radio của tuần này.
+voice11_0092.wav|Thường giới hữu hoạt động não khác biệt ở vùng liên quan tới sự lý cảm xúc,
+voice13_0231.wav|và chạy trốn hậu quả,
+voice21_0155.wav|Trở thành một di sản của nỗi bất hạnh.
+voice25_0242.wav|Tết đến xuân về
+voice1_0049.wav|Thứ cảm xúc tiêu cực ấy cứ ngày càng lan rộng, những lúc như vậy,
+voice1_0201.wav|Nhưng sẽ mãi hiện hữu trong tâm trí hoặc trong trí óc dù có mù mờ ra sao.
+voice3_0131.wav|Trong đó,
+voice16_0114.wav|Việc đi về nhà và phát hiện ra rằng bố mẹ không muốn cậu nữa.
+voice18_0045.wav|Nghĩa là có những nụ cười tự nhiên và những nụ cười gượng gạo.
+voice23_0150.wav|Khi ngủ trong cái thất nhỏ vùng cao nguyên Việt Nam,
+voice32_0080.wav|Cũng là một năm đại dịch Covid diễn ra, khi cả thế giới phải giãn cách.
+voice16_0185.wav|Dẫn tới việc từ chối tiến về phía trước.
+voice16_0126.wav|Gom tất cả những lời miêu tả của Neverland phía trên mà xem!
+voice28_0243.wav|Thì ra chúng mình đã từng yêu nhau nhiều đến thế.
+voice15_0252.wav|Một cái ôm nhẹ nhàng, một ánh mắt thấu hiểu.
+voice25_0078.wav|Một mùa bình thường để xuống họp.
+voice9_0164.wav|Đối với sự an toàn, phát triển và hạnh phúc của con trẻ.
+voice5_0228.wav|Tớ không ngờ, thời gian lại lướt qua nhanh như một cơn gió vụt qua miền ký ức.
+voice15_0118.wav|Những câu nói tưởng chừng như dành riêng cho tớ,
+voice10_0189.wav|Cảm ơn cậu rất nhiều.
+voice17_0327.wav|Quyết không để quân thù cướp lấy.
+voice20_0138.wav|Đồng nghiệp của cậu cũng là mấy tay làm thuê.
+voice35_0135.wav|Hãy lại tự giản vặt mình?
+voice15_0213.wav|Sau khi chia tay, Linh cảm thấy hụt hẫm và cô đơn.
+voice25_0377.wav|Mình biết
+voice1_0096.wav|Nên mới chịu đau đớn mà lấn ná lại thôi, mình vẫn nhớ 50.000 hai đứa từng ăn có vị gì?
+voice10_0215.wav|Giá như em đừng lặng im,
+voice19_0247.wav|Thì mùa nào cũng sẽ hoang tàn.
+voice12_0243.wav|Ừm, cậu thân mấy nơi, suy cho cùng thì thưa thớt giữ trái tim của ta ở vị trí mập mờ.
+voice13_0151.wav|che đậy, dẫn dắt người khác hiểu sai.
+voice17_0127.wav|Không chỉ ghi lại cuộc sống sinh hoạt
+voice18_0263.wav|Trong Friends
+voice27_0011.wav|Sự sáng tạo và nêu bật được cá tính riêng của mỗi người.
+voice11_0101.wav|xu hướng ái kỷ có thể mang yếu tố sinh học.
+voice2_0033.wav|Rối loạn lưỡng cực hay tên đầy đủ trong y học là rối loạn cảm xúc lưỡng cực.
+voice29_0049.wav|Hồi còn minh mẫn,
+voice39_0007.wav|Về nhiều vấn đề khác nhau trong cuộc sống.
+voice1_0003.wav|Tình cảm khi ấy thắm thiết và trong trẻo đến vô ngần.
+voice34_0140.wav|Con độ, nếu điểm chỉ thấp đi một phần, gia đình sẽ chẳng chú ý tới con nữa.
+voice4_0067.wav|Còn con người, giống trong chính phong cách ấy.
+voice24_0008.wav|và để có một tinh thần sống thực sự.
+voice30_0065.wav|và giúp người khác cảm thấy được yêu thương.
+voice14_0182.wav|Đó là cách con tự ăn hủy bản thân.
+voice25_0366.wav|Chúng ta thực sự chỉ có thể ở bên họ.
+voice29_0061.wav|gọi chuyện họ,
+voice9_0245.wav|Kiểu gắn bó giữa cha mẹ và con gái ảnh hưởng trực tiếp đến khả năng xây dựng lòng tin,
+voice22_0139.wav|Khi người thân nhất bảo tôi hãy chết đi,
+voice23_0060.wav|Một điều gì đó khó tả lắm.
+voice3_0088.wav|Chứ không chỉ dừng lại ở những gì mắt thấy, tai nghe.
+voice10_0098.wav|Cũng chính cậu là người đầu tiên không nói gì.
+voice29_0004.wav|Dựa trên phương pháp First Principle Thinking từ Duy Nguyên Bản.
+voice25_0152.wav|Lẫn đạo đức, phẩm chất của người cho chữ
+voice13_0031.wav|Nhưng sự thay đổi này rất nhỏ nên khó nhận biết được bằng mắt thường.
+voice18_0050.wav|và thứ hai đó chính là cơ vòng mi kiểm soát khóe mắt.
+voice2_0189.wav|Chúng ta có thể bước thêm một bước về phía của sự thấu hiểu và lòng cảm thông,
+voice26_0240.wav|Chúng mình vẫn tưởng là hình tròn.
+voice15_0177.wav|Vì thế nên anh sẽ giữ tình cảm này trong lòng.
+voice17_0159.wav|Nhưng tất cả chúng con đều sống liếp mặt đường
+voice24_0093.wav|Sẽ dần biết rõ những người nào đáng bỏ thời gian để qua lại,
+voice17_0277.wav|và hẹn sẽ chờ
+voice12_0153.wav|Một người bạn khác dưới.
+voice18_0112.wav|Là tất cả năng lượng dường như rút ra khỏi cơ thể.
+voice9_0114.wav|Cách trở thành ba mẹ tốt hơn
+voice15_0058.wav|Tớ không biết bức thư này có bao giờ đến được tay cậu hay không, nhưng tớ vẫn muốn gửi nó đi.
+voice31_0319.wav|Niềm tin này khiến cho cô ấy,
+voice31_0322.wav|Kiểm soát
+voice35_0070.wav|Rồi yêu người khác để cố quên người cũ, cố gắng biến người mới thành người cũ.
+voice33_0028.wav|"Đến nỗi chữ ""thích"" đó biến chất thành sự ""sở hữu""."
+voice39_0143.wav|Họ mới xem được Story của mình.
+voice24_0164.wav|Khi đã chuẩn bị xong, mới quay trở lại cuộc giao tiếp.
+voice31_0296.wav|Có sức chữa lành rất lớn.
+voice8_0186.wav|Tình dục hoặc đòi hỏi về sắc thịt
+voice11_0094.wav|Họ nhạy cảm với sự ngưỡng mộ.
+voice15_0054.wav|Còn Hải Cẩu là vì tớ thích Hải Cẩu thôi.
+voice26_0058.wav|Thì nào có đứa nào quan tâm
+voice10_0052.wav|Bởi vì đây là lá thư mà mình cất dấu suốt 8 năm qua,
+voice9_0202.wav|và trách nhiệm của hệ thống an sinh xã hội
+voice19_0193.wav|Dằm vào cái khi nào?
+voice26_0121.wav|Các bằng chứng quá yếu lại không đồng tình với suy luận đó.
+voice10_0252.wav|của những tháng ngày còn có nhau.
+voice28_0246.wav|Mùa đông khiến mọi vòng tay trở nên nóng bỏng.
+voice23_0196.wav|của mẹ,
+voice30_0245.wav|Chọn 5 năm sau chia tay,
+voice36_0150.wav|Dân tộc, các anh quyết tâm dấn thân mình.
+voice7_0185.wav|Mình nhớ về bố,
+voice31_0285.wav|Nhưng với những tổn thương sâu và kéo dài từ thuở thơ ấu,
+voice21_0135.wav|Các hợp chất hóa học dùng để cảnh báo nguy hiểm sẽ được kích hoạt trong cơ thể của đứa bé, khiến nó trở nên cảnh giác.
+voice30_0223.wav|Hãy ngồi xuống và đối thoại chân thành với nhau.
+voice32_0276.wav|Tận sâu bên trong bạn ấy vẫn là một tình yêu thương sâu sắc, là một mong muốn, được để lại điều gì đó xinh đẹp cho cuộc đời.
+voice33_0135.wav|đều lần lượt thông báo chia tay, buồn thật!
+voice6_0078.wav|Nổi tiếng với công trình nghiên cứu về các cơ chế phòng vệ trong suốt hơn 30 năm,
+voice5_0105.wav|Nhưng tớ biết, có điều gì đó rất đặc biệt đã nhen lên giữa tớ và cậu.
+voice20_0233.wav|Nhưng những đứa trẻ đó cũng sẽ có lỗi.
+voice26_0289.wav|Nhưng đó là do cách chúng ta nhìn nhận.
+voice26_0281.wav|Ngắm mãi mà không biết chán.
+voice18_0222.wav|Không hiểu được họ đã nghĩ gì mà buông ra được mấy lời đó.
+voice11_0143.wav|Khiến bạn cảm thấy mình thật đặc biệt.
+voice24_0108.wav|Thì số người cậu có thể trò chuyện và xây dựng mối liên hệ,
+voice6_0050.wav|tiếp cận mọi thứ bằng sự hài hước, mang màu sắc châm biếm.
+voice16_0193.wav|thường có nhu cầu mạnh mẽ về một nơi trú ẩn trong tâm trí.
+voice6_0135.wav|Đã dùng chính sự khôi hài, đôi khi là ngông nghênh.
+voice8_0184.wav|Không đam mê nhưng mạnh hơn tình bạn.
+voice25_0276.wav|Những ngày cận Tết
+voice18_0140.wav|Còn đối với những kẻ trẻ tuổi hoàn hảo, đầy rẫy những suy nghĩ tiêu cực trong lòng thì sao?
+voice25_0016.wav|Mưa răng mắc trên từng lá cây, ngọn cỏ
+voice40_0005.wav|Tuy nhiên, khi vừa về đến nhà thì ngay lập tức cậu bị ba mẹ mắng về những bài kiểm tra điểm thấp.
+voice8_0273.wav|Mây của trời cứ để gió cuốn đi.
+voice3_0045.wav|Đặc biệt trong xã hội hiện đại,
+voice21_0205.wav|và đề nghị cậu nói chuyện trực tiếp với ông ấy.
+voice14_0089.wav|Như mẹ vẫn mong đợi. Chắc con giống ba nên con bướng bỉnh, lì lợm và ngúc ngách.
+voice29_0130.wav|Vốn là sự bắt đầu của lúc mới sinh ra bên kia.
+voice18_0208.wav|Có lẽ đã từng tan vỡ như thế nào?
+voice3_0234.wav|Ta mới cảm nhận được rằng người ta thực sự để tâm.
+voice13_0247.wav|Sự thật không chỉ là hành vi đạo đức cá nhân, mà còn liên quan đến trách nhiệm xã hội và sự phát triển bền vững của cộng đồng.
+voice11_0176.wav|Nhưng phải ghi nhớ rằng, chúng ta không đáng bị đối xử tệ.
+voice14_0093.wav|Con cũng không hiểu được cảm giác nhọc nhằn khi phải nuôi con từng ngày.
+voice33_0021.wav|Em không chấp nhận việc em không phải là người phù hợp với anh.
+voice36_0205.wav|thầm lặng lẽ, các anh không về, mình em
+voice26_0244.wav|Bất ổn, không đứng yên.
+voice22_0093.wav|Theo số liệu báo cáo từ Cơ quan Bộ Y tế lao động và Phúc Lợi.
+voice16_0086.wav|Đám trẻ con sẽ không bao giờ già đi khi đến Neverland.
+voice26_0206.wav|Đèn kéo quân hay còn được gọi là đèn củ gỗ,
+voice31_0339.wav|Không đáng bị liên án hay chỉ trích.
+voice9_0131.wav|Hay cảm giác thấp kém khi không thể đáp ứng kỳ vọng của xã hội
+voice11_0254.wav|Bởi vì bạn vẫn đang ở đây, lựa chọn chữa lành, lựa chọn sống thật.
+voice2_0098.wav|kể cả những hoạt động thường ngày.
+voice14_0007.wav|Mà tại sao đó trong trách nhiệm trưởng thành, chúng ta dần đánh mất đi sự tự nhiên trong cách thể hiện cảm xúc.
+voice20_0038.wav|Sẽ chuyển chỗ chúng nó xuống gọi cạnh cô để cho đỡ nói chuyện.
+voice15_0108.wav|Cậu không bận, cậu chỉ là không có muốn dành thời gian cho tớ nữa.
+voice11_0127.wav|Thúc đẩy việc đạo ra một phiên bản bản thân thật đáng ngưỡng mộ, bất kể sự thật ra sao.
+voice20_0062.wav|Vận động viên bất lực.
+voice29_0121.wav|Khi ngồi bên giường người hấp hối,
+voice3_0367.wav|Tình yêu không phải là mục đích đến, mà chỉ là một cảm xúc.
+voice26_0012.wav|Có con sư tử vui múa quanh vòng quanh.
+voice27_0019.wav|Và nỗi thống khổ là sự nguyền rủa cả đời mà cô phải chịu đựng.
+voice27_0227.wav|Chúng sẽ có lỗi nếu chúng bỏ bê hay tự hủy hoại cơ thể này,
+voice27_0100.wav|Thì vẫn còn đó.
+voice24_0071.wav|Việc ai đó quảng giao, thân thiện khi giao tiếp với người khác
+voice9_0203.wav|Cũng như ý thức cộng đồng cần phải được nghiêm túc cải thiện.
+voice37_0039.wav|Nhà chỉ cần từ đấy được vang lên thành tiếng thôi.
+voice21_0212.wav|Chứ không phải là trong chứng mắt ngủ mà con phải chịu đựng.
+voice26_0157.wav|Chứa đầy tình yêu thương mến.
+voice29_0211.wav|và đi về một nơi thật xa nào đó,
+voice13_0053.wav|Mỗi lời nói dối của Pinocchio là một vết đâm vào chính sự hồn nhiên của cậu.
+voice13_0169.wav|Trong một nửa sự thật không hề rẻ.
+voice13_0028.wav|Để giải thích cho điều này, tiến sĩ Emilio cho biết khi nói dối cần hoạt động não nhiều.
+voice11_0131.wav|Một lối sống của cá nhân ái kỳ.
+voice1_0048.wav|Cậu có một bức tường dày trong tim mà ngay cả mình cũng không thể tìm được chìa khóa để mở.
+voice21_0279.wav|Đặc biệt, phần vỏ não trước trán bên trái.
+voice11_0183.wav|Với những người có biểu hiện ái kỳ ở mức độ nhẹ,
+voice31_0167.wav|Con người vốn là sinh vật xã hội và cảm xúc.
+voice17_0190.wav|Mẹ mới về thăm mẹ đó mà sao con thấy nhớ mẹ quá!
+voice13_0052.wav|Vạch trần nó một cách rõ ràng, cụ thể và công khai.
+voice25_0392.wav|Về một điều gì đó.
+voice6_0066.wav|Và giám chắc là nếu như ông sống vào thời đại này,
+voice10_0139.wav|"Tớ nghĩ là có, vì tớ đã mơ rất nhiều về cậu,
+###"
+voice5_0197.wav|Nhưng tớ không trách cậu.
+voice9_0138.wav|Và khi ấy không ít người cảm thấy cô độc, kiệt sức, bất lực.
+voice18_0109.wav|Đầu óc mình bắt đầu óng ánh
+voice20_0064.wav|Cậu đập vỡ hết gương trong nhà.
+voice18_0164.wav|Bị Dũng vào chân sẽ kêu đau
+voice10_0001.wav|Mới hôm qua thôi, ta còn tay trong tay trên con đường quen thuộc, cứ ngỡ mình sẽ chẳng bao giờ rời khỏi phòng tay ấy.
+voice32_0269.wav|Rồi mình cứ nghĩ mãi về câu chuyện của người bạn của mình, tao chẳng muốn lưu giữ lại kỉ niệm với bất cứ ai.
+voice25_0441.wav|Lạc mất đi người thân
+voice14_0192.wav|Mẹ ơi, con yêu mẹ lắm, yêu mẹ vô cùng, bảo châm của mẹ.
+voice23_0090.wav|Vì cậu không thương ông,
+voice32_0181.wav|Nã bộ không ngừng tìm kiếm sự hứng thú,
+voice25_0271.wav|Để cảm thấy nơi mình đang sống
+voice10_0145.wav|Tình yêu với mình thực sự là một thứ gì đó không có thật.
+voice10_0205.wav|Khi em mệt mỏi đã rồi.
+voice19_0154.wav|Lúc đó, mình mới thấm thía câu nói này:
+voice19_0071.wav|Nhiễm độc máu và suy giảm trí nhớ.
+voice19_0306.wav|Ô cũng bởi tâm người nặng hơn tâm cây cỏ.
+voice21_0312.wav|Tình yêu ấy mới chính là phương thuốc chữa lành mạnh mẽ nhất.
+voice1_0046.wav|nó vẫn như vừa mới diễn ra ngày hôm qua vậy.
+voice31_0030.wav|Nhưng đến lúc cô chỉ cho Zoe trèo thuyền,
+voice3_0208.wav|Ta kỳ vọng điều gì từ câu trả lời này?
+voice19_0165.wav|Vật nuôi tại nhiều tỉnh và thành phố,
+voice24_0068.wav|Hay họ đang cố gắng gồng mình lên để che lấp đi sự tiêu cực của bản thân?
+voice36_0073.wav|Là những người khoác áo tràng đỏ.
+voice6_0128.wav|"Có một câu hỏi cần thử đặt ra là: Có phải chỉ Gen Z mới ""cựt nhả"" hay không?"
+voice9_0052.wav|hay kế hoạch mặc định sau hôn nhân nữa
+voice25_0132.wav|Nó vẫn nằm ngay trong chính bà.
+voice6_0116.wav|nhưng nếu đánh giá kỹ hơn thì chúng mình có thể thấy rằng đó là một lớp vỏ bọc hài hước,
+voice1_0202.wav|Phạm là con người.
+voice26_0002.wav|và chào mừng các cậu đã đến với Trỗi podcast.
+voice1_0081.wav|Đến bây giờ, tớ thực sự nhận ra đã quá trễ để níu kéo mối quan hệ này rồi, tớ và cậu chẳng còn gì hết.
+voice12_0057.wav|Khoảnh khắc ấy, anh đã chạm được đến trái tim em rồi.
+voice14_0027.wav|Và cũng chính mẹ là người đã đưa con ra khỏi nỗi tuyệt vọng và khổ sở trong lòng.
+voice11_0106.wav|Có thể hình thành niềm tin rằng bản thân mình vượt trội.
+voice15_0193.wav|Mối quan hệ của họ tưởng chừng như rất hoàn hảo.
+voice30_0153.wav|hiểu cho nhau, để lựa nhau và trao cho nhau cái nhau muốn.
+voice31_0240.wav|suy nghĩ của mình cho người khác.
+voice19_0119.wav|Ông đều kinh ngạc nhìn theo.
+voice13_0288.wav|Giữa hai cực nói dối và kể hết,
+voice34_0068.wav|Thôi của bố là sau khi bố phản bác cho bản thân,
+voice33_0009.wav|Bởi lúc nào lớp lá chắn trong mắt những kẻ đang yêu cũng là một lớp kính màu hồng để mọi cảnh sắc đều nên thơ như trong chuyện cổ tích.
+voice31_0238.wav|Thường không có ý thức được rằng mình đang tái hiện tổn thương.
+voice33_0158.wav|Lặng lẽ,
+voice28_0321.wav|Bạn không mất họ.
+voice25_0099.wav|Mùa Xuân long lanh nước mắt ba
+voice28_0249.wav|Nếu phải chia tay thì đừng nói chia tay vào mùa Đông,
+voice12_0121.wav|Khi lần đầu được người con gái mình thích làm như thế.
+voice27_0076.wav|Hai con người ấy chẳng biết phải làm sao.
+voice19_0333.wav|Đánh giá cao sự ấm áp của mặt trời trong mùa đông,
+voice33_0206.wav|Câu chuyện cũng chưa chắc đã có một cách kết thúc khác.
+voice28_0157.wav|Lúc đó, mình mới thấm thía câu nói này:
+voice8_0011.wav|Thì quá đơn giản.
+voice29_0147.wav|của một cá thể trúng số độc đắc.
+voice22_0155.wav|Có một câu chuyện nhỏ xíu đáng yêu như thế này.
+voice10_0078.wav|Tớ không đủ can đảm để quên cậu,
+voice36_0346.wav|Đến với mọi người, bóng cho tiếng súng
+voice2_0002.wav|Và chào mừng các cậu đã đến với Trỗi Podcast!
+voice37_0020.wav|Cô gái bối rối,
+voice16_0153.wav|Hay đó có thể là một bác trung niên,
+voice29_0054.wav|Nó đã tự tử một lần.
+voice39_0109.wav|Một mùi hương mà ta nhận biết và có cảm xúc với nó.
+voice16_0199.wav|Và vì thế,
+voice13_0230.wav|Pinocchio chỉ biết vui chơi và nói dối
+voice5_0224.wav|Một ngàn ngày, không dài cũng không ngắn.
+voice8_0093.wav|Thế nhưng, buổi chiều hôm đó,
+voice36_0064.wav|Chiến thắng Điên Biên Phủ là một trong những đỉnh cao chói lọi
+voice25_0066.wav|Mùa Xuân đầu tiên, ta đập tan chế độ quân chủ
+voice40_0127.wav|Người ta chỉ có thể hòa niệm nhớ thương,
+voice19_0045.wav|Đến chim chóc và linh trưởng đều đi tìm cho mình một cái tổ.
+voice23_0083.wav|Kể cả khi chưa từng trải qua,
+voice26_0252.wav|Nên nhường cho mình.
+voice26_0090.wav|Trên tấm chiếu cói trải giữa sân đình
+voice30_0289.wav|Vì sao thế nhỉ, giá mặt cuốn sách đầu tay có tựa cùng tên kênh?
+voice31_0299.wav|Được nói ra nỗi đau mà không bị đánh giá,
+voice28_0086.wav|Mình nhìn thấy rõ hơn.
+voice13_0237.wav|Hành trình ấy cũng là hành trình của mỗi chúng ta,
+voice39_0132.wav|Để rồi cứ mãi sống trong tiếc nuối.
+voice25_0146.wav|Ông Tục xin chữ đầu năm là truyền thống của dân tộc ta.
+voice5_0159.wav|Cảm ơn cậu.
+voice7_0106.wav|và đôi khi cũng có phần cứng nhắc.
+voice40_0026.wav|Mùa hè năm ấy, không có nước ngọt đóng chai, không có chả sữa chân trâu rạch khát.
+voice8_0016.wav|Khi ba tay trắng, mẹ vẫn bằng lòng lấy ba, đó là tình yêu.
+voice21_0053.wav|Trong quá trình tìm cách lý giải những câu chuyện tương tự như câu chuyện của A,
+voice31_0344.wav|Nếu họ vẫn chọn cách phủ nhận nỗi đau,
+voice25_0326.wav|Nghĩ mà thấy thương
+voice13_0167.wav|Để tránh né tổn thương.
+voice37_0067.wav|hay còn được gọi là hành vi tự hại.
+voice18_0129.wav|Đánh răng, rửa mặt và thay đồ
+voice15_0158.wav|Hay bất kỳ ai hiểu sai rằng vì em mà anh buồn đến thế.
+voice28_0339.wav|Thời gian như thúc giục con người.
+voice14_0171.wav|Có lẽ gia đình mình sẽ trọn vẹn hơn.
+voice9_0209.wav|Nhưng điều ẩn chứa là
+voice25_0198.wav|Ra không đánh mất đi điều gì cả
+voice34_0014.wav|Nhưng với con, con không hiểu định nghĩa tổ ấm thật sự là gì.
+voice39_0129.wav|Nếu không, cả cuộc đời sẽ mãi vấn vương.
+voice18_0103.wav|Khi đến công ty và gặp mọi người.
+voice28_0247.wav|và mọi nỗi cô đơn biến thành khủng khiếp.
+voice15_0024.wav|Mình giữ khoảng cách, không quá gần nhưng cũng chẳng quá xa.
+voice1_0104.wav|Mình chỉ muốn gửi một lời cảm ơn tới anh và một lời xin lỗi,
+voice39_0116.wav|Thật ra thì
+voice37_0121.wav|và cũng đâu có ngờ, cậu ấy vẽ lên đó những vì sao bao quanh từng xèo trên cánh tay cô.
+voice21_0045.wav|Với bác, thiếp đi đồng nghĩa với cái chết, Ản là A cũng đã cảm thấy tương tự như vậy.
+voice40_0090.wav|Vài dòng chữ.
+voice2_0128.wav|của những lời đắng cay, chế giễu và cả những âm thanh tưởng tượng van lên trong tâm trí.
+voice31_0365.wav|đối xử tốt với người khác,
+voice13_0201.wav|Bị phá hủy ngay khi ta cố tình
+voice36_0211.wav|Ngàn biểu tượng vĩnh hằng của những người mẹ
+voice23_0163.wav|Tôi mở cửa đi ra ngoài.
+voice1_0117.wav|Liệu cậu có đang nghe số radio này không?
+voice22_0005.wav|Từ Duy Nguyên Bản, từ đó mang lại cho cậu những góc nhìn đa chiều.
+voice28_0210.wav|nhưng có lẽ,
+voice9_0311.wav|Một trái tim đủ lắng nghe
+voice19_0036.wav|Đông đến, cả thế giới của mình như thu nhỏ lại vừa vặn bằng chiếc giường.
+voice22_0051.wav|Thứ hai là vì tốc độ tử vong nhanh chóng.
+voice11_0109.wav|Hoặc sống dưới áp lực kỳ vọng quá cao,
+voice28_0231.wav|Một cái chạm tay thật khẽ,
+voice19_0008.wav|và để có một tinh thần sống thực sự,
+voice34_0084.wav|Gia đình không phải là nơi để mình tìm đến đầu tiên khi cần chỗ dựa.
+voice23_0042.wav|Vì trong hoa tôi thấy cha mẹ tôi cười.
+voice13_0096.wav|Để bảo vệ cảm xúc của người nghe,
+voice16_0217.wav|Vì đã có người trưởng thành thay mình,
+voice27_0092.wav|Cô coi việc học
+voice10_0241.wav|Nhưng mà anh biết không, trong tiếng Anh,
+voice19_0111.wav|Họ sợ cô đơn, sợ vì con gái bỏ quên.
+voice18_0287.wav|Là ánh nắng vàng trải dài chiều thu.
+voice16_0301.wav|Đừng quên theo dõi kênh và chờ đợi những tập podcast tiếp theo của VSA Thế Nhỉ nhé.
+voice18_0015.wav|Nhà phân tâm học Sigmund Freud đã giải thích rằng
+voice27_0243.wav|hoặc tôi yêu cơ thể mình,
+voice3_0055.wav|Ở cạnh bên nhau mãi mãi?
+voice39_0139.wav|Là chuyện của một người.
+voice26_0055.wav|Thì đất nước sẽ thịnh trị.
+voice18_0261.wav|Vậy nên, đừng vội bỏ cuộc!
+voice17_0136.wav|Trước khi lại tiếp tục đến đường ra trận
+voice7_0204.wav|Vờ vờ lạc lối,
+voice11_0201.wav|Khi đối diện với kiểu người lươn lẹo và thao túng thiếu trung thực,
+voice10_0179.wav|Mình xin lỗi.
+voice38_0121.wav|Và tập podcast này không chỉ đặt câu hỏi cho những đứa con, mà đối với những bậc làm cha là mẹ cũng cần tự ngồi lại với chính mình.
+voice24_0168.wav|Nên khi giao tiếp, họ thường đặt trọn sự chú ý vào bản thân.
+voice7_0131.wav|Con thương ông lắm,
+voice27_0163.wav|Tốt gỗ hơn tốt nước sơn.
+voice26_0087.wav|Và những đêm trăng tròn.
+voice4_0083.wav|và cả những trải nghiệm, tâm tư, tình cảm người gắm trong một phong cách độc bản.
+voice29_0152.wav|Họ bị kẹt vào ý tưởng rằng khi thân đó chết,
+voice37_0114.wav|Phải có những khe nứt thì giọt nắng mới có thể có cơ hội len vô sửa ấm,
+voice6_0043.wav|Nhằm xoa dịu áp lực, rồi làn gió nhẹ nhàng và dí dỏm.
+voice17_0126.wav|Những lá thư viết vội nơi chiến hào
+voice9_0011.wav|À thì chuyện cũng chẳng có gì khi cứ chập chạm tối.
+voice28_0171.wav|Lo cho đàn gia súc,
+voice14_0028.wav|Là người luôn đứng về phía con vô điều kiện,
+voice3_0374.wav|Tình yêu bền vững không phải là không có sóng gió, mà là biết cách vượt qua những thử thách đó.
+voice36_0259.wav|Mãi mãi là sao sáng dẫn đường
+voice6_0122.wav|Nhưng Phương vẫn không ngừng cố gắng kiếm tiền để giúp bố mẹ trả nợ và trang trải học phí.
+voice3_0072.wav|Thời gian trôi đi,
+voice5_0029.wav|Chỉ cần biết điều này thôi là đã quá đủ với tớ.
+voice31_0236.wav|Cứ thế, trở thành một phần được kế thừa qua nhiều đời trong gia đình.
+voice15_0143.wav|Hôm nay là 10 ngày kể từ lần cuối em trả lời tin nhắn.
+voice12_0078.wav|Chỉ cần vô tình thấy vài câu nói vô vơ về tình yêu trên mạng,
+voice39_0160.wav|Người thật lòng thích cậu
+voice3_0033.wav|Khiến cậu muốn nằm giữ đôi bàn tay ấy,
+voice35_0054.wav|Mình biết không dễ gì để quên đi những ký ức đẹp.
+voice17_0158.wav|Mặc dù trời còn sớm, nhưng tôi đã đến đây.
+voice24_0167.wav|Nhiều người hướng nội nhạy cảm quá mức với cảm xúc của mình.
+voice17_0075.wav|Nhưng vẫn bừng sáng tinh thần kiên cường
+voice2_0004.wav|Dựa trên phương pháp First Principle Thinking, tư duy nguyên bản.
+voice37_0040.wav|Sẽ như một nút trầm ấm áp.
+voice3_0364.wav|bền vững,
+voice19_0115.wav|Chắc hai người đang có một chuyến đi về thăm quê.
+voice5_0248.wav|Tớ không dám nói.
+voice25_0033.wav|Bướm đừng thương hoa
+voice12_0088.wav|Thì có lẽ giờ em đã không nặng lòng như thế này.
+voice16_0032.wav|Đang sống giữa phố thị tấp nập.
+voice33_0099.wav|Hiện tại, cậu ấy đã cách tôi nửa vòng trái đất.
+voice18_0117.wav|Đối với những người bị trầm cảm
+voice1_0236.wav|Nhưng nếu hai trái tim ấy vẫn hướng về nhau,
+voice30_0295.wav|Dù sao đi nữa.
+voice12_0178.wav|Trời ơi, tớ vui quá ấy.
+voice14_0164.wav|Học cách tự lập hơn, nhưng con vẫn có lúc cảm thấy lạc lõng.
+voice9_0285.wav|Hãy tận hưởng thời gian đó.
+voice21_0140.wav|Khi anh trai qua đời, đứa trẻ sẽ có những trải nghiệm gánh nặng đau đớn của bà, của mẹ.
+voice26_0107.wav|Sao tôi nghe người ta nói trong chuyện thằng Nam kể giống như dựa nó vậy?
+voice22_0097.wav|Áp lực vì công việc, quan hệ với mọi người, nơi làm việc.
+voice13_0077.wav|Không phải là để khuyến khích, mà là để thúc đẩy.
+voice14_0209.wav|Nếu cậu có muốn nói điều gì với mẹ mà chưa đủ can đảm để thốt thành lời, hãy thử viết thư cho bà ấy.
+voice38_0109.wav|Tất cả đều do bản thân mình quyết định.
+voice32_0131.wav|Chỉ cần bản thân công nhận chính mình là được rồi.
+voice5_0002.wav|Nơi những lời yêu thương chưa kịp ngỏ được cất lên, những hành động chưa kịp thực hiện được hoàn thành.
+voice15_0289.wav|Điều quan trọng là cậu phải biết tự yêu thương và trân trọng chính mình.
+voice4_0082.wav|mà còn là thành quả của cả những đêm dài miệt mài biên giá vẽ của người nghệ sĩ,
+voice25_0386.wav|Hồi tưởng về ký ức của những mùa xuân đã qua
+voice9_0211.wav|Là duy nhất, nhưng điều ấy mới chỉ là phần nổi của tăng băng.
+voice2_0192.wav|Bởi chăm sóc sức khỏe tinh thần,
+voice17_0316.wav|Vẫn luôn ghi khắc hình ảnh mái nhà
+voice11_0134.wav|và càng ít khả năng kết nối thật với người khác.
+voice39_0005.wav|Từ duyên nguyên bản.
+voice30_0049.wav|Cậu rơi vào tình trạng như vậy,
+voice12_0200.wav|Và là thư cuối cùng của ngày hôm nay được gửi từ bạn có tên là Apple.
+voice3_0112.wav|Khi đó,
+voice19_0099.wav|Đưa bàn tay nhỏ xoa xoa tấm lưng của nội,
+voice36_0300.wav|Giết mẹ, đã cướp đi cuộc sống bình yên
+voice11_0113.wav|và thay vào đó là lớp mặt nạ hoàn hảo
+voice5_0149.wav|Vì đã không đủ can đảm để giữ lấy điều đẹp đẽ nhất mà tớ từng có.
+voice26_0204.wav|Trung thu có hình tròn.
+voice24_0022.wav|Nhưng trong lòng cậu ấy thấy bước bối và khó chịu lắm.
+voice3_0291.wav|Với tất cả những gì thuộc về mình,
+voice25_0452.wav|và bởi biết sẽ không còn
+voice3_0155.wav|Bao gồm khả năng giao tiếp,
+voice12_0105.wav|Khi mà cậu đã lộ rõ ý với tớ.
+voice11_0224.wav|Ta còn có là chính mình hay không?
+voice23_0032.wav|Để cảm nhận được niềm hạnh phúc.
+voice9_0189.wav|Và hãy ngừng tạo thêm áp lực
+voice11_0198.wav|Việc đổ lỗi cho sự đa nghi của người khác.
+voice39_0220.wav|nhưng dần dần
+voice38_0087.wav|Thậm chí cậu còn nghĩ thay cả lời thoại cho ông ấy rằng,
+voice34_0074.wav|Nếu con cũng bảo bố thôi vì bố nói nhiều quá,
+voice10_0091.wav|Lại thư tiếp theo được gửi từ bạn có tên là 0308.
+voice4_0001.wav|Hi hi, xin chào, chúng mình là Vy Sa Thế Nhỉ!
+voice35_0036.wav|An viết trong thư rằng, nhưng rồi cũng chẳng cần một lý do nào cả.
+voice34_0087.wav|Dài lệch so với những gì người ta thường dạy, và thậm chí đôi lúc là ngược lại với xã hội.
+voice25_0305.wav|Sẽ chẳng bao giờ mất đi
+voice3_0127.wav|Tiến sĩ Joan van Elf.
+voice19_0330.wav|Vận người mà có ai mà không đi qua mùa đông?
+voice28_0068.wav|Không ăn uống.
+voice21_0168.wav|Cảm thấy mọi người trong nhà phớt lờ
+voice1_0210.wav|Có thể học cách yêu thương một cách lý trí hơn?
+voice11_0279.wav|Và rồi, nếu không chịu thay đổi, họ sẽ tiếp tục cô lập chính mình.
+voice10_0239.wav|Em đã nghĩ chắc đó là màu đặc trưng cho tình yêu của chúng mình,
+voice7_0088.wav|Buồn vì thương,
+voice15_0030.wav|Mình đã quên với việc giấu đi những gì mình thực sự muốn.
+voice34_0150.wav|Con nhớ ba.
+voice2_0032.wav|Vậy rối loạn lưỡng cực đó là gì?
+voice12_0242.wav|Và nếu có rời xa, thì điều còn lại vẫn nên là những điều tốt đẹp dành cho cả hai.
+voice7_0259.wav|Nhưng trong sâu thẳm trái tim chúng ta vẫn luôn mang theo một mùa ấm áp.
+voice9_0290.wav|Hay cứ sinh đi rồi tính tiếp?
+voice18_0244.wav|Mình có thấy một câu trích dẫn như thế này:
+voice20_0126.wav|Thực tế là ngược lại,
+voice13_0277.wav|Chúng ta không cần phải tiết lộ thu nhập của mình với người lạ.
+voice15_0089.wav|Biết tớ hay quên bằng bút và luôn sẵn sàng cho tớ mượn.
+voice1_0014.wav|Hôm nay, chúng ta hãy lại cùng nhau ngồi xuống.
+voice20_0019.wav|Và nỗi thống khổ là sự nguyền rủa cả đời mà cô phải chịu đựng.
+voice28_0174.wav|Còn năm lạnh quá.
+voice3_0111.wav|Khiến cậu cảm thấy mình được yêu thương một cách trọn vẹn.
+voice24_0019.wav|Cả buổi trước, thấy em nói câu nào?
+voice11_0154.wav|Phải chăng mình mới là người sai?
+voice11_0214.wav|Không còn được là chính mình,
+voice5_0134.wav|Thấy cậu hạnh phúc.
+voice31_0127.wav|Nỗi tức giận không được giải tỏa.
+voice27_0112.wav|Luôn nghi hoặc trước những lời khen xã giao
+voice39_0023.wav|Là tiếng một người nói yêu một người, tình yêu đến.
+voice15_0112.wav|Không biết từ lúc nào có bắt đầu xa cách tớ,
+voice27_0277.wav|Nó giảm thiểu sự tiêu cực, hướng tới cơ thể nhất có thể.
+voice30_0087.wav|Và không để em phải làm mọi thứ một mình.
+voice7_0063.wav|Không phải lo lắng gì nhé.
+voice12_0063.wav|Nhưng sao dạo này anh lại thế?
+voice26_0007.wav|Về nhiều vấn đề khác nhau trong cuộc sống.
+voice36_0188.wav|Thắp hương để an ủi chính mình và an ủi
+voice3_0275.wav|Tình yêu đích thực là sự tổng hòa của rất nhiều yếu tố,
+voice26_0123.wav|Hãy để ánh trăng tròn vẹn nguyên như chính nó.
+voice3_0123.wav|Tuy nhiên,
+voice23_0152.wav|Tôi ngồi chơi bên bà.
+voice32_0187.wav|Bởi trạng thái mệt mỏi này, dễ bị mọi người ngó lơ.
+voice16_0183.wav|Phần trẻ con bị đánh cắp trỗi dậy,
+voice25_0391.wav|Mà trong lòng lại dâng lên nỗi tiếc nối.
+voice28_0032.wav|Cố lách mình qua những cơn mộng mị,
+voice36_0096.wav|Có diện tích khá nhỏ
+voice19_0253.wav|Đó cũng là lý do vì sao,
+voice31_0362.wav|Cũng như cho thế hệ kế tiếp.
+voice15_0006.wav|Đã bao lần cậu lặng lẽ mong chờ một bàn tay nhưng cuối cùng vẫn chẳng thể nắm lấy,
+voice17_0285.wav|Thùy có nghe lời nói im lặng không?
+voice30_0127.wav|Chúng ta đều đã quá quen thuộc với khái niệm 5 ngôn ngữ tình yêu,
+voice6_0202.wav|Để tiếng cười không trở thành con dao hai lưỡi, mỗi người.
+voice7_0092.wav|Con còn quá nhỏ để có thể hiểu được những gì ông bà đã phải trải qua.
+voice11_0220.wav|Bởi vì ta đã sống quá lâu trong ảo mộng ấy.
+voice32_0005.wav|Khi mình nói rằng một phần lý do Vy Sa Thế Nhỉ cố gắng tới tận bây giờ là vì chính bản thân mình muốn để lại một điều gì đó để ghi dấu rằng mình đã ở đây trong cuộc đời này.
+voice39_0075.wav|Khi cậu nhớ lại một vài câu trong lời bài hát,
+voice9_0309.wav|Bởi một đứa trẻ không cần một thế giới hoàn hảo để trưởng thành.
+voice40_0125.wav|Đáng tiếc là vùng trời tuổi thơ ấy,
+voice17_0070.wav|Dân tộc giải phóng khỏi xiềng xích nô lệ
+voice20_0060.wav|Cảm thấy ghét đứa có ngoại hình xinh đẹp kia.
+voice23_0211.wav|Nếu bạn có thể ngừng lại và nhìn sâu,
+voice32_0144.wav|hay một nụ cười, gật đầu.
+voice16_0202.wav|Họ không lớn lên.
+voice11_0036.wav|Để rồi mục rượng ở đó trong cô đơn mà không hề nhận ra đó chỉ là một ảo ảnh.
+voice15_0018.wav|Nhưng với mình, tình yêu giống như một ván bài mà mình không dám đặt cược.
+voice27_0162.wav|Những người không có ngoại hình đẹp vẫn thường nghe những câu an ủi kiểu như:
+voice24_0188.wav|và có thể hỏi họ bày tỏ suy nghĩ của họ trước.
+voice8_0022.wav|Thứ nuôi sống họ qua ngày là những lời hứa.
+voice3_0276.wav|Là quá trình mà cả hai tâm hồn hòa quyện vào nhau,
+voice34_0057.wav|Không biết trong cuộc cãi vã của bố mẹ ai đúng, ai sai.
+voice22_0000.wav|Ngày hôm nay của cậu có hồn không?
+voice11_0066.wav|Rằng cô đang tự vẽ nên một kịch bản không có thật,
+voice10_0107.wav|Chỉ nhẹ nhàng trách tớ vì đã quá lãng phí
+voice12_0128.wav|Khi mà tớ vượt qua được giai đoạn ấy, tớ không còn nhắn tin về cậu nữa.
+voice35_0002.wav|Vì dẫu có chia tay thì tình yêu vẫn là thứ từng khiến ta thấy cả thiên hạ tiến mất.
+voice26_0066.wav|Mà là một loạt những câu chuyện truyền tay nhau.
+voice18_0014.wav|Đó được coi là cách biểu lộ thái độ, tình cảm tự nhiên nhất của con người.
+voice21_0044.wav|Cụ thể là nỗi sợ mất đi ý thức.
+voice19_0317.wav|Có những ngày trời không chút nắng.
+voice36_0018.wav|Hóa trái bom thành trái ngon
+voice2_0026.wav|Dù con sống nhưng chỉ muốn nằm như thế thôi.
+voice23_0199.wav|Ngày cạnh mình.
+voice9_0142.wav|Rồi đâu cũng vào đó
+voice15_0005.wav|Hay đã từng có người đợi cậu nơi góc phố quen thuộc, nhưng giờ đây chẳng còn bước chân trên đường.
+voice38_0017.wav|Thứ hai là bạo lực giữa vợ đối với chồng, thường biểu hiện ở những lời lẽ chửi bới, những cách ứng xử thô bạo, thậm chí là đánh đập chồng, quản lý thời gian và tiền bạc một cách quá chặt chẽ.
+voice1_0071.wav|Liệu có phải vì muốn cậu chữa lành, muốn cậu đến chở che mà tôi đã khiến cậu khó chịu không?
+voice8_0281.wav|Kết hôn được với ai cũng đều là diễm phúc.
+voice19_0230.wav|Sơ hút từ hơi ấm bàn tay.
+voice36_0175.wav|Thôi mẹ, con đi, mẹ ở lại
+voice13_0121.wav|Khi được hỏi bạn khỏe không?
+voice33_0177.wav|Mình ghét bạn luôn rồi.
+voice28_0295.wav|Nhưng cuộc sống vốn là sự kết hợp của nhiều yếu tố.
+voice21_0019.wav|Mà cậu chưa bao giờ gặp phải trước đây.
+voice2_0199.wav|và chờ đợi những tập tiếp theo của Visa Thế Nhỉ nhé.
+voice15_0240.wav|Gửi tới cậu, người mà tôi luôn mong đợi.
+voice36_0143.wav|Thống nhất đất nước, bảo vệ Tổ quốc Việt Nam
+voice13_0023.wav|Họ phải gọi điện cho người thân, bạn bè và nói dối trong vòng 3-4 phút.
+voice13_0234.wav|Mà là nhờ vào sự tự nhận thức,
+voice11_0169.wav|và lợi dụng chúng để điều khiển cảm xúc và hành vi của bạn.
+voice29_0126.wav|Niềm vui sướng khi mới chào đời
+voice23_0088.wav|Mình đã chẳng rơi một giọt nước mắt nào.
+voice26_0081.wav|Kích hoạt biến đổi hình dáng của cơ thể
+voice26_0091.wav|Lũ trẻ chứng kiến lúc đó ngồi nghe mà im phăng phác
+voice26_0134.wav|Đi nhặt che về làm đèn ông sao cho cháu
+voice7_0240.wav|Liệu mẹ có biết lúc ấy mẹ đã mạnh mẽ nhiều nào không,
+voice28_0184.wav|Tỉ mỉ khâu vá những thứ đã sờn rách bằng từng sợi yêu thương.
+voice36_0028.wav|Đã trở thành sự thực
+voice5_0073.wav|Cảm ơn vì đã để lại trong tớ một mảnh ký ức dịu dàng đến thế.
+voice12_0202.wav|Mình sẽ chết khát.
+voice20_0144.wav|Hay mấy cái đường nét khó coi trên khuôn mặt của cậu?
+voice5_0099.wav|Nhớ những dòng tin nhắn hỏi thời khóa biểu mỗi ngày.
+voice38_0072.wav|Việc cha mẹ đánh đập con cái cũng vậy.
+voice36_0178.wav|Chồng con vào chiến trường, mẹ cần
+voice19_0070.wav|Chấn thương các cơ quan.
+voice10_0234.wav|Và anh bảo, chính xác.
+voice31_0326.wav|Để phá vỡ vòng lặp,
+voice5_0112.wav|Rồi đẩy cậu ra xa tớ mãi mãi.
+voice19_0161.wav|Mấy đứa trẻ chúng mình đã tưởng ước,
+voice25_0259.wav|của những năm cũ
+voice17_0358.wav|Mà cũng từ nay
+voice14_0096.wav|Muốn trừng phạt đứa con mà mẹ sinh ra. Chỉ vì nó quá bướng bỉnh, không nghe lời.
+voice25_0214.wav|Đầu đổi mũ nồi
+voice18_0098.wav|Có thuật lại một câu chuyện như vậy không?
+voice18_0218.wav|Vượt qua được cơn hỏa hoạn
+voice18_0236.wav|Nó là lời nhắc nhở
+voice32_0087.wav|"Hiết nghĩ, có thể tổng hợp lại 4 lí do nghe có phần ""xuống xã"" sau đây:"
+voice18_0092.wav|Cũng là vì nó thể hiện hai mặt đối lập của một người.
+voice4_0027.wav|Mặc dù được khen ngợi về giai điệu khơi gợi lòng tự hào dân tộc,
+voice31_0291.wav|Mà không bị phán xét.
+voice16_0187.wav|Mà trở thành nỗi sợ đánh mất chính mình một lần nữa.
+voice16_0112.wav|Và ba mẹ cậu dường như đã quên luôn con mình.
+voice7_0044.wav|Con luôn thấy sợ thời gian,
+voice30_0122.wav|Anh đã giặt đồ rồi.
+voice26_0187.wav|Nhiều bánh kẹo ngon nhất.
+voice5_0202.wav|Nhưng rồi tớ nhận ra, chẳng có gì sai cả.
+voice19_0094.wav|Đập nhẹ nhẹ vào sống lưng.
+voice12_0102.wav|Lúc đó, tớ với cậu trở nên thân thiết hơn và biết nhiều về nhau hơn.
+voice23_0136.wav|Luôn luôn có sự tiếp nối như vậy.
+voice27_0158.wav|Từ đúng rồi.
+voice3_0013.wav|Từ nụ cười, ánh mắt, giọng nói ấm áp
+voice22_0107.wav|Họ cũng có thể nghĩ xem ai là người sẽ nhớ đến họ.
+voice27_0108.wav|Con này, con kia ngày trước xấu như ma.
+voice40_0120.wav|Trước khi học làm người lớn,
+voice27_0026.wav|Còn các bạn nữa thì nhìn cô với ánh mắt thương hại.
+voice15_0243.wav|Tôi muốn có một người bạn.
+voice3_0014.wav|Hay chỉ đơn giản là những thói quen nhỏ nhặt nhất.
+voice17_0230.wav|Xin anh được bình an và khỏe mạnh.
+voice9_0053.wav|Thật là khó để mà đưa ra được một câu trả lời cố định.
+voice4_0085.wav|Ai sẽ là chủ sở hữu hợp pháp của những tác phẩm tinh thần mà AI tạo ra?
+voice19_0264.wav|Ăn có gì đó khác thường.
+voice36_0241.wav|Ông Sử và bà Thảo bị chia cắt
+voice25_0454.wav|khi ta vẫn còn có
+voice29_0257.wav|Khi chết,
+voice35_0025.wav|Được rồi, em bé yêu yêu à, nếu cậu muốn khóc thì hãy cứ khóc đi.

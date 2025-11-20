@@ -4,7 +4,7 @@ import os, os.path
 import torch
 import whisper  # pip install openai-whisper
 
-from _constants import VAD_DATA_PATH, SUBS_DATA_PATH, AUDIO_TEXT_FILE_LIST_PATH, FIELD_SEP
+from _constants import VAD_DATA_PATH, SUBS_DATA_PATH, AUDIO_TEXT_FILE_LIST_PATH, FIELD_SEP, VAD_DATA_PATH_ADD, SUBS_DATA_PATH_ADD, SUBS_DATA_PATH_ADD_CON
 from _utils import load_audio, cut_audio_timestamp_vits2
 
 # ===================== Whisper model (ưu tiên GPU nếu có) =====================
@@ -75,7 +75,7 @@ def process_one_file(infile: str, text_file_handle) -> None:
     """Transcribe + Cut 22.05kHz mono + ghi metadata."""
     vid_name = os.path.basename(infile)          # ví dụ 'voice1.wav'
     base = os.path.splitext(vid_name)[0]         # 'voice1'
-    outdir = SUBS_DATA_PATH
+    outdir = SUBS_DATA_PATH_ADD_CON
     os.makedirs(outdir, exist_ok=True)
 
     print(f"[RUN] {vid_name} → transcribe")
@@ -109,31 +109,31 @@ def process_one_file(infile: str, text_file_handle) -> None:
     print(f"[DONE] {vid_name}: kept={kept}, skipped={skipped}")
 
 def main():
-    os.makedirs(SUBS_DATA_PATH, exist_ok=True)
+    os.makedirs(SUBS_DATA_PATH_ADD_CON, exist_ok=True)
     os.makedirs(AUDIO_TEXT_FILE_LIST_PATH, exist_ok=True)
 
     # Khởi tạo/ghi đè file tổng hợp
-    transcription_file = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "_all.txt")
+    transcription_file = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "_all_add_con.txt")
     with open(transcription_file, "w", encoding="utf-8") as f:
         f.write("")
 
     # Duyệt toàn bộ .wav sau VAD trong data/vad/
     files = sorted(
-        fn for fn in os.listdir(VAD_DATA_PATH)
+        fn for fn in os.listdir(VAD_DATA_PATH_ADD)
         if fn.lower().endswith(".wav")
     )
     if not files:
-        print(f"[WARN] Không thấy file .wav nào trong {VAD_DATA_PATH}")
+        print(f"[WARN] Không thấy file .wav nào trong {VAD_DATA_PATH_ADD}")
         return
 
     for fn in files:
-        infile = os.path.join(VAD_DATA_PATH, fn)
+        infile = os.path.join(VAD_DATA_PATH_ADD, fn)
         with open(transcription_file, "a", encoding="utf-8") as f:
             print(f"[INFO] Processing {fn}")
             process_one_file(infile, f)
 
     print(f"[OK] Ghi xong: {transcription_file}")
-    print(f"     Segments đã lưu ở: {SUBS_DATA_PATH}")
+    print(f"     Segments đã lưu ở: {SUBS_DATA_PATH_ADD_CON}")
 
 if __name__ == "__main__":
     main()

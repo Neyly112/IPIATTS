@@ -2,8 +2,12 @@ import os.path
 
 RAW_DATA_PATH      = os.path.join("data", "raw")
 VAD_DATA_PATH      = os.path.join("data", "vad")
+VAD_DATA_PATH_ADD    = os.path.join("data", "vad_add")
 MERGED_DATA_PATH   = os.path.join("data", "merged")
 SUBS_DATA_PATH     = os.path.join("data", "subs")
+SUBS_DATA_PATH_ADD = os.path.join("data", "subs_add")
+SUBS_DATA_PATH_ADD_CON = os.path.join("data", "subs_add_con")
+
 SEGMENTS_DIR       = os.path.join(VAD_DATA_PATH, "segments")
 VAD_DATA_PATH_TEST = os.path.join("data", "vad1")
 AUDIO_TEXT_FILE_LIST_PATH = os.path.join("data", "99-audio-text-file-list")
