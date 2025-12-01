@@ -1,0 +1,48 @@
+# ============================================================================
+# MATCHA-TTS VỚI PROSODY ANALYSIS (PHOBERT) - FULL REQUIREMENTS
+# ============================================================================
+
+# Core Deep Learning Framework
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+lightning==2.0.0
+
+# Transformer models (PhoBERT)
+transformers>=4.30.0
+tokenizers>=0.13.0
+sentencepiece>=0.1.99
+protobuf>=3.20.0
+
+# Audio Processing
+librosa>=0.10.0
+soundfile>=0.12.0
+praat-parselmouth>=0.4.3
+scipy>=1.10.0
+
+# Phonemizer for Vietnamese
+phonemizer>=3.2.0
+# Lưu ý: Cần cài eSpeak-NG riêng: https://github.com/espeak-ng/espeak-ng/releases
+
+# Vietnamese NLP
+underthesea>=6.0.0
+num2words>=0.5.12
+
+# ML Utilities
+numpy>=1.24.0
+pandas>=2.0.0
+einops>=0.6.0
+tqdm>=4.65.0
+
+# Visualization & Logging
+matplotlib>=3.7.0
+tensorboard>=2.13.0
+
+# Text Processing
+unidecode>=1.3.6
+inflect>=6.0.0
+pyyaml>=6.0
+
+# Optional: Gradient Accumulation & Mixed Precision
+# accelerate>=0.20.0
+# bitsandbytes>=0.39.0
