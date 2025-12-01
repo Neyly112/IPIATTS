@@ -1,0 +1,436 @@
+voice1.wav_0000.wav|Các cậu đang là nghe vì sao thấy nhỉ radio, nơi giúp cậu gửi đi những lá thư không gửi.|kˌaːɜc kˈə6w ɗˌaːŋ lˌaː2 ŋˈɛ vˌi2 sˈaːw tˈə͡ɪɜ ɲˈi4 ɹˈe͡ɪdɪˌə͡ʊ, nˈəːj zˈuɜp kˈə6w ɣˈy4j ɗˈi ɲˌy5ŋ lˈaːɜ tˈy xˌoŋ ɣˈy4j.
+voice1.wav_0001.wav|Mình vẫn nhớ cái năng gắt của mùa hè năm đó, khi trong tay vẫn nắm dung động đầu đời.|mˈi2ɲ vˌə5n ɲˈəːɜ kˌaːɜj nˈaŋ ɣˈaɜt̪ kˌu͡ə4 mˈu͡ə2 hˈɛ2 nˈam ɗˈɔɜ, xˌi t͡ʃˈɔŋ t̪ˈaj vˌə5n nˈaɜm zˈuŋ ɗˈo6ŋ ɗˈə2w ɗˈəː2j.
+voice1.wav_0002.wav|Vẫn nhớ những cái ôm đầy phấn khích, cả những cái hôn chỉ nằm lại trên đôi má,|vˌə5n ɲˈəːɜ ɲˌy5ŋ kˌaːɜj ˈom ɗˈə͡ɪ2 fˈəɜn xˈiɜc, kˈaː4 ɲˌy5ŋ kˌaːɜj hˈon t͡ʃˈi4 nˈa2m lˈaː6j t͡ʃˈen ɗˈoj mˈaːɜ,
+voice1.wav_0003.wav|tình cảm khi ấy thám thiết và trong trẻo đến vô ngần.|t̪ˈi2ɲ kˈaː4m xˌi ˈə͡ɪɜ tˈaːɜm tˈi͡ɛɜt̪ vˌaː2 t͡ʃˈɔŋ t͡ʃˈɛ4w ɗˌeɜn vˈo ŋˈə2n.
+voice1.wav_0004.wav|Vậy mà, sâu trong lòng vẫn lẫn khuất một nỗi bân khôn khó gọi tên.|vˈə͡ɪ6 mˌaː2, sˈə1w t͡ʃˈɔŋ lˈɔ2ŋ vˌə5n lˈə5n xwˈəɜt̪ mˈo6t̪ nˈo5j bˈən xˈon xˈɔɜ ɣˈɔ6j t̪ˈen.
+voice1.wav_0005.wav|Có lẽ vì thế người ta gọi tình đầu là mối tình răng rở,|kˈɔɜ lˈɛ5 vˌi2 tˈeɜ ŋˈy͡ə2j t̪ˈaː ɣˈɔ6j t̪ˈi2ɲ ɗˈə2w lˌaː2 mˈoɜj t̪ˈi2ɲ zˈaŋ zˈəː4,
+voice1.wav_0006.wav|bởi những dung động đầu tiên thường gắn với sự ngây thơ, vụt dại,|bˌəː4j ɲˌy5ŋ zˈuŋ ɗˈo6ŋ ɗˈə2w t̪ˈi͡ɛn tˈy͡ə2ŋ ɣˈaɜn vˌəːɜj sˈy6 ŋˈə͡ɪ tˈəː, vˈu6t̪ zˈaː6j,
+voice1.wav_0007.wav|và cả những tiếc nuối vì chưa biết yêu sao cho chọn vẹn ký ức về tháng năm đó.|vˌaː2 kˈaː4 ɲˌy5ŋ t̪ˈi͡ɛɜc nˈu͡əɜj vˌi2 t͡ʃˌy͡ə bˈi͡ɛɜt̪ ˈi͡ɛw sˈaːw t͡ʃˌɔ t͡ʃˈɔ6n vˈɛ6n kˈiɜ ˈyɜc vˈe2 tˈaːɜŋ nˈam ɗˈɔɜ.
+voice1.wav_0008.wav|Vì những dung động đầu đời, tựa như cơn gió nhẹ thoảng qua,|vˌi2 ɲˌy5ŋ zˈuŋ ɗˈo6ŋ ɗˈə2w ɗˈəː2j, t̪ˈy͡ə6 ɲˌy kˈəːn zˈɔɜ ɲˈɛ6 twˈaː4ŋ kwˈaː,
+voice1.wav_0009.wav|mang theo khương vị ngọt ngào của những ngày tháng còn răng rở.|mˈaːŋ tˈɛw xˈy͡əŋ vˈi6 ŋˈɔ6t̪ ŋˈaː2w kˌu͡ə4 ɲˌy5ŋ ŋˈa2j tˈaːɜŋ kˌɔ2n zˈaŋ zˈəː4.
+voice1.wav_0010.wav|Chưa hoàn hảo, nhưng đẹp đẽ đến nào lòng, tất cả đều trong trẻo tinh khôi,|t͡ʃˌy͡ə hwˈaː2n hˈaː4w, ɲˌyŋ ɗˈɛ6p ɗˈɛ5 ɗˌeɜn nˈaː2w lˈɔ2ŋ, t̪ˈəɜt̪ kˈaː4 ɗˈe2w t͡ʃˈɔŋ t͡ʃˈɛ4w t̪ˈiɲ xˈoj,
+voice1.wav_0011.wav|như một bức tranh vẽ vội bằng màu nắng theo năm tháng trôi qua.|ɲˌy mˈo6t̪ bˈyɜc t͡ʃˈe-ɲ vˈɛ5 vˈo6j bˈa2ŋ mˈa2w nˈaɜŋ tˈɛw nˈam tˈaːɜŋ t͡ʃˈoj kwˈaː.
+voice1.wav_0012.wav|Những điều chưa chọn vẹn ấy dần trở thành những mảnh ghép ký ức vừa ngọt ngào, vừa đắng cây,|ɲˌy5ŋ ɗˈi͡ɛ2w t͡ʃˌy͡ə t͡ʃˈɔ6n vˈɛ6n ˈə͡ɪɜ zˈə2n t͡ʃˈəː4 tˈe-2ɲ ɲˌy5ŋ mˈe-4ɲ ɣˈɛɜp kˈiɜ ˈyɜc vˈy͡ə2 ŋˈɔ6t̪ ŋˈaː2w, vˈy͡ə2 ɗˈaɜŋ kˈə͡ɪ,
+voice1.wav_0013.wav|khiến lòng ta không khỏi dây giất và vấn vương hôm nay.|xˈi͡ɛɜn lˈɔ2ŋ t̪ˈaː xˌoŋ xˈɔ4j zˈə͡ɪ zˈəɜt̪ vˌaː2 vˈəɜn vˈy͡əŋ hˈom nˈaj.
+voice1.wav_0014.wav|Chúng ta hãy lại cùng nhau ngồi lại để lắng nghe những lá thư mang theo tâm tư gửi tới tình đầu của mình nhé.|t͡ʃˈuɜŋ t̪ˈaː hˈa5j lˈaː6j kˈu2ŋ ɲˈaw ŋˈo2j lˈaː6j ɗˌe4 lˈaɜŋ ŋˈɛ ɲˌy5ŋ lˈaːɜ tˈy mˈaːŋ tˈɛw t̪ˈəm t̪ˈy ɣˈy4j t̪ˌəːɜj t̪ˈi2ɲ ɗˈə2w kˌu͡ə4 mˈi2ɲ ɲˈɛɜ.
+voice1.wav_0015.wav|Cũng mắt đầu thôi nào.|kˈu5ŋ mˈaɜt̪ ɗˈə2w tˈoj nˈaː2w.
+voice1.wav_0016.wav|Lá thư mở đầu cho số radio ngày hôm nay được gửi từ bạn có tên là Bông,|lˈaːɜ tˈy mˈəː4 ɗˈə2w t͡ʃˌɔ sˈoɜ ɹˈe͡ɪdɪˌə͡ʊ ŋˈa2j hˈom nˈaj ɗˌy͡ə6c ɣˈy4j t̪ˌy2 bˈaː6n kˈɔɜ t̪ˈen lˌaː2 bˈoŋ,
+voice1.wav_0017.wav|này buôn thân mến.|nˈa2j bˈu͡ən tˈən mˈeɜn.
+voice1.wav_0018.wav|Cái ngày ta nghe được hai từ rừng lại từ cậu,|kˌaːɜj ŋˈa2j t̪ˈaː ŋˈɛ ɗˌy͡ə6c hˈaːj t̪ˌy2 zˈy2ŋ lˈaː6j t̪ˌy2 kˈə6w,
+voice1.wav_0019.wav|ta biết mình sẽ phải chấp nhận rằng chúng mình sẽ thật sự không còn thuộc về nhau nữa,|t̪ˈaː bˈi͡ɛɜt̪ mˈi2ɲ sˌɛ5 fˌaː4j t͡ʃˈəɜp ɲˈə6n zˈa2ŋ t͡ʃˈuɜŋ mˈi2ɲ sˌɛ5 tˈə6t̪ sˈy6 xˌoŋ kˌɔ2n tˈu͡ə6c vˈe2 ɲˈaw nˈy͡ə5,
+voice1.wav_0020.wav|tới chách mình ngu ngốc khi đã từng nghĩ rằng chúng ta sẽ có một cuộc tình đẹp như phim vậy,|t̪ˌəːɜj t͡ʃˈe-ɜc mˈi2ɲ ŋˈu ŋˈoɜk xˌi ɗˌaː5 t̪ˈy2ŋ ŋˈi5 zˈa2ŋ t͡ʃˈuɜŋ t̪ˈaː sˌɛ5 kˈɔɜ mˈo6t̪ kˈu͡ə6c t̪ˈi2ɲ ɗˈɛ6p ɲˌy fˈim vˈə͡ɪ6,
+voice1.wav_0021.wav|nhưng người ta nói đúng thật.|ɲˌyŋ ŋˈy͡ə2j t̪ˈaː nˈɔɜj ɗˈuɜŋ tˈə6t̪.
+voice1.wav_0022.wav|Đúng là tình đầu là tình răng rở mà ta không biết cách yêu sao cho đúng,|ɗˈuɜŋ lˌaː2 t̪ˈi2ɲ ɗˈə2w lˌaː2 t̪ˈi2ɲ zˈaŋ zˈəː4 mˌaː2 t̪ˈaː xˌoŋ bˈi͡ɛɜt̪ kˈe-ɜc ˈi͡ɛw sˈaːw t͡ʃˌɔ ɗˈuɜŋ,
+voice1.wav_0023.wav|mà cứ thế mắc sai lầm để rồi đánh mất nhau, liệu tới và cậu mà gặp nhau chẽ hơn,|mˌaː2 kˈyɜ tˈeɜ mˈaɜc sˈaːj lˈə2m ɗˌe4 zˈo2j ɗˈe-ɜɲ mˈəɜt̪ ɲˈaw, lˈi͡ɛ6w t̪ˌəːɜj vˌaː2 kˈə6w mˌaː2 ɣˈa6p ɲˈaw t͡ʃˈɛ5 hˈəːn,
+voice1.wav_0024.wav|thì chúng mình có được một câu chuyện đẹp như mơ không nhỉ,|tˌi2 t͡ʃˈuɜŋ mˈi2ɲ kˈɔɜ ɗˌy͡ə6c mˈo6t̪ kˈə1w t͡ʃwˈi͡ɛ6n ɗˈɛ6p ɲˌy mˈəː xˌoŋ ɲˈi4,
+voice1.wav_0025.wav|nếu chúng mình đã chân chậm nhau hơn, đã chờ đến khi nào đủ lớn, đủ trưởng thành rồi mới yêu,|nˌeɜw t͡ʃˈuɜŋ mˈi2ɲ ɗˌaː5 t͡ʃˈən t͡ʃˈə6m ɲˈaw hˈəːn, ɗˌaː5 t͡ʃˈəː2 ɗˌeɜn xˌi nˈaː2w ɗˈu4 lˈəːɜn, ɗˈu4 t͡ʃˈy͡ə4ŋ tˈe-2ɲ zˈo2j mˈəːɜj ˈi͡ɛw,
+voice1.wav_0026.wav|thì liệu bây giờ chúng mình có thể cùng nhau dạo phố những cặp đôi khác không?|tˌi2 lˈi͡ɛ6w bˈə͡ɪ zˈəː2 t͡ʃˈuɜŋ mˈi2ɲ kˈɔɜ tˈe4 kˈu2ŋ ɲˈaw zˈaː6w fˈoɜ ɲˌy5ŋ kˈa6p ɗˈoj xˈaːɜc xˌoŋ?
+voice1.wav_0027.wav|Tớ biết trước khi chia tay, cậu đã dặn tới rằng dù có thế nào thì cũng quên đoạn tình cảm này đi,|t̪ˈəːɜ bˈi͡ɛɜt̪ t͡ʃˈy͡əɜc xˌi t͡ʃˈi͡ə t̪ˈaj, kˈə6w ɗˌaː5 zˈa6n t̪ˌəːɜj zˈa2ŋ zˌu2 kˈɔɜ tˈeɜ nˈaː2w tˌi2 kˈu5ŋ kwˈen ɗwˈaː6n t̪ˈi2ɲ kˈaː4m nˈa2j ɗˈi,
+voice1.wav_0028.wav|rồi tìm người tốt hơn cậu, nhưng cậu biết không từ ngày cậu rồi đi.|zˈo2j t̪ˈi2m ŋˈy͡ə2j t̪ˈoɜt̪ hˈəːn kˈə6w, ɲˌyŋ kˈə6w bˈi͡ɛɜt̪ xˌoŋ t̪ˌy2 ŋˈa2j kˈə6w zˈo2j ɗˈi.
+voice1.wav_0029.wav|Nói chẳng thể nào ghép những mảnh vụn đấy thành hình,|nˈɔɜj t͡ʃˌa4ŋ tˈe4 nˈaː2w ɣˈɛɜp ɲˌy5ŋ mˈe-4ɲ vˈu6n ɗˈə͡ɪɜ tˈe-2ɲ hˈi2ɲ,
+voice1.wav_0030.wav|tớ không cần đủ can đảm để trao cơ hội này cho người khác nữa, tớ cứ mãi chờ cậu vua nào,|t̪ˈəːɜ xˌoŋ kˈə2n ɗˈu4 kˈaːn ɗˈaː4m ɗˌe4 t͡ʃˈaːw kˈəː hˈo6j nˈa2j t͡ʃˌɔ ŋˈy͡ə2j xˈaːɜc nˈy͡ə5, t̪ˈəːɜ kˈyɜ mˈaː5j t͡ʃˈəː2 kˈə6w vˈu͡ə nˈaː2w,
+voice1.wav_0031.wav|tớ mong rằng cậu sẽ tìm được hạnh phúc của đời mình,|t̪ˈəːɜ mˈɔŋ zˈa2ŋ kˈə6w sˌɛ5 t̪ˈi2m ɗˌy͡ə6c hˈe-6ɲ fˈuɜc kˌu͡ə4 ɗˈəː2j mˈi2ɲ,
+voice1.wav_0032.wav|mong rằng cậu sẽ đạt được những thành tích học tập mong muốn và thật thành công trong tương lai,|mˈɔŋ zˈa2ŋ kˈə6w sˌɛ5 ɗˈaː6t̪ ɗˌy͡ə6c ɲˌy5ŋ tˈe-2ɲ t̪ˈiɜc hˈɔ6k t̪ˈə6p mˈɔŋ mˈu͡əɜn vˌaː2 tˈə6t̪ tˈe-2ɲ kˈoŋ t͡ʃˈɔŋ t̪ˈy͡əŋ lˈaːj,
+voice1.wav_0033.wav|tớ mong rằng niềm đam mê với bóng rổ của cậu cũng sẽ giúp cậu đã được ước mơ và hy vọng tớ mong và cứ thế mong,|t̪ˈəːɜ mˈɔŋ zˈa2ŋ nˈi͡ɛ2m ɗˈaːm mˈe vˌəːɜj bˈɔɜŋ zˈo4 kˌu͡ə4 kˈə6w kˈu5ŋ sˌɛ5 zˈuɜp kˈə6w ɗˌaː5 ɗˌy͡ə6c ˈy͡əɜc mˈəː vˌaː2 hˈi vˈɔ6ŋ t̪ˈəːɜ mˈɔŋ vˌaː2 kˈyɜ tˈeɜ mˈɔŋ,
+voice1.wav_0034.wav|mong sao cậu đã được tất cả để chờ về bên tớ, dù có thế nào.|mˈɔŋ sˈaːw kˈə6w ɗˌaː5 ɗˌy͡ə6c t̪ˈəɜt̪ kˈaː4 ɗˌe4 t͡ʃˈəː2 vˈe2 bˈen t̪ˈəːɜ, zˌu2 kˈɔɜ tˈeɜ nˈaː2w.
+voice1.wav_0035.wav|Dù tớ biết mình nên học cách buông bỏ và tìm một người mới,|zˌu2 t̪ˈəːɜ bˈi͡ɛɜt̪ mˈi2ɲ nˌen hˈɔ6k kˈe-ɜc bˈu͡əŋ bˈɔ4 vˌaː2 t̪ˈi2m mˈo6t̪ ŋˈy͡ə2j mˈəːɜj,
+voice1.wav_0036.wav|thì xin cậu hãy là người sạy đến, ôm tớ cho đến cuối cùng, vì tớ yêu cậu nhiều lắm.|tˌi2 sˈin kˈə6w hˈa5j lˌaː2 ŋˈy͡ə2j sˈa6j ɗˌeɜn, ˈom t̪ˈəːɜ t͡ʃˌɔ ɗˌeɜn kˈu͡əɜj kˈu2ŋ, vˌi2 t̪ˈəːɜ ˈi͡ɛw kˈə6w ɲˈi͡ɛ2w lˈaɜm.
+voice1.wav_0037.wav|Đã từ tiếp theo được gửi từ bạn hát, mình tình cơ biết cậu vào một ngày cuối thu,|ɗˌaː5 t̪ˌy2 t̪ˈi͡ɛɜp tˈɛw ɗˌy͡ə6c ɣˈy4j t̪ˌy2 bˈaː6n hˈaːɜt̪, mˈi2ɲ t̪ˈi2ɲ kˈəː bˈi͡ɛɜt̪ kˈə6w vˈaː2w mˈo6t̪ ŋˈa2j kˈu͡əɜj tˈu,
+voice1.wav_0038.wav|trong cái tiết trời man mát, trong lành, nhưng luôn khiến cho con người ta suy tư.|t͡ʃˈɔŋ kˌaːɜj t̪ˈi͡ɛɜt̪ t͡ʃˈəː2j mˈaːn mˈaːɜt̪, t͡ʃˈɔŋ lˈe-2ɲ, ɲˌyŋ lˈu͡ən xˈi͡ɛɜn t͡ʃˌɔ kˌɔn ŋˈy͡ə2j t̪ˈaː swˈi t̪ˈy.
+voice1.wav_0039.wav|Cậu là một cô gái nhỏ nhắn, đáng yêu, luôn biết cách là một người khác vui vẻ.|kˈə6w lˌaː2 mˈo6t̪ kˈo ɣˈaːɜj ɲˈɔ4 ɲˈaɜn, ɗˈaːɜŋ ˈi͡ɛw, lˈu͡ən bˈi͡ɛɜt̪ kˈe-ɜc lˌaː2 mˈo6t̪ ŋˈy͡ə2j xˈaːɜc vˈuj vˈɛ4.
+voice1.wav_0040.wav|Cậu còn rất thích làm những món đồ henmét và vẽ rất đẹp, cậu học rất giỏi,|kˈə6w kˌɔ2n zˈəɜt̪ tˈiɜc lˈaː2m ɲˌy5ŋ mˈɔɜn ɗˈo2 hɛnmˈe͡ɪt vˌaː2 vˈɛ5 zˈəɜt̪ ɗˈɛ6p, kˈə6w hˈɔ6k zˈəɜt̪ zˈɔ4j,
+voice1.wav_0041.wav|nhưng lại luôn khiêm tốm với mọi người, những điều ấy càng làm cho mình thêm quý trọng|ɲˌyŋ lˈaː6j lˈu͡ən xˈi͡ɛm t̪ˈoɜm vˌəːɜj mˌɔ6j ŋˈy͡ə2j, ɲˌy5ŋ ɗˈi͡ɛ2w ˈə͡ɪɜ kˈaː2ŋ lˈaː2m t͡ʃˌɔ mˈi2ɲ tˈem kwˈiɜ t͡ʃˈɔ6ŋ
+voice1.wav_0042.wav|và yêu cậu nhiều hơn nữa. Chúng mình đã gửi cho nhau không biết bao nhiêu gióng tin nhắn.|vˌaː2 ˈi͡ɛw kˈə6w ɲˈi͡ɛ2w hˈəːn nˈy͡ə5. t͡ʃˈuɜŋ mˈi2ɲ ɗˌaː5 ɣˈy4j t͡ʃˌɔ ɲˈaw xˌoŋ bˈi͡ɛɜt̪ bˈaːw ɲˈi͡ɛw zˈɔɜŋ t̪ˈin ɲˈaɜn.
+voice1.wav_0043.wav|Đến lúc nhận ra, đồng hồ đã điểm 2-3 giờ sáng.|ɗˌeɜn lˌuɜc ɲˈə6n zˈaː, ɗˈo2ŋ hˈo2 ɗˌaː5 ɗˈi͡ɛ4m hˈaːj bˈaː zˈəː2 sˈaːɜŋ.
+voice1.wav_0044.wav|Chúng mình càng tìm hiểu thì càng thấy hợp nhau, rồi trở thành một đôi.|t͡ʃˈuɜŋ mˈi2ɲ kˈaː2ŋ t̪ˈi2m hˈi͡ɛ4w tˌi2 kˈaː2ŋ tˈə͡ɪɜ hˈəː6p ɲˈaw, zˈo2j t͡ʃˈəː4 tˈe-2ɲ mˈo6t̪ ɗˈoj.
+voice1.wav_0045.wav|Khoảng thời gian sau đó, mình và cậu đã cùng đón kết lệnh của một đông thật ấm máp,|xwˌaː4ŋ tˈəː2j zˈaːn sˈaw ɗˈɔɜ, mˈi2ɲ vˌaː2 kˈə6w ɗˌaː5 kˈu2ŋ ɗˈɔɜn kˈeɜt̪ lˈe6ɲ kˌu͡ə4 mˈo6t̪ ɗˈoŋ tˈə6t̪ ˈəɜm mˈaːɜp,
+voice1.wav_0046.wav|vừa mở mắt ra đã thấy gióng tin nhắn chào buổi sáng của đối phương|vˈy͡ə2 mˈəː4 mˈaɜt̪ zˈaː ɗˌaː5 tˈə͡ɪɜ zˈɔɜŋ t̪ˈin ɲˈaɜn t͡ʃˈaː2w bˈu͡ə4j sˈaːɜŋ kˌu͡ə4 ɗˈoɜj fˈy͡əŋ
+voice1.wav_0047.wav|và lời chúc một ngày tốt lành.|vˌaː2 lˈəː2j t͡ʃˈuɜc mˈo6t̪ ŋˈa2j t̪ˈoɜt̪ lˈe-2ɲ.
+voice1.wav_0048.wav|Chúng mình đã có rất nhiều kỷ niệm mà có lẽ đến giờ phút này.|t͡ʃˈuɜŋ mˈi2ɲ ɗˌaː5 kˈɔɜ zˈəɜt̪ ɲˈi͡ɛ2w kˈi4 nˈi͡ɛ6m mˌaː2 kˈɔɜ lˈɛ5 ɗˌeɜn zˈəː2 fˈuɜt̪ nˈa2j.
+voice1.wav_0049.wav|Nó vẫn như vừa mới diễn ra ngày hôm qua vậy,|nˈɔɜ vˌə5n ɲˌy vˈy͡ə2 mˈəːɜj zˈi͡ɛ5n zˈaː ŋˈa2j hˈom kwˈaː vˈə͡ɪ6,
+voice1.wav_0050.wav|nhưng có lẽ trong tim cậu chất chưa những cảm xúc tiêu cực mà không thể nói ra.|ɲˌyŋ kˈɔɜ lˈɛ5 t͡ʃˈɔŋ t̪ˈim kˈə6w t͡ʃˈəɜt̪ t͡ʃˌy͡ə ɲˌy5ŋ kˈaː4m sˈuɜc t̪ˈi͡ɛw kˈy6c mˌaː2 xˌoŋ tˈe4 nˈɔɜj zˈaː.
+voice1.wav_0051.wav|Cậu có một bức tường dày trong tim mà ngay cả mình cũng không thể tìm được siêu khóa để mở.|kˈə6w kˈɔɜ mˈo6t̪ bˈyɜc t̪ˈy͡ə2ŋ zˈa2j t͡ʃˈɔŋ t̪ˈim mˌaː2 ŋˈaj kˈaː4 mˈi2ɲ kˈu5ŋ xˌoŋ tˈe4 t̪ˈi2m ɗˌy͡ə6c sˈi͡ɛw xwˈaːɜ ɗˌe4 mˈəː4.
+voice1.wav_0052.wav|Thứ cảm xúc tiêu cực ấy cứ ngày càng lan dộng.|tˈyɜ kˈaː4m sˈuɜc t̪ˈi͡ɛw kˈy6c ˈə͡ɪɜ kˈyɜ ŋˈa2j kˈaː2ŋ lˈaːn zˈo6ŋ.
+voice1.wav_0053.wav|Những lúc như vậy, mình hoàn toàn vô dối và không biết cần phải làm gì.|ɲˌy5ŋ lˌuɜc ɲˌy vˈə͡ɪ6, mˈi2ɲ hwˈaː2n t̪wˈaː2n vˈo zˈoɜj vˌaː2 xˌoŋ bˈi͡ɛɜt̪ kˈə2n fˌaː4j lˈaː2m zˈi2.
+voice1.wav_0054.wav|Có lẽ cũng vì một phần mình còn quá trẻ con, chưa thể suy nghĩ chính tránh.|kˈɔɜ lˈɛ5 kˈu5ŋ vˌi2 mˈo6t̪ fˈə2n mˈi2ɲ kˌɔ2n kwˈaːɜ t͡ʃˈɛ4 kˌɔn, t͡ʃˌy͡ə tˈe4 swˈi ŋˈi5 t͡ʃˈiɜɲ t͡ʃˈe-ɜɲ.
+voice1.wav_0055.wav|Và có đôi lúc khiến cho cậu buồn,|vˌaː2 kˈɔɜ ɗˈoj lˌuɜc xˈi͡ɛɜn t͡ʃˌɔ kˈə6w bˈu͡ə2n,
+voice1.wav_0056.wav|để rồi chúng mình phải chia tay chỉ vì những chuyện vụn vặt nước mắt của mình cứ lã trả rơi.|ɗˌe4 zˈo2j t͡ʃˈuɜŋ mˈi2ɲ fˌaː4j t͡ʃˈi͡ə t̪ˈaj t͡ʃˈi4 vˌi2 ɲˌy5ŋ t͡ʃwˈi͡ɛ6n vˈu6n vˈa6t̪ nˈy͡əɜc mˈaɜt̪ kˌu͡ə4 mˈi2ɲ kˈyɜ lˈaː5 t͡ʃˈaː4 zˈəːj.
+voice1.wav_0057.wav|Nhưng mình không biết phải làm sao để ngừng,|ɲˌyŋ mˈi2ɲ xˌoŋ bˈi͡ɛɜt̪ fˌaː4j lˈaː2m sˈaːw ɗˌe4 ŋˈy2ŋ,
+voice1.wav_0058.wav|trong đồ mình hoàn toàn là hình bóng và kỷ niệm với cậu,|t͡ʃˈɔŋ ɗˈo2 mˈi2ɲ hwˈaː2n t̪wˈaː2n lˌaː2 hˈi2ɲ bˈɔɜŋ vˌaː2 kˈi4 nˈi͡ɛ6m vˌəːɜj kˈə6w,
+voice1.wav_0059.wav|sau chia tay, mình cũng từng nhiều lần có suy nghĩ muốn nhắn tin quay lại,|sˈaw t͡ʃˈi͡ə t̪ˈaj, mˈi2ɲ kˈu5ŋ t̪ˈy2ŋ ɲˈi͡ɛ2w lˈə2n kˈɔɜ swˈi ŋˈi5 mˈu͡əɜn ɲˈaɜn t̪ˈin kwˈaj lˈaː6j,
+voice1.wav_0060.wav|nhưng chưa đủ dũng cảm.|ɲˌyŋ t͡ʃˌy͡ə ɗˈu4 zˈu5ŋ kˈaː4m.
+voice1.wav_0061.wav|Dẫu sao thì mình vẫn muốn gửi lời cảm ơn tới cậu,|zˌə5w sˈaːw tˌi2 mˈi2ɲ vˌə5n mˈu͡əɜn ɣˈy4j lˈəː2j kˈaː4m ˈəːn t̪ˌəːɜj kˈə6w,
+voice1.wav_0062.wav|cậu chính là một phần.|kˈə6w t͡ʃˈiɜɲ lˌaː2 mˈo6t̪ fˈə2n.
+voice1.wav_0063.wav|Trong quảng thành xuân cấp 3, thư đẹp của mình,|t͡ʃˈɔŋ kwˈaː4ŋ tˈe-2ɲ swˈən kˈəɜp bˈaː, tˈy ɗˈɛ6p kˌu͡ə4 mˈi2ɲ,
+voice1.wav_0064.wav|cậu cũng là một nguồn động lực rất lớn,|kˈə6w kˈu5ŋ lˌaː2 mˈo6t̪ ŋˈu͡ə2n ɗˈo6ŋ lˈy6c zˈəɜt̪ lˈəːɜn,
+voice1.wav_0065.wav|giúp mình có thể cố gắng từng ngày để bản thân tốt hơn.|zˈuɜp mˈi2ɲ kˈɔɜ tˈe4 kˈoɜ ɣˈaɜŋ t̪ˈy2ŋ ŋˈa2j ɗˌe4 bˈaː4n tˈən t̪ˈoɜt̪ hˈəːn.
+voice1.wav_0066.wav|Mà cậu sẽ luôn chăm sóc thật tốt cho sức khỏe của bản thân,|mˌaː2 kˈə6w sˌɛ5 lˈu͡ən t͡ʃˈam sˈɔɜk tˈə6t̪ t̪ˈoɜt̪ t͡ʃˌɔ sˈyɜc xwˈɛ4 kˌu͡ə4 bˈaː4n tˈən,
+voice1.wav_0067.wav|và hẹn một mai mình còn có thể gặp lại.|vˌaː2 hˈɛ6n mˈo6t̪ mˈaːj mˈi2ɲ kˌɔ2n kˈɔɜ tˈe4 ɣˈa6p lˈaː6j.
+voice1.wav_0068.wav|Lại thứ thứ 3 này được gửi thử bạn có tên là Dần.|lˈaː6j tˈyɜ tˈyɜ bˈaː nˈa2j ɗˌy͡ə6c ɣˈy4j tˈy4 bˈaː6n kˈɔɜ t̪ˈen lˌaː2 zˈə2n.
+voice1.wav_0069.wav|Tôi có một người bạn đã từng là Chiki.|t̪ˈoj kˈɔɜ mˈo6t̪ ŋˈy͡ə2j bˈaː6n ɗˌaː5 t̪ˈy2ŋ lˌaː2 t͡ʃˈɪki.
+voice1.wav_0070.wav|Lần đầu tôi gặp cậu, tôi nhớ rất rõ khôn mặt khi đó của cậu.|lˈə2n ɗˈə2w t̪ˈoj ɣˈa6p kˈə6w, t̪ˈoj ɲˈəːɜ zˈəɜt̪ zˈɔ5 xˈon mˈa6t̪ xˌi ɗˈɔɜ kˌu͡ə4 kˈə6w.
+voice1.wav_0071.wav|Một cậu bé vô tư, hồn nhiên trong sáng,|mˈo6t̪ kˈə6w bˈɛɜ vˈo t̪ˈy, hˈo2n ɲˈi͡ɛn t͡ʃˈɔŋ sˈaːɜŋ,
+voice1.wav_0072.wav|cậu cho tôi một cảm giác rất là đực đó từ hồn nhiên và chưa biết tình yêu là gì.|kˈə6w t͡ʃˌɔ t̪ˈoj mˈo6t̪ kˈaː4m zˈaːɜc zˈəɜt̪ lˌaː2 ɗˈy6c ɗˈɔɜ t̪ˌy2 hˈo2n ɲˈi͡ɛn vˌaː2 t͡ʃˌy͡ə bˈi͡ɛɜt̪ t̪ˈi2ɲ ˈi͡ɛw lˌaː2 zˈi2.
+voice1.wav_0073.wav|Bọn mình có một tình bạn 8 năm,|bˈɔ6n mˈi2ɲ kˈɔɜ mˈo6t̪ t̪ˈi2ɲ bˈaː6n t̪ˈaːɜm nˈam,
+voice1.wav_0074.wav|trong khoảng thời gian đó, tôi nhận ra mình có tình cảm với cậu trên cả mức tình bạn,|t͡ʃˈɔŋ xwˌaː4ŋ tˈəː2j zˈaːn ɗˈɔɜ, t̪ˈoj ɲˈə6n zˈaː mˈi2ɲ kˈɔɜ t̪ˈi2ɲ kˈaː4m vˌəːɜj kˈə6w t͡ʃˈen kˈaː4 mˈyɜc t̪ˈi2ɲ bˈaː6n,
+voice1.wav_0075.wav|mà tớ tin người ta gọi đó là tình yêu.|mˌaː2 t̪ˈəːɜ t̪ˈin ŋˈy͡ə2j t̪ˈaː ɣˈɔ6j ɗˈɔɜ lˌaː2 t̪ˈi2ɲ ˈi͡ɛw.
+voice1.wav_0076.wav|Mỗi khi gặp cậu, tôi đều rất vui và trở nên tăng động như một con khỉ vậy.|mˌo5j xˌi ɣˈa6p kˈə6w, t̪ˈoj ɗˈe2w zˈəɜt̪ vˈuj vˌaː2 t͡ʃˈəː4 nˌen t̪ˈaŋ ɗˈo6ŋ ɲˌy mˈo6t̪ kˌɔn xˈi4 vˈə͡ɪ6.
+voice1.wav_0077.wav|Dù bình thường, tớ còn chẳng thèm giao tiếp với người khác.|zˌu2 bˈi2ɲ tˈy͡ə2ŋ, t̪ˈəːɜ kˌɔ2n t͡ʃˌa4ŋ tˈɛ2m zˈaːw t̪ˈi͡ɛɜp vˌəːɜj ŋˈy͡ə2j xˈaːɜc.
+voice1.wav_0078.wav|Có lẽ trong truyền hành trình của chúng mình, tớ vốn dĩ từ lần đầu đã coi cậu là người thân,|kˈɔɜ lˈɛ5 t͡ʃˈɔŋ t͡ʃwˈi͡ɛ2n hˈe-2ɲ t͡ʃˈi2ɲ kˌu͡ə4 t͡ʃˈuɜŋ mˈi2ɲ, t̪ˈəːɜ vˈoɜn zˈi5 t̪ˌy2 lˈə2n ɗˈə2w ɗˌaː5 kˈɔj kˈə6w lˌaː2 ŋˈy͡ə2j tˈən,
+voice1.wav_0079.wav|coi cậu trên mức tình bạn.|kˈɔj kˈə6w t͡ʃˈen mˈyɜc t̪ˈi2ɲ bˈaː6n.
+voice1.wav_0080.wav|Nhiều lúc tớ dận cậu vô cớ và bắt cậu phải dỗ dành.|ɲˈi͡ɛ2w lˌuɜc t̪ˈəːɜ zˈə6n kˈə6w vˈo kˈəːɜ vˌaː2 bˈaɜt̪ kˈə6w fˌaː4j zˈo5 zˈe-2ɲ.
+voice1.wav_0081.wav|Dù cho đó không phải là hành động mà hai thằng con trai sẽ làm, nhưng cậu biết không?|zˌu2 t͡ʃˌɔ ɗˈɔɜ xˌoŋ fˌaː4j lˌaː2 hˈe-2ɲ ɗˈo6ŋ mˌaː2 hˈaːj tˈa2ŋ kˌɔn t͡ʃˈaːj sˌɛ5 lˈaː2m, ɲˌyŋ kˈə6w bˈi͡ɛɜt̪ xˌoŋ?
+voice1.wav_0082.wav|Đối với tớ, cậu là người quan trọng đến mức tớ đặt cả tấm lòng và niềm tin.|ɗˈoɜj vˌəːɜj t̪ˈəːɜ, kˈə6w lˌaː2 ŋˈy͡ə2j kwˈaːn t͡ʃˈɔ6ŋ ɗˌeɜn mˈyɜc t̪ˈəːɜ ɗˈa6t̪ kˈaː4 t̪ˈəɜm lˈɔ2ŋ vˌaː2 nˈi͡ɛ2m t̪ˈin.
+voice1.wav_0083.wav|Quang trọng đến mức tớ sẽ dựa vào khi yếu đuối|kwˈaːŋ t͡ʃˈɔ6ŋ ɗˌeɜn mˈyɜc t̪ˈəːɜ sˌɛ5 zˈy͡ə6 vˈaː2w xˌi ˈi͡ɛɜw ɗˈu͡əɜj
+voice1.wav_0084.wav|và để mặc cho cậu thấy những biết thương lòng,|vˌaː2 ɗˌe4 mˈa6c t͡ʃˌɔ kˈə6w tˈə͡ɪɜ ɲˌy5ŋ bˈi͡ɛɜt̪ tˈy͡əŋ lˈɔ2ŋ,
+voice1.wav_0085.wav|liệu có phải vì muốn cậu chữa lành, muốn cậu đến trở che, mà tớ đã khiến cậu khó chịu không?|lˈi͡ɛ6w kˈɔɜ fˌaː4j vˌi2 mˈu͡əɜn kˈə6w t͡ʃˈy͡ə5 lˈe-2ɲ, mˈu͡əɜn kˈə6w ɗˌeɜn t͡ʃˈəː4 t͡ʃˈɛ, mˌaː2 t̪ˈəːɜ ɗˌaː5 xˈi͡ɛɜn kˈə6w xˈɔɜ t͡ʃˈi6w xˌoŋ?
+voice1.wav_0086.wav|Có phải vì tớ biểu hiện quá rõ khiến mọi người nhận ra tình cảm của tớ dành cho cậu,|kˈɔɜ fˌaː4j vˌi2 t̪ˈəːɜ bˈi͡ɛ4w hˈi͡ɛ6n kwˈaːɜ zˈɔ5 xˈi͡ɛɜn mˌɔ6j ŋˈy͡ə2j ɲˈə6n zˈaː t̪ˈi2ɲ kˈaː4m kˌu͡ə4 t̪ˈəːɜ zˈe-2ɲ t͡ʃˌɔ kˈə6w,
+voice1.wav_0087.wav|mà cậu ghét tớ không?|mˌaː2 kˈə6w ɣˈɛɜt̪ t̪ˈəːɜ xˌoŋ?
+voice1.wav_0088.wav|Mỗi khi tớ nghe thấy ai đó gắn ghép tớ với cậu, tớ liền như trong lòng dọn dã một vườn hoa,|mˌo5j xˌi t̪ˈəːɜ ŋˈɛ tˈə͡ɪɜ ˈaːj ɗˈɔɜ ɣˈaɜn ɣˈɛɜp t̪ˈəːɜ vˌəːɜj kˈə6w, t̪ˈəːɜ lˈi͡ɛ2n ɲˌy t͡ʃˈɔŋ lˈɔ2ŋ zˈɔ6n zˈaː5 mˈo6t̪ vˈy͡ə2n hwˈaː,
+voice1.wav_0089.wav|nhưng cậu khi đó lại cảm thấy khó chịu và muốn phủ định điều đó.|ɲˌyŋ kˈə6w xˌi ɗˈɔɜ lˈaː6j kˈaː4m tˈə͡ɪɜ xˈɔɜ t͡ʃˈi6w vˌaː2 mˈu͡əɜn fˈu4 ɗˈi6ɲ ɗˈi͡ɛ2w ɗˈɔɜ.
+voice1.wav_0090.wav|Vậy là cậu ghét nó thật rồi, tình cảm của tớ.|vˈə͡ɪ6 lˌaː2 kˈə6w ɣˈɛɜt̪ nˈɔɜ tˈə6t̪ zˈo2j, t̪ˈi2ɲ kˈaː4m kˌu͡ə4 t̪ˈəːɜ.
+voice1.wav_0091.wav|Trước đây, tớ mỗi ngày đều bị những suy nghĩ tiêu cực tấn công,|t͡ʃˈy͡əɜc ɗˈə͡ɪ, t̪ˈəːɜ mˌo5j ŋˈa2j ɗˈe2w bˌi6 ɲˌy5ŋ swˈi ŋˈi5 t̪ˈi͡ɛw kˈy6c t̪ˈəɜn kˈoŋ,
+voice1.wav_0092.wav|còn cậu sẽ là động lực để tớ xóa tan hết nó.|kˌɔ2n kˈə6w sˌɛ5 lˌaː2 ɗˈo6ŋ lˈy6c ɗˌe4 t̪ˈəːɜ swˈaːɜ t̪ˈaːn hˈeɜt̪ nˈɔɜ.
+voice1.wav_0093.wav|Tớ như mối tên tiêu cực đâm và trái tim tớ,|t̪ˈəːɜ ɲˌy mˈoɜj t̪ˈen t̪ˈi͡ɛw kˈy6c ɗˈəm vˌaː2 t͡ʃˈaːɜj t̪ˈim t̪ˈəːɜ,
+voice1.wav_0094.wav|cậu biết khi đó tớ sẽ làm gì không?|kˈə6w bˈi͡ɛɜt̪ xˌi ɗˈɔɜ t̪ˈəːɜ sˌɛ5 lˈaː2m zˈi2 xˌoŋ?
+voice1.wav_0095.wav|Tớ dự ký nó ở lơi tận cùng trong tớ.|t̪ˈəːɜ zˈy6 kˈiɜ nˈɔɜ ˈəː4 lˈəːj t̪ˈə6n kˈu2ŋ t͡ʃˈɔŋ t̪ˈəːɜ.
+voice1.wav_0096.wav|Lôi khi đống tiêu cực đó trổi lên kiến cảm xúc tớ hỗn loạn|lˈoj xˌi ɗˈoɜŋ t̪ˈi͡ɛw kˈy6c ɗˈɔɜ t͡ʃˈo4j lˈen kˈi͡ɛɜn kˈaː4m sˈuɜc t̪ˈəːɜ hˈo5n lwˈaː6n
+voice1.wav_0097.wav|và làm những điều không đáng với cậu tớ xin lỗi,|vˌaː2 lˈaː2m ɲˌy5ŋ ɗˈi͡ɛ2w xˌoŋ ɗˈaːɜŋ vˌəːɜj kˈə6w t̪ˈəːɜ sˈin lˈo5j,
+voice1.wav_0098.wav|câu chuyện của chúng ta đi xa đến mức mọi thứ hoàn toàn đổ bể.|kˈə1w t͡ʃwˈi͡ɛ6n kˌu͡ə4 t͡ʃˈuɜŋ t̪ˈaː ɗˈi sˈaː ɗˌeɜn mˈyɜc mˌɔ6j tˈyɜ hwˈaː2n t̪wˈaː2n ɗˈo4 bˈe4.
+voice1.wav_0099.wav|Tớ với cậu trả là gì của nhau nữa?|t̪ˈəːɜ vˌəːɜj kˈə6w t͡ʃˈaː4 lˌaː2 zˈi2 kˌu͡ə4 ɲˈaw nˈy͡ə5?
+voice1.wav_0100.wav|Lòng tự tôn của tớ khiến tớ không thể là người cuối đầu trước,|lˈɔ2ŋ t̪ˈy6 t̪ˈon kˌu͡ə4 t̪ˈəːɜ xˈi͡ɛɜn t̪ˈəːɜ xˌoŋ tˈe4 lˌaː2 ŋˈy͡ə2j kˈu͡əɜj ɗˈə2w t͡ʃˈy͡əɜc,
+voice1.wav_0101.wav|vì thế tớ đợi cậu nói lời xin lỗi mỗi ngày, mỗi giờ đến bây giờ.|vˌi2 tˈeɜ t̪ˈəːɜ ɗˈəː6j kˈə6w nˈɔɜj lˈəː2j sˈin lˈo5j mˌo5j ŋˈa2j, mˌo5j zˈəː2 ɗˌeɜn bˈə͡ɪ zˈəː2.
+voice1.wav_0102.wav|Tớ thực sự nhận ra đã quá trễ để níu dữ mối quan hệ này rồi,|t̪ˈəːɜ tˈy6c sˈy6 ɲˈə6n zˈaː ɗˌaː5 kwˈaːɜ t͡ʃˈe5 ɗˌe4 nˈiɜw zˈy5 mˈoɜj kwˈaːn hˈe6 nˈa2j zˈo2j,
+voice1.wav_0103.wav|tớ với cậu trả còn gì hết.|t̪ˈəːɜ vˌəːɜj kˈə6w t͡ʃˈaː4 kˌɔ2n zˈi2 hˈeɜt̪.
+voice1.wav_0104.wav|Có lẽ đối với cậu, đó thực sự không quá quan trọng hoặc là tớ nghĩ thế.|kˈɔɜ lˈɛ5 ɗˈoɜj vˌəːɜj kˈə6w, ɗˈɔɜ tˈy6c sˈy6 xˌoŋ kwˈaːɜ kwˈaːn t͡ʃˈɔ6ŋ hwˌa6c lˌaː2 t̪ˈəːɜ ŋˈi5 tˈeɜ.
+voice1.wav_0105.wav|Nhưng đối với tớ, ngay cả khi chúng ta không còn là gì,|ɲˌyŋ ɗˈoɜj vˌəːɜj t̪ˈəːɜ, ŋˈaj kˈaː4 xˌi t͡ʃˈuɜŋ t̪ˈaː xˌoŋ kˌɔ2n lˌaː2 zˈi2,
+voice1.wav_0106.wav|tớ vẫn để lại trong lòng một hình vóng đẹp nhất về người mà tớ đã từng yêu.|t̪ˈəːɜ vˌə5n ɗˌe4 lˈaː6j t͡ʃˈɔŋ lˈɔ2ŋ mˈo6t̪ hˈi2ɲ vˈɔɜŋ ɗˈɛ6p ɲˈəɜt̪ vˈe2 ŋˈy͡ə2j mˌaː2 t̪ˈəːɜ ɗˌaː5 t̪ˈy2ŋ ˈi͡ɛw.
+voice1.wav_0107.wav|Có lẽ vài năm nữa thôi, cậu sẽ chẳng còn nhớ tớ là ai nữa,|kˈɔɜ lˈɛ5 vˈaː2j nˈam nˈy͡ə5 tˈoj, kˈə6w sˌɛ5 t͡ʃˌa4ŋ kˌɔ2n ɲˈəːɜ t̪ˈəːɜ lˌaː2 ˈaːj nˈy͡ə5,
+voice1.wav_0108.wav|nhưng tớ sẽ mãi nhớ cậu, tớ người đã cho tớ biết thế nào là yêu, mối tình đầu của tớ.|ɲˌyŋ t̪ˈəːɜ sˌɛ5 mˈaː5j ɲˈəːɜ kˈə6w, t̪ˈəːɜ ŋˈy͡ə2j ɗˌaː5 t͡ʃˌɔ t̪ˈəːɜ bˈi͡ɛɜt̪ tˈeɜ nˈaː2w lˌaː2 ˈi͡ɛw, mˈoɜj t̪ˈi2ɲ ɗˈə2w kˌu͡ə4 t̪ˈəːɜ.
+voice1.wav_0109.wav|Là thứ tiếp theo được cười từ bạn có biển danh là Ananas,|lˌaː2 tˈyɜ t̪ˈi͡ɛɜp tˈɛw ɗˌy͡ə6c kˈy͡ə2j t̪ˌy2 bˈaː6n kˈɔɜ bˈi͡ɛ4n zˈe-ɲ lˌaː2 anˈɑːnəz,
+voice1.wav_0110.wav|khi nhớ lại hay kể cả khi viết những dòng này,|xˌi ɲˈəːɜ lˈaː6j hˈaj kˈe4 kˈaː4 xˌi vˈi͡ɛɜt̪ ɲˌy5ŋ zˈɔ2ŋ nˈa2j,
+voice1.wav_0111.wav|là mình chật trùng xuống, còn tâm trí thì dối bời,|lˌaː2 mˈi2ɲ t͡ʃˈə6t̪ t͡ʃˈu2ŋ sˈu͡əɜŋ, kˌɔ2n t̪ˈəm t͡ʃˈiɜ tˌi2 zˈoɜj bˈəː2j,
+voice1.wav_0112.wav|dường như mình chưa thể thoát khỏi được cái bóng quá lớn của người ấy,|zˈy͡ə2ŋ ɲˌy mˈi2ɲ t͡ʃˌy͡ə tˈe4 twˈaːɜt̪ xˈɔ4j ɗˌy͡ə6c kˌaːɜj bˈɔɜŋ kwˈaːɜ lˈəːɜn kˌu͡ə4 ŋˈy͡ə2j ˈə͡ɪɜ,
+voice1.wav_0113.wav|nhưng cũng không thể làm gì được để thay đổi thực tại, rằng chúng mình đã kết thúc.|ɲˌyŋ kˈu5ŋ xˌoŋ tˈe4 lˈaː2m zˈi2 ɗˌy͡ə6c ɗˌe4 tˈaj ɗˈo4j tˈy6c t̪ˈaː6j, zˈa2ŋ t͡ʃˈuɜŋ mˈi2ɲ ɗˌaː5 kˈeɜt̪ tˈuɜc.
+voice1.wav_0114.wav|Mình và anh ấy quên nhau từ lúc hai đứa còn tồ tồ,|mˈi2ɲ vˌaː2 ˈe-ɲ ˈə͡ɪɜ kwˈen ɲˈaw t̪ˌy2 lˌuɜc hˈaːj ɗˈy͡əɜ kˌɔ2n t̪ˈo2 t̪ˈo2,
+voice1.wav_0115.wav|vô tình học chung một lớp rồi thân thiết, yêu nhau,|vˈo t̪ˈi2ɲ hˈɔ6k t͡ʃˈuŋ mˈo6t̪ lˈəːɜp zˈo2j tˈən tˈi͡ɛɜt̪, ˈi͡ɛw ɲˈaw,
+voice1.wav_0116.wav|nhưng tình đầu non-nất, chỉ kéo dài năm tháng rồi kết thúc,|ɲˌyŋ t̪ˈi2ɲ ɗˈə2w nˈɔn nˈəɜt̪, t͡ʃˈi4 kˈɛɜw zˈaː2j nˈam tˈaːɜŋ zˈo2j kˈeɜt̪ tˈuɜc,
+voice1.wav_0117.wav|vì cả hai còn quá trẻ con, vậy mà chẳng hiểu sao,|vˌi2 kˈaː4 hˈaːj kˌɔ2n kwˈaːɜ t͡ʃˈɛ4 kˌɔn, vˈə͡ɪ6 mˌaː2 t͡ʃˌa4ŋ hˈi͡ɛ4w sˈaːw,
+voice1.wav_0118.wav|sau lần chia tay ấy, bọn mình cứ quay lại, rồi lại xa nhau hết lần này đến lần khác,|sˈaw lˈə2n t͡ʃˈi͡ə t̪ˈaj ˈə͡ɪɜ, bˈɔ6n mˈi2ɲ kˈyɜ kwˈaj lˈaː6j, zˈo2j lˈaː6j sˈaː ɲˈaw hˈeɜt̪ lˈə2n nˈa2j ɗˌeɜn lˈə2n xˈaːɜc,
+voice1.wav_0119.wav|mình là tình đầu của anh là người dây anh cách yêu,|mˈi2ɲ lˌaː2 t̪ˈi2ɲ ɗˈə2w kˌu͡ə4 ˈe-ɲ lˌaː2 ŋˈy͡ə2j zˈə͡ɪ ˈe-ɲ kˈe-ɜc ˈi͡ɛw,
+voice1.wav_0120.wav|nhưng có lẽ cách yêu của mình không đúng,|ɲˌyŋ kˈɔɜ lˈɛ5 kˈe-ɜc ˈi͡ɛw kˌu͡ə4 mˈi2ɲ xˌoŋ ɗˈuɜŋ,
+voice1.wav_0121.wav|nên anh mới bị quấn và những điều mình không thể chấp nhận,|nˌen ˈe-ɲ mˈəːɜj bˌi6 kwˈəɜn vˌaː2 ɲˌy5ŋ ɗˈi͡ɛ2w mˈi2ɲ xˌoŋ tˈe4 t͡ʃˈəɜp ɲˈə6n,
+voice1.wav_0122.wav|thậm chí hết lần này đến lần khác phản bội mình,|tˈə6m t͡ʃˈiɜ hˈeɜt̪ lˈə2n nˈa2j ɗˌeɜn lˈə2n xˈaːɜc fˈaː4n bˈo6j mˈi2ɲ,
+voice1.wav_0123.wav|mình biết anh vẫn thương mình, vẫn dành sự dịu dàng mà chưa từng có với ai khác,|mˈi2ɲ bˈi͡ɛɜt̪ ˈe-ɲ vˌə5n tˈy͡əŋ mˈi2ɲ, vˌə5n zˈe-2ɲ sˈy6 zˈi6w zˈaː2ŋ mˌaː2 t͡ʃˌy͡ə t̪ˈy2ŋ kˈɔɜ vˌəːɜj ˈaːj xˈaːɜc,
+voice1.wav_0124.wav|nhưng yêu thôi là chưa đủ,|ɲˌyŋ ˈi͡ɛw tˈoj lˌaː2 t͡ʃˌy͡ə ɗˈu4,
+voice1.wav_0125.wav|vì người mà năm đó mình đã phải lòng đã thay đổi mất rồi,|vˌi2 ŋˈy͡ə2j mˌaː2 nˈam ɗˈɔɜ mˈi2ɲ ɗˌaː5 fˌaː4j lˈɔ2ŋ ɗˌaː5 tˈaj ɗˈo4j mˈəɜt̪ zˈo2j,
+voice1.wav_0126.wav|mình chỉ đang tiết đoạn tình cảm đã qua,|mˈi2ɲ t͡ʃˈi4 ɗˌaːŋ t̪ˈi͡ɛɜt̪ ɗwˈaː6n t̪ˈi2ɲ kˈaː4m ɗˌaː5 kwˈaː,
+voice1.wav_0127.wav|nên mẽ chịu đau đến mà lấn ná lại thôi,|nˌen mˈɛ5 t͡ʃˈi6w ɗˈaw ɗˌeɜn mˌaː2 lˈəɜn nˈaːɜ lˈaː6j tˈoj,
+voice1.wav_0128.wav|mình vẫn nhớ 50.000 hai đứa tưởng ăn có vị gì,|mˈi2ɲ vˌə5n ɲˈəːɜ nˈam mˈy͡ə7j.xˌo1ŋxˌo1ŋ xˌo1ŋ hˈaːj ɗˈy͡əɜ t̪ˈy͡ə4ŋ ˈan kˈɔɜ vˈi6 zˈi2,
+voice1.wav_0129.wav|vẫn nhớ cả hai đứa từng vui vẻ giấm mưa trên chiếc xe quay,|vˌə5n ɲˈəːɜ kˈaː4 hˈaːj ɗˈy͡əɜ t̪ˈy2ŋ vˈuj vˈɛ4 zˈəɜm mˈy͡ə t͡ʃˈen t͡ʃˈi͡ɛɜc sˈɛ kwˈaj,
+voice1.wav_0130.wav|vẫn nhớ từng lời hứa trong lúc tay đan tay,|vˌə5n ɲˈəːɜ t̪ˈy2ŋ lˈəː2j hˈy͡əɜ t͡ʃˈɔŋ lˌuɜc t̪ˈaj ɗˈaːn t̪ˈaj,
+voice1.wav_0131.wav|mình nhớ tất cả những kỷ niệm ấy, nhớ cả anh,|mˈi2ɲ ɲˈəːɜ t̪ˈəɜt̪ kˈaː4 ɲˌy5ŋ kˈi4 nˈi͡ɛ6m ˈə͡ɪɜ, ɲˈəːɜ kˈaː4 ˈe-ɲ,
+voice1.wav_0132.wav|nhưng không phải là anh ấy của bây giờ,|ɲˌyŋ xˌoŋ fˌaː4j lˌaː2 ˈe-ɲ ˈə͡ɪɜ kˌu͡ə4 bˈə͡ɪ zˈəː2,
+voice1.wav_0133.wav|còn lẽ sau này và những ngày đông giá lạnh,|kˌɔ2n lˈɛ5 sˈaw nˈa2j vˌaː2 ɲˌy5ŋ ŋˈa2j ɗˈoŋ zˈaːɜ lˈe-6ɲ,
+voice1.wav_0134.wav|anh sẽ ngồi bên người con gái mà anh yêu,|ˈe-ɲ sˌɛ5 ŋˈo2j bˈen ŋˈy͡ə2j kˌɔn ɣˈaːɜj mˌaː2 ˈe-ɲ ˈi͡ɛw,
+voice1.wav_0135.wav|thì thầm với cô ấy về những ước mơ, những mong muốn ước ngích|tˌi2 tˈə2m vˌəːɜj kˈo ˈə͡ɪɜ vˈe2 ɲˌy5ŋ ˈy͡əɜc mˈəː, ɲˌy5ŋ mˈɔŋ mˈu͡əɜn ˈy͡əɜc ŋˈiɜc
+voice1.wav_0136.wav|mà anh đã từng giữ chặt trong tim thuật hiếu thời,|mˌaː2 ˈe-ɲ ɗˌaː5 t̪ˈy2ŋ zˈy5 t͡ʃˈa6t̪ t͡ʃˈɔŋ t̪ˈim twˈə6t̪ hˈi͡ɛɜw tˈəː2j,
+voice1.wav_0137.wav|người ngồi sau yên sẽ anh lúc ấy không còn là mình nữa,|ŋˈy͡ə2j ŋˈo2j sˈaw ˈi͡ɛn sˌɛ5 ˈe-ɲ lˌuɜc ˈə͡ɪɜ xˌoŋ kˌɔ2n lˌaː2 mˈi2ɲ nˈy͡ə5,
+voice1.wav_0138.wav|người nắm tay anh đi qua những áp lực,|ŋˈy͡ə2j nˈaɜm t̪ˈaj ˈe-ɲ ɗˈi kwˈaː ɲˌy5ŋ ˈaːɜp lˈy6c,
+voice1.wav_0139.wav|những dây phút trong trênh cũng chẳng còn là mình,|ɲˌy5ŋ zˈə͡ɪ fˈuɜt̪ t͡ʃˈɔŋ t͡ʃˈeɲ kˈu5ŋ t͡ʃˌa4ŋ kˌɔ2n lˌaː2 mˈi2ɲ,
+voice1.wav_0140.wav|sẽ có một người khác ở đó,|sˌɛ5 kˈɔɜ mˈo6t̪ ŋˈy͡ə2j xˈaːɜc ˈəː4 ɗˈɔɜ,
+voice1.wav_0141.wav|bên anh cùng anh vượt qua những mùa đông giá Z|bˈen ˈe-ɲ kˈu2ŋ ˈe-ɲ vˈy͡ə6t̪ kwˈaː ɲˌy5ŋ mˈu͡ə2 ɗˈoŋ zˈaːɜ zˈɛɜt
+voice1.wav_0142.wav|cho tới tận những dây phút cuối đời,|t͡ʃˌɔ t̪ˌəːɜj t̪ˈə6n ɲˌy5ŋ zˈə͡ɪ fˈuɜt̪ kˈu͡əɜj ɗˈəː2j,
+voice1.wav_0143.wav|mình chỉ muốn gửi một lời cảm ơn tới anh và một lời xin lỗi,|mˈi2ɲ t͡ʃˈi4 mˈu͡əɜn ɣˈy4j mˈo6t̪ lˈəː2j kˈaː4m ˈəːn t̪ˌəːɜj ˈe-ɲ vˌaː2 mˈo6t̪ lˈəː2j sˈin lˈo5j,
+voice1.wav_0144.wav|cảm ơn vì đã từng yêu thương,|kˈaː4m ˈəːn vˌi2 ɗˌaː5 t̪ˈy2ŋ ˈi͡ɛw tˈy͡əŋ,
+voice1.wav_0145.wav|từng cùng mình đi qua những tháng ngày thanh xuân đẹp đẽ nhất và xin lỗi,|t̪ˈy2ŋ kˈu2ŋ mˈi2ɲ ɗˈi kwˈaː ɲˌy5ŋ tˈaːɜŋ ŋˈa2j tˈe-ɲ swˈən ɗˈɛ6p ɗˈɛ5 ɲˈəɜt̪ vˌaː2 sˈin lˈo5j,
+voice1.wav_0146.wav|vì đã không thể bên anh tới cuối cùng như lời mình đã từng hứa,|vˌi2 ɗˌaː5 xˌoŋ tˈe4 bˈen ˈe-ɲ t̪ˌəːɜj kˈu͡əɜj kˈu2ŋ ɲˌy lˈəː2j mˈi2ɲ ɗˌaː5 t̪ˈy2ŋ hˈy͡əɜ,
+voice1.wav_0147.wav|mỗi khi nhớ lại, tâm trí mình vẫn như lạc vào một cơn mưa kỳ ức,|mˌo5j xˌi ɲˈəːɜ lˈaː6j, t̪ˈəm t͡ʃˈiɜ mˈi2ɲ vˌə5n ɲˌy lˈaː6c vˈaː2w mˈo6t̪ kˈəːn mˈy͡ə kˈi2 ˈyɜc,
+voice1.wav_0148.wav|lạc vào những kỷ niệm nhẹ mờ,|lˈaː6c vˈaː2w ɲˌy5ŋ kˈi4 nˈi͡ɛ6m ɲˈɛ6 mˈəː2,
+voice1.wav_0149.wav|những những ánh đèn đường trong đêm khuya,|ɲˌy5ŋ ɲˌy5ŋ ˈe-ɜɲ ɗˈɛ2n ɗˈy͡ə2ŋ t͡ʃˈɔŋ ɗˈem xwˈi͡ə,
+voice1.wav_0150.wav|mọi thứ đã qua rồi,|mˌɔ6j tˈyɜ ɗˌaː5 kwˈaː zˈo2j,
+voice1.wav_0151.wav|nhưng cảm xúc thì vẫn vẹn nguyên,|ɲˌyŋ kˈaː4m sˈuɜc tˌi2 vˌə5n vˈɛ6n ŋwˈi͡ɛn,
+voice1.wav_0152.wav|chỉ là giờ đây mình chọn cách cất tất cả vào môn góc sâu nhất trong tim|t͡ʃˈi4 lˌaː2 zˈəː2 ɗˈə͡ɪ mˈi2ɲ t͡ʃˈɔ6n kˈe-ɜc kˈəɜt̪ t̪ˈəɜt̪ kˈaː4 vˈaː2w mˈon ɣˈɔɜk sˈə1w ɲˈəɜt̪ t͡ʃˈɔŋ t̪ˈim
+voice1.wav_0153.wav|để không nằm phiền tới cuộc sống hiện tại của anh nữa.|ɗˌe4 xˌoŋ nˈa2m fˈi͡ɛ2n t̪ˌəːɜj kˈu͡ə6c sˈoɜŋ hˈi͡ɛ6n t̪ˈaː6j kˌu͡ə4 ˈe-ɲ nˈy͡ə5.
+voice1.wav_0154.wav|Dù thế nào đi chăng nữa thì mình vẫn mong anh luôn bình yên,|zˌu2 tˈeɜ nˈaː2w ɗˈi t͡ʃˈaŋ nˈy͡ə5 tˌi2 mˈi2ɲ vˌə5n mˈɔŋ ˈe-ɲ lˈu͡ən bˈi2ɲ ˈi͡ɛn,
+voice1.wav_0155.wav|luôn hạnh phúc, dù là với ai, dù là ở nơi đâu,|lˈu͡ən hˈe-6ɲ fˈuɜc, zˌu2 lˌaː2 vˌəːɜj ˈaːj, zˌu2 lˌaː2 ˈəː4 nˈəːj ɗˈə1w,
+voice1.wav_0156.wav|chỉ cần anh sống một cuộc đời chọn vẹ không hối tiếc,|t͡ʃˈi4 kˈə2n ˈe-ɲ sˈoɜŋ mˈo6t̪ kˈu͡ə6c ɗˈəː2j t͡ʃˈɔ6n vˈɛ6 xˌoŋ hˈoɜj t̪ˈi͡ɛɜc,
+voice1.wav_0157.wav|vậy là đủ rồi,|vˈə͡ɪ6 lˌaː2 ɗˈu4 zˈo2j,
+voice1.wav_0158.wav|cảm ơn anh vì đã từng lắm nhé và yêu thương em.|kˈaː4m ˈəːn ˈe-ɲ vˌi2 ɗˌaː5 t̪ˈy2ŋ lˈaɜm ɲˈɛɜ vˌaː2 ˈi͡ɛw tˈy͡əŋ ˈɛm.
+voice1.wav_0159.wav|Và lá thư cuối cùng được gửi từ bạn Mooney,|vˌaː2 lˈaːɜ tˈy kˈu͡əɜj kˈu2ŋ ɗˌy͡ə6c ɣˈy4j t̪ˌy2 bˈaː6n mˈuːni,
+voice1.wav_0160.wav|liệu cậu có đang nghe số radio này không?|lˈi͡ɛ6w kˈə6w kˈɔɜ ɗˌaːŋ ŋˈɛ sˈoɜ ɹˈe͡ɪdɪˌə͡ʊ nˈa2j xˌoŋ?
+voice1.wav_0161.wav|người ta bảo chờ đợi một người có lẽ là điều khởi dại nhất,|ŋˈy͡ə2j t̪ˈaː bˈaː4w t͡ʃˈəː2 ɗˈəː6j mˈo6t̪ ŋˈy͡ə2j kˈɔɜ lˈɛ5 lˌaː2 ɗˈi͡ɛ2w xˈəː4j zˈaː6j ɲˈəɜt̪,
+voice1.wav_0162.wav|nhưng nếu đó là cậu thì lâu một chút thôi mình vẫn muốn chờ,|ɲˌyŋ nˌeɜw ɗˈɔɜ lˌaː2 kˈə6w tˌi2 lˈə1w mˈo6t̪ t͡ʃˈuɜt̪ tˈoj mˈi2ɲ vˌə5n mˈu͡əɜn t͡ʃˈəː2,
+voice1.wav_0163.wav|vì đối với mình cậu là người sứng đáng với những gì mình hẳn mong.|vˌi2 ɗˈoɜj vˌəːɜj mˈi2ɲ kˈə6w lˌaː2 ŋˈy͡ə2j sˈyɜŋ ɗˈaːɜŋ vˌəːɜj ɲˌy5ŋ zˈi2 mˈi2ɲ hˈa4n mˈɔŋ.
+voice1.wav_0164.wav|Ngày trước, chờ đợi cậu đã trở thành thói quen của mình,|ŋˈa2j t͡ʃˈy͡əɜc, t͡ʃˈəː2 ɗˈəː6j kˈə6w ɗˌaː5 t͡ʃˈəː4 tˈe-2ɲ tˈɔɜj kwˈɛn kˌu͡ə4 mˈi2ɲ,
+voice1.wav_0165.wav|mình từng ngồi đợi từng tin nhắn từ cậu lâu thật lâu,|mˈi2ɲ t̪ˈy2ŋ ŋˈo2j ɗˈəː6j t̪ˈy2ŋ t̪ˈin ɲˈaɜn t̪ˌy2 kˈə6w lˈə1w tˈə6t̪ lˈə1w,
+voice1.wav_0166.wav|trong những ngày mà cả hai vẫn chỉ là bạn,|t͡ʃˈɔŋ ɲˌy5ŋ ŋˈa2j mˌaː2 kˈaː4 hˈaːj vˌə5n t͡ʃˈi4 lˌaː2 bˈaː6n,
+voice1.wav_0167.wav|mình vốn là một người không kiên nhẫn,|mˈi2ɲ vˈoɜn lˌaː2 mˈo6t̪ ŋˈy͡ə2j xˌoŋ kˈi͡ɛn ɲˈə5n,
+voice1.wav_0168.wav|thế nhưng lại sẵn lòng chờ đợi cậu rất lâu,|tˈeɜ ɲˌyŋ lˈaː6j sˈa5n lˈɔ2ŋ t͡ʃˈəː2 ɗˈəː6j kˈə6w zˈəɜt̪ lˈə1w,
+voice1.wav_0169.wav|từ những khỏe khác ấy,|t̪ˌy2 ɲˌy5ŋ xwˈɛ4 xˈaːɜc ˈə͡ɪɜ,
+voice1.wav_0170.wav|mình nhận ra đây là tình yêu,|mˈi2ɲ ɲˈə6n zˈaː ɗˈə͡ɪ lˌaː2 t̪ˈi2ɲ ˈi͡ɛw,
+voice1.wav_0171.wav|là điều mà mình hẳn mong mỏi,|lˌaː2 ɗˈi͡ɛ2w mˌaː2 mˈi2ɲ hˈa4n mˈɔŋ mˈɔ4j,
+voice1.wav_0172.wav|và cũng chẳng bao giờ nghĩ rằng chúng mình lại có thể trở thành như thế này,|vˌaː2 kˈu5ŋ t͡ʃˌa4ŋ bˈaːw zˈəː2 ŋˈi5 zˈa2ŋ t͡ʃˈuɜŋ mˈi2ɲ lˈaː6j kˈɔɜ tˈe4 t͡ʃˈəː4 tˈe-2ɲ ɲˌy tˈeɜ nˈa2j,
+voice1.wav_0173.wav|dần già.|zˈə2n zˈaː2.
+voice1.wav_0174.wav|Việc nhắn tin với cậu sẽ thành một thói quen không thể thiếu.|vˈi͡ɛ6c ɲˈaɜn t̪ˈin vˌəːɜj kˈə6w sˌɛ5 tˈe-2ɲ mˈo6t̪ tˈɔɜj kwˈɛn xˌoŋ tˈe4 tˈi͡ɛɜw.
+voice1.wav_0175.wav|Bằng bóng cậu là lòng mình lại chống trải nhớ nhung,|bˈa2ŋ bˈɔɜŋ kˈə6w lˌaː2 lˈɔ2ŋ mˈi2ɲ lˈaː6j t͡ʃˈoɜŋ t͡ʃˈaː4j ɲˈəːɜ ɲˈuŋ,
+voice1.wav_0176.wav|mình cố gắng giữ gìn một quan hệ bằng tất cả sức lực nhỏ bé|mˈi2ɲ kˈoɜ ɣˈaɜŋ zˈy5 zˈi2n mˈo6t̪ kwˈaːn hˈe6 bˈa2ŋ t̪ˈəɜt̪ kˈaː4 sˈyɜc lˈy6c ɲˈɔ4 bˈɛɜ
+voice1.wav_0177.wav|của một cô gái chưa từng biết yêu là gì,|kˌu͡ə4 mˈo6t̪ kˈo ɣˈaːɜj t͡ʃˌy͡ə t̪ˈy2ŋ bˈi͡ɛɜt̪ ˈi͡ɛw lˌaː2 zˈi2,
+voice1.wav_0178.wav|nhưng khi mệt mỏi ngập tràn,|ɲˌyŋ xˌi mˈe6t̪ mˈɔ4j ŋˈə6p t͡ʃˈaː2n,
+voice1.wav_0179.wav|mình nhẹ nhàng muôn tay cậu,|mˈi2ɲ ɲˈɛ6 ɲˈaː2ŋ mˈu͡ən t̪ˈaj kˈə6w,
+voice1.wav_0180.wav|mình hỏi cậu có thể dừng lại được không?|mˈi2ɲ hˈɔ4j kˈə6w kˈɔɜ tˈe4 zˈy2ŋ lˈaː6j ɗˌy͡ə6c xˌoŋ?
+voice1.wav_0181.wav|Mình nghĩ rằng có lẽ mình không hợp với chuyện yêu đương,|mˈi2ɲ ŋˈi5 zˈa2ŋ kˈɔɜ lˈɛ5 mˈi2ɲ xˌoŋ hˈəː6p vˌəːɜj t͡ʃwˈi͡ɛ6n ˈi͡ɛw ɗˈy͡əŋ,
+voice1.wav_0182.wav|chỉ nên là bạn bè thì sẽ tốt cho cả hai,|t͡ʃˈi4 nˌen lˌaː2 bˈaː6n bˈɛ2 tˌi2 sˌɛ5 t̪ˈoɜt̪ t͡ʃˌɔ kˈaː4 hˈaːj,
+voice1.wav_0183.wav|như cậu vẫn nói làm bạn sẽ tốt hơn.|ɲˌy kˈə6w vˌə5n nˈɔɜj lˈaː2m bˈaː6n sˌɛ5 t̪ˈoɜt̪ hˈəːn.
+voice1.wav_0184.wav|Mình từng nghĩ quên một người thật không khó lắm,|mˈi2ɲ t̪ˈy2ŋ ŋˈi5 kwˈen mˈo6t̪ ŋˈy͡ə2j tˈə6t̪ xˌoŋ xˈɔɜ lˈaɜm,
+voice1.wav_0185.wav|những bộ phim nguồn tình kia chỉ nói quá mà thôi,|ɲˌy5ŋ bˈo6 fˈim ŋˈu͡ə2n t̪ˈi2ɲ kˈi͡ə t͡ʃˈi4 nˈɔɜj kwˈaːɜ mˌaː2 tˈoj,
+voice1.wav_0186.wav|nhưng khi trải qua mới biết mình chẳng thế nào quên được,|ɲˌyŋ xˌi t͡ʃˈaː4j kwˈaː mˈəːɜj bˈi͡ɛɜt̪ mˈi2ɲ t͡ʃˌa4ŋ tˈeɜ nˈaː2w kwˈen ɗˌy͡ə6c,
+voice1.wav_0187.wav|ánh mắt mình không thể dấu được sự thương nhớ,|ˈe-ɜɲ mˈaɜt̪ mˈi2ɲ xˌoŋ tˈe4 zˈəɜw ɗˌy͡ə6c sˈy6 tˈy͡əŋ ɲˈəːɜ,
+voice1.wav_0188.wav|tiết nuối và dây rất đến cả cậu cũng nhận ra điều đó mà phải không?|t̪ˈi͡ɛɜt̪ nˈu͡əɜj vˌaː2 zˈə͡ɪ zˈəɜt̪ ɗˌeɜn kˈaː4 kˈə6w kˈu5ŋ ɲˈə6n zˈaː ɗˈi͡ɛ2w ɗˈɔɜ mˌaː2 fˌaː4j xˌoŋ?
+voice1.wav_0189.wav|Lúc ấy mình mới thật sự hiểu mình đã thích cậu nhiều đến những nào,|lˌuɜc ˈə͡ɪɜ mˈi2ɲ mˈəːɜj tˈə6t̪ sˈy6 hˈi͡ɛ4w mˈi2ɲ ɗˌaː5 tˈiɜc kˈə6w ɲˈi͡ɛ2w ɗˌeɜn ɲˌy5ŋ nˈaː2w,
+voice1.wav_0190.wav|cuộc trò chuyện được nuối dài thêm chút ít nhờ cậu,|kˈu͡ə6c t͡ʃˈɔ2 t͡ʃwˈi͡ɛ6n ɗˌy͡ə6c nˈu͡əɜj zˈaː2j tˈem t͡ʃˈuɜt̪ ˈiɜt̪ ɲˈəː2 kˈə6w,
+voice1.wav_0191.wav|sau gần một tháng im lặng,|sˈaw ɣˈə2n mˈo6t̪ tˈaːɜŋ ˈim lˈa6ŋ,
+voice1.wav_0192.wav|không một dòng tin nhắn,|xˌoŋ mˈo6t̪ zˈɔ2ŋ t̪ˈin ɲˈaɜn,
+voice1.wav_0193.wav|không một lời trao hỏi,|xˌoŋ mˈo6t̪ lˈəː2j t͡ʃˈaːw hˈɔ4j,
+voice1.wav_0194.wav|thần cửc gạo biết bao,|tˈə2n kˈy4c ɣˈaː6w bˈi͡ɛɜt̪ bˈaːw,
+voice1.wav_0195.wav|nhưng mình không muốn dừng lại,|ɲˌyŋ mˈi2ɲ xˌoŋ mˈu͡əɜn zˈy2ŋ lˈaː6j,
+voice1.wav_0196.wav|vẫn muốn tiếp tục dù chỉ là vài dòng tin nhắn nhạt nhéo của cả hai đứa,|vˌə5n mˈu͡əɜn t̪ˈi͡ɛɜp t̪ˈu6c zˌu2 t͡ʃˈi4 lˌaː2 vˈaː2j zˈɔ2ŋ t̪ˈin ɲˈaɜn ɲˈaː6t̪ ɲˈɛɜw kˌu͡ə4 kˈaː4 hˈaːj ɗˈy͡əɜ,
+voice1.wav_0197.wav|có lẽ nỗi nhớ không tên,|kˈɔɜ lˈɛ5 nˈo5j ɲˈəːɜ xˌoŋ t̪ˈen,
+voice1.wav_0198.wav|không thể viết ra ấy đã lâu ngày không được bộc lộ,|xˌoŋ tˈe4 vˈi͡ɛɜt̪ zˈaː ˈə͡ɪɜ ɗˌaː5 lˈə1w ŋˈa2j xˌoŋ ɗˌy͡ə6c bˈo6k lˈo6,
+voice1.wav_0199.wav|nên đã kéo chúng ta gần lại,|nˌen ɗˌaː5 kˈɛɜw t͡ʃˈuɜŋ t̪ˈaː ɣˈə2n lˈaː6j,
+voice1.wav_0200.wav|để rồi nói ra hết những điều trong lòng,|ɗˌe4 zˈo2j nˈɔɜj zˈaː hˈeɜt̪ ɲˌy5ŋ ɗˈi͡ɛ2w t͡ʃˈɔŋ lˈɔ2ŋ,
+voice1.wav_0201.wav|phú thật mình có chút cây cây nơi khóe mắt khi nghe cậu nói,|fˈuɜ tˈə6t̪ mˈi2ɲ kˈɔɜ t͡ʃˈuɜt̪ kˈə͡ɪ kˈə͡ɪ nˈəːj xwˈɛɜ mˈaɜt̪ xˌi ŋˈɛ kˈə6w nˈɔɜj,
+voice1.wav_0202.wav|tớ rất nhớ cậu,|t̪ˈəːɜ zˈəɜt̪ ɲˈəːɜ kˈə6w,
+voice1.wav_0203.wav|nhưng tôi không dám nói,|ɲˌyŋ t̪ˈoj xˌoŋ zˈaːɜm nˈɔɜj,
+voice1.wav_0204.wav|vậy là chúng ta lại như trước,|vˈə͡ɪ6 lˌaː2 t͡ʃˈuɜŋ t̪ˈaː lˈaː6j ɲˌy t͡ʃˈy͡əɜc,
+voice1.wav_0205.wav|nhưng lần này khác hơn,|ɲˌyŋ lˈə2n nˈa2j xˈaːɜc hˈəːn,
+voice1.wav_0206.wav|mình trở thành người được yêu thương, được quan tâm,|mˈi2ɲ t͡ʃˈəː4 tˈe-2ɲ ŋˈy͡ə2j ɗˌy͡ə6c ˈi͡ɛw tˈy͡əŋ, ɗˌy͡ə6c kwˈaːn t̪ˈəm,
+voice1.wav_0207.wav|được cậu chân trọng,|ɗˌy͡ə6c kˈə6w t͡ʃˈən t͡ʃˈɔ6ŋ,
+voice1.wav_0208.wav|là một cô gái lần đầu được yêu,|lˌaː2 mˈo6t̪ kˈo ɣˈaːɜj lˈə2n ɗˈə2w ɗˌy͡ə6c ˈi͡ɛw,
+voice1.wav_0209.wav|cảm giác vừa lạ lẫm, vừa ngọt ngào,|kˈaː4m zˈaːɜc vˈy͡ə2 lˈaː6 lˈə5m, vˈy͡ə2 ŋˈɔ6t̪ ŋˈaː2w,
+voice1.wav_0210.wav|không ngờ rằng một đứa trẻ con,|xˌoŋ ŋˈəː2 zˈa2ŋ mˈo6t̪ ɗˈy͡əɜ t͡ʃˈɛ4 kˌɔn,
+voice1.wav_0211.wav|nóng nảy,|nˈɔɜŋ nˈa4j,
+voice1.wav_0212.wav|hay khóc nhẹ như mình lại có người để mắt đến,|hˈaj xˈɔɜk ɲˈɛ6 ɲˌy mˈi2ɲ lˈaː6j kˈɔɜ ŋˈy͡ə2j ɗˌe4 mˈaɜt̪ ɗˌeɜn,
+voice1.wav_0213.wav|trong suốt những ngày tháng đi học ấy,|t͡ʃˈɔŋ sˈu͡əɜt̪ ɲˌy5ŋ ŋˈa2j tˈaːɜŋ ɗˈi hˈɔ6k ˈə͡ɪɜ,
+voice1.wav_0214.wav|đây chính là muối tình đầu của mình,|ɗˈə͡ɪ t͡ʃˈiɜɲ lˌaː2 mˈu͡əɜj t̪ˈi2ɲ ɗˈə2w kˌu͡ə4 mˈi2ɲ,
+voice1.wav_0215.wav|mình chân trọng và giữ gìn muối tình này,|mˈi2ɲ t͡ʃˈən t͡ʃˈɔ6ŋ vˌaː2 zˈy5 zˈi2n mˈu͡əɜj t̪ˈi2ɲ nˈa2j,
+voice1.wav_0216.wav|bởi đây là lần đầu tiên mình biết yêu và được yêu,|bˌəː4j ɗˈə͡ɪ lˌaː2 lˈə2n ɗˈə2w t̪ˈi͡ɛn mˈi2ɲ bˈi͡ɛɜt̪ ˈi͡ɛw vˌaː2 ɗˌy͡ə6c ˈi͡ɛw,
+voice1.wav_0217.wav|mình từng sợ rằng đó chỉ là một giấc mưa chấp nhóáng,|mˈi2ɲ t̪ˈy2ŋ sˈəː6 zˈa2ŋ ɗˈɔɜ t͡ʃˈi4 lˌaː2 mˈo6t̪ zˈəɜc mˈy͡ə t͡ʃˈəɜp ɲˈɔɜaːɜŋ,
+voice1.wav_0218.wav|rồi sẽ lại như lần trước,|zˈo2j sˌɛ5 lˈaː6j ɲˌy lˈə2n t͡ʃˈy͡əɜc,
+voice1.wav_0219.wav|chỉ còn lại những nỗi nhớ và đau khổ,|t͡ʃˈi4 kˌɔ2n lˈaː6j ɲˌy5ŋ nˈo5j ɲˈəːɜ vˌaː2 ɗˈaw xˈo4,
+voice1.wav_0220.wav|nhưng cậu đã mang đến cho mình cảm giác an tâm,|ɲˌyŋ kˈə6w ɗˌaː5 mˈaːŋ ɗˌeɜn t͡ʃˌɔ mˈi2ɲ kˈaː4m zˈaːɜc ˈaːn t̪ˈəm,
+voice1.wav_0221.wav|trong tình yêu này,|t͡ʃˈɔŋ t̪ˈi2ɲ ˈi͡ɛw nˈa2j,
+voice1.wav_0222.wav|và ôi mình đã hạnh phúc đến những nào cậu có biết không,|vˌaː2 ˈoj mˈi2ɲ ɗˌaː5 hˈe-6ɲ fˈuɜc ɗˌeɜn ɲˌy5ŋ nˈaː2w kˈə6w kˈɔɜ bˈi͡ɛɜt̪ xˌoŋ,
+voice1.wav_0223.wav|sau xuyến dung động,|sˈaw swˈi͡ɛɜn zˈuŋ ɗˈo6ŋ,
+voice1.wav_0224.wav|những tử ngữ ấy là quá tầm hưởng được với cảm xúc này,|ɲˌy5ŋ t̪ˈy4 ŋˈy5 ˈə͡ɪɜ lˌaː2 kwˈaːɜ t̪ˈə2m hˈy͡ə4ŋ ɗˌy͡ə6c vˌəːɜj kˈaː4m sˈuɜc nˈa2j,
+voice1.wav_0225.wav|nhẹ nhàng mà lại vô cùng đáng nhớ,|ɲˈɛ6 ɲˈaː2ŋ mˌaː2 lˈaː6j vˈo kˈu2ŋ ɗˈaːɜŋ ɲˈəːɜ,
+voice1.wav_0226.wav|con tim mình đang gợi lên từng cơn,|kˌɔn t̪ˈim mˈi2ɲ ɗˌaːŋ ɣˈəː6j lˈen t̪ˈy2ŋ kˈəːn,
+voice1.wav_0227.wav|cậu có biết không?|kˈə6w kˈɔɜ bˈi͡ɛɜt̪ xˌoŋ?
+voice1.wav_0228.wav|Cậu đã đến và rời ấm mình,|kˈə6w ɗˌaː5 ɗˌeɜn vˌaː2 zˈəː2j ˈəɜm mˈi2ɲ,
+voice1.wav_0229.wav|dù là ngày hệ ôi bức hay ngày đông giá lạnh,|zˌu2 lˌaː2 ŋˈa2j hˈe6 ˈoj bˈyɜc hˈaj ŋˈa2j ɗˈoŋ zˈaːɜ lˈe-6ɲ,
+voice1.wav_0230.wav|cậu vẫn là ngọn lửa ấm má bên cạnh mình,|kˈə6w vˌə5n lˌaː2 ŋˈɔ6n lˈy͡ə4 ˈəɜm mˈaːɜ bˈen kˈe-6ɲ mˈi2ɲ,
+voice1.wav_0231.wav|mình sẽ nhớ mãi muối tình này,|mˈi2ɲ sˌɛ5 ɲˈəːɜ mˈaː5j mˈu͡əɜj t̪ˈi2ɲ nˈa2j,
+voice1.wav_0232.wav|nhớ mãi và xem nó như một phần dựng rỡ của thanh xuân,|ɲˈəːɜ mˈaː5j vˌaː2 sˈɛm nˈɔɜ ɲˌy mˈo6t̪ fˈə2n zˈy6ŋ zˈəː5 kˌu͡ə4 tˈe-ɲ swˈən,
+voice1.wav_0233.wav|nếu ai đó hỏi muối tình đầu của mình là ai,|nˌeɜw ˈaːj ɗˈɔɜ hˈɔ4j mˈu͡əɜj t̪ˈi2ɲ ɗˈə2w kˌu͡ə4 mˈi2ɲ lˌaː2 ˈaːj,
+voice1.wav_0234.wav|mình sẽ tự tin trả lời rằng,|mˈi2ɲ sˌɛ5 t̪ˈy6 t̪ˈin t͡ʃˈaː4 lˈəː2j zˈa2ŋ,
+voice1.wav_0235.wav|đó là một cậu bạn trên bóng chuyển 5 lớp 8,|ɗˈɔɜ lˌaː2 mˈo6t̪ kˈə6w bˈaː6n t͡ʃˈen bˈɔɜŋ t͡ʃwˈi͡ɛ4n nˈam lˈəːɜp t̪ˈaːɜm,
+voice1.wav_0236.wav|vừa năng động, vui tính, lại sâu sắc,|vˈy͡ə2 nˈaŋ ɗˈo6ŋ, vˈuj t̪ˈiɜɲ, lˈaː6j sˈə1w sˈaɜc,
+voice1.wav_0237.wav|có những nỗi lòng riêng nhưng luôn cố gắng nở nụ cười,|kˈɔɜ ɲˌy5ŋ nˈo5j lˈɔ2ŋ zˈi͡ɛŋ ɲˌyŋ lˈu͡ən kˈoɜ ɣˈaɜŋ nˈəː4 nˈu6 kˈy͡ə2j,
+voice1.wav_0238.wav|đó là người đã thích mình và mang đến cho mình niềm vui,|ɗˈɔɜ lˌaː2 ŋˈy͡ə2j ɗˌaː5 tˈiɜc mˈi2ɲ vˌaː2 mˈaːŋ ɗˌeɜn t͡ʃˌɔ mˈi2ɲ nˈi͡ɛ2m vˈuj,
+voice1.wav_0239.wav|trong những ngày hệ ôi à của tuổi học trò,|t͡ʃˈɔŋ ɲˌy5ŋ ŋˈa2j hˈe6 ˈoj ˈaː2 kˌu͡ə4 t̪ˈu͡ə4j hˈɔ6k t͡ʃˈɔ2,
+voice1.wav_0240.wav|cậu ấy chính là ảnh dương dự dỡ,|kˈə6w ˈə͡ɪɜ t͡ʃˈiɜɲ lˌaː2 ˈe-4ɲ zˈy͡əŋ zˈy6 zˈəː5,
+voice1.wav_0241.wav|là bông hoa mặt trời mà mình đã chăm sóc tận tình,|lˌaː2 bˈoŋ hwˈaː mˈa6t̪ t͡ʃˈəː2j mˌaː2 mˈi2ɲ ɗˌaː5 t͡ʃˈam sˈɔɜk t̪ˈə6n t̪ˈi2ɲ,
+voice1.wav_0242.wav|này hoa mặt trời của mình,|nˈa2j hwˈaː mˈa6t̪ t͡ʃˈəː2j kˌu͡ə4 mˈi2ɲ,
+voice1.wav_0243.wav|mình yêu cậu thật đấy,|mˈi2ɲ ˈi͡ɛw kˈə6w tˈə6t̪ ɗˈə͡ɪɜ,
+voice1.wav_0244.wav|mong rằng cậu sẽ luôn che trở vào đồng hành cùng mình thật lâu, thật lâu nhé!|mˈɔŋ zˈa2ŋ kˈə6w sˌɛ5 lˈu͡ən t͡ʃˈɛ t͡ʃˈəː4 vˈaː2w ɗˈo2ŋ hˈe-2ɲ kˈu2ŋ mˈi2ɲ tˈə6t̪ lˈə1w, tˈə6t̪ lˈə1w ɲˈɛɜ!
+voice1.wav_0245.wav|Hmm, ta có lẽ cả đời này sẽ chẳng bao giờ quên được những ký ức|hˌaɜtˌɛməː2ˈɛməː2, t̪ˈaː kˈɔɜ lˈɛ5 kˈaː4 ɗˈəː2j nˈa2j sˌɛ5 t͡ʃˌa4ŋ bˈaːw zˈəː2 kwˈen ɗˌy͡ə6c ɲˌy5ŋ kˈiɜ ˈyɜc
+voice1.wav_0246.wav|về thỏa mới biết yêu là gì,|vˈe2 twˈaː4 mˈəːɜj bˈi͡ɛɜt̪ ˈi͡ɛw lˌaː2 zˈi2,
+voice1.wav_0247.wav|biết yêu là như thế nào,|bˈi͡ɛɜt̪ ˈi͡ɛw lˌaː2 ɲˌy tˈeɜ nˈaː2w,
+voice1.wav_0248.wav|đó là những ngày mà ta còn chưa đụ trường thành,|ɗˈɔɜ lˌaː2 ɲˌy5ŋ ŋˈa2j mˌaː2 t̪ˈaː kˌɔ2n t͡ʃˌy͡ə ɗˈu6 t͡ʃˈy͡ə2ŋ tˈe-2ɲ,
+voice1.wav_0249.wav|nhưng lại sẵn sàng trao đi mọi dung động thơ ngây nhất mà trái tim có thể cảm nhận,|ɲˌyŋ lˈaː6j sˈa5n sˈaː2ŋ t͡ʃˈaːw ɗˈi mˌɔ6j zˈuŋ ɗˈo6ŋ tˈəː ŋˈə͡ɪ ɲˈəɜt̪ mˌaː2 t͡ʃˈaːɜj t̪ˈim kˈɔɜ tˈe4 kˈaː4m ɲˈə6n,
+voice1.wav_0250.wav|dù cho nó có thể không bằng nhiều cuộc tình chúng ta trải qua,|zˌu2 t͡ʃˌɔ nˈɔɜ kˈɔɜ tˈe4 xˌoŋ bˈa2ŋ ɲˈi͡ɛ2w kˈu͡ə6c t̪ˈi2ɲ t͡ʃˈuɜŋ t̪ˈaː t͡ʃˈaː4j kwˈaː,
+voice1.wav_0251.wav|nhưng sẽ mãi hiện hiệu hợp tâm trí dù có mù mở ra sao,|ɲˌyŋ sˌɛ5 mˈaː5j hˈi͡ɛ6n hˈi͡ɛ6w hˈəː6p t̪ˈəm t͡ʃˈiɜ zˌu2 kˈɔɜ mˈu2 mˈəː4 zˈaː sˈaːw,
+voice1.wav_0252.wav|phàm là con người,|fˈaː2m lˌaː2 kˌɔn ŋˈy͡ə2j,
+voice1.wav_0253.wav|bảo quên những lần đầu ấy làm sao mà quên cho được lần đầu dung động,|bˈaː4w kwˈen ɲˌy5ŋ lˈə2n ɗˈə2w ˈə͡ɪɜ lˈaː2m sˈaːw mˌaː2 kwˈen t͡ʃˌɔ ɗˌy͡ə6c lˈə2n ɗˈə2w zˈuŋ ɗˈo6ŋ,
+voice1.wav_0254.wav|lần đầu thổn thức, lần đầu biết thế nào là nhớ nhung,|lˈə2n ɗˈə2w tˈo4n tˈyɜc, lˈə2n ɗˈə2w bˈi͡ɛɜt̪ tˈeɜ nˈaː2w lˌaː2 ɲˈəːɜ ɲˈuŋ,
+voice1.wav_0255.wav|đến mất ăn mất ngủ,|ɗˌeɜn mˈəɜt̪ ˈan mˈəɜt̪ ŋˈu4,
+voice1.wav_0256.wav|cảm xúc đó sâu sắc mà mạnh mẽ hơn so với chúng ta của sau này,|kˈaː4m sˈuɜc ɗˈɔɜ sˈə1w sˈaɜc mˌaː2 mˈe-6ɲ mˈɛ5 hˈəːn sˈɔ vˌəːɜj t͡ʃˈuɜŋ t̪ˈaː kˌu͡ə4 sˈaw nˈa2j,
+voice1.wav_0257.wav|chúng ta lớn lên, có thể thay đổi,|t͡ʃˈuɜŋ t̪ˈaː lˈəːɜn lˈen, kˈɔɜ tˈe4 tˈaj ɗˈo4j,
+voice1.wav_0258.wav|có thể học cách yêu thương một cách lý trí hơn,|kˈɔɜ tˈe4 hˈɔ6k kˈe-ɜc ˈi͡ɛw tˈy͡əŋ mˈo6t̪ kˈe-ɜc lˈiɜ t͡ʃˈiɜ hˈəːn,
+voice1.wav_0259.wav|biết dè dặt và giữ gìn bản thân hơn,|bˈi͡ɛɜt̪ zˈɛ2 zˈa6t̪ vˌaː2 zˈy5 zˈi2n bˈaː4n tˈən hˈəːn,
+voice1.wav_0260.wav|nhưng sẽ không thể tìm lại được cảm giác UI đó bằng tất cả sự ngây thơ,|ɲˌyŋ sˌɛ5 xˌoŋ tˈe4 t̪ˈi2m lˈaː6j ɗˌy͡ə6c kˈaː4m zˈaːɜc ˈuj ɗˈɔɜ bˈa2ŋ t̪ˈəɜt̪ kˈaː4 sˈy6 ŋˈə͡ɪ tˈəː,
+voice1.wav_0261.wav|tin tưởng và chân thành khi ấy.|t̪ˈin t̪ˈy͡ə4ŋ vˌaː2 t͡ʃˈən tˈe-2ɲ xˌi ˈə͡ɪɜ.
+voice1.wav_0262.wav|Mậy nên, hãy cứ cất giữ lấy những gì trong sáng nhất|mˈə͡ɪ6 nˌen, hˈa5j kˈyɜ kˈəɜt̪ zˈy5 lˈə͡ɪɜ ɲˌy5ŋ zˈi2 t͡ʃˈɔŋ sˈaːɜŋ ɲˈəɜt̪
+voice1.wav_0263.wav|như một viên ngọc thô quý xá,|ɲˌy mˈo6t̪ vˈi͡ɛn ŋˈɔ6k tˈo kwˈiɜ sˈaːɜ,
+voice1.wav_0264.wav|để có thể nhắc ta rằng,|ɗˌe4 kˈɔɜ tˈe4 ɲˈaɜc t̪ˈaː zˈa2ŋ,
+voice1.wav_0265.wav|rằng mình đã từng là một người có thể UI đó bằng cả tâm can,|zˈa2ŋ mˈi2ɲ ɗˌaː5 t̪ˈy2ŋ lˌaː2 mˈo6t̪ ŋˈy͡ə2j kˈɔɜ tˈe4 ˈuj ɗˈɔɜ bˈa2ŋ kˈaː4 t̪ˈəm kˈaːn,
+voice1.wav_0266.wav|vô điều kiện,|vˈo ɗˈi͡ɛ2w kˈi͡ɛ6n,
+voice1.wav_0267.wav|và nếu cậu vẫn tin, thật sự tin,|vˌaː2 nˌeɜw kˈə6w vˌə5n t̪ˈin, tˈə6t̪ sˈy6 t̪ˈin,
+voice1.wav_0268.wav|rằng mối tình dăng dở năm đó vẫn có thể một ngày nào được viết tiếp,|zˈa2ŋ mˈoɜj t̪ˈi2ɲ zˈaŋ zˈəː4 nˈam ɗˈɔɜ vˌə5n kˈɔɜ tˈe4 mˈo6t̪ ŋˈa2j nˈaː2w ɗˌy͡ə6c vˈi͡ɛɜt̪ t̪ˈi͡ɛɜp,
+voice1.wav_0269.wav|vẫn có thể hóa thành một mối duyên chọn vẹn,|vˌə5n kˈɔɜ tˈe4 hwˈaːɜ tˈe-2ɲ mˈo6t̪ mˈoɜj zwˈi͡ɛn t͡ʃˈɔ6n vˈɛ6n,
+voice1.wav_0270.wav|thì hãy tiếp tục giữ gìn niềm tin ấy,|tˌi2 hˈa5j t̪ˈi͡ɛɜp t̪ˈu6c zˈy5 zˈi2n nˈi͡ɛ2m t̪ˈin ˈə͡ɪɜ,
+voice1.wav_0271.wav|biết đầu giữa muôn ngàn ngã rẽ của cuộc thời,|bˈi͡ɛɜt̪ ɗˈə2w zˈy͡ə5 mˈu͡ən ŋˈaː2n ŋˈaː5 zˈɛ5 kˌu͡ə4 kˈu͡ə6c tˈəː2j,
+voice1.wav_0272.wav|cậu và người ấy lại một lần nữa tìm thấy nhau,|kˈə6w vˌaː2 ŋˈy͡ə2j ˈə͡ɪɜ lˈaː6j mˈo6t̪ lˈə2n nˈy͡ə5 t̪ˈi2m tˈə͡ɪɜ ɲˈaw,
+voice1.wav_0273.wav|khi ngày đó đến,|xˌi ŋˈa2j ɗˈɔɜ ɗˌeɜn,
+voice1.wav_0274.wav|mong rằng cậu có thể trao cho họ một cái ôm thật chặt,|mˈɔŋ zˈa2ŋ kˈə6w kˈɔɜ tˈe4 t͡ʃˈaːw t͡ʃˌɔ hˈɔ6 mˈo6t̪ kˌaːɜj ˈom tˈə6t̪ t͡ʃˈa6t̪,
+voice1.wav_0275.wav|một đụ hôn thật sâu,|mˈo6t̪ ɗˈu6 hˈon tˈə6t̪ sˈə1w,
+voice1.wav_0276.wav|như một mình chứng rằng thời gian có thể làm mọi thứ thay đổi,|ɲˌy mˈo6t̪ mˈi2ɲ t͡ʃˈyɜŋ zˈa2ŋ tˈəː2j zˈaːn kˈɔɜ tˈe4 lˈaː2m mˌɔ6j tˈyɜ tˈaj ɗˈo4j,
+voice1.wav_0277.wav|nhưng có một thứ vẫn vẹn nguyên,|ɲˌyŋ kˈɔɜ mˈo6t̪ tˈyɜ vˌə5n vˈɛ6n ŋwˈi͡ɛn,
+voice1.wav_0278.wav|chính là tình cảm chân thành từ thỏa đầu đời ấy,|t͡ʃˈiɜɲ lˌaː2 t̪ˈi2ɲ kˈaː4m t͡ʃˈən tˈe-2ɲ t̪ˌy2 twˈaː4 ɗˈə2w ɗˈəː2j ˈə͡ɪɜ,
+voice1.wav_0279.wav|coi đó là một kết thúc chọn vẹn cho một thanh xuân đã từng răng dở,|kˈɔj ɗˈɔɜ lˌaː2 mˈo6t̪ kˈeɜt̪ tˈuɜc t͡ʃˈɔ6n vˈɛ6n t͡ʃˌɔ mˈo6t̪ tˈe-ɲ swˈən ɗˌaː5 t̪ˈy2ŋ zˈaŋ zˈəː4,
+voice1.wav_0280.wav|như một cách để nói với chính bình rằng,|ɲˌy mˈo6t̪ kˈe-ɜc ɗˌe4 nˈɔɜj vˌəːɜj t͡ʃˈiɜɲ bˈi2ɲ zˈa2ŋ,
+voice1.wav_0281.wav|chúng ta đã yêu đúng người,|t͡ʃˈuɜŋ t̪ˈaː ɗˌaː5 ˈi͡ɛw ɗˈuɜŋ ŋˈy͡ə2j,
+voice1.wav_0282.wav|chỉ là chưa đúng lúc,|t͡ʃˈi4 lˌaː2 t͡ʃˌy͡ə ɗˈuɜŋ lˌuɜc,
+voice1.wav_0283.wav|nhưng nếu hai trái tim ấy vẫn hướng về nhau,|ɲˌyŋ nˌeɜw hˈaːj t͡ʃˈaːɜj t̪ˈim ˈə͡ɪɜ vˌə5n hˈy͡əɜŋ vˈe2 ɲˈaw,
+voice1.wav_0284.wav|thì chắc chắn sẽ tìm được đường quay về.|tˌi2 t͡ʃˈaɜc t͡ʃˈaɜn sˌɛ5 t̪ˈi2m ɗˌy͡ə6c ɗˈy͡ə2ŋ kwˈaj vˈe2.
+voice1.wav_0285.wav|Và đó là số radio tuần này,|vˌaː2 ɗˈɔɜ lˌaː2 sˈoɜ ɹˈe͡ɪdɪˌə͡ʊ t̪wˈə2n nˈa2j,
+voice1.wav_0286.wav|gửi thư cho chúng mình tại hôm thư được gắn tức một bình luận,|ɣˈy4j tˈy t͡ʃˌɔ t͡ʃˈuɜŋ mˈi2ɲ t̪ˈaː6j hˈom tˈy ɗˌy͡ə6c ɣˈaɜn t̪ˈyɜc mˈo6t̪ bˈi2ɲ lwˈə6n,
+voice1.wav_0287.wav|đừng quên thấn theo dõi kinh và chờ đợi những tập tiếp theo của video đến nhỉ radio nhé.|ɗˈy2ŋ kwˈen tˈəɜn tˈɛw zˈɔ5j kˈiɲ vˌaː2 t͡ʃˈəː2 ɗˈəː6j ɲˌy5ŋ t̪ˈə6p t̪ˈi͡ɛɜp tˈɛw kˌu͡ə4 vˈɪdɪə͡ʊ ɗˌeɜn ɲˈi4 ɹˈe͡ɪdɪˌə͡ʊ ɲˈɛɜ.
+voice1.wav_0288.wav|Hẹn gặp lại, bye.|hˈɛ6n ɣˈa6p lˈaː6j, bˈa͡ɪ.
+voice2.wav_0000.wav|Ngày hôm nay của cậu có ổn không?|ŋˈa2j hˈom nˈaj kˌu͡ə4 kˈə6w kˈɔɜ ˈo4n xˌoŋ?
+voice2.wav_0001.wav|Tài hài, Xin chào, chúng mình là Visa Thé Nhi|t̪ˈaː2j hˈaː2j, sˈin t͡ʃˈaː2w, t͡ʃˈuɜŋ mˈi2ɲ lˌaː2 vˈiːzə tˈɛɜ ɲˈi
+voice2.wav_0002.wav|và chào mừng các cậu đã đến với trội podcast|vˌaː2 t͡ʃˈaː2w mˈy2ŋ kˌaːɜc kˈə6w ɗˌaː5 ɗˌeɜn vˌəːɜj t͡ʃˈo6j pˈɒdkast
+voice2.wav_0003.wav|thường mắt đầu bằng những câu hỏi Visa, dựa trên phương Pháp First Principle Thinking từ duyên nguyên bản.|tˈy͡ə2ŋ mˈaɜt̪ ɗˈə2w bˈa2ŋ ɲˌy5ŋ kˈə1w hˈɔ4j vˈiːzə, zˈy͡ə6 t͡ʃˈen fˈy͡əŋ fˈaːɜp fˈɜːst pɹˈɪnsɪpə͡l θˈɪŋkɪŋ t̪ˌy2 zwˈi͡ɛn ŋwˈi͡ɛn bˈaː4n.
+voice2.wav_0004.wav|Được đó mang lại cho cậu những ngốc nhìn đa chiều về nhiều vấn đề khác nhau trong cuộc sống|ɗˌy͡ə6c ɗˈɔɜ mˈaːŋ lˈaː6j t͡ʃˌɔ kˈə6w ɲˌy5ŋ ŋˈoɜk ɲˈi2n ɗˈaː t͡ʃˈi͡ɛ2w vˈe2 ɲˈi͡ɛ2w vˈəɜn ɗˈe2 xˈaːɜc ɲˈaw t͡ʃˈɔŋ kˈu͡ə6c sˈoɜŋ
+voice2.wav_0005.wav|và để có một tinh thần sống thực sự cùng chúng mình để với tập podcast số này nhé.|vˌaː2 ɗˌe4 kˈɔɜ mˈo6t̪ t̪ˈiɲ tˈə2n sˈoɜŋ tˈy6c sˈy6 kˈu2ŋ t͡ʃˈuɜŋ mˈi2ɲ ɗˌe4 vˌəːɜj t̪ˈə6p pˈɒdkast sˈoɜ nˈa2j ɲˈɛɜ.
+voice2.wav_0006.wav|Sau những cuộc vui hết mình kia, cậu có thể ổn không?|sˈaw ɲˌy5ŋ kˈu͡ə6c vˈuj hˈeɜt̪ mˈi2ɲ kˈi͡ə, kˈə6w kˈɔɜ tˈe4 ˈo4n xˌoŋ?
+voice2.wav_0007.wav|Người phụ nữ sinh đẹp đã dành hết 2 ngày nghỉ phép của mình để hòa bằng những cuộc vui thâu đêm xuất sáng.|ŋˈy͡ə2j fˈu6 nˈy5 sˈiɲ ɗˈɛ6p ɗˌaː5 zˈe-2ɲ hˈeɜt̪ hˈaːj ŋˈa2j ŋˈi4 fˈɛɜp kˌu͡ə4 mˈi2ɲ ɗˌe4 hwˈaː2 bˈa2ŋ ɲˌy5ŋ kˈu͡ə6c vˈuj tˈə1w ɗˈem swˈəɜt̪ sˈaːɜŋ.
+voice2.wav_0008.wav|Những cuộc vui mà cô tin rằng sẽ giúp cô giải tỏa sau những ngày tháng bán mình cho tư bản làm việc quần quận từ sáng tới tối|ɲˌy5ŋ kˈu͡ə6c vˈuj mˌaː2 kˈo t̪ˈin zˈa2ŋ sˌɛ5 zˈuɜp kˈo zˈaː4j t̪wˈaː4 sˈaw ɲˌy5ŋ ŋˈa2j tˈaːɜŋ bˈaːɜn mˈi2ɲ t͡ʃˌɔ t̪ˈy bˈaː4n lˈaː2m vˈi͡ɛ6c kwˈə2n kwˈə6n t̪ˌy2 sˈaːɜŋ t̪ˌəːɜj t̪ˈoɜj
+voice2.wav_0009.wav|và cũng là để xua đi những cảm giúc tồi tệ mà gã đạn ông đã để lại cho cô 2 ngày nghỉ.|vˌaː2 kˈu5ŋ lˌaː2 ɗˌe4 sˈu͡ə ɗˈi ɲˌy5ŋ kˈaː4m zˈuɜc t̪ˈo2j t̪ˈe6 mˌaː2 ɣˈaː5 ɗˈaː6n ˈoŋ ɗˌaː5 ɗˌe4 lˈaː6j t͡ʃˌɔ kˈo hˈaːj ŋˈa2j ŋˈi4.
+voice2.wav_0010.wav|Nhưng cô chỉ ngủ vỏn vẹm 4 tiếng, sáng để cô lân la các cửa hàng quần áo,|ɲˌyŋ kˈo t͡ʃˈi4 ŋˈu4 vˈɔ4n vˈɛ6m bˈoɜn t̪ˈi͡ɛɜŋ, sˈaːɜŋ ɗˌe4 kˈo lˈən lˈaː kˌaːɜc kˈy͡ə4 hˈaː2ŋ kwˈə2n ˈaːɜw,
+voice2.wav_0011.wav|chọn cho mình những món đồ mà cô từng rất thích nhưng chưa một lần dám hô.|t͡ʃˈɔ6n t͡ʃˌɔ mˈi2ɲ ɲˌy5ŋ mˈɔɜn ɗˈo2 mˌaː2 kˈo t̪ˈy2ŋ zˈəɜt̪ tˈiɜc ɲˌyŋ t͡ʃˌy͡ə mˈo6t̪ lˈə2n zˈaːɜm hˈo.
+voice2.wav_0012.wav|Tối đến, cô đi hết từ vũ trưởng này tới vũ trưởng đó,|t̪ˈoɜj ɗˌeɜn, kˈo ɗˈi hˈeɜt̪ t̪ˌy2 vˈu5 t͡ʃˈy͡ə4ŋ nˈa2j t̪ˌəːɜj vˈu5 t͡ʃˈy͡ə4ŋ ɗˈɔɜ,
+voice2.wav_0013.wav|nóc vào học không biết bao nhiêu là chất kích thích, cô chẳng quan tâm thứ gì trên đời.|nˈɔɜk vˈaː2w hˈɔ6k xˌoŋ bˈi͡ɛɜt̪ bˈaːw ɲˈi͡ɛw lˌaː2 t͡ʃˈəɜt̪ kˈiɜc tˈiɜc, kˈo t͡ʃˌa4ŋ kwˈaːn t̪ˈəm tˈyɜ zˈi2 t͡ʃˈen ɗˈəː2j.
+voice2.wav_0014.wav|Thứ duy nhất mà cô biết là cảm xúc của mình lúc này đang rất vui, rất rất vui.|tˈyɜ zwˈi ɲˈəɜt̪ mˌaː2 kˈo bˈi͡ɛɜt̪ lˌaː2 kˈaː4m sˈuɜc kˌu͡ə4 mˈi2ɲ lˌuɜc nˈa2j ɗˌaːŋ zˈəɜt̪ vˈuj, zˈəɜt̪ zˈəɜt̪ vˈuj.
+voice2.wav_0015.wav|Tùng hù điểm 8 giờ sáng vào ngày đầu tiên quay trở lại làm, nhẽ lúc này cô phải dậy.|t̪ˈu2ŋ hˈu2 ɗˈi͡ɛ4m t̪ˈaːɜm zˈəː2 sˈaːɜŋ vˈaː2w ŋˈa2j ɗˈə2w t̪ˈi͡ɛn kwˈaj t͡ʃˈəː4 lˈaː6j lˈaː2m, ɲˈɛ5 lˌuɜc nˈa2j kˈo fˌaː4j zˈə͡ɪ6.
+voice2.wav_0016.wav|Chẳng bị tới nơi làm việc nhưng cô chẳng thế dậy nổi.|t͡ʃˌa4ŋ bˌi6 t̪ˌəːɜj nˈəːj lˈaː2m vˈi͡ɛ6c ɲˌyŋ kˈo t͡ʃˌa4ŋ tˈeɜ zˈə͡ɪ6 nˈo4j.
+voice2.wav_0017.wav|Mọi người có gọi cho cô thì cô cũng chẳng nghe, cứ thế một ngày dài trôi qua.|mˌɔ6j ŋˈy͡ə2j kˈɔɜ ɣˈɔ6j t͡ʃˌɔ kˈo tˌi2 kˈo kˈu5ŋ t͡ʃˌa4ŋ ŋˈɛ, kˈyɜ tˈeɜ mˈo6t̪ ŋˈa2j zˈaː2j t͡ʃˈoj kwˈaː.
+voice2.wav_0018.wav|Với tiếng trương điện thoại giao lên liên tục, còn cô thì cứ nằm im bất động trên rường của mình như thế một cục đá.|vˌəːɜj t̪ˈi͡ɛɜŋ t͡ʃˈy͡əŋ ɗˈi͡ɛ6n twˈaː6j zˈaːw lˈen lˈi͡ɛn t̪ˈu6c, kˌɔ2n kˈo tˌi2 kˈyɜ nˈa2m ˈim bˈəɜt̪ ɗˈo6ŋ t͡ʃˈen zˈy͡ə2ŋ kˌu͡ə4 mˈi2ɲ ɲˌy tˈeɜ mˈo6t̪ kˈu6c ɗˈaːɜ.
+voice2.wav_0019.wav|Mới hôm qua thôi, cô còn hết mình ở thành phố Nhộn Nhịp này.|mˈəːɜj hˈom kwˈaː tˈoj, kˈo kˌɔ2n hˈeɜt̪ mˈi2ɲ ˈəː4 tˈe-2ɲ fˈoɜ ɲˈo6n ɲˈi6p nˈa2j.
+voice2.wav_0020.wav|Vậy mà hôm nay, cô chỉ muốn nằm im, dù con sống, nhưng chỉ muốn nằm như thế thôi.|vˈə͡ɪ6 mˌaː2 hˈom nˈaj, kˈo t͡ʃˈi4 mˈu͡əɜn nˈa2m ˈim, zˌu2 kˌɔn sˈoɜŋ, ɲˌyŋ t͡ʃˈi4 mˈu͡əɜn nˈa2m ɲˌy tˈeɜ tˈoj.
+voice2.wav_0021.wav|Dù có thể chết đói thì cũng mặc kẹ, cô cũng chỉ muốn nằm vậy thôi.|zˌu2 kˈɔɜ tˈe4 t͡ʃˈeɜt̪ ɗˈɔɜj tˌi2 kˈu5ŋ mˈa6c kˈɛ6, kˈo kˈu5ŋ t͡ʃˈi4 mˈu͡əɜn nˈa2m vˈə͡ɪ6 tˈoj.
+voice2.wav_0022.wav|Trong một khoảnh khác lấy lại được ý thức, nhìn về phía đồng giấy khám bệnh, cô mới thẩm nghĩ,|t͡ʃˈɔŋ mˈo6t̪ xwˈe-4ɲ xˈaːɜc lˈə͡ɪɜ lˈaː6j ɗˌy͡ə6c ˈiɜ tˈyɜc, ɲˈi2n vˈe2 fˈi͡əɜ ɗˈo2ŋ zˈə͡ɪɜ xˈaːɜm bˈe6ɲ, kˈo mˈəːɜj tˈə4m ŋˈi5,
+voice2.wav_0023.wav|ra rối loạn lưỡng cực là như thế.|zˈaː zˈoɜj lwˈaː6n lˈy͡ə5ŋ kˈy6c lˌaː2 ɲˌy tˈeɜ.
+voice2.wav_0024.wav|Nó đưa lên cao vút rồi kéo cô xuống tận đáy sau ngút ngàn.|nˈɔɜ ɗˈy͡ə lˈen kˈaːw vˈuɜt̪ zˈo2j kˈɛɜw kˈo sˈu͡əɜŋ t̪ˈə6n ɗˈaɜj sˈaw ŋˈuɜt̪ ŋˈaː2n.
+voice2.wav_0025.wav|Vậy rối loạn lưỡng cực, nó là gì?|vˈə͡ɪ6 zˈoɜj lwˈaː6n lˈy͡ə5ŋ kˈy6c, nˈɔɜ lˌaː2 zˈi2?
+voice2.wav_0026.wav|Rối loạn lưỡng cực hay tên đầy đủ trong y học là rối loạn cảm xúc lưỡng cực,|zˈoɜj lwˈaː6n lˈy͡ə5ŋ kˈy6c hˈaj t̪ˈen ɗˈə͡ɪ2 ɗˈu4 t͡ʃˈɔŋ ˈi hˈɔ6k lˌaː2 zˈoɜj lwˈaː6n kˈaː4m sˈuɜc lˈy͡ə5ŋ kˈy6c,
+voice2.wav_0027.wav|một bệnh lý tâm thần đặc trưng bởi sự thay đổi cực đoan về cảm xúc.|mˈo6t̪ bˈe6ɲ lˈiɜ t̪ˈəm tˈə2n ɗˈa6c t͡ʃˈyŋ bˌəː4j sˈy6 tˈaj ɗˈo4j kˈy6c ɗwˈaːn vˈe2 kˈaː4m sˈuɜc.
+voice2.wav_0028.wav|Từ những giai đoạn hưng cảm kéo dài nhiều ngày hoặc cả tuần lễ cho tới các giai đoạn chẳng cảm sâu sắc,|t̪ˌy2 ɲˌy5ŋ zˈaːj ɗwˈaː6n hˈyŋ kˈaː4m kˈɛɜw zˈaː2j ɲˈi͡ɛ2w ŋˈa2j hwˌa6c kˈaː4 t̪wˈə2n lˈe5 t͡ʃˌɔ t̪ˌəːɜj kˌaːɜc zˈaːj ɗwˈaː6n t͡ʃˌa4ŋ kˈaː4m sˈə1w sˈaɜc,
+voice2.wav_0029.wav|cái tên lưỡng cực bipolar được xuất phát từ hai trạng thái cảm xúc đối ngịch mà người bệnh phải chạy qua,|kˌaːɜj t̪ˈen lˈy͡ə5ŋ kˈy6c ba͡ɪpˈə͡ʊlə ɗˌy͡ə6c swˈəɜt̪ fˈaːɜt̪ t̪ˌy2 hˈaːj t͡ʃˈaː6ŋ tˈaːɜj kˈaː4m sˈuɜc ɗˈoɜj ŋˈi6c mˌaː2 ŋˈy͡ə2j bˈe6ɲ fˌaː4j t͡ʃˈa6j kwˈaː,
+voice2.wav_0030.wav|bao gồm hưng cảm là trạng thái cảm xúc cực cao và chầm cảm là cực thấp trước đây.|bˈaːw ɣˈo2m hˈyŋ kˈaː4m lˌaː2 t͡ʃˈaː6ŋ tˈaːɜj kˈaː4m sˈuɜc kˈy6c kˈaːw vˌaː2 t͡ʃˈə2m kˈaː4m lˌaː2 kˈy6c tˈəɜp t͡ʃˈy͡əɜc ɗˈə͡ɪ.
+voice2.wav_0031.wav|Người ta gọi căn bệnh này là hưng chầm cảm hưng phấn, tâm thần hưng chầm cảm,|ŋˈy͡ə2j t̪ˈaː ɣˈɔ6j kˈan bˈe6ɲ nˈa2j lˌaː2 hˈyŋ t͡ʃˈə2m kˈaː4m hˈyŋ fˈəɜn, t̪ˈəm tˈə2n hˈyŋ t͡ʃˈə2m kˈaː4m,
+voice2.wav_0032.wav|nhưng dần dần các nhà tâm thần học nhận ra rằng khái niệm 2 cực mới phản ánh chính xác bản chất của căn bệnh đó|ɲˌyŋ zˈə2n zˈə2n kˌaːɜc ɲˈaː2 t̪ˈəm tˈə2n hˈɔ6k ɲˈə6n zˈaː zˈa2ŋ xˈaːɜj nˈi͡ɛ6m hˈaːj kˈy6c mˈəːɜj fˈaː4n ˈe-ɜɲ t͡ʃˈiɜɲ sˈaːɜc bˈaː4n t͡ʃˈəɜt̪ kˌu͡ə4 kˈan bˈe6ɲ ɗˈɔɜ
+voice2.wav_0033.wav|vì nó là sự giao động giữa 2 thái cực, không phải lúc nào cũng theo một trật tự nhất định.|vˌi2 nˈɔɜ lˌaː2 sˈy6 zˈaːw ɗˈo6ŋ zˈy͡ə5 hˈaːj tˈaːɜj kˈy6c, xˌoŋ fˌaː4j lˌuɜc nˈaː2w kˈu5ŋ tˈɛw mˈo6t̪ t͡ʃˈə6t̪ t̪ˈy6 ɲˈəɜt̪ ɗˈi6ɲ.
+voice2.wav_0034.wav|Người mắc bệnh không chỉ thay đổi về tâm trạng, còn về mức năng lượng, hành vi, khả năng nhận thức và lối sinh hoạt hằng ngày,|ŋˈy͡ə2j mˈaɜc bˈe6ɲ xˌoŋ t͡ʃˈi4 tˈaj ɗˈo4j vˈe2 t̪ˈəm t͡ʃˈaː6ŋ, kˌɔ2n vˈe2 mˈyɜc nˈaŋ lˈy͡ə6ŋ, hˈe-2ɲ vˈi, xˈaː4 nˈaŋ ɲˈə6n tˈyɜc vˌaː2 lˈoɜj sˈiɲ hwˈaː6t̪ hˈa2ŋ ŋˈa2j,
+voice2.wav_0035.wav|trong trạng thái hưng cảm, họ có thể trở nên hưng phấn thái quá.|t͡ʃˈɔŋ t͡ʃˈaː6ŋ tˈaːɜj hˈyŋ kˈaː4m, hˈɔ6 kˈɔɜ tˈe4 t͡ʃˈəː4 nˌen hˈyŋ fˈəɜn tˈaːɜj kwˈaːɜ.
+voice2.wav_0036.wav|Nghĩ rằng mình có thể làm được tất cả có sức mạnh vô xong trong khi ở giai đoạn chầm cảm,|ŋˈi5 zˈa2ŋ mˈi2ɲ kˈɔɜ tˈe4 lˈaː2m ɗˌy͡ə6c t̪ˈəɜt̪ kˈaː4 kˈɔɜ sˈyɜc mˈe-6ɲ vˈo sˈɔŋ t͡ʃˈɔŋ xˌi ˈəː4 zˈaːj ɗwˈaː6n t͡ʃˈə2m kˈaː4m,
+voice2.wav_0037.wav|họ rơi vào tuyệt vọng, kiệt quệ, đến mức mất hết tệm lực sống.|hˈɔ6 zˈəːj vˈaː2w t̪wˈi͡ɛ6t̪ vˈɔ6ŋ, kˈi͡ɛ6t̪ kwˈe6, ɗˌeɜn mˈyɜc mˈəɜt̪ hˈeɜt̪ t̪ˈe6m lˈy6c sˈoɜŋ.
+voice2.wav_0038.wav|Người ta hay gắn mác cho những kẻ mắc bệnh này là đồ tâm thần, nhưng sự thật là không phải như vậy.|ŋˈy͡ə2j t̪ˈaː hˈaj ɣˈaɜn mˈaːɜc t͡ʃˌɔ ɲˌy5ŋ kˈɛ4 mˈaɜc bˈe6ɲ nˈa2j lˌaː2 ɗˈo2 t̪ˈəm tˈə2n, ɲˌyŋ sˈy6 tˈə6t̪ lˌaː2 xˌoŋ fˌaː4j ɲˌy vˈə͡ɪ6.
+voice2.wav_0039.wav|Mặc dù giối loạn lưỡng cực thuộc các nhóm bệnh tâm thần và có thể biểu hiện bằng những hành vi bùng đồ khó kiểm soát trong giai đoạn hưng cảm,|mˈa6c zˌu2 zˈoɜj lwˈaː6n lˈy͡ə5ŋ kˈy6c tˈu͡ə6c kˌaːɜc ɲˈɔɜm bˈe6ɲ t̪ˈəm tˈə2n vˌaː2 kˈɔɜ tˈe4 bˈi͡ɛ4w hˈi͡ɛ6n bˈa2ŋ ɲˌy5ŋ hˈe-2ɲ vˈi bˈu2ŋ ɗˈo2 xˈɔɜ kˈi͡ɛ4m swˈaːɜt̪ t͡ʃˈɔŋ zˈaːj ɗwˈaː6n hˈyŋ kˈaː4m,
+voice2.wav_0040.wav|hoặc sự suy xuống sâu sắc trong giai đoạn chầm cảm, nhưng đa số những người bệnh vẫn có thể sống, làm việc và cống hiến một cách bình thường.|hwˌa6c sˈy6 swˈi sˈu͡əɜŋ sˈə1w sˈaɜc t͡ʃˈɔŋ zˈaːj ɗwˈaː6n t͡ʃˈə2m kˈaː4m, ɲˌyŋ ɗˈaː sˈoɜ ɲˌy5ŋ ŋˈy͡ə2j bˈe6ɲ vˌə5n kˈɔɜ tˈe4 sˈoɜŋ, lˈaː2m vˈi͡ɛ6c vˌaː2 kˈoɜŋ hˈi͡ɛɜn mˈo6t̪ kˈe-ɜc bˈi2ɲ tˈy͡ə2ŋ.
+voice2.wav_0041.wav|Thế nhưng do định kiến đặng nề vốn có về các căn bệnh tâm thần,|tˈeɜ ɲˌyŋ zˈɔ ɗˈi6ɲ kˈi͡ɛɜn ɗˈa6ŋ nˈe2 vˈoɜn kˈɔɜ vˈe2 kˌaːɜc kˈan bˈe6ɲ t̪ˈəm tˈə2n,
+voice2.wav_0042.wav|giối loạn lưỡng cực thường bị nhìn nhận qua lăng kính kỳ thị và hiểu lầm.|zˈoɜj lwˈaː6n lˈy͡ə5ŋ kˈy6c tˈy͡ə2ŋ bˌi6 ɲˈi2n ɲˈə6n kwˈaː lˈaŋ kˈiɜɲ kˈi2 tˈi6 vˌaː2 hˈi͡ɛ4w lˈə2m.
+voice2.wav_0043.wav|Trên thực tế, những người mắc bệnh không hề mất lý chí, mà đang phải đối mặt với một chú trình cảm giúc bất ổn phức tạp|t͡ʃˈen tˈy6c t̪ˈeɜ, ɲˌy5ŋ ŋˈy͡ə2j mˈaɜc bˈe6ɲ xˌoŋ hˈe2 mˈəɜt̪ lˈiɜ t͡ʃˈiɜ, mˌaː2 ɗˌaːŋ fˌaː4j ɗˈoɜj mˈa6t̪ vˌəːɜj mˈo6t̪ t͡ʃˈuɜ t͡ʃˈi2ɲ kˈaː4m zˈuɜc bˈəɜt̪ ˈo4n fˈyɜc t̪ˈaː6p
+voice2.wav_0044.wav|là kết quả của sự giối loạn sinh lý trong nã bộ cùng nhiều yếu tố môi trường tác động.|lˌaː2 kˈeɜt̪ kwˈaː4 kˌu͡ə4 sˈy6 zˈoɜj lwˈaː6n sˈiɲ lˈiɜ t͡ʃˈɔŋ nˈaː5 bˈo6 kˈu2ŋ ɲˈi͡ɛ2w ˈi͡ɛɜw t̪ˈoɜ mˈoj t͡ʃˈy͡ə2ŋ t̪ˈaːɜc ɗˈo6ŋ.
+voice2.wav_0045.wav|Nguyên nhân dẫn tới giối loạn lưỡng cực hiện chưa được hiểu một cách tường tận, nhưng các nhà khoa học đã đồng thuận rằng|ŋwˈi͡ɛn ɲˈən zˈə5n t̪ˌəːɜj zˈoɜj lwˈaː6n lˈy͡ə5ŋ kˈy6c hˈi͡ɛ6n t͡ʃˌy͡ə ɗˌy͡ə6c hˈi͡ɛ4w mˈo6t̪ kˈe-ɜc t̪ˈy͡ə2ŋ t̪ˈə6n, ɲˌyŋ kˌaːɜc ɲˈaː2 xwˈaː hˈɔ6k ɗˌaː5 ɗˈo2ŋ twˈə6n zˈa2ŋ
+voice2.wav_0046.wav|đây là một bệnh lý có liên quan mật thiết đến cả hiếu tố sinh học, lẫn môi trường sống.|ɗˈə͡ɪ lˌaː2 mˈo6t̪ bˈe6ɲ lˈiɜ kˈɔɜ lˈi͡ɛn kwˈaːn mˈə6t̪ tˈi͡ɛɜt̪ ɗˌeɜn kˈaː4 hˈi͡ɛɜw t̪ˈoɜ sˈiɲ hˈɔ6k, lˈə5n mˈoj t͡ʃˈy͡ə2ŋ sˈoɜŋ.
+voice2.wav_0047.wav|Trong đó, yếu tố di chuyển đá một vai trò đáng kể nếu một trong hai người tra hoặc mẹ mặc trường giối loạn lưỡng cực,|t͡ʃˈɔŋ ɗˈɔɜ, ˈi͡ɛɜw t̪ˈoɜ zˈi t͡ʃwˈi͡ɛ4n ɗˈaːɜ mˈo6t̪ vˈaːj t͡ʃˈɔ2 ɗˈaːɜŋ kˈe4 nˌeɜw mˈo6t̪ t͡ʃˈɔŋ hˈaːj ŋˈy͡ə2j t͡ʃˈaː hwˌa6c mˈɛ6 mˈa6c t͡ʃˈy͡ə2ŋ zˈoɜj lwˈaː6n lˈy͡ə5ŋ kˈy6c,
+voice2.wav_0048.wav|con cái sẽ có khoảng 10% nguy cơ kế thử ở căn bệnh này, theo nghiên cứu của tố trường nghiên cứu sức khỏe tâm thần Black Dog Institute,|kˌɔn kˌaːɜj sˌɛ5 kˈɔɜ xwˌaː4ŋ mˈy͡ə2j fˈə2n t͡ʃˈam ŋwˈi kˈəː kˈeɜ tˈy4 ˈəː4 kˈan bˈe6ɲ nˈa2j, tˈɛw ŋˈi͡ɛn kˈiɜw kˌu͡ə4 t̪ˈoɜ t͡ʃˈy͡ə2ŋ ŋˈi͡ɛn kˈiɜw sˈyɜc xwˈɛ4 t̪ˈəm tˈə2n blˈak dˈe ˈɔ ðˈe7 ˈɪnstɪtjˌuːt,
+voice2.wav_0049.wav|viên cạnh yếu tố về gian. Sự mất cân bằng hoá học trong nã bộ cũng được cho là một trong những cơ chế chính gây gia bệnh,|vˈi͡ɛn kˈe-6ɲ ˈi͡ɛɜw t̪ˈoɜ vˈe2 zˈaːn. sˈy6 mˈəɜt̪ kˈən bˈa2ŋ hwˈaːɜ hˈɔ6k t͡ʃˈɔŋ nˈaː5 bˈo6 kˈu5ŋ ɗˌy͡ə6c t͡ʃˌɔ lˌaː2 mˈo6t̪ t͡ʃˈɔŋ ɲˌy5ŋ kˈəː t͡ʃˈeɜ t͡ʃˈiɜɲ ɣˈə͡ɪ zˈaː bˈe6ɲ,
+voice2.wav_0050.wav|các chất dẫn truyền thần kinh như serotonin, dopamine, hay norepinephren,|kˌaːɜc t͡ʃˈəɜt̪ zˈə5n t͡ʃwˈi͡ɛ2n tˈə2n kˈiɲ ɲˌy sˌɛɹətˈə͡ʊnɪn, dˈɒpɐmˌiːn, hˈaj nˈɔːpa͡ɪnfɹən,
+voice2.wav_0051.wav|giữ vai trò quan trọng trong miệng điều hòa tâm trạng, giấc ngủ và khả năng xử lý căng thẳng.|zˈy5 vˈaːj t͡ʃˈɔ2 kwˈaːn t͡ʃˈɔ6ŋ t͡ʃˈɔŋ mˈi͡ɛ6ŋ ɗˈi͡ɛ2w hwˈaː2 t̪ˈəm t͡ʃˈaː6ŋ, zˈəɜc ŋˈu4 vˌaː2 xˈaː4 nˈaŋ sˈy4 lˈiɜ kˈaŋ tˈa4ŋ.
+voice2.wav_0052.wav|Thì sự cân bằng giữa các khóa chất này bị phá vỡ, nó có thể dẫn tới những miến đổi cảm xúc đột ngột và kéo dài.|tˌi2 sˈy6 kˈən bˈa2ŋ zˈy͡ə5 kˌaːɜc xwˈaːɜ t͡ʃˈəɜt̪ nˈa2j bˌi6 fˈaːɜ vˈəː5, nˈɔɜ kˈɔɜ tˈe4 zˈə5n t̪ˌəːɜj ɲˌy5ŋ mˈi͡ɛɜn ɗˈo4j kˈaː4m sˈuɜc ɗˈo6t̪ ŋˈo6t̪ vˌaː2 kˈɛɜw zˈaː2j.
+voice2.wav_0053.wav|Đó là đặc trưng của giối loạn lưỡng cực, môi trường sống và trải nghiệm cá nhân cũng góp phần quan trọng làm khởi phát quảng trầm trọng thêm bệnh,|ɗˈɔɜ lˌaː2 ɗˈa6c t͡ʃˈyŋ kˌu͡ə4 zˈoɜj lwˈaː6n lˈy͡ə5ŋ kˈy6c, mˈoj t͡ʃˈy͡ə2ŋ sˈoɜŋ vˌaː2 t͡ʃˈaː4j ŋˈi͡ɛ6m kˈaːɜ ɲˈən kˈu5ŋ ɣˈɔɜp fˈə2n kwˈaːn t͡ʃˈɔ6ŋ lˈaː2m xˈəː4j fˈaːɜt̪ kwˈaː4ŋ t͡ʃˈə2m t͡ʃˈɔ6ŋ tˈem bˈe6ɲ,
+voice2.wav_0054.wav|việc liên tục phải đối diện với những đề nén, đi kém mất mát lớn trong đời sống, dẫn tới căng thẳng bản tính.|vˈi͡ɛ6c lˈi͡ɛn t̪ˈu6c fˌaː4j ɗˈoɜj zˈi͡ɛ6n vˌəːɜj ɲˌy5ŋ ɗˈe2 nˈɛɜn, ɗˈi kˈɛɜm mˈəɜt̪ mˈaːɜt̪ lˈəːɜn t͡ʃˈɔŋ ɗˈəː2j sˈoɜŋ, zˈə5n t̪ˌəːɜj kˈaŋ tˈa4ŋ bˈaː4n t̪ˈiɜɲ.
+voice2.wav_0055.wav|Hoặc giối loạn giấc ngủ kéo dài, đều có thể đóng vai trò là cò súng kích hoạt cân hương cảm hay trầm cảm.|hwˌa6c zˈoɜj lwˈaː6n zˈəɜc ŋˈu4 kˈɛɜw zˈaː2j, ɗˈe2w kˈɔɜ tˈe4 ɗˈɔɜŋ vˈaːj t͡ʃˈɔ2 lˌaː2 kˈɔ2 sˈuɜŋ kˈiɜc hwˈaː6t̪ kˈən hˈy͡əŋ kˈaː4m hˈaj t͡ʃˈə2m kˈaː4m.
+voice2.wav_0056.wav|Ở người đã mang sẵn những yếu tố nhị cảm trong nã bộ quan trọng hơn hết,|ˈəː4 ŋˈy͡ə2j ɗˌaː5 mˈaːŋ sˈa5n ɲˌy5ŋ ˈi͡ɛɜw t̪ˈoɜ ɲˈi6 kˈaː4m t͡ʃˈɔŋ nˈaː5 bˈo6 kwˈaːn t͡ʃˈɔ6ŋ hˈəːn hˈeɜt̪,
+voice2.wav_0057.wav|là việc con người làm dụng các loại thuốc có thể dẫn tới giối loạn các chất trong cơ thể, trầm hạn thuốc điều trị trầm cảm,|lˌaː2 vˈi͡ɛ6c kˌɔn ŋˈy͡ə2j lˈaː2m zˈu6ŋ kˌaːɜc lwˈaː6j tˈu͡əɜc kˈɔɜ tˈe4 zˈə5n t̪ˌəːɜj zˈoɜj lwˈaː6n kˌaːɜc t͡ʃˈəɜt̪ t͡ʃˈɔŋ kˈəː tˈe4, t͡ʃˈə2m hˈaː6n tˈu͡əɜc ɗˈi͡ɛ2w t͡ʃˈi6 t͡ʃˈə2m kˈaː4m,
+voice2.wav_0058.wav|hoặc các thuốc điều trị giối loạn nội tiếc như prenezon hay corticosteroid,|hwˌa6c kˌaːɜc tˈu͡əɜc ɗˈi͡ɛ2w t͡ʃˈi6 zˈoɜj lwˈaː6n nˈo6j t̪ˈi͡ɛɜc ɲˌy pɹɪnˈɛzən hˈaj kˈɔːtɪkˌɒstəɹˌɔ͡ɪd,
+voice2.wav_0059.wav|đôi khi có thể gây ra trạng thái hương cảm nhất thời, đặc biệt là đối với các bạn trẻ ngày nay,|ɗˈoj xˌi kˈɔɜ tˈe4 ɣˈə͡ɪ zˈaː t͡ʃˈaː6ŋ tˈaːɜj hˈy͡əŋ kˈaː4m ɲˈəɜt̪ tˈəː2j, ɗˈa6c bˈi͡ɛ6t̪ lˌaː2 ɗˈoɜj vˌəːɜj kˌaːɜc bˈaː6n t͡ʃˈɛ4 ŋˈa2j nˈaj,
+voice2.wav_0060.wav|khi thường xuyên làm dục các chất kích thích để giải tỏa, cũng có thể kích thích các pha cảm xúc cực đoan, làm giối loạn thêm chương trình ổn định của não.|xˌi tˈy͡ə2ŋ swˈi͡ɛn lˈaː2m zˈu6c kˌaːɜc t͡ʃˈəɜt̪ kˈiɜc tˈiɜc ɗˌe4 zˈaː4j t̪wˈaː4, kˈu5ŋ kˈɔɜ tˈe4 kˈiɜc tˈiɜc kˌaːɜc fˈaː kˈaː4m sˈuɜc kˈy6c ɗwˈaːn, lˈaː2m zˈoɜj lwˈaː6n tˈem t͡ʃˈy͡əŋ t͡ʃˈi2ɲ ˈo4n ɗˈi6ɲ kˌu͡ə4 nˈaː5w.
+voice2.wav_0061.wav|Điều đáng chú ý là rất nhiều người khi nhắc tới giối loạn lưỡng cực chỉ nhớ tới những biểu hiện của trầm cảm,|ɗˈi͡ɛ2w ɗˈaːɜŋ t͡ʃˈuɜ ˈiɜ lˌaː2 zˈəɜt̪ ɲˈi͡ɛ2w ŋˈy͡ə2j xˌi ɲˈaɜc t̪ˌəːɜj zˈoɜj lwˈaː6n lˈy͡ə5ŋ kˈy6c t͡ʃˈi4 ɲˈəːɜ t̪ˌəːɜj ɲˌy5ŋ bˈi͡ɛ4w hˈi͡ɛ6n kˌu͡ə4 t͡ʃˈə2m kˈaː4m,
+voice2.wav_0062.wav|cảm giác tuyệt vọng, kiệt sức tự ti, mất ý chí.|kˈaː4m zˈaːɜc t̪wˈi͡ɛ6t̪ vˈɔ6ŋ, kˈi͡ɛ6t̪ sˈyɜc t̪ˈy6 t̪ˈi, mˈəɜt̪ ˈiɜ t͡ʃˈiɜ.
+voice2.wav_0063.wav|Họ quên mất rằng trạng thái hương cảm cũng là một tác nhân rất quan trọng,|hˈɔ6 kwˈen mˈəɜt̪ zˈa2ŋ t͡ʃˈaː6ŋ tˈaːɜj hˈy͡əŋ kˈaː4m kˈu5ŋ lˌaː2 mˈo6t̪ t̪ˈaːɜc ɲˈən zˈəɜt̪ kwˈaːn t͡ʃˈɔ6ŋ,
+voice2.wav_0064.wav|và đôi khi nguy hiểm hơn, vì nó thực sự rất khó nhận biết,|vˌaː2 ɗˈoj xˌi ŋwˈi hˈi͡ɛ4m hˈəːn, vˌi2 nˈɔɜ tˈy6c sˈy6 zˈəɜt̪ xˈɔɜ ɲˈə6n bˈi͡ɛɜt̪,
+voice2.wav_0065.wav|nếu chỉ tập trung và điều trị trầm cảm mà bỏ qua hương cảm,|nˌeɜw t͡ʃˈi4 t̪ˈə6p t͡ʃˈuŋ vˌaː2 ɗˈi͡ɛ2w t͡ʃˈi6 t͡ʃˈə2m kˈaː4m mˌaː2 bˈɔ4 kwˈaː hˈy͡əŋ kˈaː4m,
+voice2.wav_0066.wav|việc điều trình bệnh sẽ không toàn diện, nhận tới nguy cơ tái phát cao,|vˈi͡ɛ6c ɗˈi͡ɛ2w t͡ʃˈi2ɲ bˈe6ɲ sˌɛ5 xˌoŋ t̪wˈaː2n zˈi͡ɛ6n, ɲˈə6n t̪ˌəːɜj ŋwˈi kˈəː t̪ˈaːɜj fˈaːɜt̪ kˈaːw,
+voice2.wav_0067.wav|biểu hiện của giối loạn lưỡng cực rất đa dạng và tuy theo từng người,|bˈi͡ɛ4w hˈi͡ɛ6n kˌu͡ə4 zˈoɜj lwˈaː6n lˈy͡ə5ŋ kˈy6c zˈəɜt̪ ɗˈaː zˈaː6ŋ vˌaː2 t̪wˈi tˈɛw t̪ˈy2ŋ ŋˈy͡ə2j,
+voice2.wav_0068.wav|thì dơi vào giai đoạn hương cảm, bệnh nhân cảm thấy tràn đầy năng lượng một cách bất hương.|tˌi2 zˈəːj vˈaː2w zˈaːj ɗwˈaː6n hˈy͡əŋ kˈaː4m, bˈe6ɲ ɲˈən kˈaː4m tˈə͡ɪɜ t͡ʃˈaː2n ɗˈə͡ɪ2 nˈaŋ lˈy͡ə6ŋ mˈo6t̪ kˈe-ɜc bˈəɜt̪ hˈy͡əŋ.
+voice2.wav_0069.wav|Nói nhiều và nói rất nhanh, từ duy bay nhảy với những ý tưởng thiếu thực tế, giảm như cầu ngủ,|nˈɔɜj ɲˈi͡ɛ2w vˌaː2 nˈɔɜj zˈəɜt̪ ɲˈe-ɲ, t̪ˌy2 zwˈi bˈaj ɲˈa4j vˌəːɜj ɲˌy5ŋ ˈiɜ t̪ˈy͡ə4ŋ tˈi͡ɛɜw tˈy6c t̪ˈeɜ, zˈaː4m ɲˌy kˈə2w ŋˈu4,
+voice2.wav_0070.wav|nhưng vẫn tỉnh táo. Một số người trở nên cáo cảnh, hung hăng, có những hành vi bốc đồng bạo hiểm,|ɲˌyŋ vˌə5n t̪ˈi4ɲ t̪ˈaːɜw. mˈo6t̪ sˈoɜ ŋˈy͡ə2j t͡ʃˈəː4 nˌen kˈaːɜw kˈe-4ɲ, hˈuŋ hˈaŋ, kˈɔɜ ɲˌy5ŋ hˈe-2ɲ vˈi bˈoɜk ɗˈo2ŋ bˈaː6w hˈi͡ɛ4m,
+voice2.wav_0071.wav|như tiêu sài quá đà, lau vào các mối quan hệ tình cảm trong bánh, hoặc thử sức với những phi vụ kinh doanh nèo lĩnh,|ɲˌy t̪ˈi͡ɛw sˈaː2j kwˈaːɜ ɗˈaː2, lˈaw vˈaː2w kˌaːɜc mˈoɜj kwˈaːn hˈe6 t̪ˈi2ɲ kˈaː4m t͡ʃˈɔŋ bˈe-ɜɲ, hwˌa6c tˈy4 sˈyɜc vˌəːɜj ɲˌy5ŋ fˈi vˈu6 kˈiɲ zwˈe-ɲ nˈɛ2w lˈi5ɲ,
+voice2.wav_0072.wav|ngược lại, trong và trầm cảm. Họ dơi vào trận thái buồn bã kéo dài,|ŋˈy͡ə6c lˈaː6j, t͡ʃˈɔŋ vˌaː2 t͡ʃˈə2m kˈaː4m. hˈɔ6 zˈəːj vˈaː2w t͡ʃˈə6n tˈaːɜj bˈu͡ə2n bˈaː5 kˈɛɜw zˈaː2j,
+voice2.wav_0073.wav|mất thương thú với mọi thứ, kể cả những hoạt động thường ngày,|mˈəɜt̪ tˈy͡əŋ tˈuɜ vˌəːɜj mˌɔ6j tˈyɜ, kˈe4 kˈaː4 ɲˌy5ŋ hwˈaː6t̪ ɗˈo6ŋ tˈy͡ə2ŋ ŋˈa2j,
+voice2.wav_0074.wav|cảm giác mệt mỏi, giảm năng lượng, rối loạn giấc ngủ, thay đổi khở vị, cảm giác vô dụng tội lỗi,|kˈaː4m zˈaːɜc mˈe6t̪ mˈɔ4j, zˈaː4m nˈaŋ lˈy͡ə6ŋ, zˈoɜj lwˈaː6n zˈəɜc ŋˈu4, tˈaj ɗˈo4j xˈəː4 vˈi6, kˈaː4m zˈaːɜc vˈo zˈu6ŋ t̪ˈo6j lˈo5j,
+voice2.wav_0075.wav|xuất hiện giày đặc ở mức độ đặc, bệnh nhân có thể suy nghĩ tiêu cực về bản thân,|swˈəɜt̪ hˈi͡ɛ6n zˈa2j ɗˈa6c ˈəː4 mˈyɜc ɗˈo6 ɗˈa6c, bˈe6ɲ ɲˈən kˈɔɜ tˈe4 swˈi ŋˈi5 t̪ˈi͡ɛw kˈy6c vˈe2 bˈaː4n tˈən,
+voice2.wav_0076.wav|thậm chí này xin nghiên nghĩ tự hại, nếu người bệnh trải qua một chú kì hưng cảm hoặc chầm cảm quá giữ rồi,|tˈə6m t͡ʃˈiɜ nˈa2j sˈin ŋˈi͡ɛn ŋˈi5 t̪ˈy6 hˈaː6j, nˌeɜw ŋˈy͡ə2j bˈe6ɲ t͡ʃˈaː4j kwˈaː mˈo6t̪ t͡ʃˈuɜ kˈi2 hˈyŋ kˈaː4m hwˌa6c t͡ʃˈə2m kˈaː4m kwˈaːɜ zˈy5 zˈo2j,
+voice2.wav_0077.wav|họ có thể dơi vào trận thái loạn thần, mất cả năng phân biệt giữa thực tế và áo giác.|hˈɔ6 kˈɔɜ tˈe4 zˈəːj vˈaː2w t͡ʃˈə6n tˈaːɜj lwˈaː6n tˈə2n, mˈəɜt̪ kˈaː4 nˈaŋ fˈən bˈi͡ɛ6t̪ zˈy͡ə5 tˈy6c t̪ˈeɜ vˌaː2 ˈaːɜw zˈaːɜc.
+voice2.wav_0078.wav|Những áo giác này thường mất nguồn từ những niềm tin sai lầm, nhưng lại được cảm nhận một cách mạnh liệt,|ɲˌy5ŋ ˈaːɜw zˈaːɜc nˈa2j tˈy͡ə2ŋ mˈəɜt̪ ŋˈu͡ə2n t̪ˌy2 ɲˌy5ŋ nˈi͡ɛ2m t̪ˈin sˈaːj lˈə2m, ɲˌyŋ lˈaː6j ɗˌy͡ə6c kˈaː4m ɲˈə6n mˈo6t̪ kˈe-ɜc mˈe-6ɲ lˈi͡ɛ6t̪,
+voice2.wav_0079.wav|Vincent Van Gogh, ông được hậu thế tôn vinh là mực thầy của sắc mồ và hình sáng,|vˈɪnsənt vˈaːn ɣˈɔɣ, ˈoŋ ɗˌy͡ə6c hˈə6w tˈeɜ t̪ˈon vˈiɲ lˌaː2 mˈy6c tˈə͡ɪ2 kˌu͡ə4 sˈaɜc mˈo2 vˌaː2 hˈi2ɲ sˈaːɜŋ,
+voice2.wav_0080.wav|nhưng họ cũng gọi ông là kẻ điên, trong mắt họ ông là một hỏa sĩ lập dị,|ɲˌyŋ hˈɔ6 kˈu5ŋ ɣˈɔ6j ˈoŋ lˌaː2 kˈɛ4 ɗˈi͡ɛn, t͡ʃˈɔŋ mˈaɜt̪ hˈɔ6 ˈoŋ lˌaː2 mˈo6t̪ hwˈaː4 sˈi5 lˈə6p zˈi6,
+voice2.wav_0081.wav|lúc thế vẽ suốt nhiều ngày liền không ngủ, lúc lại đóng kín cửa.|lˌuɜc tˈeɜ vˈɛ5 sˈu͡əɜt̪ ɲˈi͡ɛ2w ŋˈa2j lˈi͡ɛ2n xˌoŋ ŋˈu4, lˌuɜc lˈaː6j ɗˈɔɜŋ kˈiɜn kˈy͡ə4.
+voice2.wav_0082.wav|Chìm vào im lặng, như thế đã biến mất khỏi thế giới này,|t͡ʃˈi2m vˈaː2w ˈim lˈa6ŋ, ɲˌy tˈeɜ ɗˌaː5 bˈi͡ɛɜn mˈəɜt̪ xˈɔ4j tˈeɜ zˈəːɜj nˈa2j,
+voice2.wav_0083.wav|văn gốc thực sự sống trong hai miền thực tại, một bên là cuộc đời khắc nghiệt, nghèo đói, cố độc.|vˈan ɣˈoɜk tˈy6c sˈy6 sˈoɜŋ t͡ʃˈɔŋ hˈaːj mˈi͡ɛ2n tˈy6c t̪ˈaː6j, mˈo6t̪ bˈen lˌaː2 kˈu͡ə6c ɗˈəː2j xˈaɜc ŋˈi͡ɛ6t̪, ŋˈɛ2w ɗˈɔɜj, kˈoɜ ɗˈo6k.
+voice2.wav_0084.wav|Còn bên kia là kính đồng hoa rực rỡ, những bầu trời xóa í cuộn, cùng là xóa mánh sáng, chỉ mình không nhìn thấy.|kˌɔ2n bˈen kˈi͡ə lˌaː2 kˈiɜɲ ɗˈo2ŋ hwˈaː zˈy6c zˈəː5, ɲˌy5ŋ bˈə2w t͡ʃˈəː2j swˈaːɜ ˈiɜ kˈu͡ə6n, kˈu2ŋ lˌaː2 swˈaːɜ mˈe-ɜɲ sˈaːɜŋ, t͡ʃˈi4 mˈi2ɲ xˌoŋ ɲˈi2n tˈə͡ɪɜ.
+voice2.wav_0085.wav|Khi những đợt hưng cảm của rối loạn lưỡng cực ập đến, ông trở nên mùm nổ năng lượng đến mức gần như không ngủ.|xˌi ɲˌy5ŋ ɗˈəː6t̪ hˈyŋ kˈaː4m kˌu͡ə4 zˈoɜj lwˈaː6n lˈy͡ə5ŋ kˈy6c ˈə6p ɗˌeɜn, ˈoŋ t͡ʃˈəː4 nˌen mˈu2m nˈo4 nˈaŋ lˈy͡ə6ŋ ɗˌeɜn mˈyɜc ɣˈə2n ɲˌy xˌoŋ ŋˈu4.
+voice2.wav_0086.wav|Vẽ hàng chục bức tranh chỉ trong vài tuần, từ nét cọn nhanh, mạnh, giữ rội, như chạy đua với thời gian,|vˈɛ5 hˈaː2ŋ t͡ʃˈu6c bˈyɜc t͡ʃˈe-ɲ t͡ʃˈi4 t͡ʃˈɔŋ vˈaː2j t̪wˈə2n, t̪ˌy2 nˈɛɜt̪ kˈɔ6n ɲˈe-ɲ, mˈe-6ɲ, zˈy5 zˈo6j, ɲˌy t͡ʃˈa6j ɗˈu͡ə vˌəːɜj tˈəː2j zˈaːn,
+voice2.wav_0087.wav|ông nói nhiều, viết nhiều, liên tục gửi cho em trai, suy nghĩ tràn lan và không thể dừng lại,|ˈoŋ nˈɔɜj ɲˈi͡ɛ2w, vˈi͡ɛɜt̪ ɲˈi͡ɛ2w, lˈi͡ɛn t̪ˈu6c ɣˈy4j t͡ʃˌɔ ˈɛm t͡ʃˈaːj, swˈi ŋˈi5 t͡ʃˈaː2n lˈaːn vˌaː2 xˌoŋ tˈe4 zˈy2ŋ lˈaː6j,
+voice2.wav_0088.wav|như thế đấu ác bị nhấn chìm trong một cơn lúc suy tư, nhưng ngay sau những đỉnh cao ấy là những khối sâu chầm cảm.|ɲˌy tˈeɜ ɗˈəɜw ˈaːɜc bˌi6 ɲˈəɜn t͡ʃˈi2m t͡ʃˈɔŋ mˈo6t̪ kˈəːn lˌuɜc swˈi t̪ˈy, ɲˌyŋ ŋˈaj sˈaw ɲˌy5ŋ ɗˈi4ɲ kˈaːw ˈə͡ɪɜ lˌaː2 ɲˌy5ŋ xˈoɜj sˈə1w t͡ʃˈə2m kˈaː4m.
+voice2.wav_0089.wav|Khi văn gốc gơi vào trạng thái kỷ kỳ, bật lực tự cô lập, thậm chí có những ý nghĩ tự hủy hoại bản thân,|xˌi vˈan ɣˈoɜk ɣˈəːj vˈaː2w t͡ʃˈaː6ŋ tˈaːɜj kˈi4 kˈi2, bˈə6t̪ lˈy6c t̪ˈy6 kˈo lˈə6p, tˈə6m t͡ʃˈiɜ kˈɔɜ ɲˌy5ŋ ˈiɜ ŋˈi5 t̪ˈy6 hwˈi4 hwˈaː6j bˈaː4n tˈən,
+voice2.wav_0090.wav|trong một lần như thế, và một đêm năm 1888, ở Aless, giữa cơn tuyệt vọng và hoảng loạn,|t͡ʃˈɔŋ mˈo6t̪ lˈə2n ɲˌy tˈeɜ, vˌaː2 mˈo6t̪ ɗˈem nˈam mˈo6t̪ ŋˈi2n t̪ˈaːɜm t͡ʃˈam t̪ˈaːɜm mˈy͡əj t̪ˈaːɜm, ˈəː4 ɐlˈɛs, zˈy͡ə5 kˈəːn t̪wˈi͡ɛ6t̪ vˈɔ6ŋ vˌaː2 hwˈaː4ŋ lwˈaː6n,
+voice2.wav_0091.wav|ông đã cắt đi một phần tay trái của mình như một cách để cắt tức tiếng vọng của những lời đáng cay, chế diễu|ˈoŋ ɗˌaː5 kˈaɜt̪ ɗˈi mˈo6t̪ fˈə2n t̪ˈaj t͡ʃˈaːɜj kˌu͡ə4 mˈi2ɲ ɲˌy mˈo6t̪ kˈe-ɜc ɗˌe4 kˈaɜt̪ t̪ˈyɜc t̪ˈi͡ɛɜŋ vˈɔ6ŋ kˌu͡ə4 ɲˌy5ŋ lˈəː2j ɗˈaːɜŋ kˈaj, t͡ʃˈeɜ zˈi͡ɛ5w
+voice2.wav_0092.wav|và các những âm thanh tưởng tượng và lên trong tâm trí.|vˌaː2 kˌaːɜc ɲˌy5ŋ ˈəm tˈe-ɲ t̪ˈy͡ə4ŋ t̪ˈy͡ə6ŋ vˌaː2 lˈen t͡ʃˈɔŋ t̪ˈəm t͡ʃˈiɜ.
+voice2.wav_0093.wav|Những ngày sau đó, ông bị đưa vào bệnh viện tâm thần, tách biệt có thế giới bên ngoài.|ɲˌy5ŋ ŋˈa2j sˈaw ɗˈɔɜ, ˈoŋ bˌi6 ɗˈy͡ə vˈaː2w bˈe6ɲ vˈi͡ɛ6n t̪ˈəm tˈə2n, t̪ˈe-ɜc bˈi͡ɛ6t̪ kˈɔɜ tˈeɜ zˈəːɜj bˈen ŋwˈaː2j.
+voice2.wav_0094.wav|Y học thời bấy giờ không đủ khả năng để lý giải cơn hỗn loạn trong trí hốc của ông,|ˈi hˈɔ6k tˈəː2j bˈə͡ɪɜ zˈəː2 xˌoŋ ɗˈu4 xˈaː4 nˈaŋ ɗˌe4 lˈiɜ zˈaː4j kˈəːn hˈo5n lwˈaː6n t͡ʃˈɔŋ t͡ʃˈiɜ hˈoɜk kˌu͡ə4 ˈoŋ,
+voice2.wav_0095.wav|chỉ để lại cho người đời cái mắc điên dồ vì họ chẳng thể tin được từ nào phán đánh hết được chiều sâu,|t͡ʃˈi4 ɗˌe4 lˈaː6j t͡ʃˌɔ ŋˈy͡ə2j ɗˈəː2j kˌaːɜj mˈaɜc ɗˈi͡ɛn zˈo2 vˌi2 hˈɔ6 t͡ʃˌa4ŋ tˈe4 t̪ˈin ɗˌy͡ə6c t̪ˌy2 nˈaː2w fˈaːɜn ɗˈe-ɜɲ hˈeɜt̪ ɗˌy͡ə6c t͡ʃˈi͡ɛ2w sˈə1w,
+voice2.wav_0096.wav|của một tâm hồn vừa dựng rỡ, vừa đầy thương tổn, không được phát hiện sớm và can thiệp kịp thời.|kˌu͡ə4 mˈo6t̪ t̪ˈəm hˈo2n vˈy͡ə2 zˈy6ŋ zˈəː5, vˈy͡ə2 ɗˈə͡ɪ2 tˈy͡əŋ t̪ˈo4n, xˌoŋ ɗˌy͡ə6c fˈaːɜt̪ hˈi͡ɛ6n sˈəːɜm vˌaː2 kˈaːn tˈi͡ɛ6p kˈi6p tˈəː2j.
+voice2.wav_0097.wav|Chạng thái loạn thần có thể tiến triển nghiêm trọng khiến người bệnh dần mất kiểm xác|t͡ʃˈaː6ŋ tˈaːɜj lwˈaː6n tˈə2n kˈɔɜ tˈe4 t̪ˈi͡ɛɜn t͡ʃˈi͡ɛ4n ŋˈi͡ɛm t͡ʃˈɔ6ŋ xˈi͡ɛɜn ŋˈy͡ə2j bˈe6ɲ zˈə2n mˈəɜt̪ kˈi͡ɛ4m sˈaːɜc
+voice2.wav_0098.wav|và có thể phát triển thành tâm thần phân liệt cho thành một người điên thực sự, người thân và bạn bè của người mắc|vˌaː2 kˈɔɜ tˈe4 fˈaːɜt̪ t͡ʃˈi͡ɛ4n tˈe-2ɲ t̪ˈəm tˈə2n fˈən lˈi͡ɛ6t̪ t͡ʃˌɔ tˈe-2ɲ mˈo6t̪ ŋˈy͡ə2j ɗˈi͡ɛn tˈy6c sˈy6, ŋˈy͡ə2j tˈən vˌaː2 bˈaː6n bˈɛ2 kˌu͡ə4 ŋˈy͡ə2j mˈaɜc
+voice2.wav_0099.wav|dối loạn lưỡng cực cũng chịu ảnh hưởng không nhỏ, việc chứng kiến người mình yêu quý thay đổi tâm trạng|zˈoɜj lwˈaː6n lˈy͡ə5ŋ kˈy6c kˈu5ŋ t͡ʃˈi6w ˈe-4ɲ hˈy͡ə4ŋ xˌoŋ ɲˈɔ4, vˈi͡ɛ6c t͡ʃˈyɜŋ kˈi͡ɛɜn ŋˈy͡ə2j mˈi2ɲ ˈi͡ɛw kwˈiɜ tˈaj ɗˈo4j t̪ˈəm t͡ʃˈaː6ŋ
+voice2.wav_0100.wav|như lật mặt lúc đi tràn đầy năng lượng và niềm tin lúc lạnh rơi vào đáy vực tuyệt vọng,|ɲˌy lˈə6t̪ mˈa6t̪ lˌuɜc ɗˈi t͡ʃˈaː2n ɗˈə͡ɪ2 nˈaŋ lˈy͡ə6ŋ vˌaː2 nˈi͡ɛ2m t̪ˈin lˌuɜc lˈe-6ɲ zˈəːj vˈaː2w ɗˈaɜj vˈy6c t̪wˈi͡ɛ6t̪ vˈɔ6ŋ,
+voice2.wav_0101.wav|có thể khiến họ cảm thấy bất lực lo lắng.|kˈɔɜ tˈe4 xˈi͡ɛɜn hˈɔ6 kˈaː4m tˈə͡ɪɜ bˈəɜt̪ lˈy6c lˈɔ lˈaɜŋ.
+voice2.wav_0102.wav|Thậm chí bao mòn dần giữ kiên nhẫn và cảm thông, việc hỗ trợ người bệnh không chỉ cần kiến thức,|tˈə6m t͡ʃˈiɜ bˈaːw mˈɔ2n zˈə2n zˈy5 kˈi͡ɛn ɲˈə5n vˌaː2 kˈaː4m tˈoŋ, vˈi͡ɛ6c hˈo5 t͡ʃˈəː6 ŋˈy͡ə2j bˈe6ɲ xˌoŋ t͡ʃˈi4 kˈə2n kˈi͡ɛɜn tˈyɜc,
+voice2.wav_0103.wav|còn cần sức mạnh tinh thần bến bỉ, không ít mối quan hệ bị sức mẻ vì người thân không hiểu rõ bạn chết của căn bệnh này.|kˌɔ2n kˈə2n sˈyɜc mˈe-6ɲ t̪ˈiɲ tˈə2n bˈeɜn bˈi4, xˌoŋ ˈiɜt̪ mˈoɜj kwˈaːn hˈe6 bˌi6 sˈyɜc mˈɛ4 vˌi2 ŋˈy͡ə2j tˈən xˌoŋ hˈi͡ɛ4w zˈɔ5 bˈaː6n t͡ʃˈeɜt̪ kˌu͡ə4 kˈan bˈe6ɲ nˈa2j.
+voice2.wav_0104.wav|Vậy làm thế nào để sống chung với dối loạn lưỡng cực trước hết?|vˈə͡ɪ6 lˈaː2m tˈeɜ nˈaː2w ɗˌe4 sˈoɜŋ t͡ʃˈuŋ vˌəːɜj zˈoɜj lwˈaː6n lˈy͡ə5ŋ kˈy6c t͡ʃˈy͡əɜc hˈeɜt̪?
+voice2.wav_0105.wav|Trần đoán đúng là điều vô cùng quan trọng, việc này đòi hỏi sự hợp tác giữa bác sĩ tâm thần,|t͡ʃˈə2n ɗwˈaːɜn ɗˈuɜŋ lˌaː2 ɗˈi͡ɛ2w vˈo kˈu2ŋ kwˈaːn t͡ʃˈɔ6ŋ, vˈi͡ɛ6c nˈa2j ɗˈɔ2j hˈɔ4j sˈy6 hˈəː6p t̪ˈaːɜc zˈy͡ə5 bˈaːɜc sˈi5 t̪ˈəm tˈə2n,
+voice2.wav_0106.wav|nhà tâm lý và gia đình sau khi có trần đoán, người bệnh thường cần một phát đồ điều trị,|ɲˈaː2 t̪ˈəm lˈiɜ vˌaː2 zˈaː ɗˈi2ɲ sˈaw xˌi kˈɔɜ t͡ʃˈə2n ɗwˈaːɜn, ŋˈy͡ə2j bˈe6ɲ tˈy͡ə2ŋ kˈə2n mˈo6t̪ fˈaːɜt̪ ɗˈo2 ɗˈi͡ɛ2w t͡ʃˈi6,
+voice2.wav_0107.wav|gồm thước ổn định khí sắc, thuốc chống chẩm cảm hoặc chống loạn thần khi cần kết hợp với điều trị tâm lý.|ɣˈo2m tˈy͡əɜc ˈo4n ɗˈi6ɲ xˈiɜ sˈaɜc, tˈu͡əɜc t͡ʃˈoɜŋ t͡ʃˈə4m kˈaː4m hwˌa6c t͡ʃˈoɜŋ lwˈaː6n tˈə2n xˌi kˈə2n kˈeɜt̪ hˈəː6p vˌəːɜj ɗˈi͡ɛ2w t͡ʃˈi6 t̪ˈəm lˈiɜ.
+voice2.wav_0108.wav|Việc thiết lập chế độ sinh hoạt khoa học duy trì giúp ngủ đều đặn, tập thể dục nhẹ nhàng,|vˈi͡ɛ6c tˈi͡ɛɜt̪ lˈə6p t͡ʃˈeɜ ɗˈo6 sˈiɲ hwˈaː6t̪ xwˈaː hˈɔ6k zwˈi t͡ʃˈi2 zˈuɜp ŋˈu4 ɗˈe2w ɗˈa6n, t̪ˈə6p tˈe4 zˈu6c ɲˈɛ6 ɲˈaː2ŋ,
+voice2.wav_0109.wav|chánh căng thẳng, có mạng lưới hỗ trợ tinh thần là cực kỳ cần thiết quan trọng nhất.|t͡ʃˈe-ɜɲ kˈaŋ tˈa4ŋ, kˈɔɜ mˈaː6ŋ lˈy͡əɜj hˈo5 t͡ʃˈəː6 t̪ˈiɲ tˈə2n lˌaː2 kˈy6c kˈi2 kˈə2n tˈi͡ɛɜt̪ kwˈaːn t͡ʃˈɔ6ŋ ɲˈəɜt̪.
+voice2.wav_0110.wav|Bệnh nhân và gia đình cần hiểu, đây là một hành trình giải hạt, không phải chữ khỏi ngày 1, 2,|bˈe6ɲ ɲˈən vˌaː2 zˈaː ɗˈi2ɲ kˈə2n hˈi͡ɛ4w, ɗˈə͡ɪ lˌaː2 mˈo6t̪ hˈe-2ɲ t͡ʃˈi2ɲ zˈaː4j hˈaː6t̪, xˌoŋ fˌaː4j t͡ʃˈy5 xˈɔ4j ŋˈa2j mˈo6t̪, hˈaːj,
+voice2.wav_0111.wav|mà cần sự kiên nhẫn và đồng hành.|mˌaː2 kˈə2n sˈy6 kˈi͡ɛn ɲˈə5n vˌaː2 ɗˈo2ŋ hˈe-2ɲ.
+voice2.wav_0112.wav|Và 100 những chiều khóa giúp người bệnh tìm được hướng đi cho chính mình là nắm mắt được các giai đoạn hương chầm cảm.|vˌaː2 mˈo6t̪ t͡ʃˈam ɲˌy5ŋ t͡ʃˈi͡ɛ2w xwˈaːɜ zˈuɜp ŋˈy͡ə2j bˈe6ɲ t̪ˈi2m ɗˌy͡ə6c hˈy͡əɜŋ ɗˈi t͡ʃˌɔ t͡ʃˈiɜɲ mˈi2ɲ lˌaː2 nˈaɜm mˈaɜt̪ ɗˌy͡ə6c kˌaːɜc zˈaːj ɗwˈaː6n hˈy͡əŋ t͡ʃˈə2m kˈaː4m.
+voice2.wav_0113.wav|Nếu người bệnh và người thân có thể nhận diện sớm các lứa hiệu truyền pha,|nˌeɜw ŋˈy͡ə2j bˈe6ɲ vˌaː2 ŋˈy͡ə2j tˈən kˈɔɜ tˈe4 ɲˈə6n zˈi͡ɛ6n sˈəːɜm kˌaːɜc lˈy͡əɜ hˈi͡ɛ6w t͡ʃwˈi͡ɛ2n fˈaː,
+voice2.wav_0114.wav|việc điều trình thuốc, thay đổi chế độ sinh hoạt kịp thời sẽ giúp kiểm soát được căn bệnh tốt hơn.|vˈi͡ɛ6c ɗˈi͡ɛ2w t͡ʃˈi2ɲ tˈu͡əɜc, tˈaj ɗˈo4j t͡ʃˈeɜ ɗˈo6 sˈiɲ hwˈaː6t̪ kˈi6p tˈəː2j sˌɛ5 zˈuɜp kˈi͡ɛ4m swˈaːɜt̪ ɗˌy͡ə6c kˈan bˈe6ɲ t̪ˈoɜt̪ hˈəːn.
+voice2.wav_0115.wav|Nhiều bệnh nhân sang một thời gian điều trị thành công, thậm chí còn học được cách sử dụng năng lượng của những pha hưng|ɲˈi͡ɛ2w bˈe6ɲ ɲˈən sˈaːŋ mˈo6t̪ tˈəː2j zˈaːn ɗˈi͡ɛ2w t͡ʃˈi6 tˈe-2ɲ kˈoŋ, tˈə6m t͡ʃˈiɜ kˌɔ2n hˈɔ6k ɗˌy͡ə6c kˈe-ɜc sˈy4 zˈu6ŋ nˈaŋ lˈy͡ə6ŋ kˌu͡ə4 ɲˌy5ŋ fˈaː hˈyŋ
+voice2.wav_0116.wav|cả một cách có kiểm soát khi cần sáng tạo, làm việc nhiều.|kˈaː4 mˈo6t̪ kˈe-ɜc kˈɔɜ kˈi͡ɛ4m swˈaːɜt̪ xˌi kˈə2n sˈaːɜŋ t̪ˈaː6w, lˈaː2m vˈi͡ɛ6c ɲˈi͡ɛ2w.
+voice2.wav_0117.wav|Và đồng thời biết tự bảo vệ bản thân khỏi những cảm bẫy khi cảm thấy tụt giúp.|vˌaː2 ɗˈo2ŋ tˈəː2j bˈi͡ɛɜt̪ t̪ˈy6 bˈaː4w vˈe6 bˈaː4n tˈən xˈɔ4j ɲˌy5ŋ kˈaː4m bˈə͡ɪ5 xˌi kˈaː4m tˈə͡ɪɜ t̪ˈu6t̪ zˈuɜp.
+voice2.wav_0118.wav|Như đã nói ở trên, điều quan trọng nhất được nhấn mạnh là người mắc dối lặn lưỡng cực không nánh mất nhân cách,|ɲˌy ɗˌaː5 nˈɔɜj ˈəː4 t͡ʃˈen, ɗˈi͡ɛ2w kwˈaːn t͡ʃˈɔ6ŋ ɲˈəɜt̪ ɗˌy͡ə6c ɲˈəɜn mˈe-6ɲ lˌaː2 ŋˈy͡ə2j mˈaɜc zˈoɜj lˈa6n lˈy͡ə5ŋ kˈy6c xˌoŋ nˈe-ɜɲ mˈəɜt̪ ɲˈən kˈe-ɜc,
+voice2.wav_0119.wav|không mắc tâm thần phân liệt cũng không phải những kẻ không kiểm soát nổi bản thân, như một số người vẫn tưởng.|xˌoŋ mˈaɜc t̪ˈəm tˈə2n fˈən lˈi͡ɛ6t̪ kˈu5ŋ xˌoŋ fˌaː4j ɲˌy5ŋ kˈɛ4 xˌoŋ kˈi͡ɛ4m swˈaːɜt̪ nˈo4j bˈaː4n tˈən, ɲˌy mˈo6t̪ sˈoɜ ŋˈy͡ə2j vˌə5n t̪ˈy͡ə4ŋ.
+voice2.wav_0120.wav|Đây là một căn bệnh sinh học thực sự, có cơ sở thần kinh học rõ ràng và hoàn toàn có thể được kiểm soát|ɗˈə͡ɪ lˌaː2 mˈo6t̪ kˈan bˈe6ɲ sˈiɲ hˈɔ6k tˈy6c sˈy6, kˈɔɜ kˈəː sˈəː4 tˈə2n kˈiɲ hˈɔ6k zˈɔ5 zˈaː2ŋ vˌaː2 hwˈaː2n t̪wˈaː2n kˈɔɜ tˈe4 ɗˌy͡ə6c kˈi͡ɛ4m swˈaːɜt̪
+voice2.wav_0121.wav|nhờ y học hiện đại kết hợp với sự hỗ trợ từ việc điều trị tâm lý.|ɲˈəː2 ˈi hˈɔ6k hˈi͡ɛ6n ɗˈaː6j kˈeɜt̪ hˈəː6p vˌəːɜj sˈy6 hˈo5 t͡ʃˈəː6 t̪ˌy2 vˈi͡ɛ6c ɗˈi͡ɛ2w t͡ʃˈi6 t̪ˈəm lˈiɜ.
+voice2.wav_0122.wav|Tuy nhiên, vì thiếu hiểu biết và định kiến lâu đời, nhiều người vẫn có cái nhìn sai lệch về bệnh lý này thực tế.|t̪wˈi ɲˈi͡ɛn, vˌi2 tˈi͡ɛɜw hˈi͡ɛ4w bˈi͡ɛɜt̪ vˌaː2 ɗˈi6ɲ kˈi͡ɛɜn lˈə1w ɗˈəː2j, ɲˈi͡ɛ2w ŋˈy͡ə2j vˌə5n kˈɔɜ kˌaːɜj ɲˈi2n sˈaːj lˈe6c vˈe2 bˈe6ɲ lˈiɜ nˈa2j tˈy6c t̪ˈeɜ.
+voice2.wav_0123.wav|Trong lịch sử, có không biết những nhân vật kìa soát từng sống chung với giới loại lưỡng cực, và vẫn đạt ở những thành tiệu phi thường.|t͡ʃˈɔŋ lˈi6c sˈy4, kˈɔɜ xˌoŋ bˈi͡ɛɜt̪ ɲˌy5ŋ ɲˈən vˈə6t̪ kˈi͡ə2 swˈaːɜt̪ t̪ˈy2ŋ sˈoɜŋ t͡ʃˈuŋ vˌəːɜj zˈəːɜj lwˈaː6j lˈy͡ə5ŋ kˈy6c, vˌaː2 vˌə5n ɗˈaː6t̪ ˈəː4 ɲˌy5ŋ tˈe-2ɲ t̪ˈi͡ɛ6w fˈi tˈy͡ə2ŋ.
+voice2.wav_0124.wav|Như vậy, hừng cảm cũng là một tăng nhân ngây hại cho tâm trí chúng ta, không hề thua kém gì chầm cảm,|ɲˌy vˈə͡ɪ6, hˈy2ŋ kˈaː4m kˈu5ŋ lˌaː2 mˈo6t̪ t̪ˈaŋ ɲˈən ŋˈə͡ɪ hˈaː6j t͡ʃˌɔ t̪ˈəm t͡ʃˈiɜ t͡ʃˈuɜŋ t̪ˈaː, xˌoŋ hˈe2 tˈu͡ə kˈɛɜm zˈi2 t͡ʃˈə2m kˈaː4m,
+voice2.wav_0125.wav|căn bệnh vốn Ản đường nhắc tới nhiều hơn trong đời sống thường nhật.|kˈan bˈe6ɲ vˈoɜn ˈaː4n ɗˈy͡ə2ŋ ɲˈaɜc t̪ˌəːɜj ɲˈi͡ɛ2w hˈəːn t͡ʃˈɔŋ ɗˈəː2j sˈoɜŋ tˈy͡ə2ŋ ɲˈə6t̪.
+voice2.wav_0126.wav|Đôi khi, những thay đổi nhỏ trong cảm xúc bị hiểu nhầm là điều bình thường trong nhiệp giống nhiều áp lực hiện nay,|ɗˈoj xˌi, ɲˌy5ŋ tˈaj ɗˈo4j ɲˈɔ4 t͡ʃˈɔŋ kˈaː4m sˈuɜc bˌi6 hˈi͡ɛ4w ɲˈə2m lˌaː2 ɗˈi͡ɛ2w bˈi2ɲ tˈy͡ə2ŋ t͡ʃˈɔŋ ɲˈi͡ɛ6p zˈoɜŋ ɲˈi͡ɛ2w ˈaːɜp lˈy6c hˈi͡ɛ6n nˈaj,
+voice2.wav_0127.wav|một chút hưng phấn sau những thành công, một vài đêm mất ngủ vị tưởng tuân chào.|mˈo6t̪ t͡ʃˈuɜt̪ hˈyŋ fˈəɜn sˈaw ɲˌy5ŋ tˈe-2ɲ kˈoŋ, mˈo6t̪ vˈaː2j ɗˈem mˈəɜt̪ ŋˈu4 vˈi6 t̪ˈy͡ə4ŋ t̪wˈən t͡ʃˈaː2w.
+voice2.wav_0128.wav|Thoạt nhìn có vẻ vô hại, thậm chí được khuyến khích, thế nhưng nếu không lắng nghe bản thân,|twˈaː6t̪ ɲˈi2n kˈɔɜ vˈɛ4 vˈo hˈaː6j, tˈə6m t͡ʃˈiɜ ɗˌy͡ə6c xwˈi͡ɛɜn xˈiɜc, tˈeɜ ɲˌyŋ nˌeɜw xˌoŋ lˈaɜŋ ŋˈɛ bˈaː4n tˈən,
+voice2.wav_0129.wav|nếu không rõi theo cẩn thận trạng thái cảm xúc của chính mình, những điều tưởng trường nhỏ bé ấy có thể tích tụ thành mầm mống|nˌeɜw xˌoŋ zˈɔ5j tˈɛw kˈə4n tˈə6n t͡ʃˈaː6ŋ tˈaːɜj kˈaː4m sˈuɜc kˌu͡ə4 t͡ʃˈiɜɲ mˈi2ɲ, ɲˌy5ŋ ɗˈi͡ɛ2w t̪ˈy͡ə4ŋ t͡ʃˈy͡ə2ŋ ɲˈɔ4 bˈɛɜ ˈə͡ɪɜ kˈɔɜ tˈe4 t̪ˈiɜc t̪ˈu6 tˈe-2ɲ mˈə2m mˈoɜŋ
+voice2.wav_0130.wav|trong một vòng xoáy hiểm nguy trong tương lai, giới loại lưỡng cực có thể nhận biết qua vài dấu hiệu bề ngoài.|t͡ʃˈɔŋ mˈo6t̪ vˈɔ2ŋ swˈaɜj hˈi͡ɛ4m ŋwˈi t͡ʃˈɔŋ t̪ˈy͡əŋ lˈaːj, zˈəːɜj lwˈaː6j lˈy͡ə5ŋ kˈy6c kˈɔɜ tˈe4 ɲˈə6n bˈi͡ɛɜt̪ kwˈaː vˈaː2j zˈəɜw hˈi͡ɛ6w bˈe2 ŋwˈaː2j.
+voice2.wav_0131.wav|Cũng không phải điều có thể xem nhẹ, hay có thể hy vọng nó tự qua đi,|kˈu5ŋ xˌoŋ fˌaː4j ɗˈi͡ɛ2w kˈɔɜ tˈe4 sˈɛm ɲˈɛ6, hˈaj kˈɔɜ tˈe4 hˈi vˈɔ6ŋ nˈɔɜ t̪ˈy6 kwˈaː ɗˈi,
+voice2.wav_0132.wav|việc hiểu rõ rằng hừng cảm cũng tiềm vận nguy cơ như chầm cảm.|vˈi͡ɛ6c hˈi͡ɛ4w zˈɔ5 zˈa2ŋ hˈy2ŋ kˈaː4m kˈu5ŋ t̪ˈi͡ɛ2m vˈə6n ŋwˈi kˈəː ɲˌy t͡ʃˈə2m kˈaː4m.
+voice2.wav_0133.wav|Làm bước đầu tiên để ta có thể nhận diện dịp thời, biết khi nào bình kênh tìm kiếm sự giúp đỡ,|lˈaː2m bˈy͡əɜc ɗˈə2w t̪ˈi͡ɛn ɗˌe4 t̪ˈaː kˈɔɜ tˈe4 ɲˈə6n zˈi͡ɛ6n zˈi6p tˈəː2j, bˈi͡ɛɜt̪ xˌi nˈaː2w bˈi2ɲ kˈeɲ t̪ˈi2m kˈi͡ɛɜm sˈy6 zˈuɜp ɗˈəː5,
+voice2.wav_0134.wav|cũng giống như cách chúng ta học lắng nghe cơ thể để phát hiện sớm những dấu hiệu bệnh lý,|kˈu5ŋ zˈoɜŋ ɲˌy kˈe-ɜc t͡ʃˈuɜŋ t̪ˈaː hˈɔ6k lˈaɜŋ ŋˈɛ kˈəː tˈe4 ɗˌe4 fˈaːɜt̪ hˈi͡ɛ6n sˈəːɜm ɲˌy5ŋ zˈəɜw hˈi͡ɛ6w bˈe6ɲ lˈiɜ,
+voice2.wav_0135.wav|thì về học cách lắng nghe tâm trí, theo dõi cảm xúc và hành vi của bản thân,|tˌi2 vˈe2 hˈɔ6k kˈe-ɜc lˈaɜŋ ŋˈɛ t̪ˈəm t͡ʃˈiɜ, tˈɛw zˈɔ5j kˈaː4m sˈuɜc vˌaː2 hˈe-2ɲ vˈi kˌu͡ə4 bˈaː4n tˈən,
+voice2.wav_0136.wav|cũng quan trọng không kém, không ai hiểu ta hơn chính ta,|kˈu5ŋ kwˈaːn t͡ʃˈɔ6ŋ xˌoŋ kˈɛɜm, xˌoŋ ˈaːj hˈi͡ɛ4w t̪ˈaː hˈəːn t͡ʃˈiɜɲ t̪ˈaː,
+voice2.wav_0137.wav|và không ai có thể giúp ta tốt hơn khi bản thân ta sẵn sàng đối diện và chăm sóc sức khỏe tinh thần của mình.|vˌaː2 xˌoŋ ˈaːj kˈɔɜ tˈe4 zˈuɜp t̪ˈaː t̪ˈoɜt̪ hˈəːn xˌi bˈaː4n tˈən t̪ˈaː sˈa5n sˈaː2ŋ ɗˈoɜj zˈi͡ɛ6n vˌaː2 t͡ʃˈam sˈɔɜk sˈyɜc xwˈɛ4 t̪ˈiɲ tˈə2n kˌu͡ə4 mˈi2ɲ.
+voice2.wav_0138.wav|Hi vọng rằng sau tất cả những câu chuyện và chia sẻ về căn bệnh này,|hˈi vˈɔ6ŋ zˈa2ŋ sˈaw t̪ˈəɜt̪ kˈaː4 ɲˌy5ŋ kˈə1w t͡ʃwˈi͡ɛ6n vˌaː2 t͡ʃˈi͡ə sˈɛ4 vˈe2 kˈan bˈe6ɲ nˈa2j,
+voice2.wav_0139.wav|chúng ta có thể bước thêm một bước về phía của sự thấu hiểu và lòng cảm thông,|t͡ʃˈuɜŋ t̪ˈaː kˈɔɜ tˈe4 bˈy͡əɜc tˈem mˈo6t̪ bˈy͡əɜc vˈe2 fˈi͡əɜ kˌu͡ə4 sˈy6 tˈəɜw hˈi͡ɛ4w vˌaː2 lˈɔ2ŋ kˈaː4m tˈoŋ,
+voice2.wav_0140.wav|không chỉ dành cho những người đang phải sống chung với dối loại lưỡng cực,|xˌoŋ t͡ʃˈi4 zˈe-2ɲ t͡ʃˌɔ ɲˌy5ŋ ŋˈy͡ə2j ɗˌaːŋ fˌaː4j sˈoɜŋ t͡ʃˈuŋ vˌəːɜj zˈoɜj lwˈaː6j lˈy͡ə5ŋ kˈy6c,
+voice2.wav_0141.wav|mà còn cho chính mình và những người xung quanh bởi chăm sóc sức khỏe tinh thần,|mˌaː2 kˌɔ2n t͡ʃˌɔ t͡ʃˈiɜɲ mˈi2ɲ vˌaː2 ɲˌy5ŋ ŋˈy͡ə2j sˈuŋ kwˈe-ɲ bˌəː4j t͡ʃˈam sˈɔɜk sˈyɜc xwˈɛ4 t̪ˈiɲ tˈə2n,
+voice2.wav_0142.wav|không chỉ là trách nhiệm cá nhân,|xˌoŋ t͡ʃˈi4 lˌaː2 t͡ʃˈe-ɜc ɲˈi͡ɛ6m kˈaːɜ ɲˈən,
+voice2.wav_0143.wav|mà còn là một hành trình cần có sự đồng hành, kể bở và sẽ chia được cả một cộng đồng,|mˌaː2 kˌɔ2n lˌaː2 mˈo6t̪ hˈe-2ɲ t͡ʃˈi2ɲ kˈə2n kˈɔɜ sˈy6 ɗˈo2ŋ hˈe-2ɲ, kˈe4 bˈəː4 vˌaː2 sˌɛ5 t͡ʃˈi͡ə ɗˌy͡ə6c kˈaː4 mˈo6t̪ kˈo6ŋ ɗˈo2ŋ,
+voice2.wav_0144.wav|và đó là tập podcast tuần này.|vˌaː2 ɗˈɔɜ lˌaː2 t̪ˈə6p pˈɒdkast t̪wˈə2n nˈa2j.
+voice2.wav_0145.wav|Nếu cảm thấy đồng cảm với những lời chia sẻ này, đừng quên đần theo dõi kinh|nˌeɜw kˈaː4m tˈə͡ɪɜ ɗˈo2ŋ kˈaː4m vˌəːɜj ɲˌy5ŋ lˈəː2j t͡ʃˈi͡ə sˈɛ4 nˈa2j, ɗˈy2ŋ kwˈen ɗˈə2n tˈɛw zˈɔ5j kˈiɲ
+voice2.wav_0146.wav|và chờ đợi những tập tiếp theo của video thế nhỉ nhé.|vˌaː2 t͡ʃˈəː2 ɗˈəː6j ɲˌy5ŋ t̪ˈə6p t̪ˈi͡ɛɜp tˈɛw kˌu͡ə4 vˈɪdɪə͡ʊ tˈeɜ ɲˈi4 ɲˈɛɜ.

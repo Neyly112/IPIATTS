@@ -18,8 +18,8 @@ from matcha.data.text_mel_datamodule import TextMelDataModule
 
 CONFIG = {
     # Đường dẫn dữ liệu
-    "train_filelist": "data/99-audio-text-file-list/audio_text_train_filelist_with_phonemes.txt",
-    "val_filelist": "data/99-audio-text-file-list/audio_text_val_filelist_with_phonemes.txt",
+   "train_filelist": "data/99-audio-text-file-list/audio_text_train.txt.cleaned",
+    "val_filelist": "data/99-audio-text-file-list/audio_text_val.txt.cleaned",
     
     # Thư mục lưu checkpoint và logs
     "output_dir": "outputs/matcha_prosody",
@@ -35,10 +35,10 @@ CONFIG = {
     "prosody_dim": 256,
     
     # Training hyperparameters
-    "batch_size": 16,  # Giảm xuống 8 hoặc 4 nếu thiếu VRAM
+    "batch_size": 8,  # Giảm xuống 8 hoặc 4 nếu thiếu VRAM
     "learning_rate": 1e-4,
-    "max_epochs": 1000,
-    "num_workers": 4,  # Số worker cho DataLoader
+    "max_epochs": 5,
+    "num_workers": 1,  # Số worker cho DataLoader
     
     # GPU/CPU
     "accelerator": "gpu",  # "gpu" hoặc "cpu"

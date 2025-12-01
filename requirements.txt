@@ -14,11 +14,18 @@ tokenizers>=0.13.0
 sentencepiece>=0.1.99
 protobuf>=3.20.0
 
+# Configuration Management
+hydra-core>=1.3.0
+omegaconf>=2.3.0
+
 # Audio Processing
 librosa>=0.10.0
 soundfile>=0.12.0
 praat-parselmouth>=0.4.3
 scipy>=1.10.0
+
+# Speech Recognition (for transcription)
+openai-whisper>=20231117
 
 # Phonemizer for Vietnamese
 phonemizer>=3.2.0
@@ -27,6 +34,9 @@ phonemizer>=3.2.0
 # Vietnamese NLP
 underthesea>=6.0.0
 num2words>=0.5.12
+
+# GPU Optimization (for PhoGPT spelling correction - optional)
+triton>=2.0.0  # Requires NVIDIA GPU + CUDA
 
 # ML Utilities
 numpy>=1.24.0

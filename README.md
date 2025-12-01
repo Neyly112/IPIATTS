@@ -168,70 +168,71 @@ python -c "import torch; import lightning; import transformers; from phonemizer.
 
 ## 📂 CHUẨN BỊ DỮ LIỆU
 
-### BƯỚC 1: Cấu trúc thư mục dữ liệu
+### ⚡ OPTION 1: Chạy Pipeline Tự Động (Khuyến nghị)
+
+**Nếu bạn có file audio gốc chưa xử lý:**
+
+1. **Đặt file audio vào thư mục:**
+   ```cmd
+   data\raw\voice1.mp3
+   data\raw\voice2.mp3
+   ...
+   ```
+
+2. **Chạy pipeline tự động:**
+   ```cmd
+   run_full_pipeline.bat
+   ```
+
+   Hoặc chạy từng bước thủ công:
+   ```cmd
+   python scripts\remove_silence.py          # Bước 1: Loại bỏ silence
+   python scripts\transcribe_cut.py          # Bước 2: Transcribe + cắt câu
+   python scripts\process_cleaner.py         # Bước 3: Chuẩn hóa + IPA
+   python scripts\split.py                   # Bước 4: Chia train/val/test
+   ```
+
+3. **Xem hướng dẫn chi tiết:**
+   - Đọc file: [PIPELINE_SETUP.md](PIPELINE_SETUP.md)
+
+---
+
+### 📝 OPTION 2: Sử dụng Dữ Liệu Có Sẵn
+
+**Nếu bạn đã có file audio + transcription:**
+
+#### BƯỚC 1: Cấu trúc thư mục
 
 ```
-IPIATTS/
+TextToSpeech/
 ├── data/
-│   ├── vad/              # Folder chứa file audio (.wav)
-│   ├── vad1/             # Folder chứa file audio (.wav)
+│   ├── subs/                # File audio đã cắt (sentence-level)
+│   │   ├── voice1_0001.wav
+│   │   ├── voice1_0002.wav
+│   │   └── ...
 │   └── 99-audio-text-file-list/
-│       ├── audio_text_train_filelist.txt
-│       ├── audio_text_val_filelist.txt
-│       └── audio_text_test_filelist.txt
+│       └── audio_text_train.txt.cleaned    # Filelist với IPA
 ```
 
-### BƯỚC 2: Format file filelist
+#### BƯỚC 2: Format file filelist
 
-File `.txt` cần có format:
-```
-audio_path|transcription
-```
-
-**Ví dụ (`audio_text_train_filelist.txt`):**
-```
-data/vad/voice5_0207.wav|Dám đối mặt với những nỗi đau để bước tiếp.
-data/vad/voice12_0237.wav|Tình yêu không phải là giải pháp cho sự cô đơn.
-data/vad1/voice28_0278.wav|Đọc mấy câu thơ mà thấy nghẹn ngào.
-```
-
-**Lưu ý:**
-- Mỗi dòng: `đường_dẫn_audio|văn_bản_tiếng_việt`
-- File audio phải tồn tại
-- Không có dòng trống
-- Encoding: UTF-8
-
-### BƯỚC 3: Fix lỗi filelist (nếu text bị ngắt dòng)
-
-```cmd
-python scripts\fix_filelist.py --input data\99-audio-text-file-list\audio_text_train_filelist.txt --output data\99-audio-text-file-list\audio_text_train_filelist_fixed.txt
-
-python scripts\fix_filelist.py --input data\99-audio-text-file-list\audio_text_val_filelist.txt --output data\99-audio-text-file-list\audio_text_val_filelist_fixed.txt
-
-python scripts\fix_filelist.py --input data\99-audio-text-file-list\audio_text_test_filelist.txt --output data\99-audio-text-file-list\audio_text_test_filelist_fixed.txt
-```
-
-### BƯỚC 4: Thêm phonemes (IPA)
-
-```cmd
-python scripts\add_phonemes.py --input data\99-audio-text-file-list\audio_text_train_filelist_fixed.txt --output data\99-audio-text-file-list\audio_text_train_filelist_with_phonemes.txt
-
-python scripts\add_phonemes.py --input data\99-audio-text-file-list\audio_text_val_filelist_fixed.txt --output data\99-audio-text-file-list\audio_text_val_filelist_with_phonemes.txt
-
-python scripts\add_phonemes.py --input data\99-audio-text-file-list\audio_text_test_filelist_fixed.txt --output data\99-audio-text-file-list\audio_text_test_filelist_with_phonemes.txt
-```
-
-**Kết quả:** File có format `audio_path|text|phonemes`
+File `.cleaned` cần có format: `audio_path|ipa_phonemes`
 
 **Ví dụ:**
 ```
-data/vad/voice5_0207.wav|xin chào|s i n   ch a o
+voice1_0001.wav|s i n   ch a o   t o i   l a   t r aw   l i   ao
+voice1_0002.wav|h aw m   n a j   t oi   t i ɛ t   d ɛ p   k w a
 ```
 
-### BƯỚC 5: Kiểm tra dữ liệu
+**Lưu ý:**
+- Đường dẫn audio: tương đối từ thư mục `data/subs/`
+- Mỗi dòng: `audio_filename|ipa_phonemes`
+- Encoding: UTF-8
+
+#### BƯỚC 3: Kiểm tra dữ liệu
 
 ```cmd
-python scripts\check_data.py --filelist data\99-audio-text-file-list\audio_text_train_filelist_with_phonemes.txt
+python scripts\check_data.py --filelist data\99-audio-text-file-list\audio_text_train.txt.cleaned
 ```
 
 **Kết quả mong đợi:**
@@ -239,7 +240,7 @@ python scripts\check_data.py --filelist data\99-audio-text-file-list\audio_text_
 ✅ FILELIST HỢP LỆ - Sẵn sàng để training!
 ```
 
-### BƯỚC 6: Kiểm tra n_vocab
+#### BƯỚC 4: Kiểm tra n_vocab
 
 ```cmd
 python -c "from matcha.text.symbols import symbols; print(f'n_vocab = {len(symbols)}')"

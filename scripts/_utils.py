@@ -42,6 +42,50 @@ def concat_segments(segments: list) -> torch.Tensor:
         return torch.zeros(0, dtype=torch.float32)
     return torch.cat(segments, dim=0)
 
+def resample_to_22050(input_dir: str, output_dir: str):
+    """
+    Resample all audio files in input_dir to 22.05kHz mono and save to output_dir.
+    This is the standard sample rate for TTS (e.g., LJSpeech, Matcha-TTS).
+    """
+    import glob
+    from tqdm import tqdm
+    
+    TARGET_SR = 22050
+    ensure_dir(output_dir)
+    
+    # Find all wav files
+    wav_files = glob.glob(os.path.join(input_dir, "*.wav"))
+    
+    if not wav_files:
+        print(f"[WARN] No .wav files found in {input_dir}")
+        return
+    
+    print(f"Resampling {len(wav_files)} files to {TARGET_SR}Hz...")
+    
+    for wav_path in tqdm(wav_files, desc="Resampling", ncols=80):
+        try:
+            # Load audio
+            wav, sr = torchaudio.load(wav_path)
+            
+            # Convert to mono if stereo
+            if wav.size(0) > 1:
+                wav = wav.mean(dim=0, keepdim=True)
+            
+            # Resample if needed
+            if sr != TARGET_SR:
+                wav = AF.resample(wav, sr, TARGET_SR)
+            
+            # Save
+            filename = os.path.basename(wav_path)
+            output_path = os.path.join(output_dir, filename)
+            torchaudio.save(output_path, wav, TARGET_SR)
+            
+        except Exception as e:
+            print(f"[ERROR] Failed to resample {wav_path}: {e}")
+    
+    print(f"✓ Resampled files saved to: {output_dir}")
+
+
 
 
 # -*- coding: utf-8 -*-
