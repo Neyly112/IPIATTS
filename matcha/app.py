@@ -217,7 +217,8 @@ def main():
                     value=0.667,
                     interactive=True,
                 )
-
+            
+            with gr.Row():
                 synth_btn = gr.Button("Synthesise")
 
         with gr.Box():

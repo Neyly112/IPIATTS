@@ -9,6 +9,8 @@ from matcha import utils
 from matcha.models.baselightningmodule import BaseLightningClass
 from matcha.models.components.flow_matching import CFM
 from matcha.models.components.text_encoder import TextEncoder
+from matcha.models.components.prosody_analyzer import LLMProsodyAnalyzer, SimpleProsodyAnalyzer
+from matcha.models.components.prosody_fusion import ProsodyFusion
 from matcha.utils.model import (
     denormalize,
     duration_loss,
@@ -36,6 +38,8 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         scheduler=None,
         prior_loss=True,
         use_precomputed_durations=False,
+        llm_model_name="vinai/phobert-base",
+        prosody_dim=256,
     ):
         super().__init__()
 
@@ -48,9 +52,27 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         self.out_size = out_size
         self.prior_loss = prior_loss
         self.use_precomputed_durations = use_precomputed_durations
+        self.prosody_dim = prosody_dim
 
         if n_spks > 1:
             self.spk_emb = torch.nn.Embedding(n_spks, spk_emb_dim)
+        
+        # Prosody analyzer với PhoBERT (luôn bật)
+        self.prosody_analyzer = LLMProsodyAnalyzer(
+            llm_model_name=llm_model_name,
+            prosody_dim=prosody_dim,
+            n_prosody_features=3,
+            freeze_llm=True,
+            use_adapter=True,
+        )
+        
+        # Prosody fusion module
+        self.prosody_fusion = ProsodyFusion(
+            text_channels=encoder.encoder_params.n_channels,
+            prosody_channels=prosody_dim,
+            fusion_channels=encoder.encoder_params.n_channels,
+            use_attention=True,
+        )
 
         self.encoder = TextEncoder(
             encoder.encoder_type,
@@ -114,9 +136,19 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         if self.n_spks > 1:
             # Get speaker embedding
             spks = self.spk_emb(spks.long())
+        
+        # LLM Prosody Analysis với PhoBERT
+        prosody_features, prosody_dict = self.prosody_analyzer(
+            text_input=x,
+            text_lengths=x_lengths,
+            attention_mask=(x > 0).long(),
+        )
 
         # Get encoder_outputs `mu_x` and log-scaled token durations `logw`
         mu_x, logw, x_mask = self.encoder(x, x_lengths, spks)
+        
+        # Prosody Fusion & Conditioning
+        mu_x = self.prosody_fusion(mu_x, prosody_features, x_mask)
 
         w = torch.exp(logw) * x_mask
         w_ceil = torch.ceil(w) * length_scale
@@ -174,9 +206,20 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         if self.n_spks > 1:
             # Get speaker embedding
             spks = self.spk_emb(spks)
+        
+        # LLM Prosody Analysis với PhoBERT
+        prosody_features, prosody_dict = self.prosody_analyzer(
+            text_input=x,
+            text_lengths=x_lengths,
+            attention_mask=(x > 0).long(),
+        )
 
         # Get encoder_outputs `mu_x` and log-scaled token durations `logw`
         mu_x, logw, x_mask = self.encoder(x, x_lengths, spks)
+        
+        # Prosody Fusion & Conditioning
+        mu_x = self.prosody_fusion(mu_x, prosody_features, x_mask)
+        
         y_max_length = y.shape[-1]
 
         y_mask = sequence_mask(y_lengths, y_max_length).unsqueeze(1).to(x_mask)
