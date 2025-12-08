@@ -98,7 +98,9 @@ class ProsodyFusion(nn.Module):
             if mask is not None:
                 mask_expanded = mask.squeeze(
                     1).unsqueeze(1)  # [batch, 1, seq_len]
-                scores = scores.masked_fill(mask_expanded == 0, -1e9)
+                # Use -1e4 instead of -1e9 to avoid FP16 overflow
+                # FP16 max is ~65504, so -1e4 is safe while still being very negative for softmax
+                scores = scores.masked_fill(mask_expanded == 0, -1e4)
 
             attn_weights = torch.softmax(scores, dim=-1)
             attn_weights = self.attn_dropout(attn_weights)

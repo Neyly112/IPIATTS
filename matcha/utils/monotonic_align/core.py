@@ -2,8 +2,12 @@
 import numpy as np
 
 
-def maximum_path_each(path, value, t_x, t_y, max_neg_val=-1e9):
-    """Python implementation of maximum_path_each"""
+def maximum_path_each(path, value, t_x, t_y, max_neg_val=-1e4):
+    """Python implementation of maximum_path_each
+    
+    Note: Changed default max_neg_val from -1e9 to -1e4 to avoid FP16 overflow.
+    This is safe since values are converted to float32 before this function is called.
+    """
     index = t_x - 1
     
     for y in range(t_y):
@@ -29,8 +33,11 @@ def maximum_path_each(path, value, t_x, t_y, max_neg_val=-1e9):
             index = index - 1
 
 
-def maximum_path_c(paths, values, t_xs, t_ys, max_neg_val=-1e9):
-    """Python implementation of maximum_path_c"""
+def maximum_path_c(paths, values, t_xs, t_ys, max_neg_val=-1e4):
+    """Python implementation of maximum_path_c
+    
+    Note: Changed default max_neg_val from -1e9 to -1e4 to avoid FP16 overflow.
+    """
     b = values.shape[0]
     
     for i in range(b):
