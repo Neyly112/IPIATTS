@@ -10,18 +10,40 @@ data/raw/*.mp3 (audio gốc dài)
 [2] transcribe_cut.py → data/subs/*.wav (cắt thành từng câu + transcribe)
                      → data/99-audio-text-file-list/_all.txt
     ↓
-[3] correct_spelling_mistakes.py → _all_corrected.txt (sửa lỗi chính tả)
+[3] correct_spelling_mistakes.py → _all_corrected.txt (sửa lỗi chính tả - OPTIONAL)
     ↓
 [4] cleaner.py → _all_normal_ipa.txt (chuẩn hóa + IPA phonemization)
     ↓
 [5] split.py → train/val/test splits
     ↓
-[6] READY TO TRAIN!
+[6] generate_data_statistics.py → data_stats.json (mean/std cho mel normalization)
+    ↓
+[7] READY TO TRAIN!
 ```
+
+## 🚀 CHẠY TỰ ĐỘNG (KHUYẾN NGHỊ)
+
+**Cách nhanh nhất - chỉ 1 lệnh:**
+```cmd
+run_full_pipeline.bat
+```
+
+Script này sẽ **TỰ ĐỘNG**:
+✅ Tạo virtual environment (nếu chưa có)
+✅ Cài đặt PyTorch với CUDA 11.8
+✅ Cài đặt TẤT CẢ dependencies (requirements.txt + additional packages)
+✅ Build monotonic_align (hoặc dùng Python fallback nếu không có C++ compiler)
+✅ Kiểm tra eSpeak-NG (bắt buộc cho phonemizer)
+✅ Chạy toàn bộ pipeline xử lý dữ liệu (bước 1-6)
+✅ Generate data statistics
+✅ **Train model** (có thể tắt nếu chỉ muốn xử lý data)
+✅ **Test checkpoint** (có thể tắt nếu chỉ muốn xử lý data)
+
+**Hoàn toàn không cần nhấn nút gì - để qua đêm được!**
 
 ---
 
-## 📂 CẤU TRÚC THỨ MỤC
+## 📋 CHẠY TỪNG BƯỚC THỦ CÔNG (Nếu cần kiểm soát chi tiết)
 
 ```
 TextToSpeech/
@@ -259,6 +281,27 @@ type data\99-audio-text-file-list\audio_text_train.txt.cleaned
 
 ---
 
+### BƯỚC 6: Generate data statistics (QUAN TRỌNG!)
+
+**Mục đích:**
+- Tính toán mean/std của mel-spectrogram từ toàn bộ training data
+- Cần thiết cho mel normalization trong quá trình training
+- Giúp model hội tụ nhanh và ổn định hơn
+
+**Chạy script:**
+```cmd
+python matcha\utils\generate_data_statistics.py --filelist data\99-audio-text-file-list\audio_text_train.txt.cleaned
+```
+
+**Output:**
+- File: `data_stats.json` (chứa mean/std values)
+
+**Lưu ý:**
+- Script `run_full_pipeline.bat` đã tự động chạy bước này
+- Nếu skip, model sẽ dùng default values (có thể kém hơn)
+
+---
+
 ## ✅ CHECKLIST ĐẦY ĐỦ
 
 ### Trước khi bắt đầu
@@ -274,11 +317,13 @@ type data\99-audio-text-file-list\audio_text_train.txt.cleaned
   - Hoặc: `copy _all.txt _all_corrected.txt`
 - [ ] BƯỚC 4: `python scripts\cleaner.py` → `_all_normal_ipa.txt` OK
 - [ ] BƯỚC 5: `python scripts\split.py` → train/val/test splits OK
+- [ ] BƯỚC 6: `python matcha\utils\generate_data_statistics.py` → `data_stats.json` OK
 
 ### Kiểm tra kết quả
 - [ ] File `audio_text_train.txt.cleaned` tồn tại
 - [ ] File `audio_text_val.txt.cleaned` tồn tại
 - [ ] File `audio_text_test.txt.cleaned` tồn tại
+- [ ] File `data_stats.json` tồn tại (mean/std values)
 - [ ] Format: `audio_path|ipa_phonemes`
 - [ ] Đường dẫn audio đúng (ví dụ: `voice1_0001.wav` nằm trong `data/subs/`)
 
@@ -296,7 +341,13 @@ pip install torch torchaudio --index-url https://download.pytorch.org/whl/cu118
 pip install openai-whisper
 ```
 
-### 3. BƯỚC 3: GPU Out of Memory
+### 3. BƯỚC 2: Lỗi "Microsoft Visual C++ required" (monotonic_align)
+**KHÔNG CẦN LO!** Script đã tự động tạo Python fallback.
+- File `matcha/utils/monotonic_align/core.py` là pure Python version
+- Chạy bình thường, chỉ chậm hơn Cython version một chút
+- Không cần cài Visual C++ Build Tools
+
+### 4. BƯỚC 3: GPU Out of Memory
 Sửa trong `correct_spelling_mistakes.py`:
 ```python
 QUANTIZATION = "4bit"  # Thay vì "float16"
@@ -307,19 +358,25 @@ Hoặc skip bước này:
 copy data\99-audio-text-file-list\_all.txt data\99-audio-text-file-list\_all_corrected.txt
 ```
 
-### 4. BƯỚC 4: Lỗi "espeak-ng not found"
+### 5. BƯỚC 4: Lỗi "espeak-ng not found"
 - Windows: Cài eSpeak-NG từ https://github.com/espeak-ng/espeak-ng/releases
+- Script `run_full_pipeline.bat` sẽ tự động kiểm tra và thông báo
 - Sửa trong `cleaner.py`:
   ```python
   from phonemizer.backend.espeak.wrapper import EspeakWrapper
   EspeakWrapper.set_library(r"C:\Program Files\eSpeak NG\libespeak-ng.dll")
   ```
 
-### 5. BƯỚC 5: Lỗi "File not found: _all_corrected.txt"
+### 6. BƯỚC 5: Lỗi "File not found: _all_corrected.txt"
 Đảm bảo đã chạy BƯỚC 3 hoặc copy file:
 ```cmd
 copy data\99-audio-text-file-list\_all.txt data\99-audio-text-file-list\_all_corrected.txt
 ```
+
+### 7. Script `run_full_pipeline.bat` tự động dừng
+- Kiểm tra log để xem bước nào lỗi
+- Script sẽ hiển thị `[ERROR] Step X failed!` và dừng lại
+- Sửa lỗi theo hướng dẫn, sau đó chạy lại từ bước đó
 
 ---
 

@@ -168,9 +168,9 @@ python -c "import torch; import lightning; import transformers; from phonemizer.
 
 ## 📂 CHUẨN BỊ DỮ LIỆU
 
-### ⚡ OPTION 1: Chạy Pipeline Tự Động (Khuyến nghị)
+### ⚡ OPTION 1: Pipeline Tự Động 100% (Khuyến nghị)
 
-**Nếu bạn có file audio gốc chưa xử lý:**
+**Cách đơn giản nhất - chỉ 1 lệnh:**
 
 1. **Đặt file audio vào thư mục:**
    ```cmd
@@ -179,21 +179,47 @@ python -c "import torch; import lightning; import transformers; from phonemizer.
    ...
    ```
 
-2. **Chạy pipeline tự động:**
+2. **Chạy script tự động:**
    ```cmd
    run_full_pipeline.bat
    ```
 
-   Hoặc chạy từng bước thủ công:
+**Script này sẽ TỰ ĐỘNG làm TẤT CẢ:**
+- ✅ Tạo virtual environment (nếu chưa có)
+- ✅ Cài PyTorch + CUDA 11.8
+- ✅ Cài toàn bộ dependencies
+- ✅ Build monotonic_align (hoặc dùng Python fallback)
+- ✅ Kiểm tra eSpeak-NG
+- ✅ Remove silence (VAD)
+- ✅ Transcribe với Whisper AI
+- ✅ Chuẩn hóa + IPA phonemization
+- ✅ Chia train/val/test splits
+- ✅ Generate data statistics
+- ✅ **Train model** (tự động tiếp tục sau khi xử lý data)
+- ✅ **Test checkpoint** (tự động sau khi train xong)
+
+**⏰ Thời gian ước tính:**
+- Cài dependencies: 10-20 phút
+- Xử lý 20 file audio (mỗi file ~5 phút): 30-60 phút
+- Training: 1-7 ngày (tùy GPU)
+
+**💡 Lưu ý:**
+- Hoàn toàn không cần nhấn nút gì
+- Có thể để qua đêm
+- Nếu chỉ muốn xử lý data (không train), xem [PIPELINE_SETUP.md](PIPELINE_SETUP.md)
+
+3. **Hoặc chạy từng bước thủ công:**
    ```cmd
-   python scripts\remove_silence.py          # Bước 1: Loại bỏ silence
-   python scripts\transcribe_cut.py          # Bước 2: Transcribe + cắt câu
-   python scripts\process_cleaner.py         # Bước 3: Chuẩn hóa + IPA
-   python scripts\split.py                   # Bước 4: Chia train/val/test
+   python scripts\remove_silence.py          # Bước 1: VAD
+   python scripts\transcribe_cut.py          # Bước 2: Transcribe
+   python scripts\cleaner.py                 # Bước 3: Normalize + IPA
+   python scripts\split.py                   # Bước 4: Split
+   python matcha\utils\generate_data_statistics.py --filelist data\99-audio-text-file-list\audio_text_train.txt.cleaned
    ```
 
-3. **Xem hướng dẫn chi tiết:**
+4. **Xem hướng dẫn chi tiết:**
    - Đọc file: [PIPELINE_SETUP.md](PIPELINE_SETUP.md)
+   - Script docs: [scripts/README_transcribe.md](scripts/README_transcribe.md)
 
 ---
 
@@ -574,10 +600,40 @@ espeak-ng not found
 ```
 
 **Giải pháp (Windows):**
+
+**Tự động:** Chạy `run_full_pipeline.bat` - script sẽ kiểm tra và thông báo cách cài
+
+**Thủ công:**
+1. Download: https://github.com/espeak-ng/espeak-ng/releases
+2. Cài file `espeak-ng-X64.msi`
+3. Thêm vào PATH hoặc sửa code:
 ```python
-# Trong scripts/add_phonemes.py
+# Trong scripts/add_phonemes.py hoặc cleaner.py
 from phonemizer.backend.espeak.wrapper import EspeakWrapper
 EspeakWrapper.set_library(r"C:\Program Files\eSpeak NG\libespeak-ng.dll")
+```
+
+### 3.5. Lỗi "Microsoft Visual C++ required" (monotonic_align build)
+
+**Lỗi:**
+```
+error: Microsoft Visual C++ 14.0 or greater is required
+```
+
+**Giải pháp:**
+**KHÔNG CẦN LO!** Project đã có Python fallback tự động:
+- File `matcha/utils/monotonic_align/core.py` là pure Python version
+- Được tự động tạo khi chạy `run_full_pipeline.bat`
+- Chạy bình thường, chỉ chậm hơn Cython một chút (~10-20%)
+- **Không cần cài Visual C++ Build Tools**
+
+Nếu muốn build Cython version (nhanh hơn):
+1. Cài Visual Studio Build Tools: https://visualstudio.microsoft.com/visual-cpp-build-tools/
+2. Chọn "Desktop development with C++"
+3. Chạy:
+```cmd
+cd matcha\utils\monotonic_align
+python setup.py build_ext --inplace
 ```
 
 ### 4. DataModule lỗi

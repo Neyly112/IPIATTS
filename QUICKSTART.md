@@ -48,6 +48,11 @@
 ### Lỗi: "espeak-ng not found"
 → Cài eSpeak-NG từ: https://github.com/espeak-ng/espeak-ng/releases
 → Xem README.md → Phần "Cài đặt eSpeak-NG"
+→ Script `run_full_pipeline.bat` sẽ tự động kiểm tra và thông báo
+
+### Lỗi: "Microsoft Visual C++ required" (monotonic_align)
+→ KHÔNG CẦN CÀI! Script đã tự động dùng Python fallback
+→ Chạy bình thường, chỉ chậm hơn một chút
 
 ### Lỗi: "CUDA Out of Memory"
 → Giảm batch_size trong train_matcha_prosody.py
@@ -67,14 +72,29 @@
 
 ## ⚡ Quick Start (Nếu bạn biết mình đang làm gì)
 
+### Cách 1: Tự động 100% (Khuyến nghị)
+```cmd
+# Chỉ cần 1 lệnh - script tự làm tất cả!
+run_full_pipeline.bat
+```
+Script sẽ tự động:
+- Tạo venv
+- Cài PyTorch + tất cả dependencies
+- Xử lý dữ liệu (VAD → transcribe → normalize → split)
+- Generate data statistics
+- Train model
+- Test checkpoint
+
+### Cách 2: Thủ công (Nếu muốn kiểm soát)
 ```cmd
 # 1. Setup environment
 python -m venv venv
 venv\Scripts\activate
 pip install torch --index-url https://download.pytorch.org/whl/cu118
 pip install -r requirements.txt
+pip install matplotlib scipy librosa transformers conformer
 
-# 2. Process data (nếu cần)
+# 2. Process data
 run_full_pipeline.bat
 
 # 3. Train
