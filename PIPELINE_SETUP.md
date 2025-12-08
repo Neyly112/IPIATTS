@@ -18,7 +18,11 @@ data/raw/*.mp3 (audio gốc dài)
     ↓
 [6] generate_data_statistics.py → data_stats.json (mean/std cho mel normalization)
     ↓
-[7] READY TO TRAIN!
+[7] train_matcha_prosody.py → TRAINING MODEL
+    ↓
+[8] test_checkpoint.py → TEST & GENERATE AUDIO SAMPLES
+    ↓
+✅ DONE! Audio samples in outputs/test_samples/
 ```
 
 ## 🚀 CHẠY TỰ ĐỘNG (KHUYẾN NGHỊ)

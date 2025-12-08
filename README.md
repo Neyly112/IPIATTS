@@ -11,7 +11,8 @@ Hướng dẫn đầy đủ từ A-Z: Cài đặt môi trường → Chuẩn b�
 3. [Chuẩn bị dữ liệu](#chuẩn-bị-dữ-liệu)
 4. [Training model](#training-model)
 5. [Sử dụng checkpoint](#sử-dụng-checkpoint)
-6. [Troubleshooting](#troubleshooting)
+6. [Kiểm tra checkpoint](#kiểm-tra-checkpoint)
+7. [Troubleshooting](#troubleshooting)
 
 ---
 
@@ -544,6 +545,110 @@ with torch.no_grad():
 # 5. Save
 sf.write("output.wav", audio.cpu().numpy(), 22050, "PCM_24")
 print(f"✅ Saved: output.wav (RTF: {output['rtf']:.4f})")
+```
+
+---
+
+## 🧪 KIỂM TRA CHECKPOINT
+
+Sau khi training xong (hoặc trong quá trình training), bạn có thể test model:
+
+### CÁCH 1: Chạy script tự động (Khuyến nghị)
+
+```cmd
+python test_checkpoint.py
+```
+
+**Script này sẽ tự động:**
+- ✅ Tìm checkpoint tốt nhất (val_loss thấp nhất) hoặc `last.ckpt`
+- ✅ Load model + vocoder
+- ✅ Tạo 3 audio mẫu với các câu test khác nhau
+- ✅ Lưu vào `outputs/test_samples/sample_01.wav`, `sample_02.wav`, `sample_03.wav`
+- ✅ Hiển thị Real-Time Factor (RTF) - tốc độ synthesis
+
+**Output mẫu:**
+```
+================================================================================
+MATCHA-TTS CHECKPOINT TESTING
+================================================================================
+[DEVICE] Using: cuda
+[INFO] Found best checkpoint: matcha-prosody-epoch=150-val_loss=0.145.ckpt
+[LOADING] Checkpoint: outputs/matcha_prosody/checkpoints/matcha-prosody-epoch=150-val_loss=0.145.ckpt
+✅ Model loaded successfully!
+[LOADING] Vocoder: matcha/hifigan/checkpoints/g_02500000
+✅ Vocoder loaded successfully!
+
+================================================================================
+GENERATING TEST SAMPLES
+================================================================================
+
+[1/3] Text: xin chào, hôm nay tôi học về trí tuệ nhân tạo
+  ✅ Saved: outputs/test_samples/sample_01.wav (RTF: 0.0234)
+
+[2/3] Text: đây là giọng nói tiếng việt với prosody tự nhiên
+  ✅ Saved: outputs/test_samples/sample_02.wav (RTF: 0.0198)
+
+[3/3] Text: chúng tôi đang kiểm tra mô hình text to speech
+  ✅ Saved: outputs/test_samples/sample_03.wav (RTF: 0.0212)
+
+================================================================================
+✅ ALL TESTS COMPLETED!
+================================================================================
+Output directory: D:\...\TextToSpeech\outputs\test_samples
+Generated 3 audio samples
+```
+
+**Chỉnh sửa câu test:**
+Mở file `test_checkpoint.py`, sửa:
+```python
+TEST_SENTENCES = [
+    "câu của bạn thứ nhất",
+    "câu của bạn thứ hai",
+    "câu của bạn thứ ba",
+]
+```
+
+---
+
+### CÁCH 2: Sử dụng trong code riêng
+
+```python
+import torch
+from matcha.models.matcha_tts import MatchaTTS
+from matcha.text import text_to_sequence
+from matcha.utils.utils import intersperse
+from matcha.cli import load_vocoder, to_waveform
+import soundfile as sf
+
+# Setup
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+# Load model
+model = MatchaTTS.load_from_checkpoint(
+    "outputs/matcha_prosody/checkpoints/last.ckpt"
+).to(device).eval()
+
+# Load vocoder
+vocoder, denoiser = load_vocoder(
+    "hifigan_univ_v1",
+    "matcha/hifigan/checkpoints/g_02500000",
+    device
+)
+
+# Synthesize
+text = "câu văn bản tiếng việt của bạn"
+x = torch.tensor(
+    intersperse(text_to_sequence(text, ["basic_cleaners_phothong"])[0], 0)
+)[None].to(device)
+x_lengths = torch.tensor([x.shape[-1]], device=device)
+
+with torch.no_grad():
+    output = model.synthesise(x, x_lengths, n_timesteps=10)
+    audio = to_waveform(output["mel"], vocoder, denoiser)
+
+# Save
+sf.write("my_output.wav", audio.cpu().numpy(), 22050, "PCM_24")
+print(f"RTF: {output['rtf']:.4f}")
 ```
 
 ---

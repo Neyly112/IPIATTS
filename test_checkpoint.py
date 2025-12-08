@@ -1,5 +1,8 @@
+"""
+Test Checkpoint Script - Kiểm tra model đã train
+Tự động load checkpoint mới nhất và tạo audio mẫu
+"""
 from pathlib import Path
-
 import argparse
 import soundfile as sf
 from matcha.cli import load_vocoder, to_waveform
@@ -8,131 +11,122 @@ from matcha.text import text_to_sequence
 from matcha.models.matcha_tts import MatchaTTS
 import torch
 
-# Load model (prosody tự động được bật)
+
+# Configuration
 CHECKPOINT_ROOT = Path("outputs/matcha_prosody/checkpoints")
-TARGET_CHECKPOINT = CHECKPOINT_ROOT / \
-    "matcha-prosody-epoch=001-loss" / "val_epoch=3.954.ckpt"
-VOCODER_CHECKPOINT = Path(
-     "matcha/hifigan/checkpoints/g_02500000"
-)
+VOCODER_CHECKPOINT = Path("matcha/hifigan/checkpoints/g_02500000")
+OUTPUT_DIR = Path("outputs/test_samples")
+
+# Test sentences
+TEST_SENTENCES = [
+    "xin chào, hôm nay tôi học về trí tuệ nhân tạo",
+    "đây là giọng nói tiếng việt với prosody tự nhiên",
+    "chúng tôi đang kiểm tra mô hình text to speech",
+]
 
 
-def resolve_checkpoint(preferred: Path) -> Path:
-    if preferred.exists():
-        return preferred
-    last_ckpt = CHECKPOINT_ROOT / "last.ckpt"
+def resolve_checkpoint(checkpoint_root: Path) -> Path:
+    """Tự động tìm checkpoint tốt nhất hoặc mới nhất"""
+    # Tìm checkpoint có val_loss thấp nhất
+    checkpoints = sorted(
+        checkpoint_root.glob("matcha-prosody-epoch=*-val_loss=*.ckpt"),
+        key=lambda p: float(p.stem.split("val_loss=")[-1])
+    )
+    if checkpoints:
+        print(f"[INFO] Found best checkpoint: {checkpoints[0].name}")
+        return checkpoints[0]
+    
+    # Fallback: last.ckpt
+    last_ckpt = checkpoint_root / "last.ckpt"
     if last_ckpt.exists():
+        print(f"[INFO] Using last checkpoint: {last_ckpt.name}")
         return last_ckpt
-    available = sorted(p for p in CHECKPOINT_ROOT.rglob("*.ckpt"))
+    
+    # Không tìm thấy gì
+    available = list(checkpoint_root.rglob("*.ckpt"))
     raise FileNotFoundError(
-        f"no checkpoint found under {CHECKPOINT_ROOT}; tried {preferred} and {last_ckpt}, "
-        f"available: {[p.name for p in available]}"
+        f"No checkpoint found in {checkpoint_root}\n"
+        f"Available: {[p.name for p in available]}"
     )
 
 
-checkpoint_path = resolve_checkpoint(TARGET_CHECKPOINT)
-
-
-def load_checkpoint(path: Path) -> MatchaTTS:
+def load_checkpoint(path: Path, device: torch.device) -> MatchaTTS:
+    """Load model từ checkpoint"""
+    print(f"[LOADING] Checkpoint: {path}")
     with torch.serialization.safe_globals([argparse.Namespace]):
-        return MatchaTTS.load_from_checkpoint(path, weights_only=False)
+        model = MatchaTTS.load_from_checkpoint(path, weights_only=False)
+    model.eval()
+    model = model.to(device)
+    return model
 
 
-model = load_checkpoint(checkpoint_path)
-model.eval()
-
-# Chuyển sang GPU nếu có
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-model = model.to(device)
-
-print("✅ Model loaded!")
-
-
-# BƯỚC 2: Chuẩn bị text input
-
-
-# Text tiếng Việt
-text = "xin chào, hôm nay tôi học về trí tuệ nhân tạo"
-
-# Convert text → phoneme IDs
-x = torch.tensor(
-    intersperse(text_to_sequence(text, ["basic_cleaners_phothong"])[0], 0)
-)[None].to(device)
-
-x_lengths = torch.tensor([x.shape[-1]], device=device)
-
-print(f"Input shape: {x.shape}")
-
-
-# BƯỚC 3: Synthesize mel-spectrogram
-
-with torch.no_grad():
-    output = model.synthesise(
-        x,
-        x_lengths,
-        n_timesteps=10,      # Số ODE steps (10-50, càng nhiều càng chất lượng)
-        temperature=0.667,    # Sampling temperature
-        length_scale=1.0,     # Speaking rate (>1 = chậm, <1 = nhanh)
-    )
-
-mel = output["mel"]           # Mel-spectrogram
-mel_lengths = output["mel_lengths"]
-rtf = output["rtf"]           # Real-time factor
-
-print(f"Mel shape: {mel.shape}")
-print(f"RTF: {rtf:.4f}")
-
-
-# BƯỚC 4: Convert mel → audio (với HiFi-GAN vocoder)
-
-
-# Load vocoder
-vocoder, denoiser = load_vocoder(
-    "hifigan_univ_v1",
-    VOCODER_CHECKPOINT,
-    device
-)
-
-# Convert mel → waveform
-audio = to_waveform(mel, vocoder, denoiser)
-
-# Lưu file
-sf.write("output.wav", audio.cpu().numpy(), 22050, "PCM_24")
-print("✅ Đã lưu: output.wav")
-
-
-# BƯỚC 5: Script hoàn chỉnh
-
-
-"""
-Synthesis script - Sử dụng Matcha-TTS với Prosody
-"""
-
-# 1. Setup
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-# 2. Load model
-model = load_checkpoint(checkpoint_path).to(device).eval()
-
-# 3. Load vocoder
-vocoder, denoiser = load_vocoder(
-    "hifigan_univ_v1",
-    VOCODER_CHECKPOINT,
-    device
-)
-
-# 4. Synthesize
-text = "xin chào, đây là giọng nói tiếng việt với prosody tự nhiên"
-
-x = torch.tensor(
-    intersperse(text_to_sequence(text, ["basic_cleaners_phothong"])[0], 0)
-)[None].to(device)
-x_lengths = torch.tensor([x.shape[-1]], device=device)
-
-with torch.no_grad():
-    output = model.synthesise(x, x_lengths, n_timesteps=10)
+def synthesize_text(model: MatchaTTS, vocoder, denoiser, text: str, device: torch.device):
+    """Synthesize audio từ text"""
+    # Convert text → phoneme IDs
+    x = torch.tensor(
+        intersperse(text_to_sequence(text, ["basic_cleaners_phothong"])[0], 0)
+    )[None].to(device)
+    x_lengths = torch.tensor([x.shape[-1]], device=device)
+    
+    # Synthesize mel
+    with torch.no_grad():
+        output = model.synthesise(
+            x, x_lengths,
+            n_timesteps=10,
+            temperature=0.667,
+            length_scale=1.0,
+        )
+    
+    # Convert mel → audio
     audio = to_waveform(output["mel"], vocoder, denoiser)
+    
+    return audio.cpu().numpy(), output["rtf"]
 
-# 5. Save
-sf.write("output2.wav", audio.cpu().numpy(), 22050, "PCM_24")
-print(f"✅ Saved: output.wav (RTF: {output['rtf']:.4f})")
+
+def main():
+    print("=" * 80)
+    print("MATCHA-TTS CHECKPOINT TESTING")
+    print("=" * 80)
+    
+    # Setup
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"[DEVICE] Using: {device}")
+    
+    # Load checkpoint
+    checkpoint_path = resolve_checkpoint(CHECKPOINT_ROOT)
+    model = load_checkpoint(checkpoint_path, device)
+    print("✅ Model loaded successfully!")
+    
+    # Load vocoder
+    print(f"[LOADING] Vocoder: {VOCODER_CHECKPOINT}")
+    vocoder, denoiser = load_vocoder("hifigan_univ_v1", VOCODER_CHECKPOINT, device)
+    print("✅ Vocoder loaded successfully!")
+    
+    # Create output directory
+    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    
+    # Synthesize test sentences
+    print("\n" + "=" * 80)
+    print("GENERATING TEST SAMPLES")
+    print("=" * 80)
+    
+    for i, text in enumerate(TEST_SENTENCES, 1):
+        print(f"\n[{i}/{len(TEST_SENTENCES)}] Text: {text}")
+        
+        audio, rtf = synthesize_text(model, vocoder, denoiser, text, device)
+        
+        # Save audio
+        output_path = OUTPUT_DIR / f"sample_{i:02d}.wav"
+        sf.write(output_path, audio, 22050, "PCM_24")
+        
+        print(f"  ✅ Saved: {output_path} (RTF: {rtf:.4f})")
+    
+    print("\n" + "=" * 80)
+    print("✅ ALL TESTS COMPLETED!")
+    print("=" * 80)
+    print(f"Output directory: {OUTPUT_DIR.absolute()}")
+    print(f"Generated {len(TEST_SENTENCES)} audio samples")
+
+
+if __name__ == "__main__":
+    main()

@@ -21,15 +21,18 @@
 1. Đặt audio gốc vào: data/raw/
                 ↓
 2. Chạy: run_full_pipeline.bat
+   - Tạo venv + cài dependencies
    - Remove silence (VAD)
    - Transcribe với Whisper
    - Cắt thành từng câu
    - Chuẩn hóa + IPA phonemes
    - Chia train/val/test
+   - Generate data statistics
                 ↓
-3. Kiểm tra: python scripts\check_data.py
+3. Auto training: python train_matcha_prosody.py
                 ↓
-4. Training: python train_matcha_prosody.py
+4. Auto testing: python test_checkpoint.py
+   → Tạo audio mẫu trong outputs/test_samples/
 ```
 
 ---
