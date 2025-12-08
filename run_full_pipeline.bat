@@ -33,6 +33,21 @@ call venv\Scripts\activate.bat
 
 echo.
 echo ========================================
+echo RESOURCE ESTIMATION
+echo ========================================
+echo Analyzing system requirements...
+echo.
+python estimate_resources.py
+if errorlevel 1 (
+    echo [WARNING] Resource estimation failed, continuing anyway...
+) else (
+    echo.
+    echo Press any key to continue with the pipeline, or Ctrl+C to cancel...
+    pause >nul
+)
+
+echo.
+echo ========================================
 echo CHECKING SYSTEM REQUIREMENTS
 echo ========================================
 

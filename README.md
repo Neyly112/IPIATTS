@@ -18,20 +18,57 @@ Hướng dẫn đầy đủ từ A-Z: Cài đặt môi trường → Chuẩn b�
 
 ## ⚙️ YÊU CẦU HỆ THỐNG
 
+### 📊 Ước tính tài nguyên cần thiết
+
+Trước khi bắt đầu, bạn có thể ước tính tài nguyên sẽ cần:
+
+```cmd
+python estimate_resources.py
+```
+
+Script này sẽ phân tích:
+- 📁 Dung lượng ổ cứng cần (data + checkpoints)
+- 🧠 RAM cần trong quá trình xử lý
+- 🎮 VRAM GPU cần để training
+- ⏱️ Thời gian dự kiến
+
+**Output mẫu:**
+```
+📁 AUDIO DATA ANALYSIS
+Raw audio files: 150 files, 2.5 GB
+
+🔄 DATA PROCESSING REQUIREMENTS
+Estimated segments: ~750 clips
+Disk Space: 8.5 GB recommended
+RAM: 5.2 GB recommended
+
+🚀 TRAINING REQUIREMENTS
+Model: 198M params (63.2M trainable)
+GPU VRAM: 3.8 GB total
+Minimum GPU: 4GB (GTX 1050)
+Recommended GPU: 6GB+ (RTX 3060)
+System RAM: 8.5 GB recommended
+
+💾 CHECKPOINT STORAGE: 3.2 GB
+```
+
+Report chi tiết được lưu vào `resource_estimation.json`
+
 ### Phần cứng tối thiểu
 - **CPU**: 4 cores trở lên
 - **RAM**: 16GB
 - **GPU**: NVIDIA GPU với CUDA (khuyến nghị)
-  - GTX 1660 (6GB VRAM) - Tối thiểu
-  - RTX 3060 (12GB VRAM) - Khuyến nghị
-  - RTX 4090 (24GB VRAM) - Tối ưu
-- **Ổ cứng**: 50GB trống
+  - GTX 1050 (4GB VRAM) - Tối thiểu (batch_size=1)
+  - RTX 3060 (6GB VRAM) - Khuyến nghị (batch_size=2-4)
+  - RTX 4090 (24GB VRAM) - Tối ưu (batch_size=8+)
+- **Ổ cứng**: 50GB+ trống (tùy dataset size)
 
 ### Phần mềm
 - **OS**: Windows 10/11, Linux, macOS
-- **Python**: 3.8 - 3.11 (khuyến nghị 3.11)
+- **Python**: 3.8 - 3.13 (khuyến nghị 3.11)
 - **CUDA**: 11.8 hoặc 12.1 (nếu dùng GPU)
 - **Git**: Để clone repository
+- **eSpeak-NG**: Cho phonemizer (tự động cài bởi pipeline)
 
 ---
 
