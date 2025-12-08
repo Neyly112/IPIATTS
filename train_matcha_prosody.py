@@ -35,10 +35,11 @@ CONFIG = {
     "prosody_dim": 256,
 
     # Training hyperparameters
-    "batch_size": 4,
+    "batch_size": 1,  # Giảm xuống 1 cho GPU 4GB
     "learning_rate": 1e-4,
     "max_epochs": 2,
     "num_workers": 0,  # Số worker cho DataLoader
+    "accumulate_grad_batches": 4,  # Gradient accumulation = effective batch_size 4
 
     # GPU/CPU
     "accelerator": "gpu",  # "gpu" hoặc "cpu"
@@ -273,6 +274,7 @@ def train(config):
         log_every_n_steps=10,
         val_check_interval=1.0,
         precision="16-mixed" if config["accelerator"] == "gpu" else "32",
+        accumulate_grad_batches=config.get("accumulate_grad_batches", 1),  # Gradient accumulation
     )
 
     # 6. Start Training

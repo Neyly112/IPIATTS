@@ -135,12 +135,19 @@ echo ========================================
 echo Input:  data/raw/*.mp3
 echo Output: data/vad/*.wav
 echo.
-python scripts\remove_silence.py
-if errorlevel 1 (
-    echo [ERROR] Step 1 failed!
-    exit /b 1
+
+REM Check if VAD already done
+if exist "data\vad\*.wav" (
+    echo [SKIP] VAD files already exist in data\vad\
+    echo [INFO] Delete data\vad\ to reprocess
+) else (
+    python scripts\remove_silence.py
+    if errorlevel 1 (
+        echo [ERROR] Step 1 failed!
+        exit /b 1
+    )
+    echo [SUCCESS] Step 1 completed!
 )
-echo [SUCCESS] Step 1 completed!
 echo.
 
 echo ========================================
@@ -149,25 +156,39 @@ echo ========================================
 echo Input:  data/vad/*.wav
 echo Output: data/subs/*.wav + _all.txt
 echo.
-echo WARNING: This step will take a long time (30-60 min)
-python scripts\transcribe_cut.py
-if errorlevel 1 (
-    echo [ERROR] Step 2 failed!
-    exit /b 1
+
+REM Check if transcription already done
+if exist "data\99-audio-text-file-list\_all.txt" (
+    echo [SKIP] Transcription file _all.txt already exists
+    echo [INFO] Delete data\99-audio-text-file-list\_all.txt to reprocess
+) else (
+    echo WARNING: This step will take a long time (30-60 min)
+    python scripts\transcribe_cut.py
+    if errorlevel 1 (
+        echo [ERROR] Step 2 failed!
+        exit /b 1
+    )
+    echo [SUCCESS] Step 2 completed!
 )
-echo [SUCCESS] Step 2 completed!
 echo.
 
 echo ========================================
 echo STEP 3: PREPARE FOR CLEANING
 echo ========================================
 echo Copying transcription file...
-copy data\99-audio-text-file-list\_all.txt data\99-audio-text-file-list\_all_corrected.txt >nul
-if errorlevel 1 (
-    echo [ERROR] Step 3 failed!
-    exit /b 1
+
+REM Check if corrected file already exists
+if exist "data\99-audio-text-file-list\_all_corrected.txt" (
+    echo [SKIP] _all_corrected.txt already exists
+    echo [INFO] Delete it to recreate from _all.txt
+) else (
+    copy data\99-audio-text-file-list\_all.txt data\99-audio-text-file-list\_all_corrected.txt >nul
+    if errorlevel 1 (
+        echo [ERROR] Step 3 failed!
+        exit /b 1
+    )
+    echo [SUCCESS] Step 3 completed!
 )
-echo [SUCCESS] Step 3 completed!
 echo.
 echo NOTE: If you want to run spelling correction with PhoGPT:
 echo   python scripts\correct_spelling_mistakes.py
@@ -181,12 +202,19 @@ echo Input:  _all_corrected.txt
 echo Output: _all_normal_ipa.txt
 echo (This script also embeds IPA so later splits will include phonemes.)
 echo.
-python scripts\cleaner.py
-if errorlevel 1 (
-    echo [ERROR] Step 4 failed!
-    exit /b 1
+
+REM Check if normalization already done
+if exist "data\99-audio-text-file-list\_all_normal_ipa.txt" (
+    echo [SKIP] _all_normal_ipa.txt already exists
+    echo [INFO] Delete it to reprocess normalization
+) else (
+    python scripts\cleaner.py
+    if errorlevel 1 (
+        echo [ERROR] Step 4 failed!
+        exit /b 1
+    )
+    echo [SUCCESS] Step 4 completed!
 )
-echo [SUCCESS] Step 4 completed!
 echo.
 
 echo ========================================
@@ -195,12 +223,19 @@ echo ========================================
 echo Input:  _all_normal_ipa.txt
 echo Output: audio_text_*.txt and .txt.cleaned with audio|text|ipa
 echo.
-python scripts\split.py
-if errorlevel 1 (
-    echo [ERROR] Step 5 failed!
-    exit /b 1
+
+REM Check if split already done
+if exist "data\99-audio-text-file-list\audio_text_train.txt.cleaned" (
+    echo [SKIP] Split files already exist
+    echo [INFO] Delete audio_text_*.txt.cleaned to resplit
+) else (
+    python scripts\split.py
+    if errorlevel 1 (
+        echo [ERROR] Step 5 failed!
+        exit /b 1
+    )
+    echo [SUCCESS] Step 5 completed!
 )
-echo [SUCCESS] Step 5 completed!
 echo.
 
 echo ========================================
@@ -215,11 +250,18 @@ echo ========================================
 echo STEP 6.5: GENERATE DATA STATISTICS
 echo ========================================
 echo Calculating dataset statistics (mean/std for mel normalization^)...
-python matcha\utils\generate_data_statistics.py --filelist data\99-audio-text-file-list\audio_text_train.txt.cleaned
-if errorlevel 1 (
-    echo [WARNING] Statistics generation failed - will use default values
+
+REM Check if statistics already generated
+if exist "data_statistics.json" (
+    echo [SKIP] data_statistics.json already exists
+    echo [INFO] Delete it to regenerate
 ) else (
-    echo [SUCCESS] Statistics saved!
+    python matcha\utils\generate_data_statistics.py --filelist data\99-audio-text-file-list\audio_text_train.txt.cleaned
+    if errorlevel 1 (
+        echo [WARNING] Statistics generation failed - will use default values
+    ) else (
+        echo [SUCCESS] Statistics saved!
+    )
 )
 echo.
 
@@ -234,12 +276,21 @@ echo ========================================
 echo Training Matcha-TTS with Vietnamese Prosody...
 echo This will take several hours/days depending on GPU.
 echo.
-python train_matcha_prosody.py
-if errorlevel 1 (
-    echo [ERROR] Training failed!
-    exit /b 1
+
+REM Check if checkpoint already exists
+if exist "outputs\matcha_prosody\checkpoints\last.ckpt" (
+    echo [SKIP] Training checkpoint already exists
+    echo [INFO] To resume training, run: python train_matcha_prosody.py
+    echo [INFO] To restart training, delete outputs\matcha_prosody\
+    echo.
+) else (
+    python train_matcha_prosody.py
+    if errorlevel 1 (
+        echo [ERROR] Training failed!
+        exit /b 1
+    )
+    echo [SUCCESS] Training completed!
 )
-echo [SUCCESS] Training completed!
 echo.
 
 echo ========================================
@@ -247,12 +298,20 @@ echo STEP 8: TEST CHECKPOINT
 echo ========================================
 echo Testing trained model checkpoint...
 echo.
-python test_checkpoint.py
-if errorlevel 1 (
-    echo [ERROR] Testing failed!
-    exit /b 1
+
+REM Check if test samples already generated
+if exist "outputs\test_samples\sample_01.wav" (
+    echo [SKIP] Test samples already exist in outputs\test_samples\
+    echo [INFO] Delete them to regenerate
+    echo.
+) else (
+    python test_checkpoint.py
+    if errorlevel 1 (
+        echo [ERROR] Testing failed!
+        exit /b 1
+    )
+    echo [SUCCESS] Testing completed!
 )
-echo [SUCCESS] Testing completed!
 echo.
 
 echo ========================================
