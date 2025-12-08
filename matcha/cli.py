@@ -3,6 +3,9 @@ import datetime as dt
 import os
 import warnings
 from pathlib import Path
+import importlib
+import pickle
+import re
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -23,20 +26,24 @@ MATCHA_URLS = {
 }
 
 VOCODER_URLS = {
-    "hifigan_T2_v1": "https://github.com/shivammehta25/Matcha-TTS-checkpoints/releases/download/v1.0/generator_v1",  # Old url: https://drive.google.com/file/d/14NENd4equCBLyyCSke114Mv6YR_j_uFs/view?usp=drive_link
-    "hifigan_univ_v1": "https://github.com/shivammehta25/Matcha-TTS-checkpoints/releases/download/v1.0/g_02500000",  # Old url: https://drive.google.com/file/d/1qpgI41wNXFcH-iKq1Y42JlBC9j0je8PW/view?usp=drive_link
+    # Old url: https://drive.google.com/file/d/14NENd4equCBLyyCSke114Mv6YR_j_uFs/view?usp=drive_link
+    "hifigan_T2_v1": "https://github.com/shivammehta25/Matcha-TTS-checkpoints/releases/download/v1.0/generator_v1",
+    # Old url: https://drive.google.com/file/d/1qpgI41wNXFcH-iKq1Y42JlBC9j0je8PW/view?usp=drive_link
+    "hifigan_univ_v1": "https://github.com/shivammehta25/Matcha-TTS-checkpoints/releases/download/v1.0/g_02500000",
 }
 
 MULTISPEAKER_MODEL = {
     "matcha_vctk": {"vocoder": "hifigan_univ_v1", "speaking_rate": 0.85, "spk": 0, "spk_range": (0, 107)}
 }
 
-SINGLESPEAKER_MODEL = {"matcha_ljspeech": {"vocoder": "hifigan_T2_v1", "speaking_rate": 0.95, "spk": None}}
+SINGLESPEAKER_MODEL = {"matcha_ljspeech": {
+    "vocoder": "hifigan_T2_v1", "speaking_rate": 0.95, "spk": None}}
 
 
 def plot_spectrogram_to_numpy(spectrogram, filename):
     fig, ax = plt.subplots(figsize=(12, 3))
-    im = ax.imshow(spectrogram, aspect="auto", origin="lower", interpolation="none")
+    im = ax.imshow(spectrogram, aspect="auto",
+                   origin="lower", interpolation="none")
     plt.colorbar(im, ax=ax)
     plt.xlabel("Frames")
     plt.ylabel("Channels")
@@ -81,10 +88,43 @@ def assert_required_models_available(args):
     return {"matcha": model_path, "vocoder": vocoder_path}
 
 
+def _import_global(name: str):
+    if "." not in name:
+        return getattr(importlib.import_module("builtins"), name)
+    module_path, attr = name.rsplit('.', 1)
+    module = importlib.import_module(module_path)
+    return getattr(module, attr)
+
+
+def _load_safe_checkpoint(path, map_location):
+    from omegaconf.base import ContainerMetadata, Metadata
+    from omegaconf.dictconfig import DictConfig
+    from omegaconf.nodes import AnyNode
+    from collections import defaultdict
+    from typing import Any
+
+    safe_globals = {Metadata, DictConfig,
+                    ContainerMetadata, Any, dict, defaultdict, AnyNode}
+    pattern = re.compile(
+        r"Unsupported global: GLOBAL ([\w\.]+) was not an allowed global")
+    while True:
+        try:
+            with torch.serialization.safe_globals(list(safe_globals)):
+                return torch.load(path, map_location=map_location)
+        except pickle.UnpicklingError as err:
+            match = pattern.search(str(err))
+            if not match:
+                raise
+            safe_globals.add(_import_global(match.group(1)))
+
+
 def load_hifigan(checkpoint_path, device):
     h = AttrDict(v1)
     hifigan = HiFiGAN(h).to(device)
-    hifigan.load_state_dict(torch.load(checkpoint_path, map_location=device)["generator"])
+    state = _load_safe_checkpoint(checkpoint_path, device)
+    generator_state = state.get(
+        "generator") or state.get("state_dict") or state
+    hifigan.load_state_dict(generator_state)
     _ = hifigan.eval()
     hifigan.remove_weight_norm()
     return hifigan
@@ -107,7 +147,8 @@ def load_vocoder(vocoder_name, checkpoint_path, device):
 
 def load_matcha(model_name, checkpoint_path, device):
     print(f"[!] Loading {model_name}!")
-    model = MatchaTTS.load_from_checkpoint(checkpoint_path, map_location=device)
+    model = MatchaTTS.load_from_checkpoint(
+        checkpoint_path, map_location=device)
     _ = model.eval()
 
     print(f"[+] {model_name} loaded!")
@@ -115,9 +156,11 @@ def load_matcha(model_name, checkpoint_path, device):
 
 
 def to_waveform(mel, vocoder, denoiser=None, denoiser_strength=0.00025):
-    audio = vocoder(mel).clamp(-1, 1)
+    mel_input = mel.detach().clone()
+    audio = vocoder(mel_input).clamp(-1, 1)
     if denoiser is not None:
-        audio = denoiser(audio.squeeze(), strength=denoiser_strength).cpu().squeeze()
+        audio = denoiser(
+            audio.squeeze(), strength=denoiser_strength).cpu().squeeze()
 
     return audio.cpu().squeeze()
 
@@ -125,7 +168,8 @@ def to_waveform(mel, vocoder, denoiser=None, denoiser_strength=0.00025):
 def save_to_folder(filename: str, output: dict, folder: str):
     folder = Path(folder)
     folder.mkdir(exist_ok=True, parents=True)
-    plot_spectrogram_to_numpy(np.array(output["mel"].squeeze().float().cpu()), f"{filename}.png")
+    plot_spectrogram_to_numpy(
+        np.array(output["mel"].squeeze().float().cpu()), f"{filename}.png")
     np.save(folder / f"{filename}", output["mel"].cpu().numpy())
     sf.write(folder / f"{filename}.wav", output["waveform"], 22050, "PCM_24")
     return folder.resolve() / f"{filename}.wav"
@@ -231,8 +275,10 @@ def cli():
         help="Vocoder to use (default: will use the one suggested with the pretrained model))",
         choices=VOCODER_URLS.keys(),
     )
-    parser.add_argument("--text", type=str, default=None, help="Text to synthesize")
-    parser.add_argument("--file", type=str, default=None, help="Text file to synthesize")
+    parser.add_argument("--text", type=str, default=None,
+                        help="Text to synthesize")
+    parser.add_argument("--file", type=str, default=None,
+                        help="Text file to synthesize")
     parser.add_argument("--spk", type=int, default=None, help="Speaker ID")
     parser.add_argument(
         "--temperature",
@@ -246,8 +292,10 @@ def cli():
         default=None,
         help="change the speaking rate, a higher value means slower speaking rate (default: 1.0)",
     )
-    parser.add_argument("--steps", type=int, default=10, help="Number of ODE steps  (default: 10)")
-    parser.add_argument("--cpu", action="store_true", help="Use CPU for inference (default: use GPU if available)")
+    parser.add_argument("--steps", type=int, default=10,
+                        help="Number of ODE steps  (default: 10)")
+    parser.add_argument("--cpu", action="store_true",
+                        help="Use CPU for inference (default: use GPU if available)")
     parser.add_argument(
         "--denoiser_strength",
         type=float,
@@ -260,7 +308,8 @@ def cli():
         default=os.getcwd(),
         help="Output folder to save results (default: current dir)",
     )
-    parser.add_argument("--batched", action="store_true", help="Batched inference (default: False)")
+    parser.add_argument("--batched", action="store_true",
+                        help="Batched inference (default: False)")
     parser.add_argument(
         "--batch_size", type=int, default=32, help="Batch size only useful when --batched (default: 32)"
     )
@@ -282,7 +331,8 @@ def cli():
 
     texts = get_texts(args)
 
-    spk = torch.tensor([args.spk], device=device, dtype=torch.long) if args.spk is not None else None
+    spk = torch.tensor([args.spk], device=device,
+                       dtype=torch.long) if args.spk is not None else None
     if len(texts) == 1 or not args.batched:
         unbatched_synthesis(args, device, model, vocoder, denoiser, texts, spk)
     else:
@@ -316,7 +366,8 @@ def batched_collate_fn(batch):
 def batched_synthesis(args, device, model, vocoder, denoiser, texts, spk):
     total_rtf = []
     total_rtf_w = []
-    processed_text = [process_text(i, text, "cpu") for i, text in enumerate(texts)]
+    processed_text = [process_text(i, text, "cpu")
+                      for i, text in enumerate(texts)]
     dataloader = torch.utils.data.DataLoader(
         BatchedSynthesisDataset(processed_text),
         batch_size=args.batch_size,
@@ -336,7 +387,8 @@ def batched_synthesis(args, device, model, vocoder, denoiser, texts, spk):
             length_scale=args.speaking_rate,
         )
 
-        output["waveform"] = to_waveform(output["mel"], vocoder, denoiser, args.denoiser_strength)
+        output["waveform"] = to_waveform(
+            output["mel"], vocoder, denoiser, args.denoiser_strength)
         t = (dt.datetime.now() - start_t).total_seconds()
         rtf_w = t * 22050 / (output["waveform"].shape[-1])
         print(f"[🍵-Batch: {i}] Matcha-TTS RTF: {output['rtf']:.4f}")
@@ -346,13 +398,16 @@ def batched_synthesis(args, device, model, vocoder, denoiser, texts, spk):
         for j in range(output["mel"].shape[0]):
             base_name = f"utterance_{j:03d}_speaker_{args.spk:03d}" if args.spk is not None else f"utterance_{j:03d}"
             length = output["mel_lengths"][j]
-            new_dict = {"mel": output["mel"][j][:, :length], "waveform": output["waveform"][j][: length * 256]}
+            new_dict = {"mel": output["mel"][j][:, :length],
+                        "waveform": output["waveform"][j][: length * 256]}
             location = save_to_folder(base_name, new_dict, args.output_folder)
             print(f"[🍵-{j}] Waveform saved: {location}")
 
     print("".join(["="] * 100))
-    print(f"[🍵] Average Matcha-TTS RTF: {np.mean(total_rtf):.4f} ± {np.std(total_rtf)}")
-    print(f"[🍵] Average Matcha-TTS + VOCODER RTF: {np.mean(total_rtf_w):.4f} ± {np.std(total_rtf_w)}")
+    print(
+        f"[🍵] Average Matcha-TTS RTF: {np.mean(total_rtf):.4f} ± {np.std(total_rtf)}")
+    print(
+        f"[🍵] Average Matcha-TTS + VOCODER RTF: {np.mean(total_rtf_w):.4f} ± {np.std(total_rtf_w)}")
     print("[🍵] Enjoy the freshly whisked 🍵 Matcha-TTS!")
 
 
@@ -377,7 +432,8 @@ def unbatched_synthesis(args, device, model, vocoder, denoiser, texts, spk):
             spks=spk,
             length_scale=args.speaking_rate,
         )
-        output["waveform"] = to_waveform(output["mel"], vocoder, denoiser, args.denoiser_strength)
+        output["waveform"] = to_waveform(
+            output["mel"], vocoder, denoiser, args.denoiser_strength)
         # RTF with HiFiGAN
         t = (dt.datetime.now() - start_t).total_seconds()
         rtf_w = t * 22050 / (output["waveform"].shape[-1])
@@ -390,8 +446,10 @@ def unbatched_synthesis(args, device, model, vocoder, denoiser, texts, spk):
         print(f"[+] Waveform saved: {location}")
 
     print("".join(["="] * 100))
-    print(f"[🍵] Average Matcha-TTS RTF: {np.mean(total_rtf):.4f} ± {np.std(total_rtf)}")
-    print(f"[🍵] Average Matcha-TTS + VOCODER RTF: {np.mean(total_rtf_w):.4f} ± {np.std(total_rtf_w)}")
+    print(
+        f"[🍵] Average Matcha-TTS RTF: {np.mean(total_rtf):.4f} ± {np.std(total_rtf)}")
+    print(
+        f"[🍵] Average Matcha-TTS + VOCODER RTF: {np.mean(total_rtf_w):.4f} ± {np.std(total_rtf_w)}")
     print("[🍵] Enjoy the freshly whisked 🍵 Matcha-TTS!")
 
 

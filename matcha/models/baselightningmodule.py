@@ -24,11 +24,15 @@ class BaseLightningClass(LightningModule, ABC):
                 "mel_std": 1.0,
             }
 
-        self.register_buffer("mel_mean", torch.tensor(data_statistics["mel_mean"]))
-        self.register_buffer("mel_std", torch.tensor(data_statistics["mel_std"]))
+        self.register_buffer("mel_mean", torch.tensor(
+            data_statistics["mel_mean"]))
+        self.register_buffer("mel_std", torch.tensor(
+            data_statistics["mel_std"]))
 
     def configure_optimizers(self) -> Any:
-        optimizer = self.hparams.optimizer(params=self.parameters())
+        optimizer_cls = self.hparams.optimizer or torch.optim.Adam
+        optimizer_kwargs = getattr(self.hparams, "optimizer_kwargs", {}) or {}
+        optimizer = optimizer_cls(params=self.parameters(), **optimizer_kwargs)
         if self.hparams.scheduler not in (None, {}):
             scheduler_args = {}
             # Manage last epoch for exponential schedulers
@@ -57,6 +61,7 @@ class BaseLightningClass(LightningModule, ABC):
         x, x_lengths = batch["x"], batch["x_lengths"]
         y, y_lengths = batch["y"], batch["y_lengths"]
         spks = batch["spks"]
+        raw_texts = batch.get("raw_texts")
 
         dur_loss, prior_loss, diff_loss, *_ = self(
             x=x,
@@ -66,6 +71,7 @@ class BaseLightningClass(LightningModule, ABC):
             spks=spks,
             out_size=self.out_size,
             durations=batch["durations"],
+            raw_texts=raw_texts,
         )
         return {
             "dur_loss": dur_loss,
@@ -170,7 +176,8 @@ class BaseLightningClass(LightningModule, ABC):
             one_batch = next(iter(self.trainer.val_dataloaders))
             if self.current_epoch == 0:
                 log.debug("Plotting original samples")
-                for i in range(2):
+                available = one_batch["y"].shape[0]
+                for i in range(min(available, 2)):
                     y = one_batch["y"][i].unsqueeze(0).to(self.device)
                     self.logger.experiment.add_image(
                         f"original/{i}",
@@ -180,11 +187,23 @@ class BaseLightningClass(LightningModule, ABC):
                     )
 
             log.debug("Synthesising...")
-            for i in range(2):
+            available = one_batch["x"].shape[0]
+            for i in range(min(available, 2)):
                 x = one_batch["x"][i].unsqueeze(0).to(self.device)
-                x_lengths = one_batch["x_lengths"][i].unsqueeze(0).to(self.device)
-                spks = one_batch["spks"][i].unsqueeze(0).to(self.device) if one_batch["spks"] is not None else None
-                output = self.synthesise(x[:, :x_lengths], x_lengths, n_timesteps=10, spks=spks)
+                x_lengths = one_batch["x_lengths"][i].unsqueeze(
+                    0).to(self.device)
+                spks = one_batch["spks"][i].unsqueeze(0).to(
+                    self.device) if one_batch["spks"] is not None else None
+                raw_texts = one_batch.get("raw_texts")
+                sample_texts = raw_texts[i: i +
+                                         1] if raw_texts is not None else None
+                output = self.synthesise(
+                    x[:, :x_lengths],
+                    x_lengths,
+                    n_timesteps=10,
+                    spks=spks,
+                    raw_texts=sample_texts,
+                )
                 y_enc, y_dec = output["encoder_outputs"], output["decoder_outputs"]
                 attn = output["attn"]
                 self.logger.experiment.add_image(
@@ -207,4 +226,5 @@ class BaseLightningClass(LightningModule, ABC):
                 )
 
     def on_before_optimizer_step(self, optimizer):
-        self.log_dict({f"grad_norm/{k}": v for k, v in grad_norm(self, norm_type=2).items()})
+        self.log_dict({f"grad_norm/{k}": v for k,
+                      v in grad_norm(self, norm_type=2).items()})

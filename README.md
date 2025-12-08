@@ -463,7 +463,7 @@ import soundfile as sf
 # Load vocoder
 vocoder, denoiser = load_vocoder(
     "hifigan_univ_v1",
-    "path/to/vocoder/g_02500000",
+    "matcha/hifigan/checkpoints/checkpoint_epoch599.ckpt",
     device
 )
 
@@ -499,7 +499,7 @@ model = MatchaTTS.load_from_checkpoint(
 # 3. Load vocoder
 vocoder, denoiser = load_vocoder(
     "hifigan_univ_v1",
-    "path/to/vocoder/g_02500000",
+    "matcha/hifigan/checkpoints/checkpoint_epoch599.ckpt",
     device
 )
 

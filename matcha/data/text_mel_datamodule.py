@@ -5,8 +5,15 @@ from typing import Any, Dict, Optional
 import numpy as np
 import torch
 import torchaudio as ta
+
 from lightning import LightningDataModule
 from torch.utils.data.dataloader import DataLoader
+
+try:
+    ta.set_audio_backend("sox_io")
+except (RuntimeError, AttributeError):
+    # sox_io backend may not be available on every platform; fall back gracefully
+    pass
 
 from matcha.text import text_to_sequence
 from matcha.utils.audio import mel_spectrogram
@@ -42,6 +49,7 @@ class TextMelDataModule(LightningDataModule):
         data_statistics,
         seed,
         load_durations,
+        audio_root=None,
     ):
         super().__init__()
 
@@ -72,6 +80,7 @@ class TextMelDataModule(LightningDataModule):
             self.hparams.data_statistics,
             self.hparams.seed,
             self.hparams.load_durations,
+            audio_root=self.hparams.audio_root,
         )
         self.validset = TextMelDataset(  # pylint: disable=attribute-defined-outside-init
             self.hparams.valid_filelist_path,
@@ -88,6 +97,7 @@ class TextMelDataModule(LightningDataModule):
             self.hparams.data_statistics,
             self.hparams.seed,
             self.hparams.load_durations,
+            audio_root=self.hparams.audio_root,
         )
 
     def train_dataloader(self):
@@ -140,8 +150,9 @@ class TextMelDataset(torch.utils.data.Dataset):
         data_parameters=None,
         seed=None,
         load_durations=False,
+        audio_root=None,
     ):
-        self.filepaths_and_text = parse_filelist(filelist_path)
+        parsed = parse_filelist(filelist_path)
         self.n_spks = n_spks
         self.cleaners = cleaners
         self.add_blank = add_blank
@@ -153,12 +164,16 @@ class TextMelDataset(torch.utils.data.Dataset):
         self.f_min = f_min
         self.f_max = f_max
         self.load_durations = load_durations
+        self.filelist_path = Path(filelist_path)
+        self.audio_root = Path(audio_root) if audio_root else None
+        self.filelist_dir = self.filelist_path.parent
 
         if data_parameters is not None:
             self.data_parameters = data_parameters
         else:
             self.data_parameters = {"mel_mean": 0, "mel_std": 1}
         random.seed(seed)
+        self.filepaths_and_text = self._filter_missing(parsed)
         random.shuffle(self.filepaths_and_text)
 
     def get_datapoint(self, filepath_and_text):
@@ -197,7 +212,24 @@ class TextMelDataset(torch.utils.data.Dataset):
         return durs
 
     def get_mel(self, filepath):
-        audio, sr = ta.load(filepath)
+        target_path = Path(filepath)
+        candidate_paths = []
+        if target_path.is_absolute():
+            candidate_paths.append(target_path)
+        else:
+            if self.audio_root is not None:
+                candidate_paths.append(self.audio_root / target_path)
+            candidate_paths.append(self.filelist_dir / target_path)
+            candidate_paths.append(target_path)
+
+        audio_path = self._resolve_audio_path(filepath, candidate_paths)
+        if audio_path is None:
+            tried = ", ".join(str(p) for p in candidate_paths)
+            raise FileNotFoundError(
+                "Unable to locate audio file '{0}'. Tried: {1}".format(filepath, tried)
+            )
+
+        audio, sr = ta.load(audio_path)
         assert sr == self.sample_rate
         mel = mel_spectrogram(
             audio,
@@ -212,6 +244,44 @@ class TextMelDataset(torch.utils.data.Dataset):
         ).squeeze()
         mel = normalize(mel, self.data_parameters["mel_mean"], self.data_parameters["mel_std"])
         return mel
+
+    def _build_candidate_paths(self, filepath: str) -> list[Path]:
+        target_path = Path(filepath)
+        candidates = []
+        if target_path.is_absolute():
+            candidates.append(target_path)
+        else:
+            if self.audio_root is not None:
+                candidates.append(self.audio_root / target_path)
+            candidates.append(self.filelist_dir / target_path)
+            candidates.append(target_path)
+        return candidates
+
+    def _resolve_audio_path(self, filepath: str, candidate_paths=None) -> Path | None:
+        if candidate_paths is None:
+            candidate_paths = self._build_candidate_paths(filepath)
+        for candidate in candidate_paths:
+            if candidate.exists():
+                return candidate
+        return None
+
+    def _filter_missing(self, records: list[list[str]]) -> list[list[str]]:
+        valid = []
+        missing = []
+        for entry in records:
+            filepath = entry[0]
+            if self._resolve_audio_path(filepath) is not None:
+                valid.append(entry)
+            else:
+                missing.append(filepath)
+        if missing:
+            print(
+                f"[WARN] Skipping {len(missing)} entries from '{self.filelist_dir.name}' because audio files" \
+                f" were not found: {', '.join(missing[:5])}{'...' if len(missing) > 5 else ''}"
+            )
+            if len(missing) == len(records):
+                raise FileNotFoundError(f"No valid audio files found for dataset at {self.filelist_path}")
+        return valid
 
     def get_text(self, text, add_blank=True):
         text_norm, cleaned_text = text_to_sequence(text, self.cleaners)
@@ -270,5 +340,6 @@ class TextMelBatchCollate:
             "spks": spks,
             "filepaths": filepaths,
             "x_texts": x_texts,
+            "raw_texts": x_texts,
             "durations": durations if not torch.eq(durations, 0).all() else None,
         }

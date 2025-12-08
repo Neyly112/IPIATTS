@@ -1,3 +1,10 @@
+from matcha.utils import pylogger, rich_utils
+from omegaconf import DictConfig
+from matplotlib.backends.backend_agg import FigureCanvasAgg
+import wget
+import torch
+import numpy as np
+import matplotlib.pyplot as plt
 import os
 import sys
 import warnings
@@ -7,13 +14,9 @@ from pathlib import Path
 from typing import Any, Callable, Dict, Tuple
 
 import gdown
-import matplotlib.pyplot as plt
-import numpy as np
-import torch
-import wget
-from omegaconf import DictConfig
+import matplotlib
+matplotlib.use("Agg")
 
-from matcha.utils import pylogger, rich_utils
 
 log = pylogger.get_pylogger(__name__)
 
@@ -136,9 +139,13 @@ def intersperse(lst, item):
 
 
 def save_figure_to_numpy(fig):
-    data = np.fromstring(fig.canvas.tostring_rgb(), dtype=np.uint8, sep="")
-    data = data.reshape(fig.canvas.get_width_height()[::-1] + (3,))
-    return data
+    FigureCanvasAgg(fig)
+    fig.canvas.draw()
+    buf = fig.canvas.buffer_rgba()
+    data = np.frombuffer(buf, dtype=np.uint8)
+    data = data.reshape(fig.canvas.get_width_height()[::-1] + (4,))
+    # drop alpha channel if present
+    return data[..., :3]
 
 
 def plot_tensor(tensor):
@@ -215,7 +222,8 @@ def assert_model_downloaded(checkpoint_path, url, use_wget=True):
     print(f"[-] Model not found at {checkpoint_path}! Will download it")
     checkpoint_path = str(checkpoint_path)
     if not use_wget:
-        gdown.download(url=url, output=checkpoint_path, quiet=False, fuzzy=True)
+        gdown.download(url=url, output=checkpoint_path,
+                       quiet=False, fuzzy=True)
     else:
         wget.download(url=url, out=checkpoint_path)
 
@@ -238,7 +246,8 @@ def get_phoneme_durations(durations, phones):
     assert len(phones) == len(merged_durations)
     assert len(merged_durations) == (len(durations) - 1) // 2
 
-    merged_durations = torch.cumsum(torch.tensor(merged_durations), 0, dtype=torch.long)
+    merged_durations = torch.cumsum(torch.tensor(
+        merged_durations), 0, dtype=torch.long)
     start = torch.tensor(0)
     duration_json = []
     for i, duration in enumerate(merged_durations):

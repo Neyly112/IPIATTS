@@ -3,6 +3,11 @@ REM ========================================
 REM PIPELINE ĐẦY ĐỦ - XỬ LÝ DỮ LIỆU TỪ ĐẦU ĐẾN CUỐI
 REM ========================================
 
+REM Store temp files on D: to avoid C: running out of space
+set "TMP=D:\tmp"
+set "TEMP=D:\tmp"
+if not exist "D:\tmp" mkdir "D:\tmp"
+
 echo.
 echo ========================================
 echo MATCHA-TTS DATA PROCESSING PIPELINE
@@ -76,6 +81,7 @@ echo STEP 4: NORMALIZE ^& ADD IPA PHONEMES
 echo ========================================
 echo Input:  _all_corrected.txt
 echo Output: _all_normal_ipa.txt
+echo (This script also embeds IPA so later splits will include phonemes.)
 echo.
 pause
 python scripts\cleaner.py
@@ -88,10 +94,10 @@ echo [SUCCESS] Step 4 completed!
 echo.
 
 echo ========================================
-echo STEP 5: SPLIT TRAIN/VAL/TEST
+echo STEP 5: SPLIT TRAIN/VAL/TEST (INCLUDES IPA)
 echo ========================================
 echo Input:  _all_normal_ipa.txt
-echo Output: train/val/test splits
+echo Output: audio_text_*.txt and .txt.cleaned with audio|text|ipa
 echo.
 pause
 python scripts\split.py
@@ -107,6 +113,8 @@ echo ========================================
 echo STEP 6: VALIDATE DATA
 echo ========================================
 python scripts\check_data.py --filelist data\99-audio-text-file-list\audio_text_train.txt.cleaned
+python scripts\check_data.py --filelist data\99-audio-text-file-list\audio_text_val.txt.cleaned
+python scripts\check_data.py --filelist data\99-audio-text-file-list\audio_text_test.txt.cleaned
 echo.
 
 echo ========================================

@@ -58,9 +58,17 @@ def transcribe(infile: str) -> list[dict]:
     """
     print(f"Transcribing {os.path.basename(infile)} ...")
     
+    # Load audio using torchaudio (không cần FFmpeg)
+    waveform, sample_rate = torchaudio.load(infile)
+    if waveform.shape[0] > 1:  # Convert to mono
+        waveform = torch.mean(waveform, dim=0, keepdim=True)
+    if sample_rate != 16000:  # Resample to 16kHz
+        waveform = AF.resample(waveform, sample_rate, 16000)
+    audio_np = waveform.squeeze().numpy()
+    
     # Initial transcription with prompt
     result = MODEL.transcribe(
-        infile, 
+        audio_np,  # Pass numpy array thay vì file path
         verbose=False, 
         language="vi",
         initial_prompt="Chính tả tiếng Việt, giọng kể chuyện."
@@ -75,7 +83,7 @@ def transcribe(infile: str) -> list[dict]:
     if all(seg["text"].strip().lower() == HALLUCINATIONS_TEXT for seg in result):
         print("  → Garbage detected, retrying without context...")
         result = MODEL.transcribe(
-            infile, 
+            audio_np,  # Dùng audio_np thay vì infile
             verbose=False, 
             language="vi",
             condition_on_previous_text=False

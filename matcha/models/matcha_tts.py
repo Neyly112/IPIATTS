@@ -56,21 +56,21 @@ class MatchaTTS(BaseLightningClass):  # 🍵
 
         if n_spks > 1:
             self.spk_emb = torch.nn.Embedding(n_spks, spk_emb_dim)
-        
+
         # Prosody analyzer với PhoBERT (luôn bật)
         self.prosody_analyzer = LLMProsodyAnalyzer(
             llm_model_name=llm_model_name,
             prosody_dim=prosody_dim,
-            n_prosody_features=3,
+            n_prosody_features=1,
             freeze_llm=True,
             use_adapter=True,
         )
-        
+
         # Prosody fusion module
         self.prosody_fusion = ProsodyFusion(
-            text_channels=encoder.encoder_params.n_channels,
+            text_channels=encoder.encoder_params.n_feats,
             prosody_channels=prosody_dim,
-            fusion_channels=encoder.encoder_params.n_channels,
+            fusion_channels=encoder.encoder_params.n_feats,
             use_attention=True,
         )
 
@@ -95,7 +95,16 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         self.update_data_statistics(data_statistics)
 
     @torch.inference_mode()
-    def synthesise(self, x, x_lengths, n_timesteps, temperature=1.0, spks=None, length_scale=1.0):
+    def synthesise(
+        self,
+        x,
+        x_lengths,
+        n_timesteps,
+        temperature=1.0,
+        spks=None,
+        length_scale=1.0,
+        raw_texts=None,
+    ):
         """
         Generates mel-spectrogram from text. Returns:
             1. encoder outputs
@@ -136,17 +145,17 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         if self.n_spks > 1:
             # Get speaker embedding
             spks = self.spk_emb(spks.long())
-        
+
         # LLM Prosody Analysis với PhoBERT
         prosody_features, prosody_dict = self.prosody_analyzer(
             text_input=x,
             text_lengths=x_lengths,
-            attention_mask=(x > 0).long(),
+            raw_texts=raw_texts,
         )
 
         # Get encoder_outputs `mu_x` and log-scaled token durations `logw`
         mu_x, logw, x_mask = self.encoder(x, x_lengths, spks)
-        
+
         # Prosody Fusion & Conditioning
         mu_x = self.prosody_fusion(mu_x, prosody_features, x_mask)
 
@@ -157,17 +166,21 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         y_max_length_ = fix_len_compatibility(y_max_length)
 
         # Using obtained durations `w` construct alignment map `attn`
-        y_mask = sequence_mask(y_lengths, y_max_length_).unsqueeze(1).to(x_mask.dtype)
+        y_mask = sequence_mask(
+            y_lengths, y_max_length_).unsqueeze(1).to(x_mask.dtype)
         attn_mask = x_mask.unsqueeze(-1) * y_mask.unsqueeze(2)
-        attn = generate_path(w_ceil.squeeze(1), attn_mask.squeeze(1)).unsqueeze(1)
+        attn = generate_path(w_ceil.squeeze(
+            1), attn_mask.squeeze(1)).unsqueeze(1)
 
         # Align encoded text and get mu_y
-        mu_y = torch.matmul(attn.squeeze(1).transpose(1, 2), mu_x.transpose(1, 2))
+        mu_y = torch.matmul(attn.squeeze(
+            1).transpose(1, 2), mu_x.transpose(1, 2))
         mu_y = mu_y.transpose(1, 2)
         encoder_outputs = mu_y[:, :, :y_max_length]
 
         # Generate sample tracing the probability flow
-        decoder_outputs = self.decoder(mu_y, y_mask, n_timesteps, temperature, spks)
+        decoder_outputs = self.decoder(
+            mu_y, y_mask, n_timesteps, temperature, spks)
         decoder_outputs = decoder_outputs[:, :, :y_max_length]
 
         t = (dt.datetime.now() - t).total_seconds()
@@ -182,7 +195,18 @@ class MatchaTTS(BaseLightningClass):  # 🍵
             "rtf": rtf,
         }
 
-    def forward(self, x, x_lengths, y, y_lengths, spks=None, out_size=None, cond=None, durations=None):
+    def forward(
+        self,
+        x,
+        x_lengths,
+        y,
+        y_lengths,
+        spks=None,
+        out_size=None,
+        cond=None,
+        durations=None,
+        raw_texts=None,
+    ):
         """
         Computes 3 losses:
             1. duration loss: loss between predicted token durations and those extracted by Monotonic Alignment Search (MAS).
@@ -206,20 +230,20 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         if self.n_spks > 1:
             # Get speaker embedding
             spks = self.spk_emb(spks)
-        
+
         # LLM Prosody Analysis với PhoBERT
         prosody_features, prosody_dict = self.prosody_analyzer(
             text_input=x,
             text_lengths=x_lengths,
-            attention_mask=(x > 0).long(),
+            raw_texts=raw_texts,
         )
 
         # Get encoder_outputs `mu_x` and log-scaled token durations `logw`
         mu_x, logw, x_mask = self.encoder(x, x_lengths, spks)
-        
+
         # Prosody Fusion & Conditioning
         mu_x = self.prosody_fusion(mu_x, prosody_features, x_mask)
-        
+
         y_max_length = y.shape[-1]
 
         y_mask = sequence_mask(y_lengths, y_max_length).unsqueeze(1).to(x_mask)
@@ -231,13 +255,17 @@ class MatchaTTS(BaseLightningClass):  # 🍵
             # Use MAS to find most likely alignment `attn` between text and mel-spectrogram
             with torch.no_grad():
                 const = -0.5 * math.log(2 * math.pi) * self.n_feats
-                factor = -0.5 * torch.ones(mu_x.shape, dtype=mu_x.dtype, device=mu_x.device)
+                factor = -0.5 * \
+                    torch.ones(mu_x.shape, dtype=mu_x.dtype,
+                               device=mu_x.device)
                 y_square = torch.matmul(factor.transpose(1, 2), y**2)
-                y_mu_double = torch.matmul(2.0 * (factor * mu_x).transpose(1, 2), y)
+                y_mu_double = torch.matmul(
+                    2.0 * (factor * mu_x).transpose(1, 2), y)
                 mu_square = torch.sum(factor * (mu_x**2), 1).unsqueeze(-1)
                 log_prior = y_square - y_mu_double + mu_square + const
 
-                attn = monotonic_align.maximum_path(log_prior, attn_mask.squeeze(1))
+                attn = monotonic_align.maximum_path(
+                    log_prior, attn_mask.squeeze(1))
                 attn = attn.detach()  # b, t_text, T_mel
 
         # Compute loss between predicted log-scaled durations and those obtained from MAS
@@ -250,16 +278,21 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         #   - Do not need this hack for Matcha-TTS, but it works with it as well
         if not isinstance(out_size, type(None)):
             max_offset = (y_lengths - out_size).clamp(0)
-            offset_ranges = list(zip([0] * max_offset.shape[0], max_offset.cpu().numpy()))
+            offset_ranges = list(
+                zip([0] * max_offset.shape[0], max_offset.cpu().numpy()))
             out_offset = torch.LongTensor(
-                [torch.tensor(random.choice(range(start, end)) if end > start else 0) for start, end in offset_ranges]
+                [torch.tensor(random.choice(range(start, end)) if end >
+                              start else 0) for start, end in offset_ranges]
             ).to(y_lengths)
-            attn_cut = torch.zeros(attn.shape[0], attn.shape[1], out_size, dtype=attn.dtype, device=attn.device)
-            y_cut = torch.zeros(y.shape[0], self.n_feats, out_size, dtype=y.dtype, device=y.device)
+            attn_cut = torch.zeros(
+                attn.shape[0], attn.shape[1], out_size, dtype=attn.dtype, device=attn.device)
+            y_cut = torch.zeros(
+                y.shape[0], self.n_feats, out_size, dtype=y.dtype, device=y.device)
 
             y_cut_lengths = []
             for i, (y_, out_offset_) in enumerate(zip(y, out_offset)):
-                y_cut_length = out_size + (y_lengths[i] - out_size).clamp(None, 0)
+                y_cut_length = out_size + \
+                    (y_lengths[i] - out_size).clamp(None, 0)
                 y_cut_lengths.append(y_cut_length)
                 cut_lower, cut_upper = out_offset_, out_offset_ + y_cut_length
                 y_cut[i, :, :y_cut_length] = y_[:, cut_lower:cut_upper]
@@ -273,14 +306,17 @@ class MatchaTTS(BaseLightningClass):  # 🍵
             y_mask = y_cut_mask
 
         # Align encoded text with mel-spectrogram and get mu_y segment
-        mu_y = torch.matmul(attn.squeeze(1).transpose(1, 2), mu_x.transpose(1, 2))
+        mu_y = torch.matmul(attn.squeeze(
+            1).transpose(1, 2), mu_x.transpose(1, 2))
         mu_y = mu_y.transpose(1, 2)
 
         # Compute loss of the decoder
-        diff_loss, _ = self.decoder.compute_loss(x1=y, mask=y_mask, mu=mu_y, spks=spks, cond=cond)
+        diff_loss, _ = self.decoder.compute_loss(
+            x1=y, mask=y_mask, mu=mu_y, spks=spks, cond=cond)
 
         if self.prior_loss:
-            prior_loss = torch.sum(0.5 * ((y - mu_y) ** 2 + math.log(2 * math.pi)) * y_mask)
+            prior_loss = torch.sum(
+                0.5 * ((y - mu_y) ** 2 + math.log(2 * math.pi)) * y_mask)
             prior_loss = prior_loss / (torch.sum(y_mask) * self.n_feats)
         else:
             prior_loss = 0
