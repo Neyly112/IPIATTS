@@ -65,7 +65,7 @@ def estimate_processing_requirements(audio_size_bytes, file_count):
         },
         'ram': {
             'whisper_model': whisper_ram,
-            'audio_buffers': audio_buffer_ram,
+            'audio_buffer_ram': audio_buffer_ram,
             'peak': peak_processing_ram,
             'recommended': peak_processing_ram * 1.2  # 20% safety margin
         },

@@ -37,7 +37,7 @@ CONFIG = {
     # Training hyperparameters
     "batch_size": 1,  # Giảm xuống 1 cho GPU 4GB
     "learning_rate": 1e-4,
-    "max_epochs": 2,
+    "max_epochs": 10,
     "num_workers": 0,  # Số worker cho DataLoader
     "accumulate_grad_batches": 4,  # Gradient accumulation = effective batch_size 4
 
