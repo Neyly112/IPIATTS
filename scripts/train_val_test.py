@@ -5,9 +5,9 @@ import pandas as pd
 from _constants import AUDIO_TEXT_FILE_LIST_PATH, FIELD_SEP
 
 # 1. Đọc dữ liệu
-TRANSCRIPTION_FILE = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "_all_normal_ipa.txt")
+TRANSCRIPTION_FILE = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "_all_corrected (2).txt")
 # Đảm bảo đọc đủ 3 cột
-DATA = pd.read_csv(TRANSCRIPTION_FILE, sep=FIELD_SEP, names=["audio", "text", "ipa"])
+DATA = pd.read_csv(TRANSCRIPTION_FILE, sep=FIELD_SEP, names=["audio", "text"])
 
 # 2. Trộn dữ liệu (Shuffle)
 RANDOM_STATE = 42
@@ -15,9 +15,9 @@ RANDOM_STATE = 42
 DATA = DATA.sample(frac=1, random_state=RANDOM_STATE).reset_index(drop=True)
 
 # 3. Định nghĩa file đầu ra
-TRAIN_SET_FILE = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "audio_text_train_filelist.txt")
-VAL_SET_FILE   = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "audio_text_val_filelist.txt")
-TEST_SET_FILE  = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "audio_text_test_filelist.txt")
+TRAIN_SET_FILE = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "audio_text_train_filelist2.txt")
+VAL_SET_FILE   = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "audio_text_val_filelist2.txt")
+TEST_SET_FILE  = os.path.join(AUDIO_TEXT_FILE_LIST_PATH, "audio_text_test_filelist2.txt")
 
 # 4. Tính toán tỷ lệ chia
 N = len(DATA) 
@@ -33,13 +33,13 @@ idx_val   = int(N * (TRAIN_SIZE + VAL_SIZE))
 def save_csv(df: pd.DataFrame, filename: str) -> None:
     """
     Lưu file bao gồm cả cột IPA, không tách ra file riêng.
-    Format: audio|text|ipa
+    Format: audio|text
     """
     print(f"Đang lưu {filename} với {len(df)} dòng...")
     # Lưu cả 3 cột vào file chính
     df.to_csv(
         filename, 
-        columns=["audio", "text", "ipa"], 
+        columns=["audio", "text"], 
         sep=FIELD_SEP, 
         index=False, 
         header=False
