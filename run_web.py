@@ -10,10 +10,10 @@ import matplotlib
 matplotlib.use('Agg') 
 
 # --- CẤU HÌNH (SỬA ĐƯỜNG DẪN CỦA BẠN VÀO ĐÂY) ---
-MATCHA_CHECKPOINT = r"D:\Bai Tap\DACNTT\Matcha-TTS_Right\logs\matcha_vi\checkpoints\checkpoint_epoch379_new.ckpt"
+MATCHA_CHECKPOINT = r".\checkpoints\checkpoint_epoch379_new.ckpt"
 os.environ["PHONEMIZER_ESPEAK_LIBRARY"] = r"C:\Program Files\eSpeak NG\libespeak-ng.dll"
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-VOCODER_URL = "D:\Bai Tap\DACNTT\Matcha-TTS_Right\logs\matcha_vi\vocoder\hifigan_univ_v1.pt"
+VOCODER_URL = ".\vocoder\hifigan_univ_v1.pt"
 
 # ==============================================================================
 # 🛑 FIX LỖI BẢO MẬT PYTORCH 2.6
