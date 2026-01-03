@@ -3,7 +3,7 @@ Dự án huấn luyện mô hình Text-to-Speech tiếng Việt sử dụng Matc
 1. Cài đặt môi trường
 Yêu cầu: Python 3.10, cài đặt espeak-ng.
 
-Bash: pip install -r requirements.txt
+    Bash: pip install -r requirements.txt
 
 2. Chuẩn bị dữ liệu
 Audio: File .wav, Mono, Sample rate 22050 Hz.
@@ -21,6 +21,7 @@ Train mới:
 Bash: python matcha/train.py experiment=matcha_vi
 
 Tiếp tục train (Resume):
+
 Bash: python matcha/train.py experiment=matcha_vi ckpt_path="logs/matcha_vi/checkpoints/checkpoint_epoch___.ckpt" (vd: checkpoint_epoch=539.ckpt xóa dấu "=")
 
 4. Sử dụng & Chạy thử (Inference)
