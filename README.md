@@ -20,9 +20,10 @@ Dự án huấn luyện mô hình Text-to-Speech tiếng Việt sử dụng Matc
 
 3. Huấn luyện (Training):
 
-Cấu hình nằm trong configs/experiment/matcha_vi.yaml.
+    Cấu hình nằm trong configs/experiment/matcha_vi.yaml.
 
     Train mới:
+    
     Bash: python matcha/train.py experiment=matcha_vi
 
     Tiếp tục train (Resume):
