@@ -24,7 +24,7 @@ python matcha/train.py experiment=matcha_vi
 
 Tiếp tục train (Resume):
 Bash
-# Thay đường dẫn đến file .ckpt gần nhất của bạn
+Thay đường dẫn đến file .ckpt gần nhất của bạn
 python matcha/train.py experiment=matcha_vi ckpt_path="logs/matcha_vi/checkpoints/checkpoint_epoch___.ckpt" (vd: checkpoint_epoch=539.ckpt xóa dấu "=")
 
 4. Sử dụng & Chạy thử (Inference)
