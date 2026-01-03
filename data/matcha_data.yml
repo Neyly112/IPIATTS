@@ -1,0 +1,32 @@
+task_name: train
+run_name: matcha_vi
+tags:
+- matcha_vi
+train: true
+test: false
+ckpt_path: null
+seed: 1234
+data:
+  _target_: matcha.data.text_mel_datamodule.TextMelDataModule
+  name: matcha_vi
+  train_filelist_path: .../text_train/audio_text_train_filelist.txt
+  valid_filelist_path: .../text_train/audio_text_val_filelist.txt
+  batch_size: 16
+  num_workers: 4
+  pin_memory: true
+  load_durations: false
+  cleaners:
+  - basic_cleaners_phothong
+  add_blank: true
+  n_spks: 1
+  n_fft: 1024
+  n_feats: 80
+  sample_rate: 22050
+  hop_length: 256
+  win_length: 1024
+  f_min: 0
+  f_max: 8000
+  data_statistics:
+    mel_mean: -4.91191291809082 #change
+    mel_std: 2.138288736343384  #change
+  seed: ${seed}

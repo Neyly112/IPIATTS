@@ -1,0 +1,40 @@
+# @package _global_
+
+defaults:
+  - override /data: matcha.yaml
+
+tags: ["matcha"]
+
+run_name: matcha
+
+model:
+  n_vocab: 458  # symbols count in _symbols.py
+ 
+
+trainer:
+  max_epochs: 600
+  check_val_every_n_epoch: 5
+
+# ckpt_path: /checkpoints/checkpoint_epoch___.ckpt
+
+test: False  
+
+extras:
+  ignore_warnings: true
+  enforce_tags: false
+  print_config: false
+
+hydra:
+  run:
+    dir: ${paths.log_dir}/${run_name}
+
+callbacks:
+  model_summary:
+    max_depth: 1
+  model_checkpoint:
+    every_n_epochs: 20
+
+logger:
+  tensorboard:
+    version: mel80band
+    default_hp_metric: false
