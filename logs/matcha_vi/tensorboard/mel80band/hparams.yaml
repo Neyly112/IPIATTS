@@ -1,0 +1,117 @@
+model:
+  _target_: matcha.models.matcha_tts.MatchaTTS
+  n_vocab: 500
+  n_spks: ${data.n_spks}
+  spk_emb_dim: 64
+  n_feats: 80
+  data_statistics: ${data.data_statistics}
+  out_size: null
+  prior_loss: true
+  use_precomputed_durations: ${data.load_durations}
+  encoder:
+    encoder_type: RoPE Encoder
+    encoder_params:
+      n_feats: ${model.n_feats}
+      n_channels: 192
+      filter_channels: 768
+      filter_channels_dp: 256
+      n_heads: 2
+      n_layers: 6
+      kernel_size: 3
+      p_dropout: 0.1
+      spk_emb_dim: 64
+      n_spks: 1
+      prenet: true
+    duration_predictor_params:
+      filter_channels_dp: ${model.encoder.encoder_params.filter_channels_dp}
+      kernel_size: 3
+      p_dropout: ${model.encoder.encoder_params.p_dropout}
+  decoder:
+    channels:
+    - 256
+    - 256
+    dropout: 0.05
+    attention_head_dim: 64
+    n_blocks: 1
+    num_mid_blocks: 2
+    num_heads: 2
+    act_fn: snakebeta
+  cfm:
+    name: CFM
+    solver: euler
+    sigma_min: 0.0001
+  optimizer:
+    _target_: torch.optim.Adam
+    _partial_: true
+    lr: 0.0001
+    weight_decay: 0.0
+model/params/total: 18266017
+model/params/trainable: 18266017
+model/params/non_trainable: 0
+data:
+  _target_: matcha.data.text_mel_datamodule.TextMelDataModule
+  name: matcha_vi
+  train_filelist_path: /kaggle/working/matcha_data_text/text_train/audio_text_train_filelist.txt
+  valid_filelist_path: /kaggle/working/matcha_data_text/text_train/audio_text_val_filelist.txt
+  batch_size: 16
+  num_workers: 4
+  pin_memory: true
+  load_durations: false
+  cleaners:
+  - basic_cleaners_phothong
+  add_blank: true
+  n_spks: 1
+  n_fft: 1024
+  n_feats: 80
+  sample_rate: 22050
+  hop_length: 256
+  win_length: 1024
+  f_min: 0
+  f_max: 8000
+  data_statistics:
+    mel_mean: -4.91191291809082
+    mel_std: 2.138288736343384
+  seed: ${seed}
+trainer:
+  _target_: lightning.pytorch.trainer.Trainer
+  default_root_dir: ${paths.output_dir}
+  max_epochs: 150
+  accelerator: gpu
+  devices:
+  - 0
+  - 1
+  precision: 16-mixed
+  check_val_every_n_epoch: 7
+  deterministic: false
+  gradient_clip_val: 5.0
+  strategy: ddp
+callbacks:
+  model_checkpoint:
+    _target_: lightning.pytorch.callbacks.ModelCheckpoint
+    dirpath: ${paths.output_dir}/checkpoints
+    filename: checkpoint_{epoch:03d}
+    monitor: epoch
+    verbose: false
+    save_last: true
+    save_top_k: 10
+    mode: max
+    auto_insert_metric_name: true
+    save_weights_only: false
+    every_n_train_steps: null
+    train_time_interval: null
+    every_n_epochs: 20
+    save_on_train_epoch_end: null
+  model_summary:
+    _target_: lightning.pytorch.callbacks.RichModelSummary
+    max_depth: 1
+  rich_progress_bar:
+    _target_: lightning.pytorch.callbacks.RichProgressBar
+extras:
+  ignore_warnings: true
+  enforce_tags: false
+  print_config: false
+task_name: train
+tags:
+- matcha_vi
+ckpt_path: null
+seed: 1234
