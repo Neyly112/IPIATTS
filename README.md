@@ -20,9 +20,9 @@ pip install -e . --find-links=https://download.pytorch.org/whl/torch_stable.html
 - Copy các file:
 - `../scripts/cleaner.py` → `Matcha-TTS/matcha/text/cleaners.py`
 - `../scripts/symbols.py` → `Matcha-TTS/matcha/text/symbols.py`
-- `../data/matcha_exp_ngngngan.yaml` → `Matcha-TTS/configs/experiment/matcha_vi.yaml`  
+- `../data/matcha_exp_vi.yaml` → `Matcha-TTS/configs/experiment/matcha_vi.yaml`  
   (chỉnh `max_epochs` trong file này)
-- `../data/matcha_data_ngngngan.yaml` → `Matcha-TTS/configs/data/matcha_vi.yaml`  
+- `../data/matcha_data_vi.yaml` → `Matcha-TTS/configs/data/matcha_vi.yaml`  
   (chỉnh `num_workers` ≤ số threads CPU)
 - Edit `Matcha-TTS/matcha/cli.py`: đổi `english_cleaners2` thành `basic_cleaners_phothong`
 
