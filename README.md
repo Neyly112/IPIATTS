@@ -13,7 +13,7 @@ pip install -e . --find-links=https://download.pytorch.org/whl/torch_stable.html
 ---
 
 ## 2. Chuẩn bị dữ liệu
-- **Audio**: File `.wav`, Mono, Sample rate **22050 Hz**
+- **Audio**: File `.wav`, Mono, Sample rate **22050 Hz**, được xử lý trước (normalize, trim silence, v.v.)
 - **Filelist**: Định dạng `filename.wav|nội dung văn bản` (UTF-8)
 
 ## 3. Chỉnh sửa mã nguồn
