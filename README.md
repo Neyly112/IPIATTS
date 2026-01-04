@@ -1,5 +1,5 @@
 # 🇻🇳 Dự án huấn luyện mô hình Text-to-Speech tiếng Việt sử dụng Matcha-TTS
-
+text-to-speech using https://github.com/shivammehta25/Matcha-TTS (model with 18.2 millions parameters)
 ## 1. Cài đặt môi trường
 - Yêu cầu: Python 3.10, cài đặt **espeak-ng**
 - Chỉnh sửa `Matcha-TTS/requirements.txt`:
