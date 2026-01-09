@@ -3,6 +3,7 @@ import math
 import random
 
 import torch
+import torch.nn.functional as F
 
 import matcha.utils.monotonic_align as monotonic_align  # pylint: disable=consider-using-from-import
 from matcha import utils
@@ -53,6 +54,7 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         self.prior_loss = prior_loss
         self.use_precomputed_durations = use_precomputed_durations
         self.prosody_dim = prosody_dim
+        self.acoustic_loss_weight = 0.25
 
         if n_spks > 1:
             self.spk_emb = torch.nn.Embedding(n_spks, spk_emb_dim)
@@ -82,6 +84,21 @@ class MatchaTTS(BaseLightningClass):  # 🍵
             n_spks,
             spk_emb_dim,
         )
+
+        # Acoustic prosody predictors (token-level pitch/energy) and conditioning
+        feat_ch = encoder.encoder_params.n_feats
+        self.pitch_predictor = torch.nn.Sequential(
+            torch.nn.Conv1d(feat_ch, feat_ch, kernel_size=3, padding=1),
+            torch.nn.ReLU(),
+            torch.nn.Conv1d(feat_ch, 1, kernel_size=1),
+        )
+        self.energy_predictor = torch.nn.Sequential(
+            torch.nn.Conv1d(feat_ch, feat_ch, kernel_size=3, padding=1),
+            torch.nn.ReLU(),
+            torch.nn.Conv1d(feat_ch, 1, kernel_size=1),
+        )
+        self.pitch_cond = torch.nn.Conv1d(1, feat_ch, kernel_size=1)
+        self.energy_cond = torch.nn.Conv1d(1, feat_ch, kernel_size=1)
 
         self.decoder = CFM(
             in_channels=2 * encoder.encoder_params.n_feats,
@@ -159,6 +176,12 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         # Prosody Fusion & Conditioning
         mu_x = self.prosody_fusion(mu_x, prosody_features, x_mask)
 
+        # Predict token-level pitch/energy (inference uses predicted values)
+        pitch_pred_tokens = self.pitch_predictor(mu_x) * x_mask
+        energy_pred_tokens = self.energy_predictor(mu_x) * x_mask
+        mu_x = mu_x + self.pitch_cond(pitch_pred_tokens) + \
+            self.energy_cond(energy_pred_tokens)
+
         w = torch.exp(logw) * x_mask
         w_ceil = torch.ceil(w) * length_scale
         y_lengths = torch.clamp_min(torch.sum(w_ceil, [1, 2]), 1).long()
@@ -206,6 +229,8 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         cond=None,
         durations=None,
         raw_texts=None,
+        pitch=None,
+        energy=None,
     ):
         """
         Computes 3 losses:
@@ -241,8 +266,14 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         # Get encoder_outputs `mu_x` and log-scaled token durations `logw`
         mu_x, logw, x_mask = self.encoder(x, x_lengths, spks)
 
-        # Prosody Fusion & Conditioning
+        # Prosody Fusion & Conditioning (text-level)
         mu_x = self.prosody_fusion(mu_x, prosody_features, x_mask)
+
+        # Predict token-level pitch/energy and inject as conditioning
+        pitch_pred_tokens = self.pitch_predictor(mu_x) * x_mask
+        energy_pred_tokens = self.energy_predictor(mu_x) * x_mask
+        mu_x = mu_x + self.pitch_cond(pitch_pred_tokens) + \
+            self.energy_cond(energy_pred_tokens)
 
         y_max_length = y.shape[-1]
 
@@ -267,6 +298,30 @@ class MatchaTTS(BaseLightningClass):  # 🍵
                 attn = monotonic_align.maximum_path(
                     log_prior, attn_mask.squeeze(1))
                 attn = attn.detach()  # b, t_text, T_mel
+
+        # Token-level acoustic targets from frame-level pitch/energy via alignment
+        acoustic_losses = {"pitch_loss": torch.tensor(0.0, device=y.device),
+                           "energy_loss": torch.tensor(0.0, device=y.device)}
+        if pitch is not None and energy is not None:
+            attn_token = attn
+            denom = torch.sum(attn_token, dim=-1, keepdim=True) + 1e-5
+            pitch_token_gt = torch.sum(
+                attn_token * pitch.unsqueeze(1), dim=-1, keepdim=True) / denom
+            energy_token_gt = torch.sum(
+                attn_token * energy.unsqueeze(1), dim=-1, keepdim=True) / denom
+
+            pitch_mask = x_mask
+            energy_mask = x_mask
+            acoustic_losses["pitch_loss"] = F.mse_loss(
+                pitch_pred_tokens * pitch_mask,
+                pitch_token_gt * pitch_mask,
+                reduction="sum",
+            ) / torch.sum(pitch_mask)
+            acoustic_losses["energy_loss"] = F.mse_loss(
+                energy_pred_tokens * energy_mask,
+                energy_token_gt * energy_mask,
+                reduction="sum",
+            ) / torch.sum(energy_mask)
 
         # Compute loss between predicted log-scaled durations and those obtained from MAS
         # refered to as prior loss in the paper
@@ -321,4 +376,38 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         else:
             prior_loss = 0
 
-        return dur_loss, prior_loss, diff_loss, attn
+        return dur_loss, prior_loss, diff_loss, attn, acoustic_losses
+
+    def get_losses(self, batch):
+        x, x_lengths = batch["x"], batch["x_lengths"]
+        y, y_lengths = batch["y"], batch["y_lengths"]
+        spks = batch["spks"]
+        raw_texts = batch.get("raw_texts")
+        pitch = batch.get("pitch")
+        energy = batch.get("energy")
+
+        dur_loss, prior_loss, diff_loss, attn, acoustic_losses = self(
+            x=x,
+            x_lengths=x_lengths,
+            y=y,
+            y_lengths=y_lengths,
+            spks=spks,
+            out_size=self.out_size,
+            durations=batch["durations"],
+            raw_texts=raw_texts,
+            pitch=pitch,
+            energy=energy,
+        )
+
+        acoustic_loss = self.acoustic_loss_weight * (
+            acoustic_losses["pitch_loss"] + acoustic_losses["energy_loss"]
+        )
+
+        return {
+            "dur_loss": dur_loss,
+            "prior_loss": prior_loss,
+            "diff_loss": diff_loss,
+            "acoustic_loss": acoustic_loss,
+            "pitch_loss": acoustic_losses["pitch_loss"],
+            "energy_loss": acoustic_losses["energy_loss"],
+        }
