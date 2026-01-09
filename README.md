@@ -320,7 +320,7 @@ CONFIG = {
 
 ---
 
-## 🏋️ TRAINING MODEL
+## �️ TRAINING MODEL
 
 ### BƯỚC 1: Cập nhật config
 
