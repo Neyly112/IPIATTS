@@ -36,6 +36,7 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         data_statistics,
         out_size,
         optimizer=None,
+        optimizer_kwargs=None,
         scheduler=None,
         prior_loss=True,
         use_precomputed_durations=False,
