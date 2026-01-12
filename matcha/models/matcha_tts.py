@@ -304,23 +304,30 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         acoustic_losses = {"pitch_loss": torch.tensor(0.0, device=y.device),
                            "energy_loss": torch.tensor(0.0, device=y.device)}
         if pitch is not None and energy is not None:
-            attn_token = attn
+            attn_token = attn  # (batch, x_len, y_len)
             denom = torch.sum(attn_token, dim=-1, keepdim=True) + 1e-5
+            # pitch, energy shape: (batch, y_len) -> unsqueeze(1) -> (batch, 1, y_len)
             pitch_token_gt = torch.sum(
+                # (batch, x_len, 1)
                 attn_token * pitch.unsqueeze(1), dim=-1, keepdim=True) / denom
             energy_token_gt = torch.sum(
+                # (batch, x_len, 1)
                 attn_token * energy.unsqueeze(1), dim=-1, keepdim=True) / denom
 
-            pitch_mask = x_mask
+            # Remove last dimension and squeeze for loss computation
+            pitch_token_gt = pitch_token_gt.squeeze(-1)  # (batch, x_len)
+            energy_token_gt = energy_token_gt.squeeze(-1)  # (batch, x_len)
+
+            pitch_mask = x_mask  # (batch, 1, x_len)
             energy_mask = x_mask
             acoustic_losses["pitch_loss"] = F.mse_loss(
-                pitch_pred_tokens * pitch_mask,
-                pitch_token_gt * pitch_mask,
+                pitch_pred_tokens.squeeze(-1) * pitch_mask.squeeze(1),
+                pitch_token_gt * pitch_mask.squeeze(1),
                 reduction="sum",
             ) / torch.sum(pitch_mask)
             acoustic_losses["energy_loss"] = F.mse_loss(
-                energy_pred_tokens * energy_mask,
-                energy_token_gt * energy_mask,
+                energy_pred_tokens.squeeze(-1) * energy_mask.squeeze(1),
+                energy_token_gt * energy_mask.squeeze(1),
                 reduction="sum",
             ) / torch.sum(energy_mask)
 
