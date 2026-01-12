@@ -35,15 +35,17 @@ CONFIG = {
     "prosody_dim": 256,
 
     # Training hyperparameters
-    "batch_size": 1,  # Giảm xuống 1 cho GPU 4GB
+    # batch_size được hiểu là per-GPU khi dùng DDP
+    "batch_size": 1,  # sẽ được auto-tune bên dưới nếu có 2 GPU (Kaggle)
     "learning_rate": 1e-4,
-    "max_epochs": 10,
-    "num_workers": 0,  # Số worker cho DataLoader
-    "accumulate_grad_batches": 4,  # Gradient accumulation = effective batch_size 4
+    "max_epochs": 20,
+    "num_workers": 0,  # sẽ được auto-tune bên dưới
+    # sẽ được auto-tune bên dưới để đạt effective batch lớn hơn
+    "accumulate_grad_batches": 4,
 
     # GPU/CPU
     "accelerator": "gpu",  # "gpu" hoặc "cpu"
-    "devices": 1,
+    "devices": 1,           # sẽ được auto-tune bên dưới nếu có 2 GPU
 
     # Checkpoint để resume (nếu có)
     # Đường dẫn đến .ckpt file nếu muốn tiếp tục training
@@ -67,11 +69,11 @@ ENCODER_CONFIG = {
     "encoder_type": "RoPE Encoder",
     "encoder_params": {
         "n_feats": CONFIG["n_feats"],
-        "n_channels": 384,
-        "filter_channels": 1024,
-        "filter_channels_dp": 256,
-        "n_heads": 8,
-        "n_layers": 6,
+        "n_channels": 768,
+        "filter_channels": 2048,
+        "filter_channels_dp": 512,
+        "n_heads": 12,
+        "n_layers": 12,
         "kernel_size": 3,
         "p_dropout": 0.1,
         "spk_emb_dim": CONFIG["spk_emb_dim"],
@@ -79,7 +81,7 @@ ENCODER_CONFIG = {
         "prenet": True,
     },
     "duration_predictor_params": {
-        "filter_channels_dp": 256,
+        "filter_channels_dp": 384,
         "kernel_size": 3,
         "p_dropout": 0.1,
     },
@@ -91,12 +93,12 @@ ENCODER_CONFIG = {
 # ============================================================================
 
 DECODER_CONFIG = {
-    "channels": [256, 256],
+    "channels": [384, 384],
     "dropout": 0.2,
     "attention_head_dim": 64,
-    "n_blocks": 4,
-    "num_mid_blocks": 4,
-    "num_heads": 8,
+    "n_blocks": 6,
+    "num_mid_blocks": 6,
+    "num_heads": 12,
     "act_fn": "gelu",
 }
 
@@ -267,6 +269,8 @@ def train(config):
     trainer = pl.Trainer(
         accelerator=config["accelerator"],
         devices=config["devices"],
+        strategy="ddp" if (config["accelerator"] == "gpu" and int(
+            config["devices"]) > 1) else None,
         max_epochs=config["max_epochs"],
         callbacks=[checkpoint_callback, early_stopping, lr_monitor],
         logger=logger,
@@ -274,7 +278,8 @@ def train(config):
         log_every_n_steps=10,
         val_check_interval=1.0,
         precision="16-mixed" if config["accelerator"] == "gpu" else "32",
-        accumulate_grad_batches=config.get("accumulate_grad_batches", 1),  # Gradient accumulation
+        accumulate_grad_batches=config.get(
+            "accumulate_grad_batches", 1),  # Gradient accumulation
     )
 
     # 6. Start Training
@@ -304,12 +309,57 @@ def train(config):
 # ============================================================================
 
 if __name__ == "__main__":
-    # Kiểm tra CUDA
+    # Kiểm tra CUDA và auto-tune cho Kaggle 2xGPU
     if CONFIG["accelerator"] == "gpu":
         if torch.cuda.is_available():
-            print(f"✓ CUDA available: {torch.cuda.get_device_name(0)}")
-            print(
-                f"  VRAM: {torch.cuda.get_device_properties(0).total_memory / 1e9:.2f} GB")
+            gpu_count = torch.cuda.device_count()
+            name_0 = torch.cuda.get_device_name(0)
+            vram_gb = torch.cuda.get_device_properties(0).total_memory / 1e9
+            print(f"✓ CUDA available: {name_0} (x{gpu_count})")
+            print(f"  VRAM/GPU: {vram_gb:.2f} GB")
+
+            # Nếu có >=2 GPU (Kaggle), bật DDP và tăng batch size/num_workers
+            if gpu_count >= 2:
+                CONFIG["devices"] = 2
+
+                # Chọn per-GPU batch size theo VRAM heuristics
+                # 16GB -> 8, 12GB -> 6, nhỏ hơn -> 4
+                if vram_gb >= 16:
+                    per_gpu_bs = 8
+                elif vram_gb >= 12:
+                    per_gpu_bs = 6
+                else:
+                    per_gpu_bs = 4
+
+                # Mục tiêu effective batch size ~64 (có thể chỉnh nếu muốn lớn hơn)
+                target_effective_bs = 64
+                accum = max(1, target_effective_bs //
+                            (per_gpu_bs * CONFIG["devices"]))
+
+                # Số worker: tận dụng ~1/2 CPU cores nhưng tối đa 8 để tránh quá tải
+                import os
+                cpu_cores = os.cpu_count() or 4
+                num_workers = min(8, max(2, cpu_cores // 2))
+
+                print("\n🔧 Auto-tuning for 2×GPU (Kaggle):")
+                print(f"  devices                : {CONFIG['devices']}")
+                print(f"  per-GPU batch_size     : {per_gpu_bs}")
+                print(f"  accumulate_grad_batches: {accum}")
+                print(f"  num_workers            : {num_workers}")
+
+                CONFIG["batch_size"] = per_gpu_bs
+                CONFIG["accumulate_grad_batches"] = accum
+                CONFIG["num_workers"] = num_workers
+            else:
+                # 1 GPU: tăng nhẹ cho 1 GPU nếu có VRAM đủ
+                if vram_gb >= 16 and CONFIG["batch_size"] < 6:
+                    CONFIG["batch_size"] = 6
+                    CONFIG["accumulate_grad_batches"] = max(
+                        1, CONFIG.get("accumulate_grad_batches", 1))
+                # Worker vừa phải
+                import os
+                CONFIG["num_workers"] = max(
+                    CONFIG["num_workers"], min(4, (os.cpu_count() or 4) // 2))
         else:
             print("⚠ CUDA not available, switching to CPU")
             CONFIG["accelerator"] = "cpu"
