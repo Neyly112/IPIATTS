@@ -42,6 +42,8 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         use_precomputed_durations=False,
         llm_model_name="vinai/phobert-base",
         prosody_dim=256,
+        use_token_level_prosody=True,
+        finetune_llm=False,
     ):
         super().__init__()
 
@@ -65,8 +67,10 @@ class MatchaTTS(BaseLightningClass):  # 🍵
             llm_model_name=llm_model_name,
             prosody_dim=prosody_dim,
             n_prosody_features=1,
-            freeze_llm=True,
+            freeze_llm=not finetune_llm,  # Freeze if NOT finetuning
             use_adapter=True,
+            use_token_level_prosody=use_token_level_prosody,
+            finetune_llm=finetune_llm,
         )
 
         # Prosody fusion module
@@ -98,8 +102,27 @@ class MatchaTTS(BaseLightningClass):  # 🍵
             torch.nn.ReLU(),
             torch.nn.Conv1d(feat_ch, 1, kernel_size=1),
         )
+
+        # NEW: Pause predictor (predicts pause duration between words)
+        self.pause_predictor = torch.nn.Sequential(
+            torch.nn.Conv1d(feat_ch, feat_ch, kernel_size=3, padding=1),
+            torch.nn.ReLU(),
+            torch.nn.Conv1d(feat_ch, 1, kernel_size=1),
+            torch.nn.Softplus(),  # Ensure non-negative pause duration
+        )
+
+        # NEW: Boundary detector (detects phrase/word boundaries)
+        self.boundary_detector = torch.nn.Sequential(
+            torch.nn.Conv1d(feat_ch, feat_ch, kernel_size=5, padding=2),
+            torch.nn.ReLU(),
+            torch.nn.Conv1d(feat_ch, 1, kernel_size=1),
+            torch.nn.Sigmoid(),  # Binary classification
+        )
+
         self.pitch_cond = torch.nn.Conv1d(1, feat_ch, kernel_size=1)
         self.energy_cond = torch.nn.Conv1d(1, feat_ch, kernel_size=1)
+        self.pause_cond = torch.nn.Conv1d(1, feat_ch, kernel_size=1)
+        self.boundary_cond = torch.nn.Conv1d(1, feat_ch, kernel_size=1)
 
         self.decoder = CFM(
             in_channels=2 * encoder.encoder_params.n_feats,
@@ -177,11 +200,17 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         # Prosody Fusion & Conditioning
         mu_x = self.prosody_fusion(mu_x, prosody_features, x_mask)
 
-        # Predict token-level pitch/energy (inference uses predicted values)
+        # Predict token-level prosody features
         pitch_pred_tokens = self.pitch_predictor(mu_x) * x_mask
         energy_pred_tokens = self.energy_predictor(mu_x) * x_mask
+        pause_pred_tokens = self.pause_predictor(mu_x) * x_mask
+        boundary_pred_tokens = self.boundary_detector(mu_x) * x_mask
+
+        # Apply prosody conditioning
         mu_x = mu_x + self.pitch_cond(pitch_pred_tokens) + \
-            self.energy_cond(energy_pred_tokens)
+            self.energy_cond(energy_pred_tokens) + \
+            self.pause_cond(pause_pred_tokens) + \
+            self.boundary_cond(boundary_pred_tokens)
 
         w = torch.exp(logw) * x_mask
         w_ceil = torch.ceil(w) * length_scale
@@ -270,11 +299,17 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         # Prosody Fusion & Conditioning (text-level)
         mu_x = self.prosody_fusion(mu_x, prosody_features, x_mask)
 
-        # Predict token-level pitch/energy and inject as conditioning
+        # Predict token-level prosody features
         pitch_pred_tokens = self.pitch_predictor(mu_x) * x_mask
         energy_pred_tokens = self.energy_predictor(mu_x) * x_mask
+        pause_pred_tokens = self.pause_predictor(mu_x) * x_mask
+        boundary_pred_tokens = self.boundary_detector(mu_x) * x_mask
+
+        # Apply prosody conditioning
         mu_x = mu_x + self.pitch_cond(pitch_pred_tokens) + \
-            self.energy_cond(energy_pred_tokens)
+            self.energy_cond(energy_pred_tokens) + \
+            self.pause_cond(pause_pred_tokens) + \
+            self.boundary_cond(boundary_pred_tokens)
 
         y_max_length = y.shape[-1]
 
@@ -301,8 +336,12 @@ class MatchaTTS(BaseLightningClass):  # 🍵
                 attn = attn.detach()  # b, t_text, T_mel
 
         # Token-level acoustic targets from frame-level pitch/energy via alignment
-        acoustic_losses = {"pitch_loss": torch.tensor(0.0, device=y.device),
-                           "energy_loss": torch.tensor(0.0, device=y.device)}
+        acoustic_losses = {
+            "pitch_loss": torch.tensor(0.0, device=y.device),
+            "energy_loss": torch.tensor(0.0, device=y.device),
+            "pause_loss": torch.tensor(0.0, device=y.device),
+            "boundary_loss": torch.tensor(0.0, device=y.device),
+        }
         if pitch is not None and energy is not None:
             attn_token = attn  # (batch, x_len, y_len)
             denom = torch.sum(attn_token, dim=-1, keepdim=True) + 1e-5
@@ -330,6 +369,26 @@ class MatchaTTS(BaseLightningClass):  # 🍵
                 energy_token_gt * energy_mask.squeeze(1),
                 reduction="sum",
             ) / torch.sum(energy_mask)
+
+            # Pause prediction loss (simple heuristic: detect blank tokens)
+            # Blank tokens (ID=0) should have higher pause
+            blank_mask = (x == 0).float().unsqueeze(1)  # [B, 1, seq_len]
+            pause_target = blank_mask.squeeze(
+                1) * x_mask.squeeze(1)  # [B, seq_len]
+            acoustic_losses["pause_loss"] = F.mse_loss(
+                pause_pred_tokens.squeeze(-1) * x_mask.squeeze(1),
+                pause_target,
+                reduction="sum",
+            ) / torch.sum(x_mask)
+
+            # Boundary detection loss (heuristic: boundaries at blank tokens)
+            boundary_target = blank_mask.squeeze(
+                1) * x_mask.squeeze(1)  # [B, seq_len]
+            acoustic_losses["boundary_loss"] = F.binary_cross_entropy(
+                boundary_pred_tokens.squeeze(-1) * x_mask.squeeze(1),
+                boundary_target,
+                reduction="sum",
+            ) / torch.sum(x_mask)
 
         # Compute loss between predicted log-scaled durations and those obtained from MAS
         # refered to as prior loss in the paper
@@ -408,7 +467,10 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         )
 
         acoustic_loss = self.acoustic_loss_weight * (
-            acoustic_losses["pitch_loss"] + acoustic_losses["energy_loss"]
+            acoustic_losses["pitch_loss"] +
+            acoustic_losses["energy_loss"] +
+            0.5 * acoustic_losses["pause_loss"] +  # Lower weight for pause
+            0.3 * acoustic_losses["boundary_loss"]  # Lower weight for boundary
         )
 
         return {
@@ -418,4 +480,6 @@ class MatchaTTS(BaseLightningClass):  # 🍵
             "acoustic_loss": acoustic_loss,
             "pitch_loss": acoustic_losses["pitch_loss"],
             "energy_loss": acoustic_losses["energy_loss"],
+            "pause_loss": acoustic_losses["pause_loss"],
+            "boundary_loss": acoustic_losses["boundary_loss"],
         }

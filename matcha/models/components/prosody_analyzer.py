@@ -31,6 +31,8 @@ class LLMProsodyAnalyzer(nn.Module):
         freeze_llm: bool = True,
         use_adapter: bool = True,
         adapter_dim: int = 64,
+        use_token_level_prosody: bool = True,
+        finetune_llm: bool = False,
     ):
         """
         Args:
@@ -40,12 +42,16 @@ class LLMProsodyAnalyzer(nn.Module):
             freeze_llm: Whether to freeze the LLM weights
             use_adapter: Reserved for future adapter support
             adapter_dim: Dimension of adapter layers
+            use_token_level_prosody: Use token-level prosody instead of global broadcast
+            finetune_llm: Enable fine-tuning of LLM weights (overrides freeze_llm)
         """
         super().__init__()
 
         self.prosody_dim = prosody_dim
         self.n_prosody_features = n_prosody_features
         self.use_adapter = use_adapter
+        self.use_token_level_prosody = use_token_level_prosody
+        self.finetune_llm = finetune_llm
 
         # Load pre-trained LLM
         try:
@@ -77,12 +83,34 @@ class LLMProsodyAnalyzer(nn.Module):
             self.llm_max_position_embeddings = 1024
             self.llm_pad_token_id = 0
 
-        # Freeze LLM if specified
-        if freeze_llm and self.llm is not None:
-            for param in self.llm.parameters():
-                param.requires_grad = False
+        # Freeze LLM if specified (unless finetune is enabled)
+        if self.llm is not None:
+            if self.finetune_llm:
+                # Enable fine-tuning with lower learning rate
+                for param in self.llm.parameters():
+                    param.requires_grad = True
+                log.info("PhoBERT fine-tuning ENABLED")
+            elif freeze_llm:
+                for param in self.llm.parameters():
+                    param.requires_grad = False
+                log.info("PhoBERT weights FROZEN")
 
+        # Token-level prosody projection (for attention-based alignment)
+        self.token_prosody_projection = nn.Linear(llm_hidden_size, prosody_dim)
+
+        # Global prosody projection
         self.prosody_projection = nn.Linear(llm_hidden_size, prosody_dim)
+
+        # Attention mechanism for token-level alignment
+        if self.use_token_level_prosody:
+            self.cross_attention = nn.MultiheadAttention(
+                embed_dim=prosody_dim,
+                num_heads=4,
+                dropout=0.1,
+                batch_first=True,
+            )
+            self.attention_norm = nn.LayerNorm(prosody_dim)
+
         self.prosody_fusion = nn.Sequential(
             nn.Linear(prosody_dim * n_prosody_features, prosody_dim),
             nn.LayerNorm(prosody_dim),
@@ -173,18 +201,44 @@ class LLMProsodyAnalyzer(nn.Module):
                     return_dict=True,
                 )
 
-            # 5) Dùng CLS hidden làm global prosody
-            cls_hidden = outputs.last_hidden_state[:, 0, :]  # [B, hidden]
+            # 5) Lấy both token-level và global prosody
+            all_hidden = outputs.last_hidden_state  # [B, seq_len_bert, hidden]
+            cls_hidden = all_hidden[:, 0, :]  # [B, hidden]
+
+            # Global prosody từ CLS token
             global_prosody = self.prosody_projection(
                 cls_hidden)  # [B, prosody_dim]
-
-            # 6) Broadcast global prosody theo chiều phoneme seq_len
-            prosody_repeated = (
-                global_prosody.unsqueeze(1)
-                .expand(-1, seq_len, -1)
-                .contiguous()
-            )
             prosody_dict["global"] = global_prosody
+
+            if self.use_token_level_prosody and seq_len > 1:
+                # Token-level prosody với attention alignment
+                # Project token embeddings
+                token_prosody = self.token_prosody_projection(
+                    all_hidden)  # [B, seq_bert, prosody_dim]
+
+                # Create query từ phoneme positions (simple learned embeddings)
+                # Sử dụng global_prosody broadcast làm query
+                # [B, seq_phoneme, prosody_dim]
+                query = global_prosody.unsqueeze(1).expand(-1, seq_len, -1)
+
+                # Cross-attention: phoneme positions attend to BERT tokens
+                attn_output, attn_weights = self.cross_attention(
+                    query=query,  # [B, seq_phoneme, prosody_dim]
+                    key=token_prosody,  # [B, seq_bert, prosody_dim]
+                    value=token_prosody,  # [B, seq_bert, prosody_dim]
+                )
+
+                # Residual connection + normalization
+                prosody_repeated = self.attention_norm(
+                    attn_output + query)  # [B, seq_phoneme, prosody_dim]
+                prosody_dict["attention_weights"] = attn_weights
+            else:
+                # Fallback: Broadcast global prosody
+                prosody_repeated = (
+                    global_prosody.unsqueeze(1)
+                    .expand(-1, seq_len, -1)
+                    .contiguous()
+                )
         else:
             prosody_repeated = torch.zeros(
                 batch_size,

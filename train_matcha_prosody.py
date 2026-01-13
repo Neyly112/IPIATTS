@@ -33,12 +33,15 @@ CONFIG = {
     # Prosody settings
     "llm_model_name": "vinai/phobert-base",  # PhoBERT cho tiếng Việt
     "prosody_dim": 256,
+    "use_token_level_prosody": True,  # NEW: Token-level prosody alignment
+    # NEW: Fine-tune PhoBERT (set True for better quality, slower training)
+    "finetune_llm":True,
 
     # Training hyperparameters
     # batch_size được hiểu là per-GPU khi dùng DDP
     "batch_size": 1,  # sẽ được auto-tune bên dưới nếu có 2 GPU (Kaggle)
     "learning_rate": 1e-4,
-    "max_epochs": 20,
+    "max_epochs": 500,
     "num_workers": 0,  # sẽ được auto-tune bên dưới
     # sẽ được auto-tune bên dưới để đạt effective batch lớn hơn
     "accumulate_grad_batches": 4,
@@ -153,6 +156,8 @@ def create_model(config):
         out_size=None,
         llm_model_name=config["llm_model_name"],
         prosody_dim=config["prosody_dim"],
+        use_token_level_prosody=config.get("use_token_level_prosody", True),
+        finetune_llm=config.get("finetune_llm", False),
         optimizer=config.get("optimizer"),
         scheduler=config.get("scheduler"),
     )
