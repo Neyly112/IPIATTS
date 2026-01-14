@@ -302,13 +302,13 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         # Predict token-level prosody features
         # Predictors output shape: [B, n_spks, seq_len] -> select speaker 0 -> [B, 1, seq_len]
         pitch_pred_tokens = self.pitch_predictor(
-            mu_x)[:, 0:1, :] * x_mask.unsqueeze(1)
+            mu_x)[:, 0:1, :] * x_mask
         energy_pred_tokens = self.energy_predictor(
-            mu_x)[:, 0:1, :] * x_mask.unsqueeze(1)
+            mu_x)[:, 0:1, :] * x_mask
         pause_pred_tokens = self.pause_predictor(
-            mu_x)[:, 0:1, :] * x_mask.unsqueeze(1)
+            mu_x)[:, 0:1, :] * x_mask
         boundary_pred_tokens = self.boundary_detector(
-            mu_x)[:, 0:1, :] * x_mask.unsqueeze(1)
+            mu_x)[:, 0:1, :] * x_mask
 
         # Apply prosody conditioning
         mu_x = mu_x + self.pitch_cond(pitch_pred_tokens) + \
