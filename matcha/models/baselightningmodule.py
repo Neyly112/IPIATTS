@@ -17,6 +17,11 @@ log = utils.get_pylogger(__name__)
 
 
 class BaseLightningClass(LightningModule, ABC):
+    def configure_ddp(self, ddp_kwargs):
+        # Some components (e.g., optional predictors) may be unused on certain steps; allow DDP to handle this.
+        ddp_kwargs["find_unused_parameters"] = True
+        return super().configure_ddp(ddp_kwargs)
+
     def update_data_statistics(self, data_statistics):
         if data_statistics is None:
             data_statistics = {
