@@ -300,10 +300,15 @@ class MatchaTTS(BaseLightningClass):  # 🍵
         mu_x = self.prosody_fusion(mu_x, prosody_features, x_mask)
 
         # Predict token-level prosody features
-        pitch_pred_tokens = self.pitch_predictor(mu_x) * x_mask
-        energy_pred_tokens = self.energy_predictor(mu_x) * x_mask
-        pause_pred_tokens = self.pause_predictor(mu_x) * x_mask
-        boundary_pred_tokens = self.boundary_detector(mu_x) * x_mask
+        # Predictors output shape: [B, n_spks, seq_len] -> squeeze to [B, seq_len]
+        pitch_pred_tokens = self.pitch_predictor(
+            mu_x).squeeze(1) * x_mask.squeeze(1)
+        energy_pred_tokens = self.energy_predictor(
+            mu_x).squeeze(1) * x_mask.squeeze(1)
+        pause_pred_tokens = self.pause_predictor(
+            mu_x).squeeze(1) * x_mask.squeeze(1)
+        boundary_pred_tokens = self.boundary_detector(
+            mu_x).squeeze(1) * x_mask.squeeze(1)
 
         # Apply prosody conditioning
         mu_x = mu_x + self.pitch_cond(pitch_pred_tokens) + \
@@ -360,12 +365,12 @@ class MatchaTTS(BaseLightningClass):  # 🍵
             pitch_mask = x_mask  # (batch, 1, x_len)
             energy_mask = x_mask
             acoustic_losses["pitch_loss"] = F.mse_loss(
-                pitch_pred_tokens.squeeze(-1) * pitch_mask.squeeze(1),
+                pitch_pred_tokens * pitch_mask.squeeze(1),
                 pitch_token_gt * pitch_mask.squeeze(1),
                 reduction="sum",
             ) / torch.sum(pitch_mask)
             acoustic_losses["energy_loss"] = F.mse_loss(
-                energy_pred_tokens.squeeze(-1) * energy_mask.squeeze(1),
+                energy_pred_tokens * energy_mask.squeeze(1),
                 energy_token_gt * energy_mask.squeeze(1),
                 reduction="sum",
             ) / torch.sum(energy_mask)
@@ -376,7 +381,7 @@ class MatchaTTS(BaseLightningClass):  # 🍵
             pause_target = blank_mask.squeeze(
                 1) * x_mask.squeeze(1)  # [B, seq_len]
             acoustic_losses["pause_loss"] = F.mse_loss(
-                pause_pred_tokens.squeeze(-1) * x_mask.squeeze(1),
+                pause_pred_tokens * x_mask.squeeze(1),
                 pause_target,
                 reduction="sum",
             ) / torch.sum(x_mask)
@@ -385,7 +390,7 @@ class MatchaTTS(BaseLightningClass):  # 🍵
             boundary_target = blank_mask.squeeze(
                 1) * x_mask.squeeze(1)  # [B, seq_len]
             acoustic_losses["boundary_loss"] = F.binary_cross_entropy(
-                boundary_pred_tokens.squeeze(-1) * x_mask.squeeze(1),
+                boundary_pred_tokens * x_mask.squeeze(1),
                 boundary_target,
                 reduction="sum",
             ) / torch.sum(x_mask)

@@ -1,0 +1,65 @@
+{
+  "audio_data": {
+    "file_count": 0,
+    "total_size_bytes": 0,
+    "total_size_readable": "0.00 B"
+  },
+  "processing": {
+    "disk": {
+      "raw_audio": 0,
+      "vad_output": 0,
+      "segments": 11025000,
+      "text_files": 10000,
+      "total": 11035000,
+      "recommended": 16552500.0
+    },
+    "ram": {
+      "whisper_model": 3221225472,
+      "audio_buffer_ram": 524288000,
+      "peak": 3745513472,
+      "recommended": 4494616166.4
+    },
+    "segments_estimate": 50
+  },
+  "training": {
+    "vram": {
+      "model_weights": 394400000.0,
+      "optimizer_state": 252800000.0,
+      "gradients": 126400000.0,
+      "activations": 209715200,
+      "cuda_overhead": 524288000,
+      "total": 1507603200.0,
+      "minimum_gpu": "4GB (GTX 1050, RTX 3050)",
+      "recommended_gpu": "6GB+ (RTX 3060, RTX 4060)"
+    },
+    "ram": {
+      "dataloader": 2516582400,
+      "system": 2147483648,
+      "total": 4664066048,
+      "recommended": 6063285862.400001
+    },
+    "model_info": {
+      "total_params": "197.2M",
+      "trainable_params": "63.2M",
+      "frozen_params": "134.0M (PhoBERT)",
+      "batch_size": 1,
+      "accumulate_grad_batches": 4,
+      "effective_batch_size": 4
+    }
+  },
+  "checkpoints": {
+    "checkpoint_size": 314572800,
+    "num_checkpoints": 51,
+    "total_checkpoints": 16043212800,
+    "tensorboard_logs": 5242880000.0,
+    "total": 21286092800.0
+  },
+  "summary": {
+    "minimum_gpu_vram": "1.40 GB",
+    "minimum_ram": "5.65 GB",
+    "minimum_disk": "19.84 GB",
+    "recommended_gpu": "6GB+ (RTX 3060, RTX 4060)",
+    "recommended_ram": "16GB",
+    "recommended_disk": "23.81 GB"
+  }
+}
