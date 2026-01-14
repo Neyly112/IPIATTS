@@ -389,11 +389,16 @@ class MatchaTTS(BaseLightningClass):  # 🍵
             # Boundary detection loss (heuristic: boundaries at blank tokens)
             boundary_target = blank_mask.squeeze(
                 1) * x_mask.squeeze(1)  # [B, seq_len]
-            acoustic_losses["boundary_loss"] = F.binary_cross_entropy(
-                boundary_pred_tokens.squeeze(1) * x_mask.squeeze(1),
+            boundary_logits = boundary_pred_tokens.squeeze(1)  # [B, seq_len]
+            boundary_mask = x_mask.squeeze(1)  # [B, seq_len]
+            boundary_bce = F.binary_cross_entropy_with_logits(
+                boundary_logits,
                 boundary_target,
-                reduction="sum",
-            ) / torch.sum(x_mask)
+                reduction="none",
+            )
+            acoustic_losses["boundary_loss"] = (
+                boundary_bce * boundary_mask
+            ).sum() / boundary_mask.sum()
 
         # Compute loss between predicted log-scaled durations and those obtained from MAS
         # refered to as prior loss in the paper
